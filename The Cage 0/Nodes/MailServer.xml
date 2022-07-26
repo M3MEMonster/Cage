@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mailserver" 
+name="INLook" 
+allowsDefaultBootModule="true"
+ip="#RANDOM_IP#"
+security="4"
+type="1" > 
+
+  <adminPass pass="qpunNA789" />
+  
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="5" />
+  
+  <account username="ana1112" password="ihatecats" type="mail" />
+  <account username="#PLAYERNAME#" password="messaging" type="mail" />
+  <mailServer name="INLook Mail Server" color="50,237,212">
+	<email recipient="ana1112" sender="Lucy" subject="Hey !">Ana what the f*ck is wrong?!, dude i swear to god if you leave alone again i'll f*cking punch
+	you in the face, not cool dude</email>
+  	<email recipient="ana1112" sender="Lucy" subject="birthday">Hey ana, i wanted to say Birthday, and I'm sorry i'll not be able to be there for you in your special day :(, but
+	once i arrive home i'll give u a really big present</email>
+		<email recipient="ana1112" sender="Kaith K." subject="Accord Invitation">Greetings Ana1112, You've been selected to join our secret organization for hackers at Accord, we've uploaded info at your
+		computer, check it to see the next step to join us.
+		
+		Kaith K.
+		-Accord Manager</email>
+		<email recipient="ana1112" sender="anon" subject="that server">So Ana, I've been thinking about your request and since you've done a lot for me I'll give you the IP
+		of the server, it's 96.35.124.2, if you log in remember to erase logs!, I don't want the owner realize I'm invinting people.
+		</email>
+  
+  </mailServer>  
+  
+</Computer>

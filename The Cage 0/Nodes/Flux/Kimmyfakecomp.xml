@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kimmyfakecomp" 
+          name="Virtual Machine K-02" 
+          ip="102.441.23.6"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCSERVER" 
+          type="1" > 
+<portsForCrack val="2" />
+		  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+		  <firewall level="10" solution="trapped" additionalTime="0"/>
+		  <eosDevice name="Kimmy's Tablet" id="kimmytablet" icon="tablet" empty="true" passOverride="alpine">
+	<file path="home/logs" name="logs.txt">
+	connection from (102.441.23.6)
+	connection from (102.441.23.6)
+	connection from (102.441.23.6)
+	connection from (102.441.23.6)
+	connection from (175.225.124.2)</file>
+    <note>infiltrate_aegis</note>
+   
+  </eosDevice>
+</Computer>

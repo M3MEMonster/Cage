@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis1">
+  <goals>
+   <goal type="filedownload" target="supplydepot" file="SSHCrack.exe" path="bin"/>
+   </goals>
+ <missionEnd>addFlags:supplydepot</missionEnd>
+ <nextMission>NONE</nextMission>
+ <posting title="Supply Depot">Tyc00n is welcoming you to AEGIS.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Supply Depot</subject>
+    <body>Alright girl, since is your first day at AEGIS, you need tools to get into other people computers. That's your first task,
+	breach into a computer we liked to you and download the tools located at the folder ~bin~.
+	Once you're done we'll discuss your role in AEGIS.
+</body>
+    <attachments>
+       <link comp="supplydepot" /> 
+    </attachments>
+  </email>
+</mission>

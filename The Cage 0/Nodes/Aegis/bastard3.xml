@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bastard3" 
+          name="Accord Assets Server" 
+          ip="200.132.512.1"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="2" > 
+  <LogoDaemon Name="Accord Assets Server" ShowsTitle="false" TextColor="0, 220, 220, 200" LogoImagePath="Nodes/Aegis/accord.png">
+  </LogoDaemon>
+  
+  
+  <account username="cracker" password="messages" type="0" />
+  <CustomConnectDisplayDaemon />
+  <proxy time="2" />
+  <trace time="90" />
+  <firewall level="6" solution="unity" additionalTime="0"/>
+	<file path="home/notes" name="Serverlist.docx">
+					Account Name		Password
+	Email Server	admin				48jgksir
+	Hub Server		admin				399fihh
+	Backup Server	admin				333ffug
+	Auxiliary Sv	admin				9994gig
+	Whitelist Sv	admin				554v4vee
+	Assets Server	admin				844549fffdsfe
+	Blackmail Sv	admin				fff3ggff
+	Accord Chat Sv	admin				messages
+	Accord Chatsv2	admin				messages
+	Accord Test sv	admin				test</file>
+	  <file path="bin" name="Accord.exe">#BINARY#</file>
+	  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+	  <customthemefile path="sys" name="accord_x-server.sys" themePath="Themes/Accord.xml"/>
+    
+	
+</Computer>

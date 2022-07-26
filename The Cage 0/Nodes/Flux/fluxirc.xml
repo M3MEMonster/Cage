@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fluxdhs" 
+          name="FLUX" 
+          ip="#RANDOM_IP#"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  
+		   <DHSDaemon groupName="Flux" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="51,121,142" allowContractAbbandon="false">
+    <agent name="#PLAYERNAME#" pass="ilovecats" color="120,24,216"/>
+    <agent name="Ch40s" pass="384ut9ierjgwje" color="23,230,189"/>
+    <agent name="D3r_K3tz3r" pass="4985g0984509g8" color="255,0,0"/>
+	<agent name="Kimmycat" pass="slkdfjejfoiwje83" color="225,230,55"/>
+	<agent name="FlUXBOT" pass="irjgoerj449" color="225,255,255"/>
+  
+   <post user="D3r_K3tz3r">As I said, there's no way we those guys can breach to us.</post>
+   <post user="Ch40s">But, What if...</post>
+   <post user="D3r_K3tz3r">Don't be silly! Look we'll discuss this later okay?</post>
+   <post user="Ch40s">Just making sure we're not getting raided again :s</post>
+   <post user="D3r_K3tz3r">I got this, don't worry.</post>
+   <post user="Ch40s">Okay? I'll trust you, for now, let's just relax, I'm tired of those suckers trying to hack our servers.</post>
+   <post user="D3r_K3tz3r">Me too, me too :/</post>
+  
+  </DHSDaemon>
+  
+  
+  
+  
+</Computer>

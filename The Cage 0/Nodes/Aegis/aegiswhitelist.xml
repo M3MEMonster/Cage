@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegiswhitelist" 
+          name="AEGIS WHITELIST" 
+          ip="#RANDOM_IP#"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  <dlink target="kimmyfakecomp" />
+		  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+		  <account username="admin" password="aegis" type="0" />
+		  
+</Computer>

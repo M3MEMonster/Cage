@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bastard1" 
+          name="Cr4~ck3r's Laptop" 
+          ip="#RANDOM_IP#"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="2" > 
+  <proxy time="2" />
+  <trace time="70" />
+  <firewall level="5" solution="destroyer" additionalTime="0"/>
+  
+  <file path="home/logs" name="12-04-12_cracker_v1rus_log.log">
+  (cr4~ck3r):	hey dude the f*ck these guys from Aegis?
+  (v1rus):		what do u mean.
+  (cr4~ck3r):	their leader, is a pain in the ass yo
+  (v1rus):		oh, is it because he's hacking into random computers?
+  (cr4~ck3r):	yeah dude, that's not right, he doesn't even have a reason
+  (v1rus):		hmmm, shall we warm the guys from accord?
+  (cr4~ck3r):	I think it would be the best thing to do right now
+  (v1rus):		also i've heard they got a new hacker, a very skilled one.
+  (cr4~ck3r):	... what are we going to do then?
+  (v1rus):		I don't know honestly, but this hacker was from Flux, remember Flux?
+  (cr4~ck3r):	yeah, those guys are the sh*it, why would one of em join Aegis anyway
+  (v1rus):		i'm pretty sure the hacker didnt, the hacker was forced, like the other members
+  (cr4~ck3r):	sh*it dude, we need to do something, like NOW.
+  (v1rus):		sure, check the IRC of accord, we have important stuff to talk about
+  (cr4~ck3r):	see you there.</file>
+  
+  <file path="home/logs" name="12-04-14_cracker_kaith_log.log">
+  (cr4~ck3r):	Kaith, I need your help
+  (Kaith):		hi cr4~ck3r, what do you need
+  (cr4~ck3r):	need acces to the asset server, i've lost the password :pagenums
+  (Kaith):		this is not the first time this happens cr4~ck3r... be more careful next time...
+  (cr4~ck3r):	sure boss
+  (Kaith):		>Attachment: user:cracker/password:messages
+  (cr4~ck3r):	thanks boss.
+  </file>
+ <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+ <file path="bin" name="Definetly_Not_FTPBOUNCE.exe">#BINARY#</file>
+ <file path="bin" name="SSHCrack(1).exe">#SSH_CRACK#</file>
+ <dlink target="bastard2" /> 
+  
+  
+</Computer>

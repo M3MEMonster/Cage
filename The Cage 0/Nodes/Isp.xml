@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" 
+name="ISP Server" 
+allowsDefaultBootModule="true"
+ip="61.33.125.2"
+security="1"
+type="1" > 
+
+ <ispSystem />
+ 
+  
+</Computer>

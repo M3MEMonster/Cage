@@ -1,0 +1,10 @@
+<CustomFaction name="Aegis" id="aegis" playerVal="0">
+  
+  <Action requiredFlags="portcrusher">
+    <AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="3">Hey Kiddo, check your new awesome program.</AddIRCMessage> 
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="6">It's called NetmapOrganizer and organizes your messy nodes, enjoy my gift to you ♥.</AddIRCMessage> 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="11">Uh, thanks?.</AddIRCMessage> 	
+	</Action>
+
+</CustomFaction>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pmsgkimmycat" 
+          name="Kimmycat / Online" 
+          ip="128.152.3.9"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  
+		  
+    
+	<IRCDaemon themeColor="202,179,66" name="Kimmycat / Online" needsLogin="false">
+    <user name="#PLAYERNAME#" color="120,24,216"/>
+    <user name="Kimmycat" color="225,230,55"/>
+	</IRCDaemon>
+</Computer>

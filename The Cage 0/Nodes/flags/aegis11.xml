@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegis11" 
+          name="flag" 
+          ip="aegis11"
+          security="200"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+<trace time="0.1" />
+<firewall level="1" solution="reset" additionalTime="0"/>	  
+		  
+		  
+</Computer>

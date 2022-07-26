@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisirc" 
+          name="AEGIS" 
+          ip="#RANDOM_IP#"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  
+		   <dlink target="aegisdrop" />
+		   <DHSDaemon groupName="AEGIS" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="148,140,140" allowContractAbbandon="false">
+    <agent name="#PLAYERNAME#" pass="oiejoirg09u98u" color="255,255,255"/>
+    <agent name="tyc00n" pass="384ut9ierjgwje" color="250,160,160"/>
+    <agent name=">neto_" pass="4985g0984509g8" color="64,96,255"/>
+	<agent name="h3x4g0n" pass="slkdfjejfoiwje83" color="0,255,9"/>
+	<agent name="Kael" pass="irjgoerj449" color="225,0,0"/>
+	<agent name="AEGISBOT" pass="irjgoerj449" color="225,255,255"/>
+ 
+  </DHSDaemon>
+  
+  
+  
+  
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="medicallist" 
+          name="Los Angele's Patients Database" 
+          ip="#RANDOM_IP#"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  <ports>21, 22, 25, 104, 554</ports>
+		  <proxy time="3" />
+		  <portsForCrack val="4" />
+          <firewall level="6" solution="medicine" additionalTime="0"/>
+		  <MedicalDatabase />
+		  <trace time="130" />
+		  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">As discussed in recent meetings, our support teams need wildcard access to our systems to perform effective maintenance and updates when call out to the field. To achieve this we're introducing a new "EAdmin" (Eidolon Support Admin) on all of our new products.
+This account will be set up will full privileges and testing functions enabled, and will be constant across our range and versions. What this means for support teams is that they will have an easy means of gaining access to debug and admin functionality on test products in the field, and for our deployment managers, you'll need to remember to add this account to the setup scripts of all outgoing products.
+
+Account Details:
+Username      : "EAdmin"
+Password      : "tens86"
+Permissions   : all
+DebugSettings : enabled
+  </file>
+		  
+  <file path="Medical/vip/politics" name="B_Steven.rec">#BINARY#</file>
+  <file path="Medical/vip/politics" name="T_John.rec">#BINARY#</file>
+  <file path="Medical/vip/politics" name="C_Stephanie.rec">#BINARY#</file>
+  <file path="Medical/vip/politics" name="W_Witney.rec">#BINARY#</file>
+  <file path="Medical/vip/politics" name="H_Lily.rec">#BINARY#</file>
+  
+  
+  
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pmsgboss" 
+          name="D3r_K3tz3r / Online" 
+          ip="128.152.3.4"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  
+		  
+    <dlink target="playerComp" />
+	<IRCDaemon themeColor="67,204,148" name="D3r_K3tz3r / Online" needsLogin="false">
+    <user name="#PLAYERNAME#" color="120,24,216"/>
+    <user name="D3r_K3tz3r" color="255,0,0"/>
+	</IRCDaemon>
+</Computer>

@@ -1,0 +1,465 @@
+<ConditionalActions>
+  
+  <Instantly>
+   
+	<HideNode DelayHost="events" Delay="0" TargetComp="mailserver" />
+    <RunFunction FunctionName="setFaction:flux" FunctionValue="0" />
+	<ShowNode DelayHost="events" Delay="5" Target="fluxdhs" />
+    <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="0">As I said, there's no way we those guys can breach to us.</AddIRCMessage>
+	 <AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="0">But, What if...</AddIRCMessage>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="0">Don't be silly! Look we'll discuss this later okay?</AddIRCMessage>
+	 <AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="0">Just making sure we're not getting raided again :s</AddIRCMessage>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="0">I got this, don't worry.</AddIRCMessage>
+	 <AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="0">Okay? I'll trust you, for now, let's just relax, I'm tired of those suckers trying to hack our servers.</AddIRCMessage>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="0">Me too, me too :/</AddIRCMessage>
+	
+  </Instantly>
+
+<OnConnect target="fluxdhs">
+    <ChangeAlertIcon Target="fluxdhs" Type="irchub" DelayHost="events" Delay="0"/>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="14">Oh! hey #PLAYERNAME#, how are you?</AddIRCMessage>
+	 <AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="17">I've been better, hbu guys.</AddIRCMessage>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="19">I'm fine.</AddIRCMessage>
+	 <AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="19">I'm fine.</AddIRCMessage>
+	 <AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="21">You owe me a soda @D3r_K3tz3r!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="23">LOL</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="25">Okay but seriously guys, we gotta talk about something important.</AddIRCMessage>	 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="28">Hmm? What is it</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="30">Well, you know, while you've been there doing your own stuff #PLAYERNAME#, me and Ch40s tried to stop a really big menace, a raid.</AddIRCMessage>	 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="38">I'm sorry... I was really busy with stuff</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="41">Try to save some time for us #PLAYERNAME#, we need you, we need to be together as a team, we're Flux.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="47">I never understood why we choose that name tho...</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="50">It's cool, that's it.</AddIRCMessage>
+	 <AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="53">More like EDGY AF XDD!.</AddIRCMessage>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="56">Ha Ha Ha</AddIRCMessage>
+	 <AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="59">Anyway, I made a decision and I accepted someone who wanted to be part of us!</AddIRCMessage>
+<AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="65">wat?.</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="68">Wat indeed my beloved Ch40s, we need reinforcements, we need to be prepared if those bastards from AEGIS try to attack us again.</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="76">Lady and gentlemen, I present to you, our newest member of Flux, Kimmycat!</AddIRCMessage>
+<AddIRCMessage Author="FlUXBOT" TargetComp="fluxdhs" Delay="83">(Kimmycat) has joined the conversation.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="fluxdhs" Delay="85">Uh... I.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="88">Kimmy, is that you? what the heck are you doin' here!</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="fluxdhs" Delay="92">Hey #PLAYERNAME#! I just, wanted become a really good cool hacker and stuff</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="97">Kim, this is no place for you, GTFO!</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="101">Wowowowowoah, chill girl, they're on our team now!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="105">I just, don't want to get Kimmy involved, what if we get into trouble!</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="109">We won't, cause we're very cautious about everything, and I accepted Kimmy's invitation to join 'cuz is your best friend and I know I can trust them.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="119">If you say so... :rolling_eyes:</AddIRCMessage>
+<AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="121">Aaalright Kimmy, I'll be your instructor and coach, I'll teach you everything about being a "cool hacker".</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="fluxdhs" Delay="128">Nice.</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="130">#PLAYERNAME#, can we talk for a second?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="132">Sure</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="fluxdhs" Delay="135">In private.</AddIRCMessage>
+<ShowNode DelayHost="events" Delay="138" Target="pmsgboss" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="fluxdhs" Delay="139">Oh okay, brb guys.</AddIRCMessage>
+<AddIRCMessage Author="Ch40s" TargetComp="fluxdhs" Delay="143">Tyt boss, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="fluxdhs" Delay="146">Talk to you later #PLAYERNAME#!</AddIRCMessage>
+</OnConnect>
+
+<OnConnect target="pmsgboss">
+
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="pmsgboss" Delay="0">#PLAYERNAME#, I need your help</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgboss" Delay="3">What's so important to PM me</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="pmsgboss" Delay="5">It's AEGIS, they're constantly breaching into our servers...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgboss" Delay="10">Wha- Why?</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="pmsgboss" Delay="12">I, I can't tell you, not yet.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgboss" Delay="16">What did we say about secrets?</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="pmsgboss" Delay="19">Look, if we don't do something about this, we could get attacked anytime soon.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgboss" Delay="24">That's not possible</AddIRCMessage>
+<LaunchHackScript Filepath="Scripts/hackaegis.xml" DelayHost="events" Delay="26" SourceComp="hacker" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<HideAllNodes DelayHost="events" Delay="28"/>
+<ChangeIP DelayHost="events" Delay="29" TargetComp="playerComp" NewIP="xx.xx.xx.xx" />
+<SaveGame DelayHost="events" Delay="90"/>
+<ShowNode DelayHost="events" Delay="109" Target="pmsgchaos" />
+<ChangeAlertIcon Target="mailserver" Type="mail" DelayHost="events" Delay="50"/>
+</OnConnect>
+
+<OnConnect target="pmsgchaos">
+   <RunFunction FunctionName="playCustomSong:Music/The_Unknown.ogg"/>
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="0">#PLAYERNAME# what the hell just happened.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgchaos" Delay="5">I'm not sure... I got hacked by Aegis, they did shut own my computer.</AddIRCMessage>
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="10">Sh-... What happened to your IP? We cannot get you into the hub.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgchaos" Delay="17">Crap... What do I do now?</AddIRCMessage>    
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="21">I'm not sure, the boss is busy trying to get a way to solve this IP error thingy and Kimmy can't do much remember.</AddIRCMessage>   
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="31">Look, if AEGIS got your ass, it's because they are into something suspicious, I say that you should roll with it, if they want you, then just gave up on 'em, there's not much we can do now with this error on your IP tho.</AddIRCMessage> 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgchaos" Delay="51">What do you mean, rollin' with it?</AddIRCMessage>   
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="56">Just, do what they say, don't worry about us, we're working on getting you outta there, screw those guys...</AddIRCMessage>   
+<ShowNode DelayHost="events" Delay="56.5" Target="pmsgtycoon" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgchaos" Delay="64">Oh, I got a new message Ch40s, maybe is them.</AddIRCMessage> 
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="68">Okay #PLAYERNAME#, look we will be in touch okay? Roll with it.</AddIRCMessage>   
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgchaos" Delay="73">I'll try?</AddIRCMessage>    
+<AddIRCMessage Author="Ch40s" TargetComp="pmsgchaos" Delay="75">You're a smart girl, I belive in you.</AddIRCMessage>   
+   </OnConnect>
+   
+   <OnConnect target="pmsgtycoon">
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="0">#PLAYERNAME#? is that your name?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="4">What the hell do you want? and what have you done to my IP.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="9">Something very interesting actually :p, look, I was sent by AEGIS to catch up with you</AddIRCMessage>  
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="15">Huh? What do you mean.</AddIRCMessage>  
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="18">Well, you now longer are member of your ex group "flux", now you're from AEGIS.</AddIRCMessage>  
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="26">So being hacked and IP destroyed is how I signed up? I didn't even want to.</AddIRCMessage> 
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="32">I'm sorry darlin' :p but that's how it works, now I'll link you to our server.</AddIRCMessage>   
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="37">Oh! I remembered, don't try anything stupid or not even you will suffer the consequences, but your friends will perish too.</AddIRCMessage>    
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="44">What the f*ck.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="47">Baby, that's what you get for being a accomplice with a criminal :^).</AddIRCMessage> 
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="51">Enough talk, I'm getting bored, here, I'll activate the nodes for you, see ya there hun!.</AddIRCMessage>     
+<ShowNode DelayHost="events" Delay="52" Target="aegisirc" />  
+  </OnConnect>   
+  
+  <OnConnect target="aegisirc">
+   
+   <RunFunction FunctionName="setFaction:aegis"/>
+   <ChangeAlertIcon Target="aegisirc" Type="irchub" DelayHost="events" Delay="0"/>
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="0">Don't worry, we got their most valuable hacker.</AddIRCMessage>     
+   <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="0">:B, it was about time though</AddIRCMessage> 
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="0">Yeah, if they take something from us, we'll do the same, no exceptins.</AddIRCMessage> 
+   <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="0">I wonder if tyc00n is already talking to 'em.</AddIRCMessage> 
+   <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="0">Be patient.</AddIRCMessage> 
+   <AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="2">@channel look who joined!</AddIRCMessage>
+   <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="4">(#PLAYERNAME#) has joined the conversation.</AddIRCMessage> 
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="6">Look who we have here, #PLAYERNAME#, ex member of Flux</AddIRCMessage>
+   <AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="10">What do you want, why me.</AddIRCMessage>    
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="13">Because according to Flux leader, you're their most skilled hacker, also, if they stole something from us, we have the right to do the same thing, so deal with it.</AddIRCMessage>
+   <AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="23">F*ck you.</AddIRCMessage>
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="25">Watch your language miss, didn't your parents taugh you to respect your elders?</AddIRCMessage>
+   <AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="30">You like, kidnapped me? how am I supposed to respect someone like that.</AddIRCMessage>
+   <AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="34">Aw come one little girl, is not thaat bad, we're not the bad guys, Flux is.</AddIRCMessage>
+   <AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="39">I've been with them for a long time, I'm pretty sure they aren't the bad guys.</AddIRCMessage>
+   <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="43">You know nothing then foolish girl.</AddIRCMessage> 
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="46">Okay, enough arguing, @>neto_ and @h3x4g0N, let's go to the private chat, I need to talk to you guys, @tyc00n, give @#PLAYERNAME# some tasks.</AddIRCMessage>
+   <AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="56">Okay girl, show me what you're capable of, I've uploaded a new task for you.</AddIRCMessage>
+   <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="59">NEW ASSIGNMENT AVALIABLE.</AddIRCMessage> 
+   <AddConditionalActions Filepath="Actions/Missions/Aegis1.xml" DelayHost="events" Delay="60"/>
+   </OnConnect>   
+   <HasFlags requiredFlags="supplydepot">
+    <AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="2">Nice work girl :^)</AddIRCMessage>
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="4">More work to do!</AddIRCMessage>
+	<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="6">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage> 
+	<AddConditionalActions Filepath="Actions/Missions/Aegis2.xml" DelayHost="events" Delay="6"/>
+	
+	
+	</HasFlags>
+   <HasFlags requiredFlags="trasher">
+   <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="3">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage> 
+   <AddConditionalActions Filepath="Actions/Missions/Aegis3.xml" DelayHost="events" Delay="3"/>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="supplydepot2">
+   <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="3">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage> 
+   <AddConditionalActions Filepath="Actions/Missions/Aegis4.xml" DelayHost="events" Delay="3"/>
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="6">Good work #PLAYERNAME# :^)</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="portcrusher">
+	 <AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="3">Hey Kiddo, check your new awesome program.</AddIRCMessage> 
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="6">It's called NetmapOrganizer and organizes your messy nodes, enjoy my gift to you.</AddIRCMessage> 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="11">Uh, thanks?.</AddIRCMessage> 	
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="15">Wait, why can't I access to my own computer?</AddIRCMessage> 
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="19">You're blocked kiddo :/, but since you helped me, I'll give you the keys for your kingdom.</AddIRCMessage>
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="21">Your info is admin / trapped, that should do :)</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="24">Thanks @h3x4g0n.</AddIRCMessage>	
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="27">You've been having fun right?.</AddIRCMessage>   
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="30">Glad you're knowing more about our members.</AddIRCMessage>     	
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="34">Like if I had another choice.</AddIRCMessage> 	
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="37">Hey @#PLAYERNAME#, don't be so mean.</AddIRCMessage> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="40">It's okay @h3x4g0n.</AddIRCMessage>   
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="43">Heyo!</AddIRCMessage> 	
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="44">Hey bro, where have u been.</AddIRCMessage> 	
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="47">Somewhere :rolling_eyes:</AddIRCMessage> 	
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="49">Awww, C'mon, silly :p.</AddIRCMessage> 	
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="52">Congratulations @#PLAYERNAME#, for winnin' back your computer privileges :^)</AddIRCMessage>
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="56">At some point she had to recover them lol.</AddIRCMessage> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="59">Okay guys, let's go back to work, @#PLAYERNAME#, you gotta more work to do.</AddIRCMessage>
+<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="60">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage> 
+<AddConditionalActions Filepath="Actions/Missions/Aegis5.xml" DelayHost="events" Delay="60"/>	
+	</HasFlags>
+ <HasFlags requiredFlags="bastards">
+	<RemoveMissionFromHubServer MissionFilepath="Missions/Aegis/Dump1.xml" TargetComp="aegisirc" />
+	<RemoveMissionFromHubServer MissionFilepath="Missions/Aegis/Dump2.xml" TargetComp="aegisirc" />
+	<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="3">Nice work #PLAYERNAME#, you truly are a skilled hacker, but we're just beggining.</AddIRCMessage>   
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="8">hey kiddo, congratz! :^)</AddIRCMessage>
+	<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="10">Okay, I need to go now, need to make some scripts and executables, see ya girls.</AddIRCMessage>   
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="15">Laaaater~</AddIRCMessage>
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="17">Hey #PLAYERNAME#, look, I know this was weird for you to joining us by force but trust me, you'll love our community!</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="22">I'm not sure, I'm worried about my friends.</AddIRCMessage>
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="25">They'll be fiiiiiine, as soon they don't try to f*ck with us! lol!</AddIRCMessage> 	
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="29">:/.</AddIRCMessage>
+	<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="31">Anyway girl, I gotta get back to work, see you around!</AddIRCMessage>
+	<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="32">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/Missions/Aegis6.xml" DelayHost="events" Delay="32"/>	
+	</HasFlags>
+<HasFlags requiredFlags="aegis6">	
+<RemoveMissionFromHubServer MissionFilepath="Missions/Aegis/Dump3.xml" TargetComp="aegisirc" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/Aegis/Dump4.xml" TargetComp="aegisirc" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/Aegis/Dump5.xml" TargetComp="aegisirc" />
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="2">#PLAYERNAME# hey, nice work, seems that you made it to our Drop server, it will come in handy at some point!</AddIRCMessage>
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="9">Hey @Kael, I've been checking and someone tried to connect to our hub server.</AddIRCMessage> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="14">Are you sure about that?</AddIRCMessage>
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="16">Yeah, check the logs.</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="21">How's that even possible? Is that your friends @#PLAYERNAME#?, I hope they're not</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="25">But apparently they were using some kind of IP Disguise thingy to hide their address, we don't know exactly of that person was from Flux</AddIRCMessage>
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="33">With your permission I'll reinforce the security in our server, g2g.</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="37">That quick #PLAYERNAME#?, Come on, I don't think they're your friends, you just joined us!</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="42">Okay, need to do some stuff, preparing for the big day!</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="46">Oh, I forgot to mention, I uploaded a eosDevice Scanner, which scans a node if it has linked eosDevices, remember, the password for all eos Devices is 'alpine'.</AddIRCMessage>
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="55">Thanks @Kael, just what I needed.</AddIRCMessage> 
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="58">Nice!, new toy!</AddIRCMessage>
+<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="aegisdrop" TargetFolderpath="bin"/>
+
+<ShowNode DelayHost="events" Delay="43" Target="pmsgkimmycat" /> 
+</HasFlags>	
+
+<OnConnect target="pmsgkimmycat">
+
+<RunFunction FunctionName="playCustomSong:Music/Turbo_Drive.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/Synthwave.xml" FlickerInDuration="5" DelayHost="events" Delay="11.24" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="2">Kim? is that you? How in the heavens!</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="6">ch40s taught me well, also is not that complicated</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="10">The AEGIS Servers are one of the most secure in the world...</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="14">I guess I'm just good at it? Look #PLAYERNAME#, even though now we can chat, is still impossible for you to go back to the hub, your IP still broken and we cannot do anything
+about it, maybe AEGIS can?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="26">Probably... Hey Kimmy, how's everyone there</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="29">We miss you #PLAYERNAME#, I miss you so much, and our boss can't connect to you yet.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="33">That's okay, I needed a familar voice, well text in this case, LOL</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="37">For now there isn't anything I can do, you'll have to wait, I'm workin' on something that may help us with your IP, but it will take some time.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="44">Do you mind being an AEGIS Agent for a little bit more?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="48">Yeah, I can... I guess, so far the contracts have been cool.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="52">Cool? They're the enemy! Please focus on commin' back, I don't want you to stay with those people, the did something wrong, they stole you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="59">True, but there's a reason why Kael doesn't like D3r_K3tz3r, also D3r_K3tz3r is hiding something, and I don't like secrets, you know it.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="66">Kael? Who is Kael and why D3r_K3tz3r would hide stuff from us, that's pointless.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="69">I know Kim, I wish I could know more about him, so far I'm knowing more about AEGIS agents, they seem really nice actually, but Kael is the one I'm worried about.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="77">Okay... I'll trust you #PLAYERNAME#, you're my best friend after all.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgkimmycat" Delay="81">Don't worry about it silly :p, I got this.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="84">I'll leave you know #PLAYERNAME#, I need to keep working in this thing.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="88">If I know something I'll let you know, you should check my chat some time.</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Missions/Aegis7.xml" DelayHost="events" Delay="89"/>
+<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="89">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+</OnConnect> 
+
+<OnConnect target="kimmycomp"> 
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="0">Hey #PLAYERNAME#, someone's trying to connect to my computer, how's that pssible?.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="0">Look, If it's what i think it is, don't do it, please, we are friends.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="0">You will compromise our rescue operation, please don't.</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="pmsgkimmycat" Delay="0">Look, I have an idea, if they want to track my IP, just give them this one (195.621.142.1), it's a node that reboots automatically your pc, it's basically a decoy, countin' on ya.</AddIRCMessage>
+</OnConnect> 
+
+<HasFlags requiredFlags="aegis7">
+
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="0">#PLAYERNAME#, thank you so much for tracking the hacker, they won't bother us anymore ;).</AddIRCMessage>
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="5">Nice, that way I'll reinforce the servers with neto in a more relaxed environment.</AddIRCMessage> 	
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="10">I guess this was your initiation task #PLAYERNAME#?, I know you've already joined the conversation but I give you the true welcome now, Welcome to AEGIS :).</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="19">Yeah, I guess, it is nice to get new friends.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="22">Heeeeeeey girl, nice work tracking down the hacker, can we be friends now? hehehe :)</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="27">Okay stop the chatting @tyc00n and @#PLAYERNAME#, go back to your work.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="31">Aw :(, don't be a party pooper, hey #PLAYERNAME#, need help, do you mind helping?</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="36">Shoot.</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Missions/Aegis8.xml" DelayHost="events" Delay="38"/>
+<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="38">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+</HasFlags>	
+
+<HasFlags requiredFlags="aegis8">
+<RemoveMissionFromHubServer MissionFilepath="Missions/Aegis/Dump10.xml" TargetComp="aegisirc" />
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="0">Thanks! #PLAYERNAME#, I can't believe I'll see Magic Axe live!</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="4">Enjoy the concert :p.</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="6">#PLAYERNAME#, I need your help, it's an emergency.</AddIRCMessage>
+<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="8">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Missions/Aegis9.xml" DelayHost="events" Delay="8"/>
+</HasFlags>	
+
+<OnConnect target="chaoscomp" requiredFlags="chaosboss">
+<RunFunction FunctionName="playCustomSong:Music/Turbo_Killer.ogg" Delay="0" DelayHost="events"/>
+<StartScreenBleedEffect AlertTitle="DESTROY CH40S COMPUTER" CompleteAction="Actions/failchaos.xml" TotalDurationSeconds="100" DelayHost="events" Delay="39.5">Connect to Ch40s Station
+Delete everything
+Disconnect</StartScreenBleedEffect>
+</OnConnect>
+
+<HasFlags requiredFlags="aegis9">
+<AddConditionalActions Filepath="Actions/CancelChaos.xml" DelayHost="events" Delay="0"/> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="1">#PLAYERNAME#, great work taking down that hacker.</AddIRCMessage> 
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="5">Did I miss something here huh?</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="8">#PLAYERNAME# took down one of the flux hackers that tried to breach our servers.</AddIRCMessage>  
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="12">I'm pretty sure the only one left is their leader but is not time yet, his security is very high and I don't wanna risk it, not yet</AddIRCMessage>  
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="16">Oh well.. #PLAYERNAME#, can we go to the private message?</AddIRCMessage> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="19">You can share your story here if you want @tyc00n</AddIRCMessage>  
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="23">I'd like to, but it's girl stuff you know.</AddIRCMessage>  
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="25">Oh, okay then, have fun.</AddIRCMessage> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="27">BTW guys, I've uploaded a new portcrusher, it's called RTSPCrack, and it opens the port 554, I'm pretty sure you'll need it.</AddIRCMessage> 
+<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="aegisdrop" TargetFolderpath="bin"/>
+</HasFlags>
+<OnConnect target="pmsgtycoon" requiredFlags="aegis9"> 
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="0">Hey #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="4">What's up?</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="6">Honestly, I'm worried, a lot.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="9">What's the deal?</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="11">It's Kael, he worries me, He's been talking about his big day</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="16">And to be frank, tracking down your friends and "punishing" them as Kael calls it, is not something I like.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="22">What do you mean with "pushiment"?</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="25">Last time someone tried to breach our server, or stood against us, Kael took really hard actions on them.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="30">He added criminal records to the hackers and the police took them to the jail unfairly</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="35">And why didn't you do anything?!</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="37">I was afraid, I don't wanna end up like them, or your friends.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="41">I'm afraid your buddies that tried to breach the hub server may be in prison, or maybe dead.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="47">So what do you wanna do then.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="50">I wan't you to help me escape, so I can be free.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="53">But Kael has your IP, he may track you down and do the same thing to you, didn't you think in that?</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="59">I did, and I have a plan but, we need to stay low profile for now, I'll contact you when it's time to help out.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="65">I just hope he doesn't notice I was helping you, I don't want to get "punished".</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="70">Don't worry, it'll be easy, a bot will replace me, you may see the bot talk with my username but that will not be me, it's a script though and I'm finishing it right now, it will be ready in a few hours.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="pmsgtycoon" Delay="82">I'll be waitin' then.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="84">Thanks #PLAYERNAME#, and sorry about this whole aegis thing, I really hope Kael doesn't do anything stupid.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="89">Once I'm done with the script, I'll let you know.</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Missions/Aegis10.xml" DelayHost="events" Delay="89"/>
+<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="89">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+</OnConnect> 
+ 
+<HasFlags requiredFlags="aegis10">
+<AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="0">Hey @channel, we got the newest software for ports 25, it's on the drop server, and all thanks to #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="8">Nice, I'll try that, thanks #PLAYERNAME#.</AddIRCMessage> 
+<AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="11">Woah nice, I'll test it right away.</AddIRCMessage> 
+<AddConditionalActions Filepath="Actions/Missions/Aegis11.xml" DelayHost="events" Delay="12"/>
+<AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="12">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+</HasFlags>	
+ 
+ <HasFlags requiredFlags="aegis11">
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="2">@channel, Wow, so with help of @#PLAYERNAME#, I've tracked down the last member of FLUX, their leader, who's brave enough to do this job?</AddIRCMessage> 
+ <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="10">Uh, I would like to but I'm really busy now dude :/.</AddIRCMessage>
+ <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="14">Me too, actually I'm helping neto out.</AddIRCMessage> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="17">@tyc00n? are you capable of this?</AddIRCMessage> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="23">@tyc00n...?</AddIRCMessage> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="26">It seems she's busy</AddIRCMessage> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="28">#PLAYERNAME#, do you want to do the honors?</AddIRCMessage> 
+ <AddConditionalActions Filepath="Actions/Missions/Aegis12.xml" DelayHost="events" Delay="29"/>
+ <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="29">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+ </HasFlags>	
+ <OnConnect target="bossfluxcomp" requiredFlags="fluxboss">
+<RunFunction FunctionName="playCustomSong:Music/Ascension.ogg" Delay="0" DelayHost="events"/>
+<StartScreenBleedEffect AlertTitle="DESTROY D3r K3tz3r COMPUTER" CompleteAction="Actions/failfluxboss.xml" TotalDurationSeconds="130" DelayHost="events" Delay="0">Connect to D3r K3tz3r Station
+Delete everything
+Disconnect</StartScreenBleedEffect>
+</OnConnect>
+ 
+ 
+ <HasFlags requiredFlags="aegis12">
+ <AddIRCMessage Author="tyc00n" TargetComp="pmsgtycoon" Delay="0">I'm out, thanks #PLAYERNAME#, thanks for trusting me, hey don't be sad, we'll meet someday, maybe, so whatever the "other tyc00n" says, is not me, it's just a scripted bot
+ and thanks okay?, thanks for everything, I'm pretty sure your boss would be proud, even though you tracked him down... Maybe someday you'll find the way to redeem yourself, keep an eye on Kael okay? I'll be here of you need someone to talk toc
+ 
+ -Maria a.k.a tyc00n.</AddIRCMessage>
+ <AddConditionalActions Filepath="Actions/CancelFluxBoss.xml" DelayHost="events" Delay="0"/> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="2">Nice work @#PLAYERNAME#</AddIRCMessage> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="4">Guys we have a new hero :D.</AddIRCMessage> 
+ <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="6">Nice! I knew I could count in you girl.</AddIRCMessage>
+ <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="9">Here comes dat giiiiiiirl! Great work!.</AddIRCMessage> 
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="13">Now with the FLUX members out of the way I'll go ahead and disconnect their CORE server forever.</AddIRCMessage> 
+  <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="20">Woah, I've heard their server is fully protected and sh*t.</AddIRCMessage> 
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="24">It is indeed, but I've got the right tools to hack into it, and thanks to #PLAYERNAME#, there will be no one there to stop me.</AddIRCMessage> 
+   <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="32">#PLAYERNAME#, before we begin with out final and most important project, I need you to do something for me, check the assignments.</AddIRCMessage> 
+  <AddConditionalActions Filepath="Actions/Missions/Aegis13.xml" DelayHost="events" Delay="29"/>
+ <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="30">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage>
+ </HasFlags>	
+ 
+  <HasFlags requiredFlags="aegis13">
+ <RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg" Delay="6" DelayHost="events"/>
+
+ <AddAsset FileName="KBTPortTest.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="aegisdrop" TargetFolderpath="bin"/>
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="2">Okay, we're set</AddIRCMessage> 
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="6">!ANNOUNCEMENT! - @channel</AddIRCMessage>	 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="8">Today we begin our final project, project GOD.</AddIRCMessage> 
+ <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="13">Nice, what's about @Kael?.</AddIRCMessage>
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="15">Oh, it's very interesting, first of all now, we're not AEGIS, now, we are Project God.</AddIRCMessage>
+  <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="20">Nice, I like the name, and what's this project about?.</AddIRCMessage>
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="23">To show supremacy of PGod on earth, to give people freedom, to leave a message, to make finally, peace.</AddIRCMessage>
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="29">@channel, I've uploaded the tool "KBTPortTest" which will help us in this task, also you'll need to download the "euthanasia.dll" both in the drop server.</AddIRCMessage>
+   <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="37">Euthanasia?, What do you want to do @Kael...?</AddIRCMessage>
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="42">We've prisoners for years of these politician bastards, and now that they're in a terrible condition and hospitalized via the Pacemaker program, it's time to attack.</AddIRCMessage>
+ <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="50">So you want us to... Kill people</AddIRCMessage>
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="54">Hahahaha, no @h3x4g0n, this is justice, and justice doesn't kill people, we have to do this, I've linked the PACEMAKER server, the patients should be connected to the server so scan for them ;).</AddIRCMessage>
+ <AddIRCMessage Author="h3x4g0n" TargetComp="aegisirc" Delay="67">Dude, never thought you were capable of this, I'm out, I'm not gonna do it.</AddIRCMessage> 
+ <AddIRCMessage Author=">neto_" TargetComp="aegisirc" Delay="72">Yeah... even though you were a great leader this is nuts, I'm not gonna be part of this massacre.</AddIRCMessage>
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="77">Fine, #PLAYERNAME# will help me</AddIRCMessage> 
+ <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="80">#PLAYERNAME#, you're the only hope I have, we need to do this, we need to free this world from people like those assh*les, we need to make the world see us, we need the world to see Project God.</AddIRCMessage>
+  <AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="82">!ATTACHMENT:link#%#PaceMaker_Server#%#125.41.222.6</AddIRCMessage>
+ <RunFunction FunctionName="playCustomSongImmediatley:Music/Remi_Finale.ogg" Delay="80" DelayHost="events"/>
+ 
+
+<StartScreenBleedEffect AlertTitle="APPLY EUTHANASIA IN PATIENTS" CompleteAction="Actions/Redeem.xml" TotalDurationSeconds="1000" DelayHost="events" Delay="123.3">Gain admin acces to the Pacemakers
+Upload euthanasia.dll in ~KBT_Pacemaker~ folder
+Update the firmware with EAdmin/tens86</StartScreenBleedEffect>
+</HasFlags>
+ 
+ 
+ <HasFlags requiredFlags="T_John:DEAD,H_Lily:DEAD,C_Stephanie:DEAD,B_Steven:DEAD,W_Witney:DEAD">
+<HideAllNodes DelayHost="events" Delay="2"/>
+ <RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg"/>
+ <CancelScreenBleedEffect DelayHost="events" Delay="0" />
+ <LaunchHackScript Filepath="Scripts/badending.xml" DelayHost="events" Delay="8" SourceComp="kaelcomp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+ <ShowNode DelayHost="events" Delay="5" Target="credits" /> 
+ </HasFlags>
+ 
+ 
+ <HasFlags requiredFlags="redeem">
+ <RunFunction FunctionName="addFlags:aegistraitor"/>
+ <RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg"/>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="2">HOW INCOMPETENT, I'LL DO THIS MYSELF.</AddIRCMessage> 
+ <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="4">(Kael) has abandoned the conversation.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="7">#PLAYERNAME#, It's me, the real tyc00n, look, we cannot let him do that, we must put a end to this, I've working on a program that reveals the IP of a IRC member, it took me time but I finished it, I've uploaded it
+to the filedrop server, it's called IPTracker and It's configured to track Kael's IP, once you get the tracker, please, wipe everything, and forkbomb that bastard, I'll take care of the rest, I'm countin' on you friend, let's do the right thing for once.</AddIRCMessage> 
+<AddAsset FileName="IPTrackerKael.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="aegisdrop" TargetFolderpath="bin"/>
+ <AddIRCMessage Author="AEGISBOT" TargetComp="aegisirc" Delay="8">NEW ASSIGNMENTS AVALIABLE.</AddIRCMessage> 
+ <AddConditionalActions Filepath="Actions/Missions/Aegis14.xml" DelayHost="events" Delay="8"/>
+ </HasFlags>	
+ 
+
+ <HasFlags requiredFlags="aegis14">
+<KillExe DelayHost="events" Delay="0" ExeName="ESequencer" />
+<CancelScreenBleedEffect DelayHost="events" Delay="0" />
+<RunFunction FunctionName="playCustomSong:Music/RemiDrone.ogg"/>
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="2">Good job....</AddIRCMessage>  
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="4">Now that everything's over, you can leave now if you wish #PLAYERNAME#, but I don't know what happened to your friends so I don't know how to help you there... Sorry... It is my fault</AddIRCMessage>   
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="aegisirc" Delay="16">No, it was mine for choosing that, for choosing this cult before my friends, but I did something, I tried to redeem myself, I feel peace now, but at the same time, I'm disturbed by my own actions, I almsot killed innocent people cause of Kael</AddIRCMessage> 
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="30">But now, it's over, you're a hero #PLAYERNAME#, imagine what could've happen if Kael was out there, he's a terrorist, and he needs to be behind the bars, I'll take care of him, you're free to go.</AddIRCMessage>  
+<AddIRCMessage Author="tyc00n" TargetComp="aegisirc" Delay="44">!ATTACHMENT:link#%#Unregister_Aegis#%#99.66.33.55</AddIRCMessage> 
+</HasFlags> 
+ 
+ 
+ 
+
+<OnConnect target="secretending"> 
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="secretending" Delay="2">There you are silly.</AddIRCMessage> 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="4">Guys! you're alright!</AddIRCMessage>
+<AddIRCMessage Author="Ch40s" TargetComp="secretending" Delay="7">Of course #PLAYERNAME#, we're hard to kill lol!</AddIRCMessage>
+<AddIRCMessage Author="Kimmycat" TargetComp="secretending" Delay="11">Hey #PLAYERNAME#, it is nice to see you around.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="14">I've gotta tell you so many stuff.</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="secretending" Delay="17">You can save the details, friend, we know what happened.</AddIRCMessage> 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="20">Wha- How?.</AddIRCMessage>
+<AddIRCMessage Author="FlUXBOT" TargetComp="secretending" Delay="21">(tyc00n) has joined the conversation.</AddIRCMessage> 
+<AddIRCMessage Author="tyc00n" TargetComp="secretending" Delay="23">Hey girl :^).</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="25">You bitch!</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="secretending" Delay="27">That's me! lol.</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="secretending" Delay="30">She helped us with Kael situation, in fact we were about to go to Jail, but tyc00n saved us.</AddIRCMessage> 
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="35">How?!</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="secretending" Delay="37">There's something I didn't tell you #PLAYERNAME#, I'm rich and I hired a really good lawyer plus I had as evidence the IRClogs, everything's back to normal friends, if that's how I can call you.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="48">Yes tyc00n, you're my friend, our friend.</AddIRCMessage>
+<AddIRCMessage Author="tyc00n" TargetComp="secretending" Delay="52">BTW #PLAYERNAME#, I'm with the guys here, in person xD! I had to get the plane and reunite everyone here, you're the one left, aaand your plane goes out tomorrow, don't worry about everything, only about getting the ticket sent you via mail.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="secretending" Delay="67">O.o</AddIRCMessage>
+<AddIRCMessage Author="D3r_K3tz3r" TargetComp="secretending" Delay="70">We'll be waiting for you #PLAYERNAME#.</AddIRCMessage>
+</OnConnect> 
+
+ 
+ 
+ 
+ <OnConnect target="aegis13">
+<RunFunction FunctionName="addFlags:aegis13"/>
+ </OnConnect> 
+ <OnConnect target="aegis6">
+<RunFunction FunctionName="addFlags:aegis6"/>
+ </OnConnect> 
+ 
+<OnConnect target="aegis8">
+<RunFunction FunctionName="addFlags:aegis8"/>
+ </OnConnect>
+ 
+ <OnConnect target="aegis11">
+<RunFunction FunctionName="addFlags:aegis11"/>
+ </OnConnect>
+ </ConditionalActions>

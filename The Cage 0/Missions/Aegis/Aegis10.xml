@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis10">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="SMTPOverflow.exe" path="bin" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   
+   </goals>
+  
+ <missionEnd>addFlags:aegis10</missionEnd>
+
+ 
+ 
+ 
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="Advanced Software">Neto requires important assistance.</posting>
+  <email>
+    <sender>>neto_</sender>
+    <subject>Advanced Software</subject>
+    <body>Hey #PLAYERNAME#, you've been doin' pretty well, I misjudged you honestly, and thanks to what you've done for us, I need you 
+	to do something for me, well, for the rest too, I need you to enter a server which contains really good hacking software, although this server 
+	is high in security so you may have to be fast and careful with the logs.
+	
+	I need you to enter and download a executable "SMTPOverflow.exe", It's really useful for opening ports 25, and upload it to the drop server,
+	you'll do a enormous favour to us, I'm counting on you kid.
+	</body>
+    <attachments>
+       <link comp="hackerserver" /> 
+	  
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis4">
+  <goals>
+   <goal type="getstring" target="837B69BB657FE" />
+   <goal type="getstring" target="F71FBA9B19289" />
+   <goal type="getstring" target="3E13232E99787" />
+   <goal type="getstring" target="E1U3XdNO61" />
+   </goals>
+ <missionEnd>addFlags:portcrusher</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+  <posting title="Port Crusher" reqs="supplydepot2,trasher">h3x4g0n needs your help.</posting>
+  <email>
+    <sender>h3x4g0n</sender>
+    <subject>Port Crusher</subject>
+    <body>Hey kid, I've seen you've been busy with tyc00n, she always like to play with newbies like you, but I gotta a real big task for you.
+	I need you to infiltrate a private server and steal some keys of an upcoming game called "Mortal Fighters", there are 4 keys in total, I need all of
+	em. Help me and I'll give you a reward :).
+</body>
+    <attachments>
+       <link comp="privateserver1" /> 
+    </attachments>
+  </email>
+</mission>

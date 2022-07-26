@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pmsgchaos" 
+          name="Ch40s / Online" 
+          ip="98.201.125.2"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  
+		  
+    
+	<IRCDaemon themeColor="67,204,148" name="Ch40s / Online" needsLogin="false">
+    <user name="#PLAYERNAME#" color="120,24,216"/>
+    <user name="Ch40s" color="23,230,189"/>
+	</IRCDaemon>
+</Computer>

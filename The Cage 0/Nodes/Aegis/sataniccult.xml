@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="sataniccult" 
+          name="Satan's Path" 
+          ip="#RANDOM_IP#"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="3" > 
+  <LogoDaemon Name="Satanic Cult" ShowsTitle="false" TextColor="255, 0, 0, 200" LogoImagePath="Nodes/Aegis/satanicpath.png">
+S E C R E T  P A T H  O F  S A T A N
+  </LogoDaemon>
+  
+  <trace time="100" />
+  <firewall level="5" solution="cultist" additionalTime="0"/>
+  <file path="home/docs" name="weirdstuff.docx">Princes of Hell
+There are nine Fallen Angels ranked high up in the hierarchy of demons that are called Princes of Hell, or the Fati.[3] In other beliefs,[4] the seven known princes of Hell are said to tempt people by means of one of the seven deadly sins. Each Prince of Hell rules over their own realm.
+
+Asmodeus — the ruler of Edom, along with Lilith, and a general of Hell's army.
+Azazel — a corruptor of humans, a Lieutenant of Hell, and the Forger of Weapons, Azazel is a Prince of Hell second only to Lucifer himself. He taught mankind how to make weapons, which eventually corrupted them with war, resulting in his eventual downfall. He is bound to the rocks of Duduael.
+Belial
+Leviathan
+Lucifer — known as the Light-Bearer and The Morning Star, presumed to be an Archangel prior to his fall. Lucifer is known as the Devil, the Ruler of Hell and Demons, an individual who fights an endless war with God for the souls of man.
+Four more unnamed ones, possibly Beelzebub, Belphegor, Mammon,[5] or Baal.[6]
+Ancients
+Abbadon — Demon of the Abyss. He has a horrific appearance, and his name is recorded among the Fallen Angels that fell with Lucifer.
+Lilith — the Mother of Warlocks, and the first woman to be created who left Adam and was cursed to have all her children die. She is said to be a Greater Demon due to her age, and is also known to be the progenitor demon.
+Sammael — recorded as the former Archangel of Death and a general of Hell's army. He fought Archangel Michael as an equal and was cut down by his sword.
+Moloch - One of Hell's most fearsome demon warriors. He commands the Moloch demons. His form consists of smoke and oil.</file>
+  <file path="home/docs" name="howtobeedgy.pdf">#BINARY#</file>
+  <file path="home/docs" name="jesusiscool.pdf">#BINARY#</file>
+  <file path="home/docs" name="howtosummonstuff.pdf">#BINARY#</file>
+  <file path="home/docs" name="witchery_1.pdf">#BINARY#</file>
+  <file path="home/docs" name="witchery_2.pdf">#BINARY#</file>
+  <file path="home/docs" name="witchery_2a.pdf">#BINARY#</file>
+  <file path="home/docs" name="witchery_3.pdf">#BINARY#</file>
+  
+ <file path="bin" name="hellokitty.exe">#SECURITYTRACER_PROGRAM#</file>
+</Computer>

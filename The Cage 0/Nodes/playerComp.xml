@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" 
+          name="#PLAYERNAME#'s Station" 
+          ip="#PLAYER_IP#"
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+<account username="admin" password="trapped" type="0" />
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis11">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="solutionip.dll" path="home" destTarget="tycooncomp" destPath="home/escape"/>
+  <goal type="fileupload" target="playerComp" file="connectionsolution.scp" path="home" destTarget="tycooncomp" destPath="home/escape"/> 
+  <goal type="fileupload" target="playerComp" file="errorsolution.scp" path="home" destTarget="tycooncomp" destPath="home/escape"/> 
+   </goals>
+  
+ <missionEnd>addFlags:aegis11,fluxboss</missionEnd>
+
+ 
+ 
+ 
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="[Hidden]Helping a new friend">tyc00n needs you to breach a really protected server for programs.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Helping a new friend</subject>
+    <body>#PLAYERNAME#!, Hey!, There's one thing I need to finish the script, it's some scripts and dlls, don't worry about this assignment, it's
+	hidden and Kael won't see it unless I give him permission, the dlls and scripts are located in a really security strong server, once you've got the files
+	you must upload them to my computer, specifically the ~home/escape~ folder, the scripts and dlls must have the name "solution" on it, I'll be waitin',
+	I'll link you my laptop and 
+	</body>
+    <attachments>
+       <link comp="tycooncomp" /> 
+	   <account comp="tycooncomp" user="tyc00n" pass="#PLAYERNAME#" />
+	   <link comp="tycoonescape1" /> 
+	  
+    </attachments>
+  </email>
+</mission>

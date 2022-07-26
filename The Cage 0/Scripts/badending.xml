@@ -1,0 +1,21 @@
+config playerComp kaelcomp 0.2 $#%#$
+connect $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+flash $#%#$
+write You've been tracked by the Goverment $#%#$
+delay 4 $#%#$
+write_silent You've been accused for the next crime: Murder $#%#$
+delay 4 $#%#$
+write_silent Class 5: DANGER $#%#$
+delay 4 $#%#$
+write_silent A S.W.A.T Patrol is heading to your location $#%#$
+delay 4 $#%#$
+write_silent Don't resist, you're under arrest. $#%#$
+flash $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$

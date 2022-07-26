@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+<Instantly>
+   <HideAllNodes DelayHost="events" Delay="2"/>
+   <RunFunction FunctionName="playCustomSong:Music/Turbo_Drive_Vocals.ogg"/>
+</Instantly>
+
+<HasFlags requiredFlags="aegistraitor">
+<RunFunction FunctionName="setFaction:flux"/>
+<ShowNode DelayHost="events" Delay="5" Target="secretending" />
+</HasFlags>
+</ConditionalActions>

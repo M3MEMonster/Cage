@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis7">
+  <goals>
+   <goal type="getstring" target="175.225.124.2" />
+   </goals>
+  <branchMissions IsSilent="false">
+    <branch>Missions/Aegis/Aegis7trap.xml</branch>
+   </branchMissions>
+    <missionEnd>addFlags:aegis7</missionEnd>
+   <nextMission>NONE</nextMission>
+
+<posting title="[!]Intruders">Kael is concerned with the person that tried to hack into AEGIS servers, give him the IP of the hacker.</posting>
+  <email>
+    <sender>Kael</sender>
+    <subject>Intruders</subject>
+    <body>#PLAYERNAME#, You've been part of AEGIS for a time now, and I need you to find the person that tried to reach our servers, specifically
+	the Whitelist server, look, despite who it is, you should do what I say and track them down, and give me the IP, I shall know what to do
+	with them, I'll be waiting #PLAYERNAME#.
+	
+	I've linked you the Whitelist Server
+</body>
+    <attachments>
+       <link comp="aegiswhitelist" /> 
+	   <account comp="aegiswhitelist" user="admin" pass="aegis" />
+    </attachments>
+  </email>
+</mission>

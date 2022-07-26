@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tycooncomp" 
+          name="Tyc00n's Laptop" 
+          ip="#RANDOM_IP#"
+          security="200"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="2" > 
+		<account username="tyc00n" password="#PLAYERNAME#" type="0" />
+		
+		<file path="home/escape" name="uploadhere.txt">send nudes</file>
+		
+		</Computer>

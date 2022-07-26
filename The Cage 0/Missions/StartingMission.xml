@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="intro0" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+   <goal type="delay" time="10.0"/>
+   </goals>
+ <nextMission IsSilent="true">NONE</nextMission>
+ 
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

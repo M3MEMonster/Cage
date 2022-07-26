@@ -1,0 +1,7 @@
+Errors Found. Writing report to Extensions/The_Note_1/report.txt
+Error Loading Mission: Extensions/The_Note_1/Missions\Aegis\Aegis7.xml
+
+Could not find "nextMission" tag in mission file! This tag needs to exist! 
+ 
+Source : Hacknet  ::  System.FormatException
+

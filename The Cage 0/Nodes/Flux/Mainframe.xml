@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fluxcore" 
+          name="FLUX CORE SERVER" 
+          ip="#RANDOM_IP#"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+<LogoDaemon Name="FLUX MAINFRAME" ShowsTitle="false" TextColor="2,172,178, 200" LogoImagePath="">
+FLUX CORE SERVER
+  </LogoDaemon>
+		  
+		  <proxy time="3" />		  
+<ports>21, 22, 25, 80, 1433</ports>		   
+<portsForCrack val="5" /> 
+<firewall level="6" solution="alert" additionalTime="1.0"/>  
+<trace time="-1" />  
+<admin type="fast" resetPassword="true" isSuper="true" />
+</Computer>

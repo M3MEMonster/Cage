@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="invitationremote" 
+          name="Invitation Server" 
+          ip="#RANDOM_IP#"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		 <proxy time="3" />
+		 <trace time="100" />
+		<firewall level="5" solution="famous" additionalTime="0"/>
+		 <LogoDaemon Name="AEGIS CORE" ShowsTitle="false" TextColor="120,65,229" LogoImagePath="Nodes/Aegis/invitation.png">
+		 Welcome to the Invite server</LogoDaemon>
+		 <WhitelistAuthenticatorDaemon Remote="invitationwhitelist"/>
+		 
+		 <file path="invitations" name="[INVITATION]Barpenter Crut-01">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Barpenter Crut-02">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Barpenter Crut-03">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Trevor Thing-01">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Trevor Thing-02">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]BOLTAKO Z-01">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]BOLTAKO Z-02">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]BOLTAKO Z-03">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]BOLTAKO Z-04">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]LASERPIGEON-03">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]LASERPIGEON-02">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]LASERPIGEON-01">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Magic Axe-01">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Magic Axe-02">#BINARY#</file>
+		 <file path="invitations" name="[INVITATION]Magic Axe-VIP">#BINARY#</file>
+		  
+		  
+</Computer>

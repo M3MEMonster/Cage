@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trasher2" 
+          name="Proxy X-02" 
+          ip="#RANDOM_IP#"
+          security="1"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="2" > 
+  <trace time="-1" />
+  <firewall level="2" solution="recycle" additionalTime="0"/>
+  
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_8498498.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_34598.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_232398.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_5555548498.log">#BINARY#</file>
+  
+  <file path="home" name="Mint-Theme.sys">#MINT_THEME#</file>
+  <file path="home" name="LE-Theme.sys">#PURPLE_THEME#</file>
+ 
+ <file path="bin" name="NorthPark.exe">#BINARY#</file>
+ 
+  
+  
+</Computer>

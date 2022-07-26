@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tycoonescape1" 
+          name="Ana's Laptop" 
+          ip="#RANDOM_IP#"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="2" > 
+  <ports>21, 22, 25, 554</ports>
+  <trace time="120" />
+  <firewall level="4" solution="connection" additionalTime="0"/>
+  <dlink target="mailserver" />
+  <eosDevice name="Ana's ePhone" id="tycoonescape1eos" icon="ePhone2" empty="true" passOverride="alpine">
+   
+   <file path="home/notes" name="note.txt">
+   find nemo
+   --------------------
+   destroy the universe</file>
+   <mail username="ana1112@jmail.com" pass="ihatecats" />
+    
+    <file path="eos/bin" name="sakuranotclicker.apc">#BINARY#</file>
+  </eosDevice>
+</Computer>

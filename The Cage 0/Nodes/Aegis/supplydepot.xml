@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="supplydepot" 
+          name="Ryan's Laptop" 
+          ip="#RANDOM_IP#"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="2" > 
+  <trace time="-1" />
+  <firewall level="4" solution="supply" additionalTime="0"/>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+ 
+  
+  
+  
+</Computer>

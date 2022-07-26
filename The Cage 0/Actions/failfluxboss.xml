@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>
+   
+	<CrashComputer TargetComp="playerComp" CrashSource="playerComp" DelayHost="events" Delay="0" />
+    <HideNode DelayHost="events" Delay="0" TargetComp="bossfluxcomp" />
+	<RunFunction FunctionName="playCustomSong:Music/Ritual.ogg"/>
+  </Instantly>
+
+</ConditionalActions>

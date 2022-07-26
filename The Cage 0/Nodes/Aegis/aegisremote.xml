@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisremote" 
+          name="AEGIS CORE" 
+          ip="#RANDOM_IP#"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		 <LogoDaemon Name="AEGIS CORE" ShowsTitle="false" TextColor="229,65,65, 200" LogoImagePath="">
+		 AEGIS CORE SERVER</LogoDaemon>
+		 <WhitelistAuthenticatorDaemon Remote="aegiswhitelist"/>
+		  <account username="admin" password="aegis" type="0" />
+		  
+</Computer>

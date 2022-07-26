@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="events" 
+name="events" 
+allowsDefaultBootModule="true"
+ip="#RANDOM_IP#"
+security="200"
+type="1" > 
+
+ <FastActionHost />
+ 
+  
+</Computer>

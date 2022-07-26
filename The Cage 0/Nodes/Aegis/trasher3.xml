@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trasher3" 
+          name="Proxy X-03" 
+          ip="#RANDOM_IP#"
+          security="1"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="2" > 
+  <trace time="-1" />
+  <firewall level="4" solution="trash" additionalTime="0"/>
+  <file path="bin" name="Underwatch.exe">#BINARY#</file>
+  <file path="bin" name="Mightypower.exe">#CLOCK_PROGRAM#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_8498498.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_34598.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_232398.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_5555548498.log">#BINARY#</file>
+  
+  
+  
+</Computer>

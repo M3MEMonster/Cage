@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="trasher">
+  <goals>
+  <goal type="clearfolder" target="trasher1" path="home/logs"/>
+  <goal type="clearfolder" target="trasher2" path="home/logs"/>
+  <goal type="clearfolder" target="trasher3" path="home/logs"/>
+   </goals>
+<missionEnd>addFlags:trasher</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+  <posting title="Recycle Bin">Tyc00n needs you to get rid of some files.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Recycle Bin</subject>
+    <body>Good day #PLAYERNAME#, y'know, now that you're working for us, I need you to do some stuff for me.
+Enter these stations and erase the logs I left, I'm pretty sure you'll recognize them ;), countin' on ya kid.	
+</body>
+    <attachments>
+       <link comp="trasher1" /> 
+    </attachments>
+  </email>
+</mission>

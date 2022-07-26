@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemakerserver" 
+          name="Los Angele's Patients Database" 
+          ip="125.41.222.6"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  <ports>21, 22, 25, 554</ports>
+		  <proxy time="3" />
+		  <portsForCrack val="4" />
+          <firewall level="6" solution="peace" additionalTime="0"/>
+		  <MedicalDatabase />
+		  <trace time="-1" />
+		   <dlink target="b_steven" />
+		   <dlink target="c_stephanie" />
+		   <dlink target="h_lily" />
+		   <dlink target="t_john" />
+		   <dlink target="w_witney" />
+</Computer>

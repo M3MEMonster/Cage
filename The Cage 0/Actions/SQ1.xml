@@ -1,0 +1,9 @@
+<ConditionalActions>
+	<Instantly>
+	<LaunchHackScript Filepath="Scripts/battlehack.xml" DelayHost="events" Delay="2" SourceComp="kaelcomp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/Boss.ogg" Delay="0" DelayHost="events"/>
+	<StartScreenBleedEffect AlertTitle="Destroy Kael's Station" CompleteAction="Actions/fail.xml" TotalDurationSeconds="150" DelayHost="events" Delay="2">Hack into Kael's Computer
+	Delete everything
+	Forkbomb him</StartScreenBleedEffect>
+	</Instantly>
+	</ConditionalActions>

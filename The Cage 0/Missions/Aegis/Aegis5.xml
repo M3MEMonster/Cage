@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis5">
+  <goals>
+   <goal type="clearfolder" target="bastard1" path="sys"/>
+   <goal type="clearfolder" target="bastard2" path="sys"/>
+   <goal type="getstring" target="844549fffdsfe" />
+   </goals>
+ <missionEnd>addFlags:bastards</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+  <posting title="Possible Menace">Kael requires your assistance.</posting>
+  <email>
+    <sender>Kael</sender>
+    <subject>Possible Menace</subject>
+    <body>#PLAYERNAME#, You've been doin' great honestly, and now is your turn to help me.
+	There are some banits that are harassing our projects and servers, and they won't stop
+	unless someone f*cks with them. Here's where you get in, you need to enter their computers and destroy them.
+	Also they apparently are connecting to a really famous Assets server, we need those assets, but one of them must have
+	the password for the server, bring me the password and wipe those bastards their ~sys~ folder.
+</body>
+    <attachments>
+       <link comp="bastard1" /> 
+	   <link comp="bastard2" /> 
+    </attachments>
+  </email>
+</mission>

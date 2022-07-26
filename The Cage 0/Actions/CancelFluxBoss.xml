@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+<Instantly>
+   <CancelScreenBleedEffect DelayHost="events" Delay="0" />
+   <RunFunction FunctionName="playCustomSong:Music/Ritual.ogg"/>
+   <HideNode DelayHost="events" Delay="0" TargetComp="fluxbosscomp" />
+   <RunFunction FunctionName="removeFlags:fluxboss"/>
+   </Instantly>
+
+</ConditionalActions>

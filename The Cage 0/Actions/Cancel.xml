@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<OnDisconnect target="chaoscomp">
+   <CancelScreenBleedEffect DelayHost="events" Delay="0" />
+   <RunFunction FunctionName="playCustomSong:Music/Turbo_Drive.ogg"/>
+</OnDisconnect>
+
+</ConditionalActions>

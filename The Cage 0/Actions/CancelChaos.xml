@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+<Instantly>
+   <CancelScreenBleedEffect DelayHost="events" Delay="0" />
+   <RunFunction FunctionName="playCustomSong:Music/Ritual.ogg"/>
+   <SwitchToTheme ThemePathOrName="Themes/Aegis.xml" FlickerInDuration="3.0" DelayHost="events" Delay="0" />
+   <HideNode DelayHost="events" Delay="0" TargetComp="chaoscomp" />
+   <RunFunction FunctionName="removeFlags:chaosboss"/>
+   </Instantly>
+
+</ConditionalActions>

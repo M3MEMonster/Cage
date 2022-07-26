@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis3">
+  <goals>
+   <goal type="filedownload" target="supplydepot2" file="FTPBounce.exe" path="bin"/>
+   </goals>
+ <missionEnd>addFlags:supplydepot2</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+  <posting title="Supply Depot pt.2">Tyc00n gives you the location of another useful tool.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Supply Depot pt.2</subject>
+    <body>Hey kid, I've linked you another laptop which contains a very useful tool you'll need it later, it's called FTPBounce, it opens
+	FTP Ports, very useful, I think you should download it.
+</body>
+    <attachments>
+       <link comp="supplydepot2" /> 
+    </attachments>
+  </email>
+</mission>

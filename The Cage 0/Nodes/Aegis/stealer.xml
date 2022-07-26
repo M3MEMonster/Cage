@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="stealer" 
+          name="Sean's Laptop" 
+          ip="#RANDOM_IP#"
+          security="1"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="2" > 
+  <trace time="-1" />
+  <firewall level="4" solution="thief" additionalTime="0"/>
+  
+  <file path="home" name="keys.txt">
+  Games:
+  MORTAL FIGHTERS:
+  UNDERWATCH:
+  TAMICO:
+  FIVE DAYS AT JOHNNY'S:
+  ----------------
+  Servers:
+  ACCORD HUB:
+  ACCORD CHAT
+  FLUX FIREWALL: ????
+  FLUX: ????
+  AEGIS IMPORTANT CODES:
+  gVFLnqhdzk
+  K70UNFSFxQ
+  Q8nkh2EAtL</file>
+  <file path="home" name="notes.txt">
+  3023234234
+  -------------
+  admin mmmmssss
+  -------------
+  asdf12345</file>
+  <file path="home" name="Sinagoge.txt">“Science is the highest form of Satanism”.
+“Hate those that earn it, as you would love those that earn it. As Above, so below”.
+“When the world is viewed with no set reality, the lies of society are revealed and the bonds of slavery, broken”.
+– Rev. Michael S. Margolin</file>
+  <file path="home" name="Accord.exe">#BINARY#</file>
+  
+ <file path="bin" name="InterestingProgram.exe">#SECURITYTRACER_PROGRAM#</file>
+</Computer>

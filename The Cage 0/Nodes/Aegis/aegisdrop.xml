@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisdrop" 
+          name="AEGIS Filedrop" 
+          ip="#RANDOM_IP#"
+          security="200"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  <dlink target="aegisirc" />
+		  <positionNear target="aegisirc" position="1" total="3" extraDistance="0.1" force="false"/>
+		  <dlink target="stealer" />
+		  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>	  
+		  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+		  <file path="home/notes/peuthanasia" name="Euthanasia.dll">#PACEMAKER_FW_DANGER#</file>
+		  <account username="admin" password="aegis" type="0" />
+		  <uploadServerDaemon name="AEGIS Dropbox" folder="Drop" 
+                      needsAuth="false" color="255,0,0"/>
+</Computer>

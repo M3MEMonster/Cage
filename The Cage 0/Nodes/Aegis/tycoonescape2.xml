@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tycoonescape2" 
+          name="Skyl3r's Assets" 
+          ip="96.35.124.2"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="3" > 
+<portsForCrack val="4" />
+  <proxy time="3" />
+  <ports>21, 22, 25, 554</ports>
+  <trace time="130" />
+  <firewall level="5" solution="assets" additionalTime="0"/>
+  <file path="home/dlls" name="injectionip.dll">#BINARY#</file>
+  <file path="home/dlls" name="maskerade.dll">#BINARY#</file>
+  <file path="home/dlls" name="solutionip.dll">#BINARY#</file>
+  <file path="home/dlls" name="catcontroller.dll">#BINARY#</file>
+  <file path="home/scripts" name="damon.scp">#BINARY#</file>
+  <file path="home/scripts" name="portchecker.scp">#BINARY#</file>
+  <file path="home/scripts" name="autodownloader.scp">#BINARY#</file>
+  <file path="home/scripts" name="errorsolution.scp">#BINARY#</file>
+  <file path="home/scripts" name="connectionsolution.scp">#BINARY#</file>
+  <file path="home/scripts" name="sendnudes.scp">#BINARY#</file>
+  
+  
+  <file path="home/execubtables" name="miau.exe">#BINARY#</file>
+  <file path="home/execubtables" name="piratePortHack.exe">#BINARY#</file>
+  <file path="home/execubtables" name="Accord.exe">#BINARY#</file>
+  <file path="home/execubtables" name="DayPay2.exe">#BINARY#</file>
+  <file path="home/execubtables" name="EstarCraf.exe">#BINARY#</file>
+  <file path="home/execubtables" name="Mycraft.exe">#BINARY#</file>
+  
+  
+  <file path="home/cats" name="catpics.zip">#BINARY#</file>
+  <file path="home/cats" name="catpics2.rar">#BINARY#</file>
+  <file path="home/cats" name="catpics3.rar">#BINARY#</file>
+  <file path="home/cats" name="catpics4.rar">#BINARY#</file>
+  
+  
+</Computer>

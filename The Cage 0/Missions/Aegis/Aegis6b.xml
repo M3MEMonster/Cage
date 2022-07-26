@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis6b">
+  <goals>
+   <goal type="fileupload" target="playerComp" file="witchery_1.pdf" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="witchery_2.pdf" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="witchery_2a.pdf" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="witchery_3.pdf" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   </goals>
+ <missionEnd>addFlags:aegis6</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+  <posting title="Stupid Request">tyc00n needs your help urgently.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Stupid Request</subject>
+    <body>Hey so, I REALLY need some books, but the thing is... These books are from a Satanic cult... And I'm not sure if I can
+	let myself hack into their servers, sorry kiddo, you'll have to do it for me, but I swear! I'll give you something in exchange,
+	sometime. I need you to breach the server, download everything with the name "witchery" in it, and upload it to our Drop server, I'll
+	link you both servers, the Drop one and the books one, good luck!
+</body>
+    <attachments>
+       <link comp="sataniccult" /> 
+	   <link comp="aegisdrop" /> 
+	   <account comp="aegisdrop" user="admin" pass="aegis" />
+    </attachments>
+  </email>
+</mission>

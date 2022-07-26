@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+    
+    <AddMissionToHubServer MissionFilepath="Missions/Aegis/Aegis12.xml" TargetComp="aegisirc" />
+	
+  </Instantly>
+
+</ConditionalActions>

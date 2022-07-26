@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis6a">
+  <goals>
+   <goal type="getstring" target="gVFLnqhdzk" />
+   <goal type="getstring" target="K70UNFSFxQ" />
+   <goal type="getstring" target="Q8nkh2EAtL" />
+   </goals>
+ <missionEnd>addFlags:aegis6</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+  <posting title="Big Heist">Kael requires your assistance.</posting>
+  <email>
+    <sender>Kael</sender>
+    <subject>Big heist</subject>
+    <body>#PLAYERNAME#, I have a problem, while I've been busy, some keys of our server has been missin', I'm guessing
+	that a hacker stole them to make profit with it and that's something AEGIS doesn't agree with, find the hacker and send me the
+	codes, and if you want you can detroy their computer, that's up to you.
+	
+	I attach you our Drop server IP and the account so you can skip the hacking part.
+</body>
+    <attachments>
+       <link comp="aegisdrop" /> 
+	   <account comp="aegisdrop" user="admin" pass="aegis" />
+    </attachments>
+  </email>
+</mission>

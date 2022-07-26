@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits" name="Credits Server"  ip="99.66.33.55" security="0" allowsDefaultBootModule="true" type="empty">
+
+  
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <firewall level="-1" />
+  <trace time="-1" />
+ 
+
+  <positionNear target="playerComp" position="2" total="3" extraDistance="-0.3"/>
+
+  <file path="home" name="CreditsData.txt">
+~~~~~~~ The Note 2 ~~~~~~~
+  
+^Creator of Hacknet:
+
+Matt Trobbiani
+
+
+^Lead Developer:
+
+Paulina - Mercy Main
+
+^Writing:
+
+Mercy Main - Paulina Zepeda
+
+
+^Graphic Design:
+
+EmmaWatson theme (BalkanImgurian)
+HeartMonitor theme (Google)
+
+
+^Music:
+
+Sabotage
+>Remi Gallego
+
+Ascension
+>Gost
+
+Boss
+>DEADLIFE
+
+Ritual
+>ALEX
+
+The Unknown
+>Dynatron
+
+Trubo Drive
+>Synthatiger
+
+Turbo Killer
+>Carpenter Brut
+
+^Special Thanks:
+
+Admiral Joshua
+Eddynavarro
+SCP-789-J
+aeiou
+sp00py zeta
+Cyrol
+
+^Thanks for playing!
+
+
+</file>
+
+<file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+
+
+<customthemefile path="home" name="kimmy_x-server.sys" themePath="Themes/Kimmyhelp.xml"/>
+
+
+<SongChangerDaemon />
+
+<CreditsDaemon Title="AEGIS" ButtonText="Unregister" ConditionalActionSetToRunOnButtonPressPath="Actions/credits.xml"/>
+
+</Computer>

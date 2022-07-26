@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dump6">
+  <goals>
+   
+   </goals>
+
+ <nextMission>NONE</nextMission>
+ <posting title="Into the frey"></posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="b_steven"
+         name="KBT-PM 2.44 REG#10112"
+         ip="#RANDOM_IP#"
+         security="2"
+         allowsDefaultBootModule="true"
+         icon="DLCServer"
+         type="3" >
+		  <ports>104, 554</ports>
+		  <proxy time="-1" />
+		  <portsForCrack val="2" />
+          <firewall level="6" solution="murderer" additionalTime="0"/>
+		  <trace time="-1" />
+
+		 		 
+<HeartMonitor patient="B_Steven"/>
+
+
+</Computer>

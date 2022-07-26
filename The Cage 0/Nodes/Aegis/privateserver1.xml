@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="privateserver1" 
+          name="Unsurprised Attack Games Server" 
+          ip="#RANDOM_IP#"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="3" > 
+  <CustomConnectDisplayDaemon />
+  <trace time="90" />
+  <firewall level="5" solution="leaks" additionalTime="0"/>
+  <file path="home/cd-keys/hacker_wars" name="keys.txt">Keys: 
+  4mHX20P78g
+  G2xdDyoOu0
+  FEroN8HuCv
+  AWPkg2FTzN
+  RpRMlx0KaZ</file>
+  <file path="home/cd-keys/underwatch" name="keys.txt">Keys:
+  NubSEOs(dA*hWxv
+  0U1>nQ_$_)Iu9s+
+  8ds7khR68l
+  5EbIPnbccR</file>
+  <file path="home/cd-keys/clubpigeon" name="keys.txt">Keys:
+  kVNocSr6zOGDEVWaKjFAnQPLImYG5Vl8
+  3ihPgN4E2yqBQOjQpeRPgSPuIb324QCM
+  8S0c6aiQSgyIMo30iRNW7TbO402uNGQt
+  gSZs5I5MdbjzAryheE9TqeJid9hEQR4L</file>
+  <file path="home/cd-keys/mortalfighters" name="keys.txt">Keys:
+  837B69BB657FE
+  F71FBA9B19289
+  3E13232E99787
+  E1U3XdNO61</file>
+  <file path="home/cd-keys/cars5" name="keys.txt">Keys:
+  3B388ED961F6FD7523575D2417D38
+  527A4F9DDE84BF12BFFB4F78D7374</file>
+ 
+  </Computer>

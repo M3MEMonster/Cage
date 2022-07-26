@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis13">
+  <goals>
+   <goal type="getstring" target="EAdmin" />
+   <goal type="getstring" target="tens86" />
+   <goal type="fileupload" target="playerComp" file="B_Steven.rec" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="T_John.rec" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="C_Stephanie.rec" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="W_Witney.rec" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   <goal type="fileupload" target="playerComp" file="H_Lily.rec" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   
+   </goals>
+  
+ <missionEnd>addFlags:aegis13,sqfinal</missionEnd>
+
+ 
+ 
+ 
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="The Big Project">Kael needs you urgently now to do something important related to the final project.</posting>
+  <email>
+    <sender>Kael</sender>
+    <subject>The Big Project</subject>
+    <body>#PLAYERNAME#, it feels like you've been from aegis for years, even though your stay was short, this may be the final request I'll ask you
+	(for now), I need you to acces a hospital server and I give me username and password for the Eidolon Security System, it should be somewhere in the database,
+	plus I need you to download the records of some politicians that are now hospitalized in there and upload 'em to the drop server, after that, we will
+	be finished and you'll be free to go back to FLUX, well, the remains of it.
+	</body>
+    <attachments>
+       <link comp="medicallist" /> 
+	  
+    </attachments>
+  </email>
+</mission>

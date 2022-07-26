@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+   
+	<CrashComputer TargetComp="playerComp" CrashSource="fluxdhs" DelayHost="events" Delay="0" />
+    
+  </Instantly>
+
+</ConditionalActions>

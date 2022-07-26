@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dump8">
+  <goals>
+   
+   </goals>
+
+ <nextMission>NONE</nextMission>
+ <posting title="THE GAME">you just lost the game.</posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

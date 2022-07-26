@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis8">
+  <goals>
+   <goal type="fileupload" target="playerComp" file="[INVITATION]Magic_Axe-VIP" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+   
+   </goals>
+  
+ <missionEnd>addFlags:aegis8,chaosboss</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="Without Invitation">tyc00n needs help with some online invitations for an event.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Without Invitation</subject>
+    <body>Heeeey girl :), so while I was watching what were you doin' for us, I wanted you to do something very quick for me, there's a server
+	filled with invitation links, but it uses a Whitelist generator thing and I can't acces the server unless the Whitelist server allows my IP.
+	I know the IP of the Whitelist server but I don't wanna risk it, I don't wanna get tracked, so I beg you to do this for me?
+	
+	I've linked you the Whitelist Server of the invitations Server, find a way to get into the Invitation server you'll find some files with the name
+	"Invitation" on it but only the invitations to meet the famous artist Magic Axe and a VIP one, download the file and upload it to the filedrop.
+</body>
+    <attachments>
+       <link comp="invitationwhitelist" /> 
+	  
+    </attachments>
+  </email>
+</mission>

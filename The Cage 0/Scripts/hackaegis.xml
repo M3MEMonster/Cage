@@ -1,0 +1,31 @@
+flash $#%#$
+clearTerminal $#%#$
+
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+stopMusic $#%#$
+delay 5 $#%#$
+write Iconming Transmission . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write $#%#$
+write Look what we got here, it seems that we could connect to you afterall $#%#$
+delay 5 $#%#$
+write Look, we didn't want to get to this ways of getting what we want but it's the only way $#%#$
+delay 5 $#%#$
+write Your friend has some vital software that belong to us, and he stole it from us and he is making profit with it, something we don't tolerate $#%#$
+delay 8 $#%#$
+write We need something, we need a bait, and that's you $#%#$
+delay 5 $#%#$
+write At some point he will come to your rescue, and that's were we will act, you'll be part of our plan like it or not $#%#$
+delay 7 $#%#$
+write And now sweet princess, good night :) $#%#$
+delay 3 $#%#$
+reboot -i $#%#$
+
+delay 2 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+

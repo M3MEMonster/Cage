@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis7b">
+  <goals>
+   <goal type="getstring" target="195.621.142.1" />
+   </goals>
+  <missionEnd>addFlags:aegis7,aegistraitor</missionEnd>
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="[!]Intruders[2]">Or give Kael the IP Kimmy gave you.</posting>
+  <email>
+    <sender>Kael</sender>
+    <subject>Intruders</subject>
+    <body>Kimmy asked you to give him an incorrect IP.
+</body>
+    <attachments>
+       <link comp="aegiswhitelist" /> 
+	   <account comp="aegiswhitelist" user="admin" pass="aegis" />
+    </attachments>
+  </email>
+</mission>

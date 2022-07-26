@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis9">
+  <goals>
+   <goal type="clearfolder" target="chaoscomp" path="sys"/>
+   <goal type="clearfolder" target="chaoscomp" path="bin"/>
+   <goal type="clearfolder" target="chaoscomp" path="home"/>
+   
+   </goals>
+  
+ <missionEnd>addFlags:aegis9</missionEnd>
+
+ 
+ 
+ 
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="[!]Target: Ch40s">Helping Kael, he could track another FLUX Member.</posting>
+  <email>
+    <sender>Kael</sender>
+    <subject>[!]Target: Ch40s</subject>
+    <body>#PLAYERNAME#, I need your help, since you tracked the hacker, I got more info cause of it, and I got the IP
+	of a FLUX member who tried to breach our servers too, this actions are against our politics and this person must be
+	punished, your mission is to infiltrate the hacer computer and wipe everything, yes, everything, once you're done let me know.
+	</body>
+    <attachments>
+       <link comp="chaoscomp" /> 
+	  
+    </attachments>
+  </email>
+</mission>

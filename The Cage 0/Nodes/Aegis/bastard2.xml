@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bastard2" 
+          name="V1rus's Battlestation" 
+          ip="#RANDOM_IP#"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="2" > 
+  <proxy time="2" />
+  <trace time="70" />
+  <firewall level="5" solution="electronic" additionalTime="0"/>
+  
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_8498498.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_34598.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_232398.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_5555548498.log">#BINARY#</file>
+  <file path="home/logs" name="[02-10-2014]_LOG_CORRUPTED_81233498.log">#BINARY#</file>
+  <file path="bin" name="IPCONFIG.EXE">#BINARY#</file>
+    <file path="bin" name="IPRESETER.EXE">#BINARY#</file>
+	  <file path="bin" name="Accord.exe">#BINARY#</file>
+	  <file path="bin/themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+	  <customthemefile path="bin/themes" name="accord_x-server.sys" themePath="Themes/Accord.xml"/>
+    
+	<file path="home/notes" name="info.txt">
+	server: accord hub server > v1rus / connection
+	server: accord email server > v1rus / behaviour
+	server: accord news server > v1rus / ff5212c
+	server: accord assets server > v1rus / 200.132.512.1 
+	i should get a password for the assets server, lol.</file>
+ <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+ <dlink target="bastard1" />
+ 
+  
+  
+</Computer>

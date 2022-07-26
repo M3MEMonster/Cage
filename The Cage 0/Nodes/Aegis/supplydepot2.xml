@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="supplydepot2" 
+          name="Becki's Laptop" 
+          ip="#RANDOM_IP#"
+          security="1"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="2" > 
+  <trace time="-1" />
+  <firewall level="6" solution="depot" additionalTime="0"/>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+ <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  
+  
+  
+</Computer>

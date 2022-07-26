@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+  <Instantly>
+    
+    <AddMissionToHubServer MissionFilepath="Missions/Aegis/Aegis6a.xml" TargetComp="aegisirc" />
+	<AddMissionToHubServer MissionFilepath="Missions/Aegis/Aegis6b.xml" TargetComp="aegisirc" />
+	<AddMissionToHubServer MissionFilepath="Missions/Aegis/Dump/Dump3.xml" TargetComp="aegisirc" AssignmentTag="tyc00n"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Aegis/Dump/Dump4.xml" TargetComp="aegisirc" AssignmentTag=">neto_"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Aegis/Dump/Dump5.xml" TargetComp="aegisirc" AssignmentTag="h3x4g0n"/>
+  </Instantly>
+
+</ConditionalActions>

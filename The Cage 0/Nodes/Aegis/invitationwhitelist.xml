@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="invitationwhitelist" 
+          name="Invitations Whitelist Server" 
+          ip="#RANDOM_IP#"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+		  <trace time="100" />
+			<firewall level="5" solution="invitated" additionalTime="0"/>
+		  
+		  <CustomConnectDisplayDaemon />
+		  <dlink target="invitationremote" />
+		  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+		  <account username="admin" password="aegis" type="0" />
+		  
+</Computer>

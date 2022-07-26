@@ -1,0 +1,6 @@
+config playerComp kaelcomp 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+write_silent Don't you f*cking dare $#%#$
+write_silent Disconnect now or you'll regret everything $#%#$
+flash $#%#$

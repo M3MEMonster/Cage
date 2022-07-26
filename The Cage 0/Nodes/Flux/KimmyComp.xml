@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kimmycomp" 
+          name="Kim's Station" 
+          ip="175.225.124.2"
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+<account username="admin" password="ilovecats" type="0" />
+<file path="home/backups" name="underwatch.rar">#BINARY#</file>
+<file path="home/backups" name="spaceninjas.rar">#BINARY#</file>
+<file path="home/backups" name="othergames.rar">#BINARY#</file>
+<file path="home/backups" name="projecteuthanasia.rar">#BINARY#</file>
+<file path="home/backups" name="note.txt">too much games, to little time to play</file>
+<file path="home/backups" name="UltimatePower.exe">#CLOCK_PROGRAM#</file>
+
+<file path="home/notes/peuthanasia" name="LastFavourWIP.exe">#BINARY#</file>
+<file path="home/notes/peuthanasia" name="Euthanasia.dll">#PACEMAKER_FW_DANGER#</file>
+
+
+
+</Computer>

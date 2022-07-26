@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis13">
+  <goals>
+   <goal type="clearfolder" target="kaelcomp" path="home"/>
+   <goal type="clearfolder" target="kaelcomp" path="bin"/>
+   <goal type="clearfolder" target="kaelcomp" path="sys"/>
+   <goal type="clearfolder" target="kaelcomp" path="home/reborn"/>
+   <goal type="clearfolder" target="kaelcomp" path="home/downloaded/weapon"/>
+   </goals>
+  
+ <missionEnd>addFlags:aegis14</missionEnd>
+
+ 
+ 
+ 
+ <nextMission>NONE</nextMission>
+ 
+ 
+ <posting title="[!]Redemption">tyc00n gives you the tools to find Kael's IP.</posting>
+  <email>
+    <sender>tyc00n</sender>
+    <subject>Redemption</subject>
+    <body>This is it, the final line, now with the tool I've given you, redeem yourself, and put an end to his hacker career, I'll take care of the rest
+	if he tries to get online again, it was nice to meet you #PLAYERNAME#, maybe one day we'll met.
+	
+	Objectives: Clear the next folders
+	~home
+	~bin
+	~sys
+	~home/reborn
+	~home/downloaded/weapon
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>
