@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="crackstorage" file="OvertaleCrack.exe" path="home/cracks" destTarget="lokidrop" destPath="Drop/Uploads"/>
+  <goal type="filedeletion" target="barpenterwhitelist" file="authenticator.dll" path="Whitelist"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+ <missionStart>loadConditionalActions:Actions/Forum1Completed.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/Forum2Completed.xml</missionEnd>
+  <nextMission>Missions/Forum3.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>BitTorrent</sender>
+    <subject>Thanks</subject>
+    <body>Hey dude.
+	
+I don't know who you are but thanks, my friend took so long to do a simple thing, I owe you, thanks for doing this for me! I may not have something useful but you can take a copy of my x-server, it's unique and I don't think other people have it, and feel free to use my computer for shell things, you're welcome to do it.</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

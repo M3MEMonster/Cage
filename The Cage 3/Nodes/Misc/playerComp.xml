@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME#'s Computer" icon="DLCPC2" type="empty" allowsDefaultBootModule="false">
+<PointClicker />
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="theone" additionalTime="-1"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  <dlink target="msg1" />
+  <dlink target="assets" />
+  <dlink target="spiderbenb" />
+  <customthemefile path="sys" name="Player_x-server.sys" themePath="Themes/Player.xml"/>
+<file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="terroristserver" name="Guiding Light Mail Server" ip="128.163.2.1"  type="empty">
+
+  <portsForCrack val="3" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="5" solution="boom" additionalTime="0"/>
+  <trace time="60" />
+  <account username="nolly22" password="welcometohell" type="2" />
+  <account username="dallas76" password="diewithhonor" type="2" />
+  <account username="admin" password="77458165" type="2" />
+<mailServer name="Guiding Light Mail" color="113,115,138">
+<email recipient="admin" sender="dallas76" subject="Problems">Admin, we've detected many unauthorized connections to our database server, what should we do? Maybe it's the goverment.</email>
+<email recipient="admin" sender="dallas76" subject="RE:Problems">Didn't we reinforce the server security? Dallas, I need you to stay online and keep an eye on the newbie, we don't want any surprises.</email>
+<email recipient="nolly22" sender="admin" subject="Welcome">Newbie, welcome to our organization, we are pleased to welcome another fellow member to our fold to seek the truth of all divinities and share it with the world, I hope your stay is comfortable as we hope too, for you to respect the rules of our group.
+
+I've linked you the IP of our assets server.
+Guiding Light Assets Server: 192.168.96.33
+
+Welcome.
+-K</email>
+</mailServer>
+  
+  
+  <tracker/>
+  </Computer>

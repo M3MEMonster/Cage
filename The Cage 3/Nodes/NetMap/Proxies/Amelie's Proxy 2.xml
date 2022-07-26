@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="amelieproxy2" name="Proxy A-02" icon="DLCServer" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>80, 554, 21</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="3" />
+  <file path="home" name="readme.txt">You may enconunter the final part of the mission, getting admin access to the last node will count as the file goal to complete the test, good luck.</file>
+  <file path="home" name="wink.txt">Left something in this node for you #PLAYERNAME#, you may need it now or later.
+  
+-A</file>
+<memoryDumpFile name="login.md" path="home">
+    <Memory>
+      
+     
+      <Commands>
+        <Command>dscan amelietablet</Command>
+		<Command>login admin rosewell</Command>
+		<Command>dscan 65.98.??.??</Command>
+		<Command>login admin useful</Command>
+      </Commands>
+     
+    </Memory>
+  </memoryDumpFile>
+<file path="bin" name="Cracknet_Backup.zip">#BINARY#</file>
+<file path="bin" name="Games.rar">#BINARY#</file>
+<file path="bin" name="rar.txt">Who the hell uses wonrar nowadays lol.</file>
+<file path="bin" name="Dating_App.exe">#BINARY#</file>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file> 
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin/backup" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file> 
+  <file path="bin/backup" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <customthemefile path="sys" name="RainDrop_X-server.sys" themePath="Themes/RainDrop.xml"/>
+  <dlink target="amelieproxy4" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

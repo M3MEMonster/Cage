@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tn-gateway" name="???" icon="chip" ip="1.65.2.1" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>21, 22, 25, 80, 554, 443</ports>
+  <trace time="50" />
+  <proxy time="3" />
+  <firewall level="6" solution="thenote"/>
+  <portRemap></portRemap>
+  
+  
+  
+
+  
+</Computer>

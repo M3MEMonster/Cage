@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lillycord" name="Lillycord" icon="chip" type="empty" allowsDefaultBootModule="true">
+<IRCDaemon themeColor="255, 30, 94" name="Lillycord" needsLogin="true">
+    <user name="LillyCord" color="255, 0, 0"/>
+    
+  </IRCDaemon>
+  <file path="sys" name="Fragment_03.lc">#BINARY#</file>
+  <file path="sys" name="Fragment_04.lc">#BINARY#</file>
+  <file path="sys" name="Fragment_05.lc">#BINARY#</file>
+  <file path="sys" name="Fragment_06.lc">#BINARY#</file>
+  <file path="sys" name="Fragment_07.lc">#BINARY#</file>
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

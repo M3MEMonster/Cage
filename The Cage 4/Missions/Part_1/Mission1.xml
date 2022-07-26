@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="firstemail" activeCheck="true">
+  <goals>
+  
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>Bad News</subject>
+    <body>Okay so.
+    
+After we tried to stop the virus, I got some good and bad news... The bad news is that LunaSec won't be together again, people are overly stressed with what happened in the past, also they think you're dead and so the authorities. It will be hard to explain them that you somehow came back to life. The good news is that whoever made the virus, it's gone, and the virus itself was deleted for good, we're good to go, Aegis probably won't be a thing anymore but there's something that is concerning me, there has been a lot of activity in the sub-net, when you were in the limbo I checked something... You weren't entirely dead... You were dreaming about a possible nuclear blast destroying the states.
+
+But I don't know how you managed to escape, the good thing is that you're here, and I'm here next to you, taking care of you.
+
+Look, I possibly have an idea of where is Meltdawn, yes, she's the one who created LillyCord, but it will be hard, we're gonna need a lot of programs, skills and if it's necessary a team.
+
+First we need to get you ready for this, you lost all your programs and so do I, we're screwed, so for now I'll try to contact a friend.
+
+In the mean time try to find anything related to Meltdawn, we may need that intel later.</body>
+    <attachments>
+       <link comp="equinoxforum" />
+        <note title="Mission">Investigate anything related to Meltdawn.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bastion" name="Bastion's Place" icon="chip" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>104, 554</ports>
+  
+  <trace time="-1" />
+	<dlink target="hackersirc" />
+	
+</Computer>

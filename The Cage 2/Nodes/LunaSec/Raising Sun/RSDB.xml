@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rsdb" name="Raising Sun Databa Base" icon="DLCServer" type="empty"  allowsDefaultBootModule="true">
+
+  <portsForCrack val="3" />
+  <ports>21, 22, 554</ports>
+  <portRemap>22=1425, 21=2200</portRemap>
+  <trace time="60" />
+<firewall level="6"  additionalTime="0.1"/>
+<proxy time="2" /> 
+  
+<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="85,0,150" AdminEmailAccount="kae@rs-mail.com" AdminEmailHostID="rskae" Name="Raising Sun Database">
+<TextRecord>
+<Title>Incidents</Title>
+<Data>Raising Sun co. Operates with heavy artillery most of their cases, We've come to the conclusion of stop developing hard, mechanical and strong hardware using these machines, since our incidents have increased day by day.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>Workers</Title>
+<Data>Number of workers: 2014 Roles: 6</Data>
+</TextRecord> 
+
+<TextRecord>  
+<Title>Project Aegis</Title>
+<Data>Project Aegis was indeed a valuable and most famous thing out there in the united states, after it got taken down we've lost traces of any of their equipment used, it is said that the facility itself was burnt down, with everything included, offices, items, vr sets and even corpses.</Data>
+</TextRecord>  
+
+<TextRecord>
+<Title>A prequel to the Aegis Project, lead by the doctor John Peace himself, after what happened years ago, he wanted to keep the project alive with another name to hide any kind of suspicious activity related to AEGIS. Aegis is no more, now they call themselves Project G.O.D</Title>
+<Data></Data> 
+</TextRecord>
+
+<TextRecord>
+<Title>About that hacker</Title>
+<Data>The famous hacker which killed several politics in that hospital was released from jail and we don't know what to do now, We saw the hacker working for Aegis but that's the only proof we have, we haven't seen any of the hacker's work on the AEGIS VR SET's code, we need to keep an eye on her.</Data>
+</TextRecord> 
+
+<TextRecord>
+<Title>Storage Server</Title>
+<Data>Remember to save the files in the server and erase any log you left there, it's very important, for security reasons, we are working in this new project Kae told us to, seems promising, Raising Sun will be a Raising Corp.</Data>
+</TextRecord>
+</DatabaseDaemon>  
+
+  
+</Computer>

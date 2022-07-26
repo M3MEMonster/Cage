@@ -1,0 +1,24 @@
+<ConditionalActions>
+  
+  <Instantly>
+
+<SwitchToTheme ThemePathOrName="Sequencer/Grid.xml" FlickerInDuration="3.0" DelayHost="events" Delay="0" />
+
+<SwitchToTheme ThemePathOrName="Sequencer/1.xml" FlickerInDuration="0.50" DelayHost="events" Delay="15.5" />
+<SwitchToTheme ThemePathOrName="Sequencer/2.xml" FlickerInDuration="0" DelayHost="events" Delay="15.6" />
+<SwitchToTheme ThemePathOrName="Sequencer/3.xml" FlickerInDuration="0" DelayHost="events" Delay="15.7" />
+<SwitchToTheme ThemePathOrName="Sequencer/4.xml" FlickerInDuration="0" DelayHost="events" Delay="15.8" />
+<SwitchToTheme ThemePathOrName="Sequencer/5.xml" FlickerInDuration="0" DelayHost="events" Delay="15.9" />
+<SwitchToTheme ThemePathOrName="Sequencer/6.xml" FlickerInDuration="0" DelayHost="events" Delay="16" />
+<SwitchToTheme ThemePathOrName="Sequencer/7.xml" FlickerInDuration="0" DelayHost="events" Delay="16.1" />
+<SwitchToTheme ThemePathOrName="Sequencer/8.xml" FlickerInDuration="0" DelayHost="events" Delay="16.2" />
+<SwitchToTheme ThemePathOrName="Sequencer/9.xml" FlickerInDuration="0" DelayHost="events" Delay="16.3" />
+<SwitchToTheme ThemePathOrName="Sequencer/10.xml" FlickerInDuration="0" DelayHost="events" Delay="16.4" />
+
+<SwitchToTheme ThemePathOrName="Sequencer/Grid.xml" FlickerInDuration="0" DelayHost="events" Delay="16.5" />
+
+
+    
+  </Instantly>
+
+</ConditionalActions>

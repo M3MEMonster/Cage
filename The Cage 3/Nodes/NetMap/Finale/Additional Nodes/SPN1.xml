@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="spn1" name="SPN Bridge" icon="chip" type="empty" ip="134.206.40.109" allowsDefaultBootModule="false">
+
+  <portsForCrack val="2" />
+  <ports>22, 80</ports>
+  <trace time="60" />
+	<firewall level="-1"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+
+<Memory>
+	<Data>
+		<Block>Whitelist Login
+Username: SPN_Admin
+Password: 9348yf8w</Block>
+	</Data>
+</Memory>
+
+<dlink target="spn2"/>
+<dlink target="spn3"/>
+<dlink target="spnpass"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

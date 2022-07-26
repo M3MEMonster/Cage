@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-aegislogs" name="Kael's Log Server" icon="DLCServer" type="empty">
+  <adminPass pass="cHJvamVjdGdvZA==2" />
+  <portsForCrack val="201" />
+  <ports>21, 25, 80, 6881, 104</ports>
+  <trace time="-1" />
+  <proxy time="2" />
+  
+  <portRemap></portRemap>
+  <LogoDaemon Name="Kael's Log Server" ShowsTitle="true" TextColor="255,0,0, 200" >
+No More Secrets
+  </LogoDaemon>
+  
+<file path="home" name="LOG__1__KAEL__PROJECT_GOD.logx">Project God has been created by the objective of making a new world for innofensive people, to allow others to fight for freedom, for a place without machines and more humans, Project God is not only about that,it's about seein the world as aplace where we all humans can live together in peace</file>
+<file path="home" name="LOG__2__KAEL__PROJECT_GOD.logx">Project God has advanced really quickly and I'm already to program a really sofisticated A.I, it doesn't have a name yet but it will at some point, that's the point of it? Gotta make it fancy.</file>
+<file path="home" name="LOG__3__KAEL__PROJECT_GODCORRUPTED.logx">#BINARY#</file>
+<file path="home" name="LOG__1__KAEL__VR_SET.logx">The Vr-Set that John talked about seems like a good idea to implement and he kinda offered me the chance to get the source code of that thing, I've been thinking and probably I'd like to have it, just in case.</file>
+<file path="home" name="LOG__2__KAEL__VR_SET.logx">So, I've been digging around and nothing, Haven't found anything. John forgot to tell me where to get the Source Code, I think he was gonna give it to me personally lol, but I was wrong... I shall wait then</file>
+<file path="home" name="LOG__1__KAEL__THE_IP.logx">I've found an strange computer that supposedly contains the Source Code of this thing, but it doesn't seem legit, I'm gonna check it anyway and see what's inside...</file>
+<file path="home" name="LOG__2__KAEL__THE_IP.logx">It looks like the Source Code of this thing, butI've tried to compile it and nothing happens...</file>
+<file path="home" name="LOG__3__KAEL__THE_IP.logx">I had to encrypt the IP of the computer I used to connect...
+Gonna point it here just to remember to change it later: G23g9KFXVusvuCCD</file>
+<file path="home" name="LOG__1__KAEL__AI_MAD.logx">The Bot has gone crazy and loose... I don't know what the hell happened, I guess it happens when you create a very unstable virus with a aritifical mind... I need to find it and stop it before it initializes the Project God Program...</file>
+<file path="home" name="LOG__2__KAEL__AI_MAD.logx">Fuck it... It's lose somewhere, I'll have to ask for some help, to #BINARYSMALL#... I can't do this by myself...</file>
+  
+  
+  
+
+  
+</Computer>

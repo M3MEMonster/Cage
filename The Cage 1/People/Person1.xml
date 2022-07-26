@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="person1" handle="beckystar123" firstName="Becky" lastName="Garnett" isMale="false" forceHasNeopals="false">
+  <!-- ID is not used yet, but may be used in the future for reference stuff. Handle is this person's account name for things like PointClicker and neopals.
+  forceHasNeopals set to try guarantees they will have a neopals account generated. Otherwise it's random.-->
+  
+  <!-- Any string works here, but it's designed to accept a city name -->
+  <Birthplace name="Califonia" />
+  
+    <!-- You can add as many degrees as you like here - these show up on the academic database-->
+  <Degrees>
+    
+  </Degrees>
+
+  <!-- This info shows up in the medical database-->
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>140</Height> <!-- Height in cm -->
+    <Allergies>Mushrooms, Dust, Bugs</Allergies>
+    <Perscription>Spironolactone x70 bi-monthly :: Aldosterone Inhibitor as a cardiac regulator</Perscription>
+    
+    
+    <Notes>Requires urgent medical attention.</Notes>
+	<Notes>She's slated to be moved to Los Angeles Hospital this weekend.</Notes>
+  </Medical>
+  
+  <!-- date and time of birth - used in medical records
+  Format is: DD/MM/YYYY HH:MM:SS-->
+  <DOB>17/02/2004 15:05:19</DOB>
+  
+  
+</Person>

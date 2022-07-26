@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="draco" name="Draco's Battlecruiser" icon="DLCPC2" ip="32.41.7.11" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80, 192</ports>
+  <trace time="100" />
+	<firewall level="3" solution="copo" additionalTime="0"/>
+<tracker/>
+  <proxy time="2" />
+<dlink target="8bit" />
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="IpTracker.exe">#BINARY#</file>
+<file path="home" name="drak_os.sys">#BINARY# 
+Address: 32.41.7.11
+Security Level: 4
+Avaliable Ports: 22, 21, 25, 80, 192
+Id: draco
+</file>
+<file path="home" name="my_beloved_friend.jpg">http://prntscr.com/krp87n</file>
+<file path="home" name="BetterAccord.exe">#BINARY#</file>
+<file path="sys" name="tracker.sys">#BINARY# System Tracker Initialized</file>
+<file path="bin" name="NMap.exe">#BINARY#</file>
+<file path="bin" name="k-li_installation.msi">#BINARY#</file>
+<file path="bin" name="underwatch_v1.02.exe">#BINARY#</file>
+<file path="bin" name="lolfortress2_gay_edition.exe">#BINARY#</file>
+ <Memory>
+    <Commands>
+      <Command>connect 63.64.85.111</Command>
+      <Command>login admin ??????</Command>
+      
+    </Commands>
+    <Data>
+     
+    </Data>
+    <Images>
+      <Image>Images/13423870_1050668591693218_8911107052469086448_n.jpg</Image>
+    </Images>
+  </Memory>
+<customthemefile path="sys" name="SoulShine_Apofiss_x-server.sys" themePath="Themes/Draco.xml"/>  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

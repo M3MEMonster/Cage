@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mingfortune" name="Ming's fortune" icon="DLCServer"  type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="2" />
+  <ports>1433, 80, 554, 6881</ports>
+  <firewall level="3"  solution="fortune" additionalTime="0"/>
+  <trace time="-1" />
+  <tracker/>
+	<addWebServer name="Ming's Fortune" url="Web/Cache/404Page.html" />
+	<customthemefile path="sys" name="Mystery_x-server.sys" themePath="Themes/Triangle1.xml"/>
+	<file path="home" name="next_targets.txt">x.242.x.x Radox
+163.160.70.x Beast
+1.228.x.x Mayori
+x.106.3.x Kenyan
+49.188.32.165 Kaisa
+
+//Important
+
+???.???.???.???   Pauline's Backup Server</file>
+<file path="home" name="todo.txt">Gather enough people
+-Get the more money possible due to my fortune
+-Take people's money
+-Live life
+-Repeat.</file>
+<file path="home" name="luck.docx">
+In Western culture, a four-leaf clover is often considered to bestow good luck.
+Luck is the experience of notably positive, negative, or improbable events. The naturalistic interpretation is that positive and negative events happen all the time in human lives, both due to random and non-random natural and artificial processes, and that even improbable events can happen by random chance. In this view, being "lucky" or "unlucky" is simply a descriptive label that points out an event's positivity, negativity, or improbability.
+
+Supernatural interpretations of luck consider it to be an attribute of a person or object, or the result of a favorable or unfavorable view of a deity upon a person. These interpretations often prescribe how luckiness or unluckiness can be obtained, such as by carrying a lucky charm or making sacrifices or prayers to a deity. Saying someone is "born lucky" then might mean, depending on the interpretation, anything from that they have been born into a good family or circumstance, or that they habitually experience improbably positive events due to some inherent property or the lifelong favor of a god or goddess in a monotheistic or polytheistic religion.</file>
+
+<file path="home" name="Grinder.exe">#BINARY#</file>
+<file path="home" name="Pinder.exe">#BINARY#</file>
+<file path="home" name="Date_App.exe">#BINARY#</file>
+
+<file path="bin" name="Accord.exe">#BINARY#</file>
+<file path="bin" name="Cracknet.exe">#BINARY#</file>
+<file path="bin" name="BetterAccord.exe">#BINARY#</file>
+<file path="bin" name="IPTracker.exe">#BINARY#</file>
+<file path="bin" name="IPLoger.exe">#BINARY#</file>
+
+<dlink target="radox" />
+<dlink target="beast" />
+<dlink target="mayori" />
+<dlink target="kenyan" />
+
+
+</Computer>

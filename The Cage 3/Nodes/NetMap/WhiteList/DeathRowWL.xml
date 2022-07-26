@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="usadeathrowwl" name="Server Blocker #2513521" ip="253.121.5.252" icon="chip" type="empty" allowsDefaultBootModule="true">
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <portsForCrack val="1" />
+  <ports>1433</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="waitforme" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+<file path="home" name="if_you_here.txt">If you are here, well congrats, I think you're right, she needs to face problems of life herself, it's a way to be stronger, if you're here, thanks, that kinda helped me with my own so.. Yeah.</file>
+
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

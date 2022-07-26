@@ -1,0 +1,26 @@
+======================================
+         Initializing AegisOS
+======================================
+> x-server.sys . . . . . . . . 100%
+> os-config.sys. . . . . . . . 100%
+> bootcfg.dll  . . . . . . . . 100%
+> netcfgx.dll  . . . . . . . . 100%
+======================================
+ Operating System loaded succesfully
+======================================
+Incoming Message from: Maria Torres.
+
+Hey there! Welcome to the first Virtual Reality Hacking system, you were one of the luckiest 
+hackers to be selected to join this private project, once you're inside you'll get to know
+what to do, where to go, and what to hack.
+
+I sincerely appreciate that you've come from so far to be one of our first testers, soon 
+the boot will be completed and you'll be able to use the interface we've prepared for you.
+
+Welcome user, welcome to the project AEGIS
+======================================
+Incoming Message, completed
+======================================
+
+> Boot completed
+> Initializing aegisOS

@@ -1,0 +1,37 @@
+#Chip
+So, anyone heard of the new Barpenter Crut single?
+------------------------------------------
+#Circle
+No, is it good?
+------------------------------------------
+#Chip
+Kinda, he left a teaser in his Theytube channel but it doesn't show the whole song, I want it now...
+------------------------------------------
+#Academic
+Guess you'll have to wait.
+------------------------------------------
+#Chip
+But I don't wanna!
+------------------------------------------
+#Page
+Where can you get these songs?
+------------------------------------------
+#Chip
+On his private CandBamp Server but it doesn't let me enter, it has some kind of whitelist :(
+------------------------------------------
+#Speech
+Anything we could do for you?
+------------------------------------------
+#Chip
+I mean, you could find a way to the whitelist and delete the authenticator.dll, that should do it.
+------------------------------------------
+#Speech
+Any idea where we could find the whitelist?
+------------------------------------------
+#Chip
+>31.21.52.111
+No :( but they have a website, maybe check em?
+------------------------------------------
+#Mod
+Alright, I'll see what I can do.
+------------------------------------------

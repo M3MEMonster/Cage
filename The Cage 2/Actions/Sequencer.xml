@@ -1,0 +1,12 @@
+<ConditionalActions>
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Roller_Mobster.ogg"/>
+<StartScreenBleedEffect AlertTitle="Close The Cage" CompleteAction="Actions/BrainFried.xml" TotalDurationSeconds="168.15" DelayHost="events" Delay="60.26">Get into the Core Server
+wipe the ~sys~ folder
+Upload the lockette into ~home~</StartScreenBleedEffect>
+<LaunchHackScript Filepath="Scripts/Sequencer.txt" DelayHost="events" Delay="32.12" SourceComp="tc-aegiscore2" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<SwitchToTheme ThemePathOrName="Themes/Twilight.xml" FlickerInDuration="3.0" DelayHost="events" Delay="57" />
+
+</Instantly>
+
+</ConditionalActions>

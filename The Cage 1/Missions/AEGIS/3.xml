@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis-3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="clearfolder" target="elizabethstalker2" path="home/elizabeth"/>
+  </goals>
+  
+<missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:darkestsecret</missionEnd>  
+ <nextMission>NONE</nextMission> 
+ 
+	<posting title="Darkest Secret">Customer needs help tracking down some blackmailers and erasing some files.</posting>
+  <email>
+    <sender>Elizabeth Kraig</sender>
+    <subject>Blackmail</subject>
+    <body>Greetings.
+	
+Hello anyone there? I've sent this support ticket because I need help with something... A guy blackmailed me and threatened to upload some personal photos of me to the surface web. I knew I shouldn't have taken those in the first place but I still need help with that, I don't have a way to reach them since they connected to my computer and I don't know anything about computer stuff.
+
+I'd like you to find a way to get to that guy's computer and erase every pic related to me.
+	</body>
+    <attachments>
+       <link comp="elizabethkraig" />
+
+    </attachments>
+  </email>
+</mission>

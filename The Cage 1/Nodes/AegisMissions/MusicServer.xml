@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="musicserver" name="Crut's Files" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>22, 80</ports>
+  <firewall level="2" solution="synths" additionalTime="0"/>
+  <trace time="40" />
+   
+	
+   <LogoDaemon Name="Barpenter Crut" ShowsTitle="false" TextColor="255,0,0, 200" LogoImagePath="Nodes/AegisMissions/crut.png">
+BARPENTER CRUT
+  </LogoDaemon>
+<file path="home/Releases" name="roller_chicken.flac">#BINARY#</file>
+<file path="home/Releases" name="sleep_the_ex_president.flac">#BINARY#</file>
+<file path="home/Releases" name="Le_Pure.flac">#BINARY#</file>
+<file path="home/Releases" name="You're_not_mine.flac">#BINARY#</file>
+<file path="home/Releases" name="Meet_weed_stryker.flac">#BINARY#</file>
+<file path="home/Releases" name="looking_for_your_mom.flac">#BINARY#</file>
+<file path="home/Releases" name="edgy_road.flac">#BINARY#</file>
+<file path="home/Releases" name="disco_ghoul_france.flac">#BINARY#</file>  
+<file path="home/Releases" name="the_bad_and_disgusting_call.flac">#BINARY#</file>
+<file path="home/Releases" name="hug_em_all.flac">#BINARY#</file>
+<file path="home/Releases" name="turbo_lover.flac">#BINARY# i still love her :'c</file>
+<file path="home/Releases" name="escape_from_my_moms_room.flac">#BINARY#</file>
+<file path="home/Releases" name="run_biatch_run.flac">#BINARY#</file>
+<file path="home/Unreleased" name="roller_chicken(8bit_mix).flac">#BINARY#</file>
+<file path="home/Unreleased" name="chew_bubble_ass.flac">#BINARY#</file>
+<file path="home/Unreleased" name="french_song.flac">#BINARY#</file>
+<file path="home/Unreleased" name="meow_i_love_cats.flac">#BINARY#</file>  
+  
+  
+  </Computer>

@@ -1,0 +1,37 @@
+<CustomTheme>
+  <themeLayoutName>blue</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/1121893-full-size-aesthetic-wallpapers-1920x1080.jpg</backgroundImagePath>
+  <defaultHighlightColor>255,41,63</defaultHighlightColor>
+  <defaultTopBarColor>0,0,176,255</defaultTopBarColor>
+  <moduleColorSolidDefault>64,159,255</moduleColorSolidDefault>
+  <moduleColorStrong>0,99,198,80</moduleColorStrong>
+  <moduleColorBacking>5,7,6,201</moduleColorBacking>
+  <exeModuleTopBar>255,0,128,255</exeModuleTopBar>
+  <exeModuleTitleText>255,255,255,255</exeModuleTitleText>
+  <warningColor>255,0,0</warningColor>
+  <subtleTextColor>90,90,90</subtleTextColor>
+  <darkBackgroundColor>8,8,8</darkBackgroundColor>
+  <indentBackgroundColor>12,12,12</indentBackgroundColor>
+  <outlineColor>68,68,68</outlineColor>
+  <lockedColor>65,16,16,200</lockedColor>
+  <brightLockedColor>160,0,0</brightLockedColor>
+  <brightUnlockedColor>0,160,0</brightUnlockedColor>
+  <unlockedColor>39,65,36</unlockedColor>
+  <lightGray>180,180,180</lightGray>
+  <shellColor>222,201,24</shellColor>
+  <shellButtonColor>105,167,188</shellButtonColor>
+  <semiTransText>120,120,120,0</semiTransText>
+  <terminalTextColor>255,0,128</terminalTextColor>
+  <topBarTextColor>126,126,126,100</topBarTextColor>
+  <superLightWhite>2,2,2,30</superLightWhite>
+  <connectedNodeHighlight>222,0,0,195</connectedNodeHighlight>
+  <netmapToolTipColor>213,245,255,0</netmapToolTipColor>
+  <netmapToolTipBackground>0,0,0,70</netmapToolTipBackground>
+  <topBarIconsColor>255,255,255</topBarIconsColor>
+  <thisComputerNode>95,220,83</thisComputerNode>
+  <scanlinesColor>255,255,255,15</scanlinesColor>
+  <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>255,150,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>0,120,255</AFX_WordLogo>
+  <AFX_Other>0,100,255</AFX_Other>
+</CustomTheme>

@@ -1,0 +1,10 @@
+<ConditionalActions>
+<Instantly>
+<KillExe DelayHost="events" Delay="0" ExeName="ESequencer" />
+<CancelScreenBleedEffect DelayHost="events" Delay="0" />
+<RunFunction FunctionName="playCustomSong:Music/Delete_Soul.ogg"/>
+
+<LaunchHackScript Filepath="Scripts/Finale.txt" DelayHost="events" Delay="6" SourceComp="tc-irc" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+</Instantly>
+
+</ConditionalActions>

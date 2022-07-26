@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisdrop" name="AEGIS Dropbox" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>22</ports>
+  <trace time="-1" />
+	<account username="#PLAYERNAME#" password="resources" type="0" />
+	<uploadServerDaemon name="Aegis Dropbox" folder="Drop" 
+                      needsAuth="false" color="166,166,166"/>
+	</Computer>

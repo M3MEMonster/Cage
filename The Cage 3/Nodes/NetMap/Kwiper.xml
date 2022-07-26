@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kwiper" name="Kwiper's Computer" icon="DLCPC2" type="0" allowsDefaultBootModule="false">
+ <adminPass pass="coel" />
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+<tracker/>
+  <proxy time="-1" />
+  <dlink target="crackstorage" />
+<customthemefile path="sys" name="Diamonds_Of_A_Nightmare_Tale_X-Server.sys" themePath="Themes/Kwiper.xml"/> 
+<file path="home" name="Projects.txt">-Naruto
+-Sakura
+-Sasuke
+-HeavenSec
+-HeavenSecII
+-HeavenSecIII
+-HeavenSecIV
+
+Wait, too many HeavenSec.</file>
+<file path="bin" name="Accord.cfg">#BINARY#</file>
+<file path="bin" name="Accord.exe">#BINARY#</file>
+<file path="bin" name="Accord.ini">#BINARY#</file>
+<file path="bin" name="AccordAddons.add">#BINARY#</file>
+<file path="home" name="CracknetOS.msi">#BINARY#</file>
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

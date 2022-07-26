@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tc-aegiscore2" name="AEGIS Core Server" allowsDefaultBootModule="true" type="empty">
+
+  <admin type="progress" resetPassword="true" isSuper="true" />
+  <portsForCrack val="8" />
+  <ports>21, 22, 25, 80, 1433, 6881, 554, 104</ports>
+  <trace time="-1" />
+	<portRemap>21=101, 22=63, 25=99, 80=8080, 1433=214, 6881=1142, 554=661, 104=8894</portRemap>
+	<proxy time="6" />
+	<firewall level="7" solution="thecageisopen" additionalTime="0"/>
+	<account username="admin" password="aegiscoreserver6" type="0" />
+	<LogoDaemon Name="AEGIS Core Server" ShowsTitle="false" TextColor="255, 220, 220, 200" LogoImagePath="">
+~ AEGIS Core ~
+  </LogoDaemon>
+	
+	<file path="PROJECT_AEGIS" name="users.sql">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="usersoptions.dll">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="usersactions.dll">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="Uploadservers.bat">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="WebServer.exe">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="DatabaseServer.exe">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="PortsServer.exe">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="PaceMakerServer.exe">#BINARY#</file>
+	<file path="PROJECT_AEGIS" name="ProjectGODINITIATE.exe">#BINARY#</file>
+	<file path="PROJECT_AEGIS/misc" name="text.txt">sup</file>
+	<file path="PROJECT_AEGIS/misc" name="teaser.txt">The Cage is open, but the Virus is out.</file>
+	</Computer>

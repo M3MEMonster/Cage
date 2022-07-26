@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="torrent" name="Torrent's Personal Computer" ip="30.54.124.1" icon="DLCPC2" type="0" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+<admin type="progress" />
+  <portsForCrack val="1" />
+  <ports>22, 80</ports>
+  <trace time="90" />
+	<firewall level="6" solution="trojan" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="1" />
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+   <file path="home/apps" name="Accord.exe">#BINARY#</file>
+   <file path="home/apps" name="Cracknet.exe">#BINARY#</file>
+   <file path="home/apps" name="ClubPigeon.exe">#BINARY#</file>
+   <file path="home/apps" name="UnderWatch.exe">#BINARY#</file>
+  <customthemefile path="sys" name="Terrace_Of_Planets_x-server.sys" themePath="Themes/Torrent.xml"/>
+  <customthemefile path="sys/backup" name="Terrace_Of_Planets_x-server.sys" themePath="Themes/Torrent.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

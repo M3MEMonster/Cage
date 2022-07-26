@@ -1,0 +1,28 @@
+<ConditionalActions>
+  
+  <Instantly>
+  
+   
+  
+
+  <LaunchHackScript Filepath="Scripts/Terminal1.txt" DelayHost="events" Delay="30" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  <LaunchHackScript Filepath="Scripts/Terminal2.txt" DelayHost="events" Delay="120" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  <LaunchHackScript Filepath="Scripts/Terminal3.txt" DelayHost="events" Delay="300" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox8.txt" TargetComp="equinoxboard" />
+  <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox9.txt" TargetComp="equinoxboard" />
+  <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox10.txt" TargetComp="equinoxboard" />
+  <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox11.txt" TargetComp="equinoxboard" />
+  <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox12.txt" TargetComp="equinoxboard" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </Instantly>
+
+</ConditionalActions>

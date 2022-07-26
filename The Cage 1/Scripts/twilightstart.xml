@@ -1,0 +1,24 @@
+config playerComp twilighthub 0.2 $#%#$
+connect $#%#$
+delay 3 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+write You were told that you belong to us. $#%#$
+delay 3 $#%#$
+write Welcome to Twilight $#%#$
+delay 2 $#%#$
+write Applying new x-server.sys. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write Done. $#%#$
+delay 3 $#%#$
+
+
+
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$

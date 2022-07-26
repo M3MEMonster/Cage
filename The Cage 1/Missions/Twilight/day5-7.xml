@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="twilight5-7" activeCheck="false" shouldIgnoreSenderVerification="true">
+  <goals>
+<goal type="getstring" target="A++" />
+  </goals>
+
+<missionEnd val="2">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+	<posting title="Excitement" requiredRank="10" reqs="twilightmember">Wire needs you to do something related to the uni he goes in.</posting>
+  <email>
+    <sender>Wire</sender>
+    <subject>Excitement</subject>
+    <body>Wena.
+	
+So the thing is, few days ago I took my last exam in uni and I'm afraid of what grade I got on it, well they're not announced yet, and I wanna ask you a simple task.
+
+I want you to access my Uni database server and look for my grade and send it to me, you should look for the name "William Reck". reply with the grade I got okay? That'll put an end to this really annoying anxiety.
+	</body>
+    <attachments>
+       <link comp="wireserver"/> 
+	</attachments>
+  </email>
+</mission>

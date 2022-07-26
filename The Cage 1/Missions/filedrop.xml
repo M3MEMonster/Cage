@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="filedrop" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+  </goals>
+ <missionStart>setAssetServer:aegisdrop</missionStart>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Maritza Torres</sender>
+    <subject>File Drop Server</subject>
+    <body>First of all, good morning.
+	
+Second of all, I have really big news!
+
+I've managed to create a Dropbox server for you to get files from customers or upload them, this feature was requested a lot so you may get contracts which requires the use of this new server, I really hope you're enjoying being part of the Support team, remember you're not gonna be here forever! You're just a tester, a valuable one, hope you have a wonderful day.
+Dr. Maritza Torres
+AEGIS Support Team Leader
+</body>
+    <attachments>
+        <account comp="aegisdrop" user="#PLAYERNAME#" pass="resources" />
+		<link comp="aegisdrop" />
+    </attachments>
+  </email>
+</mission>

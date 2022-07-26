@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+<Instantly>
+    <RunFunction FunctionName="setFaction:aegis" />
+	<RunFunction FunctionName="setHubServer:aegishub"/>
+</Instantly>
+</ConditionalActions>

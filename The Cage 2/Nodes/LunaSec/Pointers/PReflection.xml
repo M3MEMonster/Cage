@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="p-reflection" name="Reflections" ip="reflection" icon="chip" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>21, 25</ports>
+  <trace time="45" />
+  <proxy time="-1" />
+  <firewall level="6" solution="riddle"/>
+  <portRemap></portRemap>
+  <file path="sys" name="password.sys">The first part of the password is: oi </file>
+  
+  
+  
+  
+
+  
+</Computer>

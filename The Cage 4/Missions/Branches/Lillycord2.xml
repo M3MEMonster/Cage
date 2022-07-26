@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="responselillycord" activeCheck="false">
+  <goals>
+  
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">Missions/Part_1/Mission1.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>Oh.</subject>
+    <body>LillyCord.
+    
+I don't know what are you talking about. But I do know someone named like that, if you ever get to know them, stay out of trouble, they will do the impossible to take you down and probably kill you, just like they tried last time.
+
+I know something about her, she made a maniac A.I named LillyCord, because that's not her real name. Lilly has been in the shadowa for a long time, I'm afraid you were interacting with her A.I all along. Look, I know how to find her, kinda, and it will be a pain in the ass but first, you gotta help me with something. Reply when you're ready.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

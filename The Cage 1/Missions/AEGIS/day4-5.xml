@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis4-5" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="delay" time="39"/>
+  </goals>
+  
+<missionEnd val="2">addRankSilent</missionEnd>
+
+  <nextMission>NONE</nextMission>
+	<posting title="Retirement" requiredRank="18" reqs="day3completed">Support Heroes has ended.</posting>
+  <email>
+    <sender>Dr. Maria Torres</sender>
+    <subject>Retirement</subject>
+    <body>Greetings dear #PLAYERNAME#.
+	
+Your support on the AEGIS team won't be forgotten, you've done us real good favour by helping me with this mini-project I made, I wanna thank you for all the time you spent with us, and all the clients you made happy, but it's time for me to say goodbye now.
+
+You've proven yourself to be worthy member of AEGIS and I'll talk with our boss to see if you could get, y'know, promoted. I really hope you do, You must be really tired, maybe you should take a nap #PLAYERNAME#, Hope to see you around more often!
+
+Dr. Maria Torres
+AEGIS Support Team Leader
+	</body>
+    <attachments>
+       
+	</attachments>
+  </email>
+</mission>

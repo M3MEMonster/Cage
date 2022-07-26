@@ -1,0 +1,73 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegislogs" name="Aegis Log Server" icon="DLCPC1" type="empty" allowsDefaultBootModule="true" ip="234.103.28.201">
+<LogoCustomConnectDisplayDaemon logo="Images/AegisLogo.png" title="Images/AegisTitle.png" overdrawLogo="true" buttonAlignment="center" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 80, 1433, 192</ports>
+  <trace time="-1" />
+	
+<tracker/>
+  <proxy time="5" />
+
+<WhitelistAuthenticatorDaemon Remote="aegiswl1"/>
+
+	<file path="home/logs" name="VR_Headset_IP.txt">57.103.29.38</file>
+	
+	  <file path="logdb" name="ENTRY_34873487">Control the AIs, they're getting quite unsettling at sight, they're not even doing what we wanna do, I told them that this is a terrible terrible idea, I may just quit this shitty job and get a better one.</file>
+	  <file path="logdb" name="ENTRY_87485748">What is up with all these files, why are we storing them in this forsaken server, this is supposed to be a logs server, not a storage one, gotta talk about this with Peace.</file>
+	  <file path="logdb" name="ENTRY_93485938">Okay so, why are these fishy files here? I don't remember puttin' 'em here anyway, this must be Kael's fault, he's obsessed with this Project God thing, I can't believe he is still doing it, it failed in the past... Ugh this is annoying, it's like I'm babysitting him.</file>
+	  <file path="logdb" name="ENTRY_48958939">People don't know about this but she's more alive than you think, we gotta stop her, we gotta shut her down NOW, can't you see what she's capable of? You have doomed us all, I'm running, I'm running to my safety, this is what people call a doomsday scenario, where the fuck an AI takes control of the world?!</file>
+	  <file path="logdb" name="ENTRY_88781278">LastFavor.dll the bright invention from a amateur hacker back in time, I can't believe this person made such a powerful and dangerous tool, we gotta have it here, hidden from all the people, we may use this dll for some shit in the future, thanks codename KimmyCat.</file>
+	  <file path="logdb" name="ENTRY_00000001">209890280u9gu94299529g2j984j8959jg829j845j89gj98249j59gj824j8959jg2949j8r429gj8998jef9jvb98we9j8r98jg9j8we98jj89r98j9j8j9832j894j89gj89389j4g #BINARY# DATA CORRUPTED</file>
+	  <file path="logdb" name="ENTRY_00000002">I want to save her, I have to, it's the least thing I can do for my child, Erin... I'm sorry if I failed you, but you gotta take her and run away, really away from here, if my plan doesn't go the way I planned, I'll have to go with plan B, I just hope this person #PLAYERNAME# helps me.</file>
+	  <file path="logdb" name="ENTRY_89378953">I Don't like the glorification of violence
+But , I love the true praise and worship to God,''
+It is crazy how Dark Angel apotheosis glamour of Hollywood
+But, maybe that is why his heart is very cold.
+when he sees people , he looks at them like they're insects
+but, it seems the aphid loves to be around him,
+He sees thing totally different from me
+I love what is good, and he loves what is bad
+he would do what ever he can to reverse me 
+to become like him, In my darken dreams 
+Dark Angel and I had been all over the world
+over 600 years ago, thing have changed 
+But, not Dark Angels heart or his mind,
+I would hear him say, "welcomed to the underground world."
+I would see with my own eyes then,
+the unfound fragile souls that has been abused
+where evil eyes are roaming about
+enemies are always easy to find 
+But, I'm determined to find some kinda mercy
+for these people, they have been genocide ,
+I had seen nothing is safe in this world of darkness
+honest comes from the heart
+People are always out judgment someone
+Then judgment will be all mine 
+I've got a question for you who reads what I bleed
+Do you think even the worst person can change?
+that everyone can be a good person if they just try?</file>
+
+<file path="home/logdb/files" name="Accord.msi">#BINARY#</file>
+<file path="home/logdb/files" name="PROJECTGODINITIATE.exe">#BINARY#</file>
+<file path="home/logdb/files" name="LastBreath.zip">#BINARY#</file>
+<file path="home/logdb/files" name="lastfavor.dll">#BINARY#</file>
+<file path="home/logdb/files/backup" name="lastfavor.dll">#BINARY#</file>
+
+
+<customthemefile path="sys" name="Fragmented_x-server.sys" themePath="Themes/AegisLogs.xml"/>
+
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

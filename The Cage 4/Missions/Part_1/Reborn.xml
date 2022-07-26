@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="reborn" activeCheck="false">
+  <goals>
+ 
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">Missions/Part_1/Mission1.xml</nextMission>
+  
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>!</subject>
+    <body>W-what?!
+    
+I... I was losing you... I didn't want to you know... Leave you, after what happened in LunaSec. I don't know what happened to you, your vital signs just went straigh to 0... Just reply when you're ready.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

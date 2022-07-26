@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="reborn" activeCheck="false">
+  <goals>
+ 
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionStart>loadConditionalActions:Actions/Ricardo.xml</missionStart>
+  <nextMission IsSilent="false">NONE</nextMission>
+  
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Ricardo</sender>
+    <subject>Milos</subject>
+    <body>Expecting a fourth part?
+
+No my friend, it's Ricardo time, let's move your booty to my brazilian beat and let's dance DoTa to the end of days.
+
+Eu seu Ricardo Milos, eu quere bailar con voce.
+
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

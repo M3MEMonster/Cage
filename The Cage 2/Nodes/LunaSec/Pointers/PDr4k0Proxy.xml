@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="p-drako" name="Dr4k0's Proxy" icon="DLCServer" ip="96.36.56.14" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 80, 554, 1433</ports>
+  <trace time="40" />
+  <proxy time="1" />
+  <firewall level="6" solution="storage"/>
+  <portRemap>1433=112</portRemap>
+<file path="home" name="Test_File.txt">This is a test file in the home directory</file>
+<file path="home" name="Ipv10.txt">Ipv10 allows users to create complete new nodes using the new system of IPs using IDs such as random numbers or plain text, now a node can have even a word as an "IP", it still a work in progress so it may not work correctly for now.</file>
+ <Memory>
+    <Commands>
+      <Command>scan</Command>
+      <Command>connect drakophone</Command>
+      <Command>login</Command>
+      <Command>admin</Command>
+	  <Command>r0m</Command>
+    </Commands>
+    <Data>
+     
+    </Data>
+    <Images>
+      
+    </Images>
+  </Memory>
+ 
+
+<eosDevice name="Dr4k0's DPhone" id="p-drako-phone" icon="ePhone2" empty="true" passOverride="r0m">
+    
+    <mail username="draco@ta-mail.com" pass="ta142585" />
+    <mail username="draco@jmail.com" pass="????sd" />
+     <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  </eosDevice> 
+  
+  
+  
+
+  
+</Computer>

@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-storage" name="Raising Sun Storage Server" icon="DLCServer" type="empty" ip="182.168.1.3">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 554</ports>
+  <trace time="70" />
+<firewall level="5"  additionalTime="0"/>
+<proxy time="2" />
+ <admin type="progress" resetPassword="true" isSuper="false"/> 
+  <LogoDaemon Name="Raising Sun Storage" ShowsTitle="false" TextColor="216,171,24, 200" >
+We keep, We Share, We make peace.
+  </LogoDaemon>
+
+<file path="Projects/Aegis" name="dump.dll">#BINARY#</file>  
+<file path="Projects/Manifest2" name="start.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="bottsequence.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="VMTrap.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="serverlist.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="serverstatus.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="serversequence.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="serverip.dll">#BINARY#</file> 
+<file path="Projects/Manifest2" name="launch.bat">#BINARY#</file> 
+<file path="Projects/Manifest2" name="manifest.exe">#BINARY#</file> 
+
+<file path="Projects/AccordRevisited" name="userlist.dll">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="userprivileges.dll">#BINARY#</file> 
+<file path="Projects/AccordRevisited" name="usernames.dll">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="userdata.dll">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="userroles.dll">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="accorddb.dll">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="accordip.dll">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="accordlaunchparameters.bat">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="AccordServer.exe">#BINARY#</file>
+<file path="Projects/AccordRevisited" name="Accord.exe">#BINARY#</file>
+
+<file path="Projects/M.E.M.E_2" name="nodes.zip">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="missions.zip">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="music.zip">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="docs.zip">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="scripts.zip">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="themes.zip">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="info.xml">#BINARY#</file>
+<file path="Projects/M.E.M.E_2" name="MEME2.exe">#BINARY#</file>
+
+<file path="Projects/private/VR_SET" name="connection.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="connectionlog.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="euthanasia.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="mindcontrol.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="userdatabase.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="kbtports.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="pacemakerlist.dll">#BINARY#</file>
+<file path="Projects/private/VR_SET" name="d.dll">OMAE WA MOU SHINDEIRU</file>
+
+
+
+  
+  </Computer>

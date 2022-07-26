@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-maritza" name="Maritza's Average Laptop" icon="DLCLaptop" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>80</ports>
+  <trace time="-1" />
+  <proxy time="10" />
+  
+  <portRemap></portRemap>
+  <file path="home/hub" name="hubaddmember.dll">#BINARY#</file>
+  <file path="home/hub" name="hubkickmember.dll">#BINARY#</file>
+  <file path="home/hub" name="hubbanmember.dll">#BINARY#</file>
+  <file path="home/hub" name="hubgivepermission.dll">#BINARY#</file>
+  <eosDevice name="Maritza Personal Tablet" id="eosIntroPhone" icon="tablet" empty="true" passOverride="alpine">
+     
+    
+    <file path="eos/notes" name="note1.txt">Add more plugins to the hub server for new users.</file>
+	<file path="eos/notes" name="note2.txt">Talk about how to improve the hub server to my co-workers.</file>
+	<file path="eos/notes" name="mail.txt">Mail server has been temporarily disabled, Kael should stop making weird stuff that make everything go down... We had to change the IP to 105.25.3.1, gotta remember it.</file>
+  </eosDevice>
+
+  <tracker/>
+</Computer>

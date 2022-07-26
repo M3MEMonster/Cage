@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="raider" name="Rad3r's Laptop" icon="laptop" ip="111.142.142.142" type="empty" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+  <portsForCrack val="2" />
+  <ports>192</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="memorydumptheothernode" additionalTime="-1"/>
+  <!--<tracker -->
+  <proxy time="3" />
+   <adminPass pass="rootkit" />
+
+<file path="home" name="LifeLike.7z">#BINARY#</file>  
+<file path="home" name="Invitation.inv">#BINARY#</file>
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="why.txt">why people critize social medias a lot nowadays, it's dumb, I mean we're all gonna die right? This AI shit is getting out of hand, anyway back to stealing more precious files cuz I'm a total cunt :^) hehe</file>
+<file path="home" name="Akuma.jpg">http://prntscr.com/kten8h</file>
+<file path="home" name="them.txt">Not exactly my type but I would stay away from them like forever, you can't trust people that had bad reputation in the past, they tried to clean their name but they failed, those guys from LunaSec really fucked them hard in the ass! Lol, good times, wish I knew how to be that cool hacking shit, anyway, never trust them, never trust AEGIS.</file>
+<file path="home" name="new_subject.png">http://prntscr.com/kteotr</file>
+<file path="home" name="smartie.txt">I feel sorry for that kid, im gonna get back the file to them, someday.</file>  
+ <customthemefile path="sys" name="Neon_Mountains_x-server.sys" themePath="Themes/Raider.xml"/>
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

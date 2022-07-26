@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kael" name="Kael's Dreadnaught" ip="200.105.54.63" icon="DLCServer" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80, 554</ports>
+  <trace time="120" />
+	<firewall level="2" solution="exploration" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="2" />
+  <file path="home" name="society.txt">Why is society like this, why do we have to do what they say? Why can't we be free from their judgemental words, we're meant to live life, not to feel trapped, this is just not right, we gotta do something about it</file>
+  <file path="home" name="ai.txt">Is this the boom? The boom of 2070, because if it's I'm all in, this gotta be exploited, and we all gotta do something about it, this is the shit, this is the future, fuck aegis, fuck flux, I'm going to make my own AI, the virus didn't work? well this is going to be thousand times better, you all will see.</file>
+  <file path="bin/backup" name="LastFavor.exe">#BINARY#</file>
+  <file path="bin" name="LastFavor.exe">#BINARY#</file>
+  <file path="bin" name="GodEye.exe">#BINARY#</file>
+  <file path="bin" name="GodEyePreparation.exe">#BINARY#</file>
+  <file path="bin" name="GodEyeDatabase.sql">#BINARY#</file>
+  <file path="bin" name="GodEyeExecute.bat">#BINARY#</file>
+<customthemefile path="sys" name="Apples_Of_Deceit_X-Server.sys" themePath="Themes/Kael.xml"/>
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

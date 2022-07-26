@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="beatrice" name="Beatrice's Laptop" icon="DLCLaptop" ip="185.65.241.1" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>21, 6881, 192, 443</ports>
+  <trace time="70" />
+	<firewall level="6" solution="harambe" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="2" />
+<dlink target="8bit" />
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="BetterAccord.exe">#BINARY#</file>
+<file path="home" name="DrawingApplication.exe">#BINARY#</file>
+<file path="home" name="FightingGameAnimu.exe">#BINARY#</file>
+<file path="home/downloads" name="Sakura_Fighter.exe">#BINARY#</file>
+<file path="home/downloads" name="OverTale.exe">#BINARY#</file>
+<file path="home/downloads" name="HatFrotress2.exe">#BINARY#</file>
+<file path="home/downloads" name="8bit_download_3242.dwl">#BINARY#</file>
+<file path="home/downloads" name="8bit_download_3453.dwl">#BINARY#</file>
+<file path="home/downloads" name="8bit_download_3645.dwl">#BINARY#</file>
+<file path="home/downloads" name="8bit_download_1324.dwl">#BINARY#</file>
+<file path="home/downloads" name="8bit_download_9078.dwl">#BINARY#</file>
+<file path="home/downloads" name="8bit_download_5433.dwl">#BINARY#</file>
+<file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+<file path="bin" name="Clock.txt">precious</file>
+
+<eosDevice name="Beatrice's Tablet" id="beatablet" icon="tablet" empty="true" passOverride="medorayamu">
+    <note>xx.xxx.xx.x</note>
+	<note>Salads, eggs, salt, tomatoes, beef</note>
+	<note>Pencils, notebooks</note>
+	<note>Why gotta University be so rough ugh, wish I could finish it already...</note>
+	<note>Gotta save that deathrow server on my jmail.</note>
+	<note>help</note>
+	<note>addnote note add note</note>
+	<note>this shit's broke lol</note>
+    
+    
+    <mail username="beameme@jmail.com" pass="[HIDDEN]" />
+    <file path="eos" name="meme.sys">dayum</file>
+	
+  </eosDevice>
+  <customthemefile path="sys" name="RWBY_x-server.sys" themePath="Themes/Beatrice.xml"/>  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

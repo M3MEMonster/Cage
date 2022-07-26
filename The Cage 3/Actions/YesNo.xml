@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <LoadMission MissionName="Missions/Lillycord2.xml" />
+  </Instantly>
+
+</ConditionalActions>

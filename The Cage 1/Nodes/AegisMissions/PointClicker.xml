@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pointclicker" name="Point Clicker" icon="DLCServer" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <firewall level="5" additionalTime="0"/>
+  <trace time="50" />
+	
+	<PointClicker />
+</Computer>

@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mayori" name="Mayori's Computer" icon="DLCPC2" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="2" />
+  <ports>1433, 6881, 22</ports>
+  <trace time="60" />
+	<firewall level="2" solution="mecha" additionalTime="0"/>
+<tracker/>
+  <proxy time="1" />
+ <customthemefile path="sys" name="Aura_3_x-server.sys" themePath="Themes/Mayori.xml"/> 
+ <file path="home" name="oz.zip">#BINARY#</file>
+ <file path="home" name="execute.sh">./srcs_node -console -ctf_meow -port 5241</file>
+ <file path="home" name="node.mp3">#BINARY#</file>
+ <file path="home" name="weaa.txt">Bringing so sociable felicity supplied mr. September suspicion far him two acuteness perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no. Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes. Entire its the did figure wonder off. </file>
+ <file path="bin" name="SCMOD.sh">#BINARY#</file>
+ <file path="bin" name="SCMOD.smx">#BINARY#</file>
+ <file path="bin" name="scmod.cfg">sv_mode 1
+ sv_timelimit 0
+ sv_capturelimit 2
+ sv_password ilovekittens
+ sv_hostname New Hot SoloFortress 2 Server</file>
+ <file path="home/nsfw" name="KONGA">http://www.matmartinez.net/nsfw/</file>
+ <eosDevice name="Mayori's Tablet" id="mayoritablet" icon="tablet" empty="true" passOverride="midoriyakun">
+   
+    <note>How this works?.</note>
+	 <note>Ugh why the notes app is so difficult to use, I don't know what's more useless this version or the other one I forgot the name :p.</note>
+	  <note>Save plane tickets just in case of emergency.</note>
+	   <note>Okay so the third part is '50' ... Why are we hiding the IP again? Oh yeah... I must tell the guys abo#BINARY#
+	   //DATA CORRUPTED</note>
+    </eosDevice>
+ 
+ 
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

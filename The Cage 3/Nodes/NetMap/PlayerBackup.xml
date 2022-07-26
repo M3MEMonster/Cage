@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="backupplayer" name="#PLAYERNAME#'s Backup Server" ip="179.139.159.253" icon="DLCPC2" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+	<firewall level="6" solution="realitycheck" additionalTime="-1"/>
+
+ <LogoDaemon Name="????? ?? ???? ???" ShowsTitle="false" TextColor="255,255,255, 200">
+</LogoDaemon>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

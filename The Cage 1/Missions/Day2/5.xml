@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day2-5" activeCheck="true">
+  <goals>
+  
+  <goal type="delay" time="8"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day2/6.xml</nextMission>
+	
+  <email>
+    <sender>???</sender>
+    <subject>Consequences</subject>
+    <body>
+	
+You belong to us now, we'll be watching, stay prepared, the big day is comming.
+
+-Twilight
+	</body>
+    <attachments>
+     
+  
+    </attachments>
+  </email>
+</mission>

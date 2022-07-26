@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="p-gatos" name="Gatos" ip="gatos" icon="chip" type="0">
+
+  <portsForCrack val="4" />
+  <ports>80, 21, 22, 554</ports>
+  <trace time="50" />
+  <proxy time="2" />
+  <firewall level="4" solution="meow"/>
+  <portRemap></portRemap>
+  <file path="sys" name="password.sys">The last part of the password is: 2U </file>
+  
+  
+
+  
+</Computer>

@@ -1,0 +1,41 @@
+config playerComp playerComp 0.1 $#%#$
+clearTerminal $#%#$
+writel_silent Player I'm sorry for not telling you the truth about Paulline $#%#$
+writel_silent  $#%#$
+delay 5.04  $#%#$
+writel_silent It's true, me and Erin had a daughter back in time, and that daughter is Paulline $#%#$
+writel_silent  $#%#$
+delay 5.24  $#%#$
+writel_silent The woman who helped you a couple of years ago $#%#$
+writel_silent  $#%#$
+delay 3.14  $#%#$
+writel_silent My dear Paulline, if you're hearing this I'm so sorry for everything but I had to go $#%#$
+writel_silent  $#%#$
+delay 6.18  $#%#$
+writel_silent I have made terrible things and I didn't want you to get involved, not you, not even Erin $#%#$
+writel_silent  $#%#$
+delay 6.03  $#%#$
+writel_silent You see player, I am the person who everyone is looking for, don't you get it? Remember Hacknet Miami, The Cage and The Note? $#%#$
+writel_silent  $#%#$
+delay 8.28  $#%#$
+writel_silent That was me all along, I'm alive and you've found me $#%#$
+writel_silent  $#%#$
+delay 4.12  $#%#$
+writel_silent I... I've created Aegis they haven't turned me into a A.I, I did that to my self $#%#$
+writel_silent  $#%#$
+delay 7.20  $#%#$
+writel_silent And now I need to do what I wanted from the beginning, to redeeem myself from my mistakes $#%#$
+writel_silent  $#%#$
+delay 6.04  $#%#$
+writel_silent No one has to know about Lillycord, because she doesn't exist anymore $#%#$
+writel_silent  $#%#$
+delay 5  $#%#$
+writel_silent And not $#%#$
+writel_silent  $#%#$
+delay 0.25  $#%#$
+writel_silent even $#%#$
+writel_silent  $#%#$
+delay 0.23  $#%#$
+writel_silent You $#%#$
+writel_silent  $#%#$
+

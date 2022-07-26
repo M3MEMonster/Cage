@@ -1,0 +1,422 @@
+config playerComp playerComp 0.1 $#%#$
+
+clearTerminal $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+
+delay 2 $#%#$
+
+write C $#%#$
+write_silent h $#%#$
+write_silent e $#%#$
+write_silent c $#%#$
+write_silent k $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent g $#%#$
+write_silent  $#%#$
+write_silent M $#%#$
+write_silent e $#%#$
+write_silent n $#%#$
+write_silent t $#%#$
+write_silent a $#%#$
+write_silent l $#%#$
+write_silent  $#%#$
+write_silent S $#%#$
+write_silent t $#%#$
+write_silent a $#%#$
+write_silent t $#%#$
+write_silent e $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+
+delay 2 $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+writel U $#%#$
+write_silent s $#%#$
+write_silent e $#%#$
+write_silent r $#%#$
+write_silent : $#%#$
+write_silent  $#%#$
+write_silent #PLAYERNAME# $#%#$
+
+delay 1  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+
+writel S $#%#$
+write_silent t $#%#$
+write_silent a $#%#$
+write_silent t $#%#$
+write_silent u $#%#$
+write_silent s $#%#$
+write_silent : $#%#$
+write_silent  $#%#$
+write_silent Healthy $#%#$
+
+
+
+delay 3  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+
+writel U $#%#$
+write_silent p $#%#$
+write_silent c $#%#$
+write_silent o $#%#$
+write_silent m $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent g $#%#$
+write_silent  $#%#$
+write_silent m $#%#$
+write_silent e $#%#$
+write_silent s $#%#$
+write_silent s $#%#$
+write_silent a $#%#$
+write_silent g $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent f $#%#$
+write_silent r $#%#$
+write_silent o $#%#$
+write_silent m $#%#$
+write_silent : $#%#$
+write_silent  $#%#$
+write_silent P $#%#$
+write_silent a $#%#$
+write_silent u $#%#$
+write_silent l $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent e $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+
+delay 5  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+
+writel P $#%#$
+write_silent l $#%#$
+write_silent e $#%#$
+write_silent a $#%#$
+write_silent s $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent w $#%#$
+write_silent a $#%#$
+write_silent k $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent u $#%#$
+write_silent p $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent  $#%#$
+delay 1  $#%#$
+write_silent I $#%#$
+write_silent  $#%#$
+write_silent k $#%#$
+write_silent n $#%#$
+write_silent o $#%#$
+write_silent w $#%#$
+write_silent  $#%#$
+write_silent y $#%#$
+write_silent o $#%#$
+write_silent u $#%#$
+write_silent ' $#%#$
+write_silent r $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent i $#%#$
+write_silent l $#%#$
+write_silent l $#%#$
+write_silent  $#%#$
+write_silent t $#%#$
+write_silent h $#%#$
+write_silent e $#%#$
+write_silent r $#%#$
+write_silent e $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent  $#%#$
+delay 1  $#%#$
+write_silent J $#%#$
+write_silent u $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent  $#%#$
+write_silent g $#%#$
+write_silent i $#%#$
+write_silent v $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent m $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent a $#%#$
+write_silent  $#%#$
+write_silent s $#%#$
+write_silent i $#%#$
+write_silent g $#%#$
+write_silent n $#%#$
+write_silent , $#%#$
+delay 1  $#%#$
+write_silent  $#%#$
+write_silent I $#%#$
+write_silent ' $#%#$
+write_silent l $#%#$
+write_silent l $#%#$
+write_silent  $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent a $#%#$
+write_silent y $#%#$
+write_silent  $#%#$
+write_silent h $#%#$
+write_silent e $#%#$
+write_silent r $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent ' $#%#$
+write_silent t $#%#$
+write_silent i $#%#$
+write_silent l $#%#$
+write_silent l $#%#$
+write_silent  $#%#$
+write_silent y $#%#$
+write_silent o $#%#$
+write_silent u $#%#$
+write_silent  $#%#$
+write_silent m $#%#$
+write_silent a $#%#$
+write_silent n $#%#$
+write_silent a $#%#$
+write_silent g $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent t $#%#$
+write_silent o $#%#$
+write_silent  $#%#$
+write_silent c $#%#$
+write_silent o $#%#$
+write_silent m $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent b $#%#$
+write_silent a $#%#$
+write_silent c $#%#$
+write_silent k $#%#$
+write_silent , $#%#$
+write_silent  $#%#$
+delay 2  $#%#$
+write_silent I $#%#$
+write_silent  $#%#$
+write_silent j $#%#$
+write_silent u $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent  $#%#$
+write_silent h $#%#$
+write_silent o $#%#$
+write_silent p $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent y $#%#$
+write_silent o $#%#$
+write_silent u $#%#$
+write_silent ' $#%#$
+write_silent r $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent i $#%#$
+write_silent l $#%#$
+write_silent l $#%#$
+write_silent  $#%#$
+write_silent a $#%#$
+write_silent l $#%#$
+write_silent i $#%#$
+write_silent v $#%#$
+write_silent e $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+
+delay 3  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+writel M $#%#$
+write_silent e $#%#$
+write_silent s $#%#$
+write_silent s $#%#$
+write_silent a $#%#$
+write_silent g $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent o $#%#$
+write_silent v $#%#$
+write_silent e $#%#$
+write_silent r $#%#$
+write_silent . $#%#$
+
+delay 6  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+
+writel E $#%#$
+write_silent x $#%#$
+write_silent e $#%#$
+write_silent c $#%#$
+write_silent u $#%#$
+write_silent t $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent g $#%#$
+write_silent  $#%#$
+write_silent b $#%#$
+write_silent o $#%#$
+write_silent o $#%#$
+write_silent t $#%#$
+write_silent  $#%#$
+write_silent s $#%#$
+write_silent e $#%#$
+write_silent q $#%#$
+write_silent u $#%#$
+write_silent e $#%#$
+write_silent n $#%#$
+write_silent c $#%#$
+write_silent e $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent FATAL ERROR $#%#$
+ 
+delay 3  $#%#$
+writel_silent  $#%#$
+writel_silent  $#%#$
+
+writel S $#%#$
+write_silent y $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent e $#%#$
+write_silent m $#%#$
+write_silent  $#%#$
+write_silent n $#%#$
+write_silent e $#%#$
+write_silent e $#%#$
+write_silent d $#%#$
+write_silent s $#%#$
+write_silent  $#%#$
+write_silent c $#%#$
+write_silent o $#%#$
+write_silent r $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent f $#%#$
+write_silent i $#%#$
+write_silent l $#%#$
+write_silent e $#%#$
+write_silent  $#%#$
+write_silent " $#%#$
+write_silent V $#%#$
+write_silent R $#%#$
+write_silent _ $#%#$
+write_silent S $#%#$
+write_silent y $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent e $#%#$
+write_silent m $#%#$
+write_silent . $#%#$
+write_silent s $#%#$
+write_silent y $#%#$
+write_silent s $#%#$
+write_silent " $#%#$
+write_silent  $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent s $#%#$
+write_silent t $#%#$
+write_silent a $#%#$
+write_silent l $#%#$
+write_silent l $#%#$
+write_silent e $#%#$
+write_silent d $#%#$
+write_silent  $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent  $#%#$
+write_silent " $#%#$
+write_silent s $#%#$
+write_silent y $#%#$
+write_silent s $#%#$
+write_silent " $#%#$
+write_silent  $#%#$
+write_silent f $#%#$
+write_silent o $#%#$
+write_silent l $#%#$
+write_silent d $#%#$
+write_silent e $#%#$
+write_silent r $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+
+
+delay 5 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+writel E $#%#$
+write_silent n $#%#$
+write_silent a $#%#$
+write_silent b $#%#$
+write_silent l $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent g $#%#$
+write_silent  $#%#$
+write_silent t $#%#$
+write_silent e $#%#$
+write_silent r $#%#$
+write_silent m $#%#$
+write_silent i $#%#$
+write_silent n $#%#$
+write_silent a $#%#$
+write_silent l $#%#$
+write_silent  $#%#$
+write_silent c $#%#$
+write_silent o $#%#$
+write_silent n $#%#$
+write_silent s $#%#$
+write_silent o $#%#$
+write_silent l $#%#$
+write_silent e $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+
+

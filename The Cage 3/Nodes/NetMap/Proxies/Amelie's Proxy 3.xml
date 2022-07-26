@@ -1,0 +1,91 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="amelieproxy3" name="Proxy A-03" icon="DLCPC2" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="100" />
+	<firewall level="3" solution="firecracker" additionalTime="0"/>
+<tracker/>
+  <proxy time="2" />
+ <file path="home" name="download_me.txt">Download this file as a goal to complete this test.</file>
+ <file path="home" name="Ips.txt">Ips accesed through this proxy:
+ 218.89.231.230
+187.86.246.86
+237.119.121.35
+226.16.4.16
+147.21.10.121
+136.57.3.59
+80.123.237.159
+144.63.85.34
+25.96.185.175
+165.175.31.211
+168.231.212.95
+74.216.238.197
+252.88.30.84
+90.100.154.177
+72.148.64.70
+192.23.46.219
+242.24.251.78
+200.158.164.55
+108.54.141.164
+114.254.42.191
+128.27.208.226
+233.102.217.85
+167.106.63.223
+133.245.230.174
+69.41.216.69
+170.122.223.98
+80.122.150.252
+183.118.220.40
+13.6.58.167
+245.7.192.71
+
+Sadly all these IPs don't work anymore, Maybe I broke the matrix again!
+</file>
+<file path="home" name="Re-Pack.7z">#BINARY#</file>
+<file path="home" name="Backup_Games_2.7z">#BINARY#</file>
+<file path="home" name="LifeLikent_-_Gotta_Move.mp3">#BINARY#</file>
+<file path="home" name="LifeLikent_-_NightPatrol.mp3">#BINARY#</file>
+<file path="home" name="LifeLikent_._Motion.mp3">#BINARY#</file>
+<file path="home" name="Synthwave.7z">#BINARY#</file>
+<file path="bin" name="Cracknet.exe">#BINARY#</file>
+<file path="bin" name="Accord.exe">#BINARY#</file>
+<file path="bin" name="VirusPacker.bat">#BINARY#</file>
+<file path="bin" name="Cracknet_Theme_Editor.exe">#BINARY#</file>
+<customthemefile path="sys" name="Flowers_II_x-server.sys" themePath="Themes/Flowers2.xml"/>
+  
+   
+   
+   
+   
+   
+   
+   <Memory>
+    <Commands>
+     
+    </Commands>
+    <Data>
+      
+    </Data>
+    <Images>
+      <Image>Images/Trans.png</Image>
+    </Images>
+  </Memory>
+  <eosDevice name="Amelie's Tablet" id="amelietablet" icon="tablet" empty="false" passOverride="rosewell">
+   <file path="eos" name="weird_Server.txt">65.98.32.45</file>
+  </eosDevice>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

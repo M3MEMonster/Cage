@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="delay" time="7"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+ 
+  
+  <nextMission>Missions/IRC1.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Kimmy</sender>
+    <subject>Thanks</subject>
+    <body>I don't know who you are but thanks.
+	
+I've been trying to deal with that tucker for a long time and I don't know why he tries to fuck with my friends and me, I mean the AEGIS shit it's over, they're broken and that bastard is... Uh... Sorry, am I being too weird? I'm just tired of people like him.
+
+Thanks, I really aprecciate what you did now I mean, yeah? I could gave you the password for my computer and figure out that bastard was connected to my node but I was posting it on the forums and honestly I didn't think someone would actually got that far, I mean you're skilled enough to know the password for my computer without telling you, people from Equinox are really... Uh lazy and they wouldn't ever do something to help people there.
+
+Wait, are you... That person? The one that's been helping people on Equinox? Woah man, this is great I owe you a drink, sometime, yeah, I can get in touch later if you want and we could meet you know, but if you can't or are busy I have an Accord account and me and my friends always hang out on a official server, I'll attach the invite link so we can you know, be friends.
+
+-Kimmy
+</body>
+    <attachments>
+    <note title="Invite">https://accord.gg/ZPf2Ysy</note>
+    </attachments>
+  </email>
+</mission>

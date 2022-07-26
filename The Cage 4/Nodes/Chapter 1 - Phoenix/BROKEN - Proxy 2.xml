@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="broken_proxy_2" name="BROKEN - Proxy 2" icon="chip" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="90" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+  
+  
+  <dlink target="broken_recovery_node" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

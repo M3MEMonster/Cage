@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-aegisdrop" name="Aegis Drop Server" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 25, 80, 1433</ports>
+  <trace time="60" />
+  <proxy time="2" />
+  <firewall level="6" solution="resources" additionalTime="0"/>
+  <portRemap>21=11, 22=13, 25=155, 80=8080, 1433=2222</portRemap>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="Cheats.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="2ez.exe">#TRACEKILL_EXE#</file>
+  <customthemefile path="sys" name="Aegis_x-server.sys" themePath="Themes/Aegis.xml"/>
+   <Memory>
+    <Commands>
+      <Command>connect 19.2.xx.x</Command>
+	  <Command>cd home</Command>
+	  <Command>scp SSL.exe</Command>
+	  <Command>rm *</Command>
+	  <Command>dc</Command>
+    </Commands>
+    <Data>
+      <Block>SSL Trojan a well known tool to get into people's computers works like a backdor entering via another already opened port.</Block>
+      <Block>Such only copy of the program, has been deleted</Block>
+    </Data>
+    <Images>
+     
+    </Images>
+  </Memory>
+
+  <uploadServerDaemon name="Aegis Dropbox" folder="Drop" 
+                      needsAuth="false" color="96,96,96"/>
+</Computer>

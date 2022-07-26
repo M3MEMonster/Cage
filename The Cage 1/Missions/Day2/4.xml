@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day2-4" activeCheck="true">
+  <goals>
+  
+  <goal type="delay" time="10"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day2/5.xml</nextMission>
+	
+  <email>
+    <sender>Leonard</sender>
+    <subject>RE: What it's going on?</subject>
+    <body>WWhat the.
+	
+Did you see that? That server is just... I don't know, sorry you had to be part of this, don't worry! maybe it's some stupid server to scare children or script kiddies. I may go take a nap, I'm so tired, see you in however many days I sleep for!
+
+We'll be in touch, maybe.
+	</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

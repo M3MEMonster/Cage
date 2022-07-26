@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackerwebsite" name="Ming's fortune" icon="DLCServer" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="3"  additionalTime="0"/>
+  <trace time="-1" />
+	<addWebServer name="Ming's Fortune" url="Web/Cache/404Page.html" />
+	<dlink target="mingpc" />
+</Computer>

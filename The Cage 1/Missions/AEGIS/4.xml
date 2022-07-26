@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis-4" activeCheck="false">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="hubaddmember.dll" path="home" destTarget="maritza" destPath="home"/>
+  <goal type="fileupload" target="playerComp" file="hubkickmember.dll" path="home" destTarget="maritza" destPath="home"/>
+  <goal type="fileupload" target="playerComp" file="hubbanmember.dll" path="home" destTarget="maritza" destPath="home"/>
+  <goal type="fileupload" target="playerComp" file="hubgivepermissions.dll" path="home" destTarget="maritza" destPath="home"/>
+  </goals>
+  
+<missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:quickening</missionEnd>  
+ <nextMission>NONE</nextMission> 
+ 
+	<posting title="Quickening" requiredRank="2">Maritza requires special help.</posting>
+  <email>
+    <sender>Maritza Torres</sender>
+    <subject>Quickening</subject>
+    <body>Good day #PLAYERNAME#.
+	
+I hope you're having a great day with your contracts, I hope you're polishing your hacker skills, 'cause now I'll require them with this task I'm asking you, it's a little risky though but it's worthy for you.
+
+I need some files but they're in the Core server of AEGIS, basically I need files related to the new HUB they're deploying in a few days, I need those 'cause I want to improve mine too, and those scripts are only avaliable on that server, I want you to sneak in, and grab a copy of all the files with the name "hub" on them, grab a copy of those and upload 'em to my place, in the ~home~ folder.
+
+But apparently the server has some volatile security so it won't be easy to enter probing it, you need an account and a password, the username is admin, and the password is honestly not that hard to guess, they use the server name as a password for reference for their servers, in this case the password would be "aegiscorserver". One other thing, every password has a digit right next to it, but the nubmer is always between 1 and 10, so that is where you will have to guess.
+
+I know, the security is not that severe in that server which is weird since it's one of the main servers than maintain AEGIS online, anyway, I'm countin' on you, I'll be waiting.
+	</body>
+    <attachments>
+       <link comp="maritza" />
+	   <link comp="aegiscore1" />
+
+    </attachments>
+  </email>
+</mission>

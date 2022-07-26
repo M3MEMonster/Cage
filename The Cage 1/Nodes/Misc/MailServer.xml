@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegismail" name="AEGIS Mail" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+	<account username="maritza4152" password="secretpassword" type="2" />
+	<mailServer name="AEGIS" color="116,142,203">
+	
+	
+	<email recipient="maritza4152" sender="John P." subject="Absent">Miss Maritza, did you set your security settings at max? Maritza, I need a break from the project already, I need to talk to the president about the future of this project and I'd like to ask you if you could take the lead for a few days.
+	
+	John Peace
+	Aegis Program Leader</email>
+	<email recipient="maritza4152" sender="John P." subject="RE: Absent">Of course boss, I'll do it without hesitating, back to the security stuff... I'm doing it right now! I just got stuck at the manual for a momento but now it should be set.
+	
+	Boss? Do you mind sending me the log information for the Assets Server? I've tried using mine but it won't work and I don't know why.
+	
+	Maritza Torres
+	Aegis Support Team Leader</email>
+	<email recipient="maritza4152" sender="John P." subject="RE: RE: Absent">Sure thing Miss, before anything, don't use the info to mess around in the server, use it for serious things.
+	
+	USER:		maritza4152
+	PASSWORD:	y7fvwQLRq4
+	
+	I've reset your account password, it seems it was somewhat corrupted but that should do Miss, see you when I'm back at work, have a nice day.
+	
+	John Peace
+	Aegis Program Leader</email>
+	
+	</mailServer>
+</Computer>

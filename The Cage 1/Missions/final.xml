@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="final" activeCheck="true">
+  <goals>
+  
+  <goal type="clearfolder" target="aegiscore2" path="PROJECT_AEGIS"/>
+  </goals>
+  <missionEnd>addFlags:glitched</missionEnd>
+  <nextMission IsSilent="true">Missions/final2.xml</nextMission>
+  
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

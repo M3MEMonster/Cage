@@ -1,0 +1,8 @@
+config playerComp playerComp 0.1 $#%#$
+
+
+write Initiating Host Migration Sequence  $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$

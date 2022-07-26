@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <RunFunction FunctionName="playCustomSong:Music/GameOver.ogg"/> 
+
+<LaunchHackScript Filepath="Scripts/systakeover.txt" DelayHost="events" Delay="75.60" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+ <SetLock DelayHost="events" Delay="0" Module="terminal" IsLocked="true" IsHidden="true" />
+<SetLock DelayHost="events" Delay="0" Module="ram" IsLocked="true" IsHidden="true" />
+<SetLock DelayHost="events" Delay="0" Module="netmap" IsLocked="true" IsHidden="true" />
+<SetLock DelayHost="events" Delay="0" Module="display" IsLocked="true" IsHidden="false" />
+
+ </Instantly>
+
+</ConditionalActions>

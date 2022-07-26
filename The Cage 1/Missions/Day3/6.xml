@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-6" activeCheck="false">
+  <goals>
+  <goal type="getstring" target="go" />
+  </goals>
+  
+ <missionEnd>addFlags:trials2,trial2started</missionEnd>
+  <nextMission>Missions/Day3/7.xml</nextMission>
+	
+  <email>
+    <sender>Leonard</sender>
+    <subject>Trials</subject>
+    <body>Hey #PLAYERNAME#.
+	
+You've been busy huh? Well, me too, when I saw Pauline was doing this Trials thing, it became viral in the whole server, so I decided I'd make one by myself. I really hope it goes viral just like the one that Pauline did.
+
+Although I'm not sure what they were about, her trials I mean, but mine's about... Investigational skills. When you hack and achieve your objective instantly it's not that fun, sometimes it's more fun to make things a little harder by looking at every corner for possible clues, and that's what's my trial is about. I'll be giving you 2 servers, the first server leads to the end of the test but the security is unbreakable, you'll need to find a secret code, and that's why you get the second server. The second server is hackable and from there you'll have to find clues about the code.
+
+When you're ready to go, reply with "go".</body>
+    <attachments>
+      
+    </attachments>
+  </email>
+</mission>

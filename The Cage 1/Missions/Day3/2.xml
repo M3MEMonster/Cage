@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-2" activeCheck="true">
+  <goals>
+  <goal type="delay" time="1"/>
+  </goals>
+  
+<missionEnd>addFlags:forums1</missionEnd>
+  <nextMission>Missions/Day3/3.xml</nextMission>
+	
+  <email>
+    <sender>Pauline</sender>
+    <subject>Johnny</subject>
+    <body>Hey #PLAYERNAME#.
+	
+Do you know where Johnny is?, he's been away for days now and I'm starting to get worried, it's been like a week, and that's just scary, I don't wanna believe he dissapeared because you gave him the tools on opening day, I don't think that's the reason of him not being here.
+
+I have a theory, maybe it wasn't you? Maybe it was AEGIS, maybe they ARE up to something suspicious, cause I'm not sure if u checked the IRC, but he got banned, yes, banned, I mean maybe he was just disconnected from the VR set and AEGIS sent him home, but that's what an innocent would think, I'm not innocent and I'm pretty sure those fuckers are up to something, they're probably reading this mail as we speak.
+
+Anyway #PLAYERNAME#, I... Need to distract myself a little bit, check the forums that Sam gave you, maybe you'll find something to kill time there, see you.
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

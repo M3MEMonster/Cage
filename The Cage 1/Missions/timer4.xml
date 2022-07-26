@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="timer4" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+  <goal type="delay" time="20"/>
+  </goals>
+  <missionEnd>addFlags:twilightmember</missionEnd>
+  <nextMission IsSilent="true">Missions/Day5/1.xml</nextMission>
+  
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

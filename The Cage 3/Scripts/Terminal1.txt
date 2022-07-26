@@ -1,0 +1,63 @@
+config playerComp playerComp 0.1 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+write_silent T$#%#$
+
+write_silent h$#%#$
+
+write_silent i$#%#$
+
+write_silent s$#%#$
+
+write_silent $#%#$
+
+write_silent s$#%#$
+
+write_silent o$#%#$
+
+write_silent n$#%#$
+
+write_silent g$#%#$
+
+write_silent $#%#$
+
+write_silent i$#%#$
+
+write_silent s$#%#$
+
+write_silent $#%#$
+
+write_silent r$#%#$
+
+write_silent e$#%#$
+
+write_silent a$#%#$
+
+write_silent l$#%#$
+
+write_silent l$#%#$
+
+write_silent y$#%#$
+
+write_silent $#%#$
+
+write_silent c$#%#$
+
+write_silent a$#%#$
+
+write_silent t$#%#$
+
+write_silent c$#%#$
+
+write_silent h$#%#$
+
+write_silent y$#%#$
+
+write_silent .$#%#$
+
+write_silent .$#%#$
+
+write_silent .$#%#$
+
+writel_silent $#%#$
+writel_silent $#%#$

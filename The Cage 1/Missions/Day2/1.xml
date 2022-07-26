@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day2-1" activeCheck="true">
+  <goals>
+  <goal type="delay" time="10"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day2/2.xml</nextMission>
+	
+  <email>
+    <sender>Pauline</sender>
+    <subject>Suspicious</subject>
+    <body>Hey new one.
+	
+It's me, Pauline, Don't know if you've been checking the IRC, but I was looking for Johnny and he hasn't given any signal in 3 days. Yep, 3 long days in which you were asleep, I still don't know how this "rest" thing works, like it acts according how much stuff you do in one day and it calculates how many days you need to rest so you have a lucid mind to work (hack).
+
+Honestly that's a little fucked up don't you think? Maybe Johnny is in this rest status and sadly we cannot wake up people when they're sleeping, but there's something that is getting my attention, he appears online for me and I'm pretty sure it's online for a lot of people.
+
+Gotta tell you something, I have a bad feeling about this whole program, honestly now I'm regreting joining this crap, I'll try to find a way to disconnect right now, be right back.
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

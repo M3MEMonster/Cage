@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fluxirc" name="Flux IRC" icon="DLCPC2" ip="142.6.3.123" type="0" allowsDefaultBootModule="true">
+<IRCDaemon themeColor="160, 160, 160" name="Flux IRC Channel" needsLogin="false">
+    <user name="kimmycat" color="155, 0, 0"/>
+    <user name="tyc00n" color="220, 150, 255"/>
+    <user name="h3x" color="40, 87, 255"/>
+	<user name="d0nny" color="80, 224, 90"/>
+
+    <post user="kimmycat">Guys don't forget to bring your laptops, okay?</post>
+	<post user="d0nny">Don't worry, I won't forget those words xD</post>
+	<post user="tyc00n">Hey @d0nny, when is your new ep going to be released?</post>
+	<post user="d0nny">No idea, probably tomorrow? I have no idea tbh, it's really hard to make good songs.</post>
+    <post user="h3x">I get you bro, don't worry we can wait, I guess, can you @tyc00n?</post>
+	<post user="tyc00n">aaaaaaaaaa I can't wait, I need it now.</post>
+	<post user="h3x">Damn gurl, wait, come on.</post>
+	<post user="kimmycat">...</post>
+	<post user="h3x">Kimmy? Something's wrong?</post>
+	<post user="kimmycat">I... I got scammed :( a guy took the file of my grandmother :(</post>
+	<post user="d0nny">Is it that important?</post>
+	<post user="kimmycat">Yes :(</post>
+	<post user="h3x">Why don't you post a thread on Equinox? They may help you.</post>
+	<post user="kimmycat">I'll... Give it a try :(</post>
+  </IRCDaemon>
+  <portsForCrack val="3" />
+  <ports>21, 22, 25, 80</ports>
+  <trace time="110" />
+	
+  <!--<tracker -->
+  <proxy time="2" />
+
+  <dlink target="kimmy" />
+  <dlink target="tyc00n" />
+  <dlink target="h3x" />
+  <dlink target="d0nny" />
+  <dlink target="fluxassets" />
+  
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

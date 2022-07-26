@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="firstemail" activeCheck="false">
+  <goals>
+  
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">Missions/Part_1/Ricardo.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>This is it...</subject>
+    <body>I got nothing else to try.
+    
+You've been like this for weeks... Please if there's something in you, some spark, give me a sign, I'm losing all my hopes, I don't want to lose you.
+
+If you ever see this, reply.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

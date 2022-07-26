@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kimmy" name="Kimmy's Computer" icon="DLCPC2" type="empty" allowsDefaultBootModule="false">
+ <adminPass pass="ilovecats" />
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+ <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+   <file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/backup" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/backup" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/backup" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+	<file path="home" name="plans_for_summer_done.txt">
+1.-Visit my friends
+2.-Get a job
+3.-Get to know more people
+4.-Beat my illness
+5.-Get more clothes</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="Robbery_Game.exe">#BINARY#</file>
+<file path="bin" name="ITSHIGHNOON.exe">#BINARY#</file> 
+
+<encryptedFile path="home" name="note.dec" extension=".txt" header="The Note" pass="thankyou">
+#PLAYERNAME#.
+You know, we've met for a long time, a really long time and I don't know what to say what i've been holding for a long time, first of all if you're reading this it's because I'm dead, and not because of you, more like because of everything that happened in my life, I lost everything you know, my friends, my parents, my house, I don't know... Everything, and when I met you there in the street, you asked for my name, my situation and why I was wondering alone in the streets at that time. You were worried, and I was grateful someone like you just noticed my existence, honestly #PLAYERNAME#, I will never forget the times you made me laugh and cry, you made me feel so many emotions in the last 10 years being by your side, I'm sorry if at some point I was being a nuisance, it's just I couldn't handle it, you needed your space and I was there being pushy, and clingy I was selfish and I couldn't control my feeling towards you, you know why? because you were my light, you were the reason I was alive, you were everything I wanted in my broken and miserable life, I believed that I had another chance to live, but... That night, when we were about to do it, I was so scared of losing you #PLAYERNAME#, I really didn't want you to be scareed of me either, If you're reading this, I'm dead and theres nothing else you can do now, by just thinking how grateful I'm now for being at peace for once. The disease did beat me, and I tried to fight it back, but I couldn't, you were there tons of times but... I still felt like it was consuming part of my life, I needed to end it sooner or later... I'm glad... I'm glad you were the one that put me to rest.
+
+I love you #PLAYERNAME#.
+Forever yours, Kimmy.
+</encryptedFile>
+
+<file path="home/WIP" name="coolcat.zip">#BINARY#</file>
+<file path="home/WIP" name="newextension.zip">#BINARY#</file>
+<file path="home/WIP" name="hackintime.dll">#BINARY#</file>
+<file path="home/WIP" name="hackontheplanet.dll">#BINARY#</file>
+<file path="home/WIP" name="meandyou.jpg">http://prntscr.com/ha73pu</file>
+<file path="home/WIP/secret" name="lastbreath.dll">#PACEMAKER_FW_DANGER#</file>
+<file path="home/WIP/secret" name="LastFavorWIP.zip">#BINARY#</file>
+<file path="home/backup" name="definetlynotsteam.msi">#BINARY#</file>
+<file path="home/backup" name="installunderwatch.msi">#BINARY#</file>
+<file path="home/backup" name="installclubpigeon.msi">#BINARY#</file>
+<file path="home/backup" name="spaceninjasv2.1.msi">#BINARY#</file>
+<file path="home/backup" name="foxbrowser.msi">#BINARY#</file>
+<file path="home/backup" name="looglechroma.msi">#BINARY#</file>
+<file path="home/backup" name="counteredstrikergloblalwarming.msi">#BINARY#</file>
+<file path="home/backup" name="hackinggame.msi">#BINARY#</file>
+<file path="home/backup" name="brap2.msi">#BINARY#</file>
+<file path="home/backup" name="dnet.msi">#BINARY#</file> 
+  
+ <customthemefile path="sys" name="Hues_Of_Life_X-Server.sys" themePath="Themes/Kimmy.xml"/> 
+  <dlink target="vanilla" />
+  <dlink target="chocolate" />
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nocturna" name="Noctunr4's Dreadnaught" icon="DLCPC2" ip="63.64.85.111" type="empty" allowsDefaultBootModule="false">
+ <adminPass pass="n1ghtst000p" />
+  <portsForCrack val="1" />
+  <ports>192, 554</ports>
+  <trace time="30" />
+<CustomConnectDisplayDaemon />	
+<tracker/>
+  <proxy time="-1" />
+<dlink target="8bit" />
+<dlink target="nocturnabackup" />
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="BetterAccord.exe">#BINARY#</file>
+<file path="home" name="RarWin.7z">#BINARY#</file>
+<file path="home" name="security.bin">#BINARY##BINARY##BINARY#</file>
+<file path="home" name="moller_robster(remix).mp3">#BINARY#</file>
+<file path="home" name="barpenter_crut_logo_1920_1080_free_internet_google_mandingo.jpg">#BINARY#</file>
+  
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>  
+  
+ <customthemefile path="sys" name="Red_Sun_x-server.sys" themePath="Themes/Nocturne.xml"/>  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

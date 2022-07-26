@@ -1,0 +1,28 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <ChangeAlertIcon Target="lunairc" Type="irc" DelayHost="events" Delay="0.1"/>
+
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="3">@#PLAYERNAME# that was spectacular, well done.</AddIRCMessage>
+    <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="7.55">I knew I could count on ya, this is a good day.</AddIRCMessage>
+	<AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="10.59">Oh hey @#PLAYERNAME#, I'm glad you made it.</AddIRCMessage>
+	<AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="13.81">I'm pretty sure you went easy on them...</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="16.63">Nah, I know what I do :p.</AddIRCMessage>
+	<AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="19.70">Okay then, so shall we...?</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="22.62">@#PLAYERNAME#... Welcome to LunaSec!</AddIRCMessage>
+	<AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="26.27">Enjoy it, you deserve it.</AddIRCMessage>
+	<AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="28.69">So what do we do now?</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="30.24">What do you mean?</AddIRCMessage>
+	<AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="31.92">There is no AEGIS or some threat now, like what is our purpose now.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="36.95">Oh I guess I never thought of that</AddIRCMessage>
+	<LaunchHackScript Filepath="Scripts/Terminal4.txt" DelayHost="events" Delay="37.50" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="37.99">I guess we don't have to do anything else?</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="40.84">I actually need help with something, if you could help me... @#PLAYERNAME#.</AddIRCMessage>
+	<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="45.10"/>
+	<AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="45.10">Check your mail.</AddIRCMessage>
+	
+	
+    
+  </Instantly>
+
+</ConditionalActions>

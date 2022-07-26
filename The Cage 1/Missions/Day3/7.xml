@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-7" activeCheck="true">
+  <goals>
+  <goal type="getadmin" target="trialsleonardcomplete"/>
+  
+  </goals>
+  
+	
+  <nextMission IsSilent="true">Missions/Day3/8.xml</nextMission>
+	
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body></body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

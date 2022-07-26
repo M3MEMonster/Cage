@@ -1,0 +1,93 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisdb" name="Aegis Database Server" icon="DLCPC2" type="empty" allowsDefaultBootModule="true">
+<LogoCustomConnectDisplayDaemon logo="Images/AegisLogo.png" title="Images/AegisTitle.png" overdrawLogo="true" buttonAlignment="center" />
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 1433</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="" additionalTime="0"/>
+<tracker/>
+  <proxy time="-1" />
+    <file path="sys" name="pacemakerdriver.dll">#BINARY#</file>
+	<file path="sys/backup" name="pacemakerdriver.dll">#BINARY#</file>
+	<file path="log" name="@20_Connection_from:_103.44.1.102">@20_Connection_from:_103.44.1.102</file>
+	<file path="log/backup" name="@20_Connection_from:_103.44.1.102">@20_Connection_from:_103.44.1.102</file>
+	<customthemefile path="sys" name="Lite_DB_x-server.sys" themePath="Themes/AegisDB.xml"/>
+	<file path="log/???" name="???.entry">Pure software is used to kill people nowadays, I can't believe I gotta need those kind of programs... To hecking do what I want, I'm not a bad person, am I?</file>
+	<customthemefile path="sys" name="Lite_DB_x-server.sys" themePath="Themes/AegisDB.xml"/>
+
+	<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="155, 208, 255"  Name="Aegis Database">
+
+   <TextRecord>
+<Title>Submissions are open</Title>
+<Data>Everyone is welcome to join our first Human to AI test, we'll grant you a ai to work with, and you gotta teach them something in two days, the winners who sucessfully teach the ai what they had to will have a guaranteed job here in Aegis Labs.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>Toshokan</Title>
+<Data>Full Name: Toshokan Yame Kudo
+Country: Japan
+City: Kyoto
+Height: 1,80 ma
+Age: 23
+Sex: Male</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>Clifford</Title>
+<Data>Codename: CF_AI
+Owner: AEGIS Labs
+Current Responsable: Toshokan
+To Teach: Joy, creativity</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>New Subject</Title>
+<Data>Full Name: UNKNOWN (this person goes by #PLAYERNAME#
+Country: ???
+City: ???
+Height: ???
+Age: ???
+Sex: ???
+
+It is impossible for us to determine this subject's information, no records found, keep an eye on 'em.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>LillyCord</Title>
+<Data>Codename: LC_AI
+Owner: ????"=#=???="=?"?HERSELF="=#)")===="
+Current Responsable: #PLAYERNAME#
+To Teach: Nothing</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>???=?="$?="$==</Title>
+<Data>?="?=$?==))=?)=??"=#?="?=?= 
+
+CORRUPTED.
+Check logs for possible solution.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>He will pay</Title>
+<Data>He Will pay</Data>
+</TextRecord>
+  
+  </DatabaseDaemon>
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

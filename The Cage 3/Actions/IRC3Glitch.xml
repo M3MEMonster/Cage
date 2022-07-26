@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+<Instantly>
+
+<RunFunction FunctionName="playCustomSong:Music/PacificPalisades.ogg" DelayHost="events" Delay="0"/>
+
+</Instantly>
+
+<OnConnect target="realitycheck">
+<RunFunction FunctionName="playCustomSongImmediatley:Music/PacificPalisadesGlitch.ogg" DelayHost="events" Delay="0"/>
+<SwitchToTheme ThemePathOrName="Themes/Glitch/1.xml" FlickerInDuration="0" DelayHost="events" Delay="0.22" />
+<SwitchToTheme ThemePathOrName="Themes/Glitch/2.xml" FlickerInDuration="0" DelayHost="events" Delay="2.14" />
+<SwitchToTheme ThemePathOrName="Themes/Glitch/3.xml" FlickerInDuration="0" DelayHost="events" Delay="4.09" />
+<SwitchToTheme ThemePathOrName="Themes/Glitch/4.xml" FlickerInDuration="0" DelayHost="events" Delay="6.14" />
+<SwitchToTheme ThemePathOrName="TerminalOnlyBlack" FlickerInDuration="0" DelayHost="events" Delay="8.04" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/JustMonika.ogg" DelayHost="events" Delay="8.03"/>
+<CrashComputer TargetComp="playerComp" CrashSource="realitycheck" DelayHost="events" Delay="8.05" />
+<LaunchHackScript Filepath="Scripts/realitycheck2.txt" DelayHost="events" Delay="40" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<HideNode DelayHost="events" Delay="5" TargetComp="realitycheck" />
+<SetLock DelayHost="events" Delay="0" Module="terminal" IsLocked="true" IsHidden="false" />
+<SetLock DelayHost="events" Delay="0" Module="ram" IsLocked="true" IsHidden="false" />
+<SetLock DelayHost="events" Delay="0" Module="display" IsLocked="true" IsHidden="false" />
+<SetLock DelayHost="events" Delay="0" Module="netmap" IsLocked="true" IsHidden="false" />
+<AddConditionalActions Filepath="Actions/IRC3GlitchEnd.xml" DelayHost="events" Delay="89.34"/>
+
+
+</OnConnect>
+
+</ConditionalActions>

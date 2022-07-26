@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hillerpc2" name="H4ck's Battlestation" icon="DLCPC2" ip="125.22.142.3" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>80, 21</ports>
+  <firewall level="4"  additionalTime="0"/>
+  <trace time="30" />
+
+  <file path="home" name="log.txt">
+(h4ck):		hey dude i've sent u the password for the server
+(h1ll3r):	wait, it's encrypted, how am i supposed to know the password?
+(h4ck):		wat? you don't have the decypher? omg dude.
+(h1ll3r):	i'm just starting out being a hacker okay?
+(h4ck):		dude, once you get decypher ill tell you the password lol
+(h1ll3r):	aw come on dont be like that
+(h4ck):		sorry dude.
+#BINARY#</file>
+  <file path="home" name="note.txt">reminder, all my encrypted files's passwords are "spooky"</file>
+  
+  
+  <dlink target="hillersv" />
+</Computer>

@@ -1,0 +1,98 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits" name="Disconnect_Node" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  <file path="home" name="CreditsData.txt">
+After the break down of the the core server every 
+hacker was disconnceted so they could come back to reality.
+
+John Peace, founder of AEGIS, was arrested due to his actions 
+towards innocents and he was put nn jail with a death sentence.
+
+Sadly not all the hackers were able to disconnect, some of those poor souls died 
+by the hands of John Peace
+
+The rest escaped thanks to the breach into the core system, they're 
+living their lives now.
+
+Pauline weas the only survivor of your group of friends and she 
+helped you get out of the facility.
+
+Thanks #PLAYERNAME#, you've saved many lives today, 
+now AEGIS won't be formed again.
+  
+~~~~~~~ The Cage ~~~~~~~
+  
+^Creator of Hacknet:
+
+Matt Trobbiani
+
+
+^Lead Developer:
+
+Paulina - Mercy Main
+
+^Writing:
+
+Mercy Main - Paulina Zepeda
+
+
+^Graphic Design:
+
+Leonard Background - Firewatch Team
+Boat Theme - bandeirante
+
+^Music:
+
+A Dark Visage
+>Emmett Brown and Straplocked
+
+Akuma
+Cursed
+Delete Soul
+Dread
+Inser Soul
+Ritual
+Sacrifice
+Witch Craft
+>ALEX and Tokyo Rose
+
+Heavy Artillery
+>Dan Terminus
+
+Imperivm
+>Vogelmusic
+
+Midnight Murder
+>Roborg
+
+Probe
+>Sequencer-exe
+
+Roller Mobster
+>Carpenter Brut
+
+^Grammar Correction
+Kaisa Serian
+
+^Special Thanks:
+
+Admiral Joshua
+Eddynavarro
+SCP-789-J
+aeiou
+sp00py zeta
+Cyrol
+Hydra
+
+^Thanks for playing!
+
+
+</file>
+<file path="home/read" name="read.txt"> 
+Sadly I couldnt find the owners of all the backgrouns used in this ext, but I do give them credit for making such wonderful arts and plus a really big kudo to the musicians and their songs used here, 
+all credits to their respectives owners, thanks for playing!</file> 
+  <CreditsDaemon Title="AEGIS PROGRAM" ButtonText="Disconnect" ConditionalActionSetToRunOnButtonPressPath="Actions/credits.xml"/>	
+</Computer>

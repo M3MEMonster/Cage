@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lotus" name="Lotus's Computer" type="0" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>22, 1433</ports>
+  <trace time="-1" />
+	<firewall level="4" solution="salad" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="5" />
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin/backup" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin/backup" name="note.txt">Well it's a smart thing to keep important files in a separated backup folder, it's fun to see hackers trying to get something they already deleted in their stupidity.</file>
+<file path="home" name="note.txt">Hosting the server was a good idea, we get incomes for making these softwares, though we haven't been caught, yet. Gotta be subtle about this piracy thing, remember kids, PIRACY IS BAD.</file>
+<file path="home" name="AccordInstall.exe">#BINARY#</file>
+<file path="home" name="AccordInstall.zip">This is too!</file>
+<file path="home" name="7z.txt">Why are people using RARWin? I don't get it it's really annoying the fact that you have to click close everytime you open a file and their infinite expiration thing lol, gotta change to sevenZip, best idea ever.</file>
+<eosDevice name="Lotus Phone" id="lotusphone" icon="ePhone" empty="true" passOverride="alpine">
+   
+   
+   <file path="home" name="note.txt">Do you remember? All phones's passwords are alpine, unless they're... weird I don't know.</file>
+  </eosDevice>
+ <customthemefile path="sys" name="Morning_Light_Rose_x-Server-server.sys" themePath="Themes/Lotus.xml"/> 
+  
+  
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

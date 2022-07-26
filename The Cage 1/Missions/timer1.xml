@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="timer1" shouldIgnoreSenderVerification="true">
+  <goals>
+  <goal type="clearfolder" target="elizabethstalker2" path="home/elizabeth"/>
+  <goal type="clearfolder" target="elizabethstalker" path="sys"/>
+  <goal type="delay" time="3"/>
+  </goals>
+  
+  <nextMission>Missions/3a.xml</nextMission>
+  
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

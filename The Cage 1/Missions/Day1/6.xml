@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-6" activeCheck="true">
+  <goals>
+  <goal type="delay" time="10"/>
+  </goals>
+  
+	
+  <nextMission>Missions/Day1/7.xml</nextMission>
+	
+  <email>
+    <sender>Dr. Maritza Torres</sender>
+    <subject>I'm glad</subject>
+    <body>Greetings #PLAYERNAME#.
+	
+I see you were having fun back there with your new friends. Yeah I forgot to mention, chat groups are a thing here, and apparently those are very common now while the HUB server is down, but don't worry, the server is ALMOST ready for deployment.  Anyway, I wanted to ask you something, did you hack into my computer? Remember you can't lie, apparently your IP is on my logs and you downloaded my encrypted file.
+
+Look, I'm not allowed to share those files yet, but I get the urge of using the tools, I mean, the sooner people start hacking the better for us. I have an idea, you do something for me and I'll keep what you did as a secret okay?
+
+I need you to test a prototype server I'm making with another staff member, but I haven't found any volunteers interested in it, It will be revolutionary but apparently for most of the hackers it's not interesting at all, so that's the deal, you help me with my secret project and your sneaky entrance to the assets server will be a secret forever, and maybe I could hide more stuff you do? But for that I need your help, I'll be in touch.
+
+Dr. Maritza Torres
+Aegis Support Team Leader
+	</body>
+    <attachments>
+      
+  </attachments>
+  </email>
+</mission>

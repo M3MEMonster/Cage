@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<Instantly>
+   
+   <RunFunction FunctionName="playCustomSong:Music/Delete_Soul.ogg"/>
+<LoadMission MissionName="Missions/Credits.xml" />
+   </Instantly>
+
+</ConditionalActions>

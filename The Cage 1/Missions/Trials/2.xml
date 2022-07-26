@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="trials-2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="getstring" target="go" />
+  </goals>
+  <missionEnd>addFlags:trials</missionEnd>
+  
+  <nextMission>Missions/Trials/3.xml</nextMission>
+  
+  <email>
+    <sender>Pauline</sender>
+    <subject>Trials</subject>
+    <body>Oh hey.
+	
+You've found my test server, and deleted the file, which means you're now capable of running my trials. They're not that hard, in fact, I'd owe you a favour with these, to train your hacking skills, lots of people tried to get into the server but honestly you're the first one that could do it.
+
+Now that you've signed up for the trials, now it's time to start them, reply "go" when you're ready.
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

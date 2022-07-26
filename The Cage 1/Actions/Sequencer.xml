@@ -1,0 +1,10 @@
+<ConditionalActions>
+ <Instantly>
+	<LoadMission MissionName="Missions/final.xml" />
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/Roller_Mobster.ogg" Delay="0" DelayHost="events"/>
+	<StartScreenBleedEffect AlertTitle="Sabotage the AEGIS program" CompleteAction="Actions/fail.xml" TotalDurationSeconds="168.15" DelayHost="events" Delay="16.13">Gain access to the server
+Erase everything related to AEGIS
+Escape!</StartScreenBleedEffect>
+	<AddConditionalActions Filepath="Actions/Cancel.xml" DelayHost="events" Delay="0"/>
+	</Instantly>
+ </ConditionalActions>

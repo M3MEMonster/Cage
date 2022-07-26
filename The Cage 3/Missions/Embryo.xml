@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+ <goal type="fileupload" target="raider" file="LifeLike.7z" path="home" destTarget="smartie" destPath="home"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  
+  
+  
+  <nextMission IsSilent="false">Missions/Invitation.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>Wow...</subject>
+    <body>#PLAYERNAME#
+	
+Uh... Everything seems normal I guess... Except for the last part, I had no idea that woman's name is Lilly.
+
+Ugh... This reality check thing is getting all my nerves messed up. I think I need a break from all of this. I still don't know what happened to my backup server, maybe it was just corrupted? No idea thought but what was in that shit was creepy. It made your node go offline in no time.
+
+I'll be checking what the hell is going on.
+
+In the mean time, I'll avoid the IRC... You should do the same, probably go check the Forums again :)</body>
+    <attachments>
+      <link comp="equinoxboard" />
+
+    </attachments>
+  </email>
+</mission>

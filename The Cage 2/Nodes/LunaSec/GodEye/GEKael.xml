@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-kael" name="Kael's Dreadnaught" ip="godeye1" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="6" />
+  <ports>22, 21, 80, 1433, 6881, 554</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  <firewall level="6" solution="aegis" additionalTime="0"/>
+  <portRemap></portRemap>
+  <tracker/>
+  <CustomConnectDisplayDaemon />
+  <eosDevice name="Kael's Uphone" id="ga-kael2" icon="ePhone2" empty="false" passOverride="alpine">
+ <mail username="kael@a-mail.com" pass="am55826" />
+<file path="eos/home" name="projectgod.txt">Files almost ready, they're about to get compiled and we'll be able to hack and destroy every device  on existence.</file>
+<file path="eos/home" name="projectgod2.txt">Project God is basically a self-automatized artifical intelligence that works like a Virus.</file>
+<file path="eos/home" name="fuck.txt">Can't believe I sent by accident the log server paassword, meh, just gonna add a 2 at the end lol.</file>
+	
+  </eosDevice>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  
+  <dlink target="ge-kaelbackup" />
+  <dlink target="ge-aegisirc" />
+  
+  <dlink target="ge-aegislogs" />
+
+ 
+  
+  
+  
+
+  
+</Computer>

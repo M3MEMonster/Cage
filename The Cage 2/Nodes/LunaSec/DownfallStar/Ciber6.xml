@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-pc6" name="Ciber Node 6" icon="DLCPC1" type="0">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  <firewall level="6" solution="cibercafe" additionalTime="0.1"/>
+  <portRemap>22=44</portRemap>
+  <file path="bin/games" name="Cracknet.exe">#BINARY#</file>
+  <file path="bin/games" name="omae.exe">#BINARY#</file>
+  <file path="bin/games" name="LeagueOfLosers.exe">#BINARY#</file>
+  <file path="bin/games" name="Underwatch.exe">#BINARY#</file>
+  <file path="bin/games" name="ClubPigeon.exe">#BINARY#</file>
+  <file path="bin/games" name="Crackotel.exe">#BINARY#</file>
+  <file path="bin/games" name="B.R.A.P.exe">#BINARY#</file>
+  <file path="bin/apps" name="Accord.exe">#BINARY#</file>
+  <file path="bin/apps" name="Feisbuk.exe">#BINARY#</file>
+  <file path="bin/apps" name="InLook.exe">#BINARY#</file>
+  <file path="bin/apps" name="MosillyFireglove.exe">#BINARY#</file>
+  <file path="bin/apps" name="2sempai.exe">#BINARY#</file>
+  
+
+  
+  
+  </Computer>

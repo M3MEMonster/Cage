@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="smartie" name="Smarti3's Computer" icon="DLCPC2" ip="222.31.215.255" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="anime" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="4" />
+  <customthemefile path="sys" name="Hackent_Green_x-server.sys" themePath="Themes/Smartie.xml"/>
+   
+   
+    <file path="home" name="Accord.exe">#BINARY#</file>
+	<file path="home" name="ShellSetter.exe">#BINARY#</file>
+	<file path="home" name="creepy_guy.png">http://prntscr.com/kte0y6</file>
+	<file path="home" name="MoonShine.sys">#BINARY#</file>
+	<file path="home" name="Moon.txt">Okay, so they're on, now we gotta go for the third one, oof, this is going to be amazing.</file>
+	<file path="home" name="wot.txt">Now is the winter of our discontent
+Made glorious summer by this sun of York;
+And all the clouds that lour'd upon our house
+In the deep bosom of the ocean buried.
+Now are our brows bound with victorious wreaths;
+Our bruised arms hung up for monuments;
+Our stern alarums changed to merry meetings,
+Our dreadful marches to delightful measures.
+Grim-visaged war hath smooth'd his wrinkled front;
+And now, instead of mounting barded steeds
+To fright the souls of fearful adversaries,
+He capers nimbly in a lady's chamber
+To the lascivious pleasing of a lute.
+But I, that am not shaped for sportive tricks,
+Nor made to court an amorous looking-glass;
+I, that am rudely stamp'd, and want love's majesty
+To strut before a wanton ambling nymph;
+I, that am curtail'd of this fair proportion.</file>
+
+<file path="home" name="server_to_join.txt">https://accord.gg/ZPf2Ysy</file>
+
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+	
+   
+   <Memory>
+    <Commands>
+      <Command>connection from @3.62.5.9</Command>
+     
+    </Commands>
+    <Data>
+     
+    </Data>
+    <Images>
+      <Image>Images/videoblocks-binary-code-display-wall-animation-loop-purple_sbhtnmh0x_thumbnail-full01.png</Image>
+    </Images>
+  </Memory>
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

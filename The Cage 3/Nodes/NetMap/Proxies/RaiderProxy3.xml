@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="smartieraider3" name="Proxy R-03" icon="chip" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 1433, 554, 192</ports>
+  <trace time="100" />
+	<firewall level="6" solution="kawabunga" additionalTime="0"/>
+<tracker/>
+  <proxy time="3" />
+  
+    <customthemefile path="sys" name="Binary_Rain_x-server.sys" themePath="Themes/Raider3.xml"/>
+	 <dlink target="smartieraider4" />
+	  <dlink target="raider" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

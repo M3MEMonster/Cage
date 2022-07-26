@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="twilight5-3" activeCheck="false" shouldIgnoreSenderVerification="true">
+  <goals>
+  <goal type="AddDegree" owner="Parnel Hunnisett" degree="Masters in Programming" uni="Saint Bernard" gpa="3.0"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+	<posting title="Cheating">P4sett needs help with some degrees.</posting>
+  <email>
+    <sender>P4sett</sender>
+    <subject>Cheating</subject>
+    <body>Hello new one.
+
+I need help with a Degree, I completed my programming career but the bastards didn't want to give me my degree 'cause they found out I'm a hacker, and I don't know what the big deal is, since then they've treated me like shit, I'm tired of that, I want you to get into my uni server and add the following Degree.
+
+Name: Parnel Hunnisett
+Degree: Masters in Programming
+Uni: Saint Bernard
+GPA: 3.0
+	</body>
+    <attachments>
+      <link comp="academic" />  
+    </attachments>
+  </email>
+</mission>

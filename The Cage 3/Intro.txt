@@ -1,0 +1,22 @@
+========================================
+          AccordOS Installation
+========================================
+Initializing Installation...
+
+Graphic Interface... 100%
+Network Drivers... 100%
+Loading Nodes... 100%
+Loading Daemons... 100%
+Loading Missions... 100%
+Lading Scripts... 100%
+Loading Artificial Intelligence.................... FATAL ERROR
+
+Please contact Accord Support team via mail(accord@support.com) sending a ticket.
+
+System info:
+6 Successful Drivers out of 7
+Omitting Errors........... DONE
+
+========================================
+          AccordOS Initialized
+========================================

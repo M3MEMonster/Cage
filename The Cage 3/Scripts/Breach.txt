@@ -1,0 +1,24 @@
+config playerComp playerComp 0.1 $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+writel WARNING WARNING WARNING $#%#$
+delay 5 $#%#$
+writel ALL CITIZENS MUST EVACUATE RIGHT NOW $#%#$
+delay 5 $#%#$
+writel THERE HAVE BEEN A BREACH IN THE NUCLEAR SILO SYSTEM $#%#$
+delay 5 $#%#$
+writel WE STILL CAN'T DETERMINE WHAT BROKE INTO IT BUT WE GOT NO TIME $#%#$
+delay 5 $#%#$
+writel THE BOMBS ARE IN THEIR PREPARING STATUS, WE ONLY HAVE A SMALL WINDOW TO EVACUATE $#%#$
+delay 5 $#%#$
+writel WARNING WARNING WARNING $#%#$
+delay 5 $#%#$
+writel ALL CITIZENS EVACUATE NOW, GO TO YOUR NEAREST BUNKER 

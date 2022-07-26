@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="trials-4" activeCheck="true">
+  <goals>
+  <goal type="delay" time="60"/>
+  </goals>
+  
+  <missionStart>playCustomSong:Music/Dread.ogg</missionStart>
+  <missionEnd>addFlags:day2completed</missionEnd>
+  <nextMission>NONE</nextMission>
+  
+  <email>
+    <sender>Pauline</sender>
+    <subject>Congrats</subject>
+    <body>Hey buddy.
+	
+You showed me that you're a really good hacker. I made this "trial" to test if people could actually reach my comp but no one could lol and you did it in three days, anyway, I gotta get back to the AEGIS thing y'know, I was digging and I found some really weird info about their past, about something called "Project God". That worries me, Project God was a terrorist group that once tried to do a mass murder in a hospital via hacking.
+
+That worries me a lot #PLAYERNAME#, and now I may be close to finding the truth behind this project. Oh I almost forgot, your rewards are in my comp! Feel free to download them, you deserve them. Also I'm pretty sure some of 'em may be useful for you in the future.
+
+Cya!
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

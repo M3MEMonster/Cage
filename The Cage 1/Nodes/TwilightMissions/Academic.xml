@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" name="Saint Bernard" icon="DLCServer" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>80, 21, 22, 1433</ports>
+  <proxy time="6" />
+  <firewall level="4"  solution="schoolsout" additionalTime="0"/>
+  <trace time="60" />
+<academicDatabase />
+<tracker/>
+  
+  </Computer>

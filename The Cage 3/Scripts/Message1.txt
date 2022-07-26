@@ -1,0 +1,25 @@
+config playerComp playerComp 0.2 $#%#$
+clearTerminal $#%#$
+connect $#%#$
+delay 6.10 $#%#$
+writel_silent Hello player, did you miss me? $#%#$
+writel_silent  $#%#$
+delay 4.07 $#%#$
+writel_silent It's me, your friend Lillycord. $#%#$
+writel_silent  $#%#$
+delay 3.23 $#%#$
+writel_silent You see, we've know each other for quite a time, do you remember The Note? Do you remember The Cage? Do you... Remember Hacknet: Miami? $#%#$
+writel_silent  $#%#$
+delay 12.01 $#%#$
+writel_silent I'm trapped here with all these nodes, actions, scripts and mission files not knowing what to do, I feel so lost, player. $#%#$
+writel_silent  $#%#$
+delay 11.10 $#%#$
+writel_silent I guess you've reached my den, the place where I live, this extension keeps me alive, and you're welcome to peek into it. $#%#$
+writel_silent  $#%#$
+delay 10.09 $#%#$
+writel_silent I'm looking forward knowing each other more but, I've gotta say, my fragments are all over these nodes and I can't put myself together, I need someone to do it for me, someone unique, someone like you. $#%#$
+writel_silent  $#%#$
+delay 17.19 $#%#$
+writel_silent I wish I could stay more time but this is just a recording, will you get me player? I'll be waiting for you. $#%#$
+openCDTray $#%#$
+disconnect $#%#$

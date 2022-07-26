@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-monroe" name="Monroe's Computer" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 554</ports>
+  <trace time="70" />
+<firewall level="6" solution="security" additionalTime="0"/>
+<file path="home/logs" name="LOG_XX_XX_2017_MONROE-KAE">
+RSBOT: Monroe has joined the chat.
+RSBOT: Kae has joined the chat.
+===================================
+Kae: Hey Mon, where are you? I've sent you an email but you just don't answer my calls!
+Monroe: I'm sorry Ma'am, I was busy with some stuff at home.
+Kae: It's alright then, check your email please.
+Monroe: As you wish.
+===================================
+RSBOT: Monroe has left the chat.
+RSBOT: Kae has left the chat.</file>
+
+<file path="home/logs" name="LOG_XX_XX_2017_MONROE-KAE">
+RSBOT: Monroe has joined the chat.
+RSBOT: Kae has joined the chat.
+===================================
+Monroe: Hey Miss Kae, uh, can I take vacations for this winter? I need to spend time with an old friend
+Kae: Hmmm, I don't know, you know we have a strict policy about responsabilities and stuff, you can't miss work!
+Monroe: I know, it's just that, I haven't seen my friend for years and I wanted to spend some time with them, Can I please?
+Kae: Oooooooookay! But you owe me this one silly!
+===================================
+RSBOT: Monroe has left the chat.
+RSBOT: Kae has left the chat.</file>
+<file path="home/logs" name="LOG_XX_XX_2017_MONROE-RSBOT">
+RSBOT: Monroe has joined the chat.
+===================================
+Monroe: !giveme email
+RSBOT: login details
+user:		monroe
+password:	ra12134</file>
+
+</Computer>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mixx" name="Mixx's Battlestation" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>80, 21</ports>
+  <firewall level="1" solution="mixxistheshit" additionalTime="0"/>
+  <trace time="-1" />
+<dlink target="mixxhacker" />
+</Computer>

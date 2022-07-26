@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" shouldIgnoreSenderVerification="true">
+  <goals>
+  <goal type="getstring" target="yes" />
+  </goals>
+  <missionEnd>addFlags:intro</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Dr. Maritza Torres</sender>
+    <subject>Welcome</subject>
+    <body>Dear patient.
+
+Thanks for joining our first social project, we assure you that your stay in our server as a individual will bring you many levels of comfort. As this is our first day, I'd like you to explore the vast area of this place, you're now in our virtual reality system.
+
+You may ask for help anytime you wish and we will work as soon as possible to satisfy your needs. Please do note that this project is our first one so you may find some glitches and bugs, and we really would appreciate it if you find any, to please report to the authorities, welcome to our new project, welcome to a new life. Welcome, to Project AEGIS.
+
+Dr. Maritza Torres
+Aegis Support Team Leader
+
+(please reply with a "yes" to verify you're comfortable being in this program)
+</body>
+    <attachments>
+       <note title="#PLAYERNAME#">We shall give you permissions to join our first chat hub in real time, please wait while we add your ID to the whitelist.</note>
+    </attachments>
+  </email>
+</mission>

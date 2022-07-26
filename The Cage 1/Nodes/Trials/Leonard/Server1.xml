@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="leonardtest1" name="Trial Waypoint 1" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="2" />
+  <firewall level="3" solution="gifted" additionalTime="0"/>
+  <trace time="50" />
+  
+<ports>21, 22, 25</ports>
+ 
+<file path="home" name="code1.txt">the first code is: 11425
+this is a beginner's gift :)</file> 
+  
+</Computer>

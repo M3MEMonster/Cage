@@ -1,0 +1,35 @@
+<ConditionalActions>
+  
+  <OnConnect target="justicesecret">
+   <StartScreenBleedEffect AlertTitle="Justice"  TotalDurationSeconds="88888888" DelayHost="events" Delay="0">Congratulations!
+You found a secret!
+There are 6 secret nodes!</StartScreenBleedEffect>
+<CancelScreenBleedEffect DelayHost="events" Delay="3" />
+<RunFunction FunctionName="playCustomSong:Music/Genesis.ogg" />
+</OnConnect>
+
+  <OnConnect target="brutsecret">
+   <StartScreenBleedEffect AlertTitle="Brut"  TotalDurationSeconds="88888888" DelayHost="events" Delay="0">Congratulations!
+You found a secret!
+There are 6 secret nodes!</StartScreenBleedEffect>
+<CancelScreenBleedEffect DelayHost="events" Delay="3" />
+<RunFunction FunctionName="playCustomSong:Music/Brut.ogg" />
+</OnConnect>
+
+  <OnConnect target="monikasecret">
+   <StartScreenBleedEffect AlertTitle="Monika"  TotalDurationSeconds="88888888" DelayHost="events" Delay="0">Congratulations!
+You found a secret!
+There are 6 secret nodes!</StartScreenBleedEffect>
+<CancelScreenBleedEffect DelayHost="events" Delay="3" />
+<RunFunction FunctionName="playCustomSong:Music/Sayonara.ogg" />
+</OnConnect>
+
+<OnConnect target="lamission">
+<LoadMission MissionName="Missions/Lillycord2.xml" />
+</OnConnect>
+
+<OnConnect target="lamission2">
+<LoadMission MissionName="Missions/LillyCord.xml" />
+</OnConnect>
+
+</ConditionalActions>

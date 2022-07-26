@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegismf" name="Aegis Mainframe" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+<LogoCustomConnectDisplayDaemon logo="Images/AegisLogo.png" title="Images/AegisTitle.png" overdrawLogo="true" buttonAlignment="center" />
+  <portsForCrack val="99999" />
+  <ports>211</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+
+<WhitelistAuthenticatorDaemon Remote="aegiswl2"/>
+<file path="home/Project_Walls" name="4wsequencer.superdec">#BINARY#</file>
+<file path="home/Project_Walls/backup" name="4wsequencer.superdec">#BINARY#</file>
+	<account username="aegis_38462" password="admin_18362" type="ADMIN"/>
+	<customthemefile path="sys" name="Floral_Pride_x-server.sys" themePath="Themes/AegisMF.xml"/>
+	
+<file path="home/Project_Walls" name="4wsequencer.exe.7z">#BINARY#</file>
+<file path="home/Project_Walls" name="ProjectGodLink.bat">#BINARY#</file>
+<file path="home/Project_Walls" name="AccordTrap.dll">#BINARY#</file>
+<file path="home/Project_Walls" name="VR-SetTrap.dll">#BINARY#</file>
+<file path="home/Project_Walls" name="LCordEnergyCore.lc">#BINARY#</file>
+<file path="home/Project_Walls" name="LCordMemory.lc">#BINARY#</file>
+<file path="home/Project_Walls" name="LCordFeelings.lc">#BINARY#</file>
+<file path="home/Project_Walls" name="Dread.cfg">#BINARY#</file>
+<file path="home/Project_Walls" name="Euthanasia.dll">#BINARY#</file>
+	
+
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="8bit" name="Eighty Bits" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="3" />
+  <ports>6881, 1433, 21, 192</ports>
+  <trace time="80" />
+	<firewall level="6" solution="gaming" additionalTime="0"/>
+<tracker/>
+  <proxy time="-1" />
+  <LogoDaemon Name="Eighty Bits" ShowsTitle="true" TextColor="203, 66, 244, 200" LogoImagePath="Images/8bit.png">
+We get your games
+How you like them
+  </LogoDaemon>
+<file path="home" name="security_tracing_system.ini">#BINARY#</file>  
+<file path="games" name="UnderWatch">#BINARY#</file>
+<file path="games" name="OverTale">#BINARY#</file>
+<file path="games" name="LeagueOfRetards">#BINARY#</file>
+<file path="games" name="B.R.A.P_2">#BINARY#</file>
+<file path="games" name="Hackent: 2">#BINARY#</file>
+<file path="games" name="Aquaman">#BINARY#</file>
+<file path="games" name="Lord_Of_The_Brings">#BINARY#</file>
+<file path="games" name="FarmFrame">#BINARY#</file>
+<file path="games" name="HatFortress2">#BINARY#</file>
+<file path="games" name="The_Box">#BINARY#</file>
+<file path="games" name="Note">#BINARY#</file>
+<file path="games" name="NotWell">#BINARY#</file>
+<file path="games" name="DooD">#BINARY#</file>
+<file path="games" name="DooD: Ultimate Edition">#BINARY#</file>
+<file path="games" name="Accord">#BINARY#</file>
+<file path="games" name="CloneHero">#BINARY#</file>
+<file path="games" name="Dotsu!">#BINARY#</file>
+<file path="games" name="Grand_Theft_Vehicles_V">#BINARY#</file>
+<file path="games" name="Grand_Theft_Vehicles_San_Antony">#BINARY#</file>
+<file path="games" name="Hacknet_Miami">#BINARY#</file>
+<file path="games" name="Hacknet_Miami_2:Wrong_IP">#BINARY#</file>
+<file path="games" name="Hackent: Paradox">coming, maybe, eh, don't count on it (totally coming soon, when hl3 comes out)</file>
+<file path="games" name="Hackent: Sakura">#BINARY#</file>
+<file path="games" name="Hackent: HerutoSec">#BINARY#</file>
+<file path="games" name="Hackent: Core">#BINARY#</file>
+<file path="games" name="Hackent: Ad_Astra">#BINARY#</file>
+<file path="games" name="Hackent: Slaughter_House">#BINARY#</file>
+<file path="games" name="Hackent: Bit_Reckoning">#BINARY#</file>
+<file path="games" name="Hackent: Maze">#BINARY#</file>
+<file path="games" name="Hackent: Brute_Force">#BINARY#</file>
+<file path="games" name="Hackent: HerutoSec_II">#BINARY#</file>
+<file path="games" name="Age_Of_Cities">#BINARY#</file>
+<file path="games" name="Hackmut">#BINARY#</file>
+<file path="games" name="Omae_Wa_Mou_Shindeiru">#BINARY#</file>
+<file path="games" name="NANI">#BINARY#</file>
+ <Memory>
+    <Commands>
+      <Command>connection from @185.65.241.1</Command>
+      <Command>connection from @32.41.7.11</Command>
+      <Command>connection from @63.64.85.111</Command>
+      <Command>connection from @31.222.142.192</Command>
+    </Commands>
+    <Data>
+     
+    </Data>
+    <Images>
+      <Image>Images/33a.jpg</Image>
+    </Images>
+  </Memory> 
+<customthemefile path="sys" name="Blue_Field_x-server.sys" themePath="Themes/8bit.xml"/>  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,26 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <SetLock DelayHost="events" Delay="0" Module="terminal" IsLocked="true" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="0" Module="display" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="0" Module="ram" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="0" Module="netmap" IsLocked="false" IsHidden="true" />
+    
+    <SetLock DelayHost="events" Delay="91" Module="terminal" IsLocked="false" IsHidden="false" />
+    <RunFunction FunctionName="playCustomSong:Music/Silence.ogg" DelayHost="events" Delay="80" />
+    
+    
+    <LaunchHackScript Filepath="Scripts/intro.txt" DelayHost="events" Delay="5.5" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    
+    <SwitchToTheme ThemePathOrName="Themes/Chapter1.xml" FlickerInDuration="0" DelayHost="events" Delay="87" />
+    <SetLock DelayHost="events" Delay="87" Module="terminal" IsLocked="false" IsHidden="true" />
+    
+    <SetLock DelayHost="events" Delay="91" Module="terminal" IsLocked="false" IsHidden="false" />
+    <SwitchToTheme ThemePathOrName="Themes/Terminal.xml" FlickerInDuration="0.5" DelayHost="events" Delay="91" />
+    <RunFunction FunctionName="playCustomSong:Music/ALEX - Black Magic.ogg" DelayHost="events" Delay="91" />
+    
+    
+    
+  </Instantly>
+
+</ConditionalActions>

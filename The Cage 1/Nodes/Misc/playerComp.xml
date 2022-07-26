@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME#'s Place" icon="chip" type="empty">
+
+  <portsForCrack val="7" />
+  <ports>554, 104</ports>
+  <trace time="-1" />
+	<customthemefile path="home/backup" name="x-server.sys" themePath="Themes/Path.xml"/>
+  
+  <file path="home" name="bibliotheque.txt">https://discord.gg/8bTCycS</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="EzMode1.exe">#TRACEKILL_EXE#</file>
+  <file path="bin" name="EzMode2.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+</Computer>

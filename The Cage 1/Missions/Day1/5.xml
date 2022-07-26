@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-5" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="Decypher.exe" path="bin" destTarget="bastion" destPath="bin"/>
+  
+  </goals>
+  
+	<missionEnd>addFlags:bastion1completed</missionEnd>
+  <nextMission>Missions/Day1/6.xml</nextMission>
+	
+  <email>
+    <sender>Bastion</sender>
+    <subject>Decypher</subject>
+    <body>Hey #PLAYERNAME#.
+	
+I ask you to please get me a copy of that thing, I'll link you to my computer, you will only need my IP though, since these Stations are really easy to hack, please, upload it to my bin folder, once you've done it I'll know.
+	</body>
+    <attachments>
+     <link comp="bastion" />
+  </attachments>
+  </email>
+</mission>

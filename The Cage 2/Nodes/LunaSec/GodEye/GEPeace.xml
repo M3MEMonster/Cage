@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-peace" name="John's Personal Laptop" icon="laptop" type="0">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 25, 80</ports>
+  <trace time="70" />
+  <proxy time="5" />
+  <firewall level="7" additionalTime="0"/>
+  
+  <portRemap>21=55, 22=51, 25=50, 80=9090</portRemap>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  
+  <eosDevice name="John Peace's Uphone2" id="ge-peacephone" icon="ePhone2" empty="false" passOverride="alpine">
+    <mail username="jpeace@a-mail.com" pass="38Pab8cgEmNs9dMb" />
+   
+    
+  
+  </eosDevice>
+  
+  <Memory>
+    <Commands>
+      
+    </Commands>
+    <Data>
+      <Block>Ascii85</Block>
+    
+    </Data>
+    <Images>
+      <Image>Images/Secrets.png</Image>
+    </Images>
+  </Memory>
+<tracker/>
+  
+</Computer>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode" name="Test Node" type="empty">
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+  <proxy time="2" />
+  <firewall level="6" solution="Scypio" additionalTime="1.0"/>
+  <portRemap></portRemap>
+  
+  
+  
+
+  
+</Computer>

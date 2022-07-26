@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day4-1" activeCheck="true">
+  <goals>
+  <goal type="delay" time="4"/>
+  </goals>
+  
+
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>Maria Torres</sender>
+    <subject>RE: Break</subject>
+    <body>Good morning #PLAYERNAME#.
+	
+I hope you enjoyed your free day! but now I'm afraid it's time to get back to business, you're needed in the hub, I hope to see you around!
+
+Dr. Maria Torres
+AEGIS Support Team Leader
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

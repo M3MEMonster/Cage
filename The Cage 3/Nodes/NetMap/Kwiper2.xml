@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="crackstorage" name="Kwiper Crack Storage" icon="DLCServer" type="0" allowsDefaultBootModule="false">
+ <adminPass pass="coelamelon" />
+ <CustomConnectDisplayDaemon />
+  <portsForCrack val="2" />
+  <ports>22, 21, 1433, 80</ports>
+  <trace time="100" />
+	<firewall level="6" solution="planes" additionalTime="0"/>
+<tracker/>
+  <proxy time="3" />
+  <file path="home/cracks" name="AccordCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="UnderwatchCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="GabbenModCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="OvertaleCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks/backup" name="OvertaleCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="StarbarianCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="SalamanderCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="FieldofBattleCrack.exe">#WEB_CRACK#</file>
+  <file path="home/cracks" name="CarlosDutyCrack.exe">#WEB_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/backup" name="WebServerWorm.exe">#WEB_CRACK#</file>
+    <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="sys" name="Base-Theme.sys">#BASE_THEME#</file>
+  <file path="sys" name="LE-Theme.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file>
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

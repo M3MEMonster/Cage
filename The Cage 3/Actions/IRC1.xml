@@ -1,0 +1,34 @@
+<ConditionalActions>
+  
+  <OnConnect target="lunairc">
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="2">Oh hey @#PLAYERNAME#! You made it!</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="4.88">Was expecting you like to be faster :p.</AddIRCMessage>
+  <AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="7.83">Why are you tesing them D:</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="9.60">Why not?</AddIRCMessage>
+  <AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="10.40">Don't worry @#PLAYERNAME#, she always do that, I guess.</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="14.74">It's alright, I mean teasing is fun.</AddIRCMessage>
+  <AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="18.19">So, are you gonna talk about 'that'?</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="20.34">Oh, right.</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="21.69">So, @#PLAYERNAME#, We uh... We like lost three members of our crew, they're gone and since we've been looking for someone to replace them, you caught my attention.</AddIRCMessage>
+  <AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="33.23">But we can't repalce 'that' person...</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="35.96">I know Kaisa, but we're adults now, that shit happened like years ago, we have to move on.</AddIRCMessage>
+  <AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="41.70">Wish I knew what are you guys talking about.</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="44.76">Secret ;).</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="45.43">Anyway, you getting my attention isn't enough for me to decide your incorporation, I need to see how much you can do.</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="53.15">You did great back at Equinox, but I've prepared the perfect test for you, if you complete it, You'll be officially a member of LunaSec.</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="61.79">Hope you're ready.</AddIRCMessage>
+  <AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="63.10">Wait, why I didn't get to make a test like this in the past?</AddIRCMessage>
+  <AddIRCMessage Author="Pauline" TargetComp="lunairc" Delay="67.66">Because we're cool now, we make tests, also you're cool.</AddIRCMessage>
+  <AddIRCMessage Author="Kaisa" TargetComp="lunairc" Delay="71.49">Okay?</AddIRCMessage>
+  <AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="72.96">Start here @#PLAYERNAME#, You'll know what to do.</AddIRCMessage>
+  <AddIRCMessage Author="" TargetComp="lunairc" Delay="73.50">!ATTACHMENT:link#%#Amelie's Proxy#%#192.182.172.162</AddIRCMessage>
+  <AddIRCMessage Author="Aztec" TargetComp="lunairc" Delay="74">Good luck!</AddIRCMessage>
+  
+  
+<RunFunction FunctionName="setHubServer:lunairc" DelayHost="events" Delay="74"/>
+<RunFunction FunctionName="setAssetServer:lunadrop" DelayHost="events" Delay="74"/>  
+<RunFunction FunctionName="playCustomSong:Music/GottaMove.ogg" DelayHost="events" Delay="74"/>
+
+</OnConnect>
+
+</ConditionalActions>

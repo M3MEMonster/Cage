@@ -1,0 +1,12 @@
+config playerComp leonard 0.2 $#%#$
+connect $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+write Trial of Leonard Begins! Objective: Find the code to enter the Final Server and complete the trial. $#%#$
+delay 2 $#%#$
+write Good Luck #PLAYERNAME#. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write GO! $#%#$

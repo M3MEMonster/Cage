@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <Instantly>
+   <RunFunction FunctionName="playCustomSong:Music/NightPatrol.ogg" />
+   <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox4.txt" TargetComp="equinoxboard" />
+   <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox5.txt" TargetComp="equinoxboard" />
+   <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox6.txt" TargetComp="equinoxboard" />
+   <AddThreadToMissionBoard ThreadFilepath="Docs/Equinox7.txt" TargetComp="equinoxboard" />
+  <RunFunction FunctionName="setHubServer:equinoxboard" />
+  
+  
+  </Instantly>
+
+</ConditionalActions>

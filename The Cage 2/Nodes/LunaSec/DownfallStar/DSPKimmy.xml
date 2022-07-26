@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-kimmy" 
+          name="P. Kimmy's Computer" 
+          security="201"
+          icon="DLCPC1" 
+          type="1" > 
+
+<account username="admin" password="ilovecats" type="0" />
+<file path="home/backups" name="underwatch.rar">#BINARY#</file>
+<file path="home/backups" name="spaceninjas.rar">#BINARY#</file>
+<file path="home/backups" name="othergames.rar">#BINARY#</file>
+<file path="home/backups" name="projecteuthanasia.rar">#BINARY#</file>
+<file path="home/backups" name="note.txt">too much games, to little time to play</file>
+<file path="home/backups" name="UltimatePower.exe">#CLOCK_PROGRAM#</file>
+
+<file path="home/wip" name="4WBExecutable.wip">#BINARY#</file>
+<file path="home/notes/peuthanasia" name="Euthanasia.dll">#PACEMAKER_FW_DANGER#</file>
+<customthemefile path="sys" name="kimmy_x-server.sys" themePath="Themes/Kimmy.xml"/>
+
+
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fp-tycoon" name="Maria's Laptop" icon="DLCLaptop" ip="111.4.2.1" type="empty">
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  <firewall level="6"  additionalTime="0"/>
+  <portRemap></portRemap>
+  <file path="sys" name="Auto_Corrupted.bat">#BINARY#</file>
+  <file path="sys" name="remote_control.sys">#BINARY#</file>
+  <file path="sys" name="leak.dll">#BINARY#</file>
+  <file path="sys" name="nodes.sys">#BINARY#</file>
+   <Memory>
+    <Commands>
+     <Command>connect 1.65.2.1</Command>
+    </Commands>
+    <Data>
+      
+    </Data>
+    <Images>
+     
+    </Images>
+  </Memory>
+  
+
+  
+</Computer>

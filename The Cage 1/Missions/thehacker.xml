@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="thehacker" activeCheck="false" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+  <goal type="filedeletion" target="executelist" file="list.txt" path="home"/>
+ <goal type="filedeletion" target="executelist" file="euthanasia.dll" path="sys"/>
+  </goals>
+   <nextMission>NONE</nextMission>
+   
+  <email>
+    <sender>???</sender>
+    <subject>Help</subject>
+    <body>How the fu...?
+	
+Hey you're not supposed to be HERE.
+
+You know what, since you're here and I got your IP, let's make a deal, a very important one.
+
+John F. Peace is making a real drama about this AEGIS thing he's running, did you hear the news? Apparently not, no one does, it's confidential. Oh well, it's not that big of a deal.
+
+He killed a person, while they were in the VR set, I'm pretty sure you know the person that was murdered? Yeah, the leader of the project himself did it with a single file and a executable, crazy huh?
+
+The thing is, I hate that, I hate when people abuse their power to make bad things happen to innocent people... That just reminds me of Kael all those years ago...
+
+Sorry... Look I don't wanna protect that fucker but I have to do it, why? He has my best friend connected to a Pacemaker and if I don't do what he wants, he'll kill her... If you can, please I need you to go into a server he made.
+
+I want something deleted, a list and a dll called "euthanasia" that should do it.
+
+Thanks in advance.
+</body>
+    <attachments>
+       <link comp="executelist" />   
+    </attachments>
+  </email>
+</mission>

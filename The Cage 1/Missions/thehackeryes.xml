@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="thehackeryes" activeCheck="false">
+  <goals>
+ <goal type="filedeletion" target="executelist" file="list.txt" path="home"/>
+ <goal type="filedeletion" target="executelist" file="euthanasia.dll" path="sys"/>
+  
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  
+  <email>
+    <sender>???</sender>
+    <subject>RE: Help</subject>
+    <body>Nice.
+	
+This is gonna be quick, I need you to enter a server which contains a list of the users that may get "disconnected" when the "Big Day" arrives, I need you to find the list and DELETE IT. Also somewhere in his laptop there is a file named "euthanasia.dll" and I want that deleted too.
+
+Doing this, the people that were supposed to die will be able to live once more thanks to you #PLAYERNAME#. 
+
+Before hand, thank you.
+</body>
+    <attachments>
+           <link comp="executelist" />  
+    </attachments>
+  </email>
+</mission>

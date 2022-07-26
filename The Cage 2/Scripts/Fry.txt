@@ -1,0 +1,4 @@
+config playerComp ge-eye 0.2 $#%#$
+connect $#%#$
+systakeover $#%#$
+disconnect $#%#$

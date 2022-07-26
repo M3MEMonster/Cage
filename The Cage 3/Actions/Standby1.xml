@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="assets" TargetFolderpath="bin" />
+	
+    
+  </Instantly>
+
+</ConditionalActions>

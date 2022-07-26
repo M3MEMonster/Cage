@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="missing" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+  
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Preparatives" requiredRank="100"></posting>
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

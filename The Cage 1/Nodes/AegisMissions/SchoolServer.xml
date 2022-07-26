@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="schoolsv" name="California School Database" icon="DLCServer" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>1433</ports>
+  <firewall level="3"  additionalTime="0"/>
+  <trace time="60" />
+	<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="85,0,150" AdminEmailAccount="" AdminEmailHostID="" Name="">
+<TextRecord>
+<Title>About the Iffy files</Title>
+<Data>We need to determine who's responsible for this and erase all data from this server.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>boobs_naked</Title>
+<Data>#BINARY#</Data>
+</TextRecord>   
+
+<TextRecord>
+<Title>asians_in_doggy</Title>
+<Data>#BINARY#</Data>
+</TextRecord>   
+
+<TextRecord>
+<Title>kitty_dog_porn</Title>
+<Data>#BINARY#</Data>
+</TextRecord>  
+
+<TextRecord>
+<Title>waifus_having_the_fucc</Title>
+<Data>#BINARY#</Data>
+</TextRecord>    
+
+<TextRecord>
+<Title>maid3d_fucc_game</Title>
+<Data>#BINARY#</Data>
+</TextRecord> 
+
+<TextRecord>
+<Title>definetly_not_porn</Title>
+<Data>(.Y.)</Data>
+</TextRecord>        
+  
+  </DatabaseDaemon>
+	
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-snode3" name="Security Node 3" icon="chip" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 554</ports>
+  <trace time="60" />
+  <proxy time="1" />
+  <firewall level="6" solution="trojans" additionalTime="0"/>
+  <portRemap>21=333, 554=121</portRemap>
+  <WhitelistAuthenticatorDaemon Remote="ds-snode2"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <dlink target="ds-finalwhitelist" />
+  <admin type="progress" />
+
+  
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis-2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="getadminpasswordstring" target="stephanbarrell"/>
+  </goals>
+  
+<missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:scared</missionEnd>  
+  <nextMission>NONE</nextMission>
+	<posting title="Scared">A customer requires help connecting to a server.</posting>
+  <email>
+    <sender>Stephan Barrell</sender>
+    <subject>Server</subject>
+    <body>Good day anon!
+	
+So, this is kind of a weird request, but I'm starting this thing of being a hacker, and my friends challenged me to get admin access to a really weird server, I tried to but I'm afraid I'll get tracked down, I know the IP, but maybe can you get the job done and reply with the admin password? Please, if I don't show my friends that I have admin permissions they'll kick me out of their group for being a coward, I swear this is the first and last time I'll ask a professional!
+	</body>
+    <attachments>
+       <link comp="stephanbarrell" />
+
+    </attachments>
+  </email>
+</mission>

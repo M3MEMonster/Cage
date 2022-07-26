@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-mail" name="Raising Sun Mail Server" type="empty"  allowsDefaultBootModule="true">
+
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+  <account username="kae" password="raisingsun2221" type="2" />
+  <account username="mathew" password="ra159524" type="2" />
+  <account username="monroe" password="ra12134" type="2" />
+  <account username="meadow" password="ra999984" type="2" />
+  <account username="martinez" password="raex22512" type="2" />
+  
+<mailServer name="Raising Sun Mail Server" color="255,180,50" generateJunk="true">
+    <email recipient="kae" sender="John Peace" subject="VR SET">Miss Kae.
+	
+I'm glad to know that you're been requested a model for the Aegis Virtual Set, and as we have gave you the tools necessary to create it, we've created alongside a new Server for you to store the files linked to this big project. Be careful out there, and let's make this world, a fair one.
+
+Raising Sun Storage Server: 182.168.1.3
+
+I shall give you the details of your account in person, to avoid, "issues".
+</email>
+   
+<email recipient="monroe" sender="Kae CEO" subject="Fix it pls">Monroe.
+I need you to do something for me, my computer is not working and Meadow is not online for him to help me with this! I don't know if you have knowledge on basic of computer engineering, but I guess you could give it a try? My computer is acting really weird and slow, do you mind finding the issue and fixing it? Thanks.
+
+My Address: 182.168.7
+
+Kae Sweet
+Rising Sun CEO</email> 
+<email recipient="martinez" sender="Kae" subject="You're fired">Mr. Martinez
+
+I'm sorry to be the one giving you this new, but according to your attitude and performance of cuestionable methods you'll membership will be revoked in two days, I'm so sorry this turned this way but it has to be done at the end, we can't work with people that is dangerous.
+</email>
+<email recipient="martinez" sender="Stephan" subject="Cibercafe">Hey dude.
+
+I've been thinking about making a new cibercafe somewhere South America... Yeah it's a shame you can't go back to Mexico... I hate that corp you were working on, I do really hope you're doiong fine in Chile dude. I'll be coming over someday, we'll be in touch compadre!.
+</email>
+<email recipient="martinez" sender="Antonieta" subject="Dear Son">Mijo.
+
+I'm so sorry about what happened to you here in Mexico, we do really hope you're doing okay and we also are planning on moving down there with you, you're part of the familia, and it hurts me leaving a son behind, maybe next year we'll be able to purchase a ticket to Chile.
+
+I love you mijo.
+your beloved Mother
+Antonieta Martinez.
+</email>
+<email recipient="martinez" sender="Whitelist Configuration" subject="J">Martinez right?
+
+We've been seeing your skills back in Raising Sun and we know they don't like your methods, but we do. 
+
+Want a summary? We are an anti-terrorist group of computer engineers, and we're looking for the best personal to protect Chile from ciber-attacks, just gotta saay I'm so sorry about the Mexico thing, but we can give you a chance here, we will give you a chance to live, but on one condition, you must work for us.
+
+What do we need?
+
+Easy, we need an automathized Whitelist server, not any server, a special one, I want you to create a Whitelist server that depends on security nodes.
+
+What do I mean? I want the server to be dependable on other servers, like people holding something, if the three persons can't hold it what happens? the thing they're holding falls and breaks, just like the server.
+
+Making hm... three nodes would be enough?, try to make these nodes really hard to get into so the whitelist server won't get down that easily.
+
+Also we've set your stay in a hotel near Santiago, you'll get the address shortly after this message.
+
+I've attachted the IP of our assets server. 129.1.2.1
+We wish you the best of lucks.
+
+J.</email> 
+
+
+</mailServer>
+
+  
+  
+  
+  
+  
+  
+</Computer>

@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="leonard" name="Leonard's Place" icon="chip" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>104, 554</ports>
+  
+  <trace time="-1" />
+	<dlink target="trialsleonardcomplete" />
+	<dlink target="hackersirc" />
+	<file path="home/reward" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+	<customthemefile path="home/reward" name="aesthetic-server.sys" themePath="Themes/Leonard.xml"/>
+	</Computer>

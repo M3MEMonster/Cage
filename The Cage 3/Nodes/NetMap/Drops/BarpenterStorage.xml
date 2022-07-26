@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="barpenterstorage" name="Barpenter Crut's Collection" icon="DLCPC2" type="0" allowsDefaultBootModule="true">
+ <LogoDaemon Name="Barpenter Crut" ShowsTitle="false" TextColor="255,255,255, 200">
+No Cent Productions.
+  </LogoDaemon>
+  <WhitelistAuthenticatorDaemon Remote="barpenterwhitelist"/>
+ 
+ <adminPass pass="turbodriller" />
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+<tracker/>
+  <proxy time="-1" />
+  
+  <file path="home/projects" name="unreleasedpack1.win">#BINARY#</file>
+  <file path="home/projects" name="unreleasedpack4.win">#BINARY#</file>
+  <file path="home/projects" name="unreleasedpack7.win">#BINARY#</file>
+  <file path="home/projects" name="unreleasedpack10.win">#BINARY#</file>
+  <file path="home/projects" name="albums.win">#BINARY#</file>
+  <file path="home/unreleased" name="secret.win">#BINARY#</file>
+  <file path="home/unreleased" name="teasernewsong.win">#BINARY#</file>
+  <file path="home/unreleased" name="mollerrobsterWIP.flac">#BINARY#</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

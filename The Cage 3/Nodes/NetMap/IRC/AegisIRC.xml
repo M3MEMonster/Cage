@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisirc" name="Aegis Chat" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+<account username="#PLAYERNAME#" password="ae_member_711" type="0" />
+<IRCDaemon themeColor="247, 247, 247" name="Aegis IRC Channel" needsLogin="false">
+    <user name="Kael" color="196, 0, 0"/>
+    <user name="J-Peace" color="173, 255, 244"/>
+    <user name="Toshokan" color="221, 255, 250"/>
+	<user name="AegisBOT" color="248, 255, 71"/>
+    
+	
+	<post user="AegisBOT">#PLAYERNAMER# has joined the channel!</post>
+    <post user="AegisBOT">Toshokan has joined the channel!</post>
+    <post user="Kael">Welcome new users!</post>
+	<post user="J-Peace">Welcome, to the future.</post>
+	<post user="J-Peace">@Kael, I've gotta stuff to do, you know I'm a very busy man, could you give this people a warm welcome and give them also instructions?</post>
+	<post user="Kael">No problemo.</post>
+	<post user="J-Peace">No problemo?</post>
+	<post user="Kael">Yeah sorry lol.</post>
+	<post user="Kael">Anyway.</post>
+	
+	
+	
+  </IRCDaemon>
+  <customthemefile path="sys" name="Past_Grid_x-server.sys" themePath="Themes/Aegis.xml"/>
+<portsForCrack val="201" />
+  <ports>192</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

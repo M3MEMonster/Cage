@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="clearfolder" target="rs-storage" path="Projects/private/VR_SET"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  
+  <posting title="Raising Sun.">Raising Sun is developing new tecnology that may compromise the future of hacking, they're using a VR model based on the one that Aegis did, track them down and sabotage the project.</posting>
+  
+  <email>
+    <sender>Paulline</sender>
+    <subject>Falling Sun</subject>
+    <body>Hey #PLAYERNAME#.
+	
+Miss the old suffocated place where you used to hack?
+
+Well I'm sorry but you're back to it but this time with a new and good cause, Let me get straight to the point. Raising Sun is a software developing corporation that creates anti-viruses and such, and they've planning on adding a new system based on the one Aegis made, with Virtual Reality hunt for viruses.
+
+Well their objective is not actually hunting viruses, they'll make the users go into private IP's and steal precious data from goverments or even terrorist groups, we need to stop that A.S.A.P that's where you come in, I got with an IP of a employee from Raising Run, you have to sneak in and remove everything related to "VR_Set" in the Storage Server they have.
+</body>
+    <attachments>
+      <link comp="rs-mathew" />
+    </attachments>
+  </email>
+</mission>

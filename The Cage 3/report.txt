@@ -1,0 +1,74 @@
+Errors Found. Writing report to Extensions/The Cage 3/report.txt
+
+Mission Errors for Extensions/The Cage 3/Missions/Breach.xml:
+Error running end function loadConditionalActions:Actions/BreachCompleted.xml
+System.Xml.XmlException 
+ 
+Content cannot be converted to the type Float. Line 10, position 58. 
+ 
+Source : System.Xml 
+ 
+System.Xml.XmlException: Content cannot be converted to the type Float. Line 10, position
+58. ---> System.FormatException: Input string was not in a correct format.
+
+   at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+
+   at System.Xml.XmlConvert.ToSingle(String s) 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   --- End of inner exception stack trace --- 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   at Hacknet.SAAddIRCMessage.DeserializeFromReader(XmlReader rdr) 
+   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
+   at
+   Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
+
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2
+   bodyContentReadAction)
+
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object
+   os)
+ 
+Inner : --------------- 
+ 
+System.FormatException  
+      
+    Input string was not in a correct format.  
+      
+    Source : mscorlib  
+      
+    System.FormatException: Input string was not in a correct format.  
+       at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+     
+       at System.Xml.XmlConvert.ToSingle(String s)  
+       at System.Xml.XmlReader.ReadContentAsFloat()  
+      
+      
+      
+       at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+     
+       at System.Xml.XmlConvert.ToSingle(String s)  
+       at System.Xml.XmlReader.ReadContentAsFloat() 
+ 
+ 
+ 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   at Hacknet.SAAddIRCMessage.DeserializeFromReader(XmlReader rdr) 
+   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
+   at
+   Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
+
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2
+   bodyContentReadAction)
+
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object
+   os)

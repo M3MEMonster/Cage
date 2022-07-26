@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mingpc" name="Ming's Proxy" icon="DLCServer" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="3"  additionalTime="0"/>
+  <trace time="60" />
+	<file path="home/IP" name="Zed_Earl.txt">xx.xx.10.xx</file>
+	<file path="home/IP" name="Wilt_Harvey.txt">xx.xx.11.xx</file>
+	<file path="home/IP" name="Vicky_Bond.txt">1x.1x.11.xx</file>
+	<file path="home/IP" name="Chad_Payton.txt">xx.1x.11.2x</file>
+	<file path="home/IP" name="Alyx_Ellsworth.txt">x2.1x.11.xx</file>
+	<file path="home/IP" name="Alita_Armando.txt">xx.1x.11.5x</file>
+	<file path="home/IP" name="Elben_Delgado.txt">x8.1x.11.xx</file>
+	<file path="home/IP" name="Keefe_Blakeslee.txt">6x.1x.11.xx</file>
+	<file path="home/IP" name="Idelle_Melendez.txt">xx.1x.121.xx</file>
+	<file path="home/IP" name="Precious_Dominguez.txt">xx.1x.11.x66</file>
+	<file path="home/IP" name="Daryl_Maddison.txt">20.1x.11.xx</file>
+	<file path="home/IP" name="Leah_Rey.txt">xx.1x.11.x1x</file>
+	<file path="home/IP" name="Azucena_Fox.txt">x323.1x.11.xx</file>
+	<file path="home/IP" name="Rosalyn_Velasquez.txt">xx.1x.11.62</file>
+	<file path="home/IP" name="Xochitl_Goodwin.txt">xx.1x.11.xx</file>
+	<file path="home/IP" name="Alissa_Haward.txt">xx.22.11.xx</file>
+	<file path="home/IP" name="Carter_Mingo.txt">x0.1x.11.xx</file>
+	<file path="home/IP" name="Robin_Sweet.txt">xx.1x.11.53</file>
+	<file path="home/IP" name="Tansy_Blakesley.txt">32.1x.11.xx</file>
+	<file path="home/IP" name="Alysia_Pavia.txt">xx.1x.41.xx</file>
+	<file path="home/IP" name="Candelaria_Statham.txt">55.1x.11.xx</file>
+	<file path="home/IP" name="Eveleen_Horne.txt">1.1x.11.xx</file>
+	<file path="home/IP" name="Sky_Nicolson.txt">153.1x.11.xx</file>
+	<file path="home/IP" name="Eliot_Richardson.txt">xx.222.11.xx</file>
+	<file path="home/IP" name="Posy_Seaver.txt">1.1x.11.xx</file>
+	<file path="home/IP" name="Fernando_Tailor.txt">xx.1x.11.xx</file>
+	<file path="home/IP" name="Kimberlee_Easom.txt">xx.1x.11.42</file>
+	<file path="home/IP" name="Selby_Puerta.txt">167.1x.11.xx</file>
+	<file path="home/IP" name="#PLAYERNAME#.txt">#PLAYER_IP#</file>
+	
+	
+	
+	
+	
+</Computer>

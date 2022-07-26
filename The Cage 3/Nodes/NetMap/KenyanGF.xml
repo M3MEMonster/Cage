@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kenyangf" name="Kit's Laptop" icon="DLCLaptop" type="empty" allowsDefaultBootModule="false">
+<CustomConnectDisplayDaemon />
+
+  <portsForCrack val="1" />
+  <ports>6881, 211</ports>
+  <trace time="80" />
+	<firewall level="6" solution="inlove" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="2" />
+  
+<file path="home" name="kitkat.txt">I'm sorry but I had to take this nickname thanks to that chocolate, it's so delicious and UGH KENYAN GET ME MORE KITKATS NAW.</file>
+<file path="home" name="kenyan.txt">Why are you acting so creepy? D:</file>
+<file path="home" name="creepyeeriesong.ogg">#BINARY#</file>
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="ClubPigeon.exe">#BINARY#</file>
+<file path="home" name="Overtale.exe">#BINARY#</file>
+<file path="home" name="LeagueOfRetards.txt">#BINARY#</file>
+  <customthemefile path="sys" name="Iris_Of_The_Pale_Horse_Rider_X-Server.sys" themePath="Themes/Kit.xml"/>
+<encryptedFile path="home" name="fourthpart.dec" extension=".txt" ip="192.168.1.1" header="Fourth Part">
+//Pauline's Backup Server
+142.214.50.200
+  </encryptedFile>
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

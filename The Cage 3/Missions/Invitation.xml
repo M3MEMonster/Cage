@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="getstring" target="i agree" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionEnd>loadConditionalActions:Actions/Invitation.xml</missionEnd>
+  
+  <nextMission>Missions/Invitation2.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>AEGIS Labs</sender>
+    <subject>Congratulations</subject>
+    <body>#PLAYERNAME#, Congratulations.
+	
+You were one of the few users selected to join our first AI monitoring tests. Every subject will have to take care and teach a AI we're working on about the Internet and much more. Since this is a new project, every subject will be monitored by a supervisor, to make sure things go right and to avoid any possible accidents.
+
+Username: #PLAYERNAME#
+Reason of Invitation: Superior computer engineering skills
+Initial rank: Subject
+Assigned AI: AI-01_LC (Lillycord)
+What to teach: Human Emotions
+
+To continue and get prepared for your new journey on AEGIS Laboratories please, reply this email with "i agree".
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

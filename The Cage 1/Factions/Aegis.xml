@@ -1,0 +1,61 @@
+<CustomFaction name="Aegis" id="aegis" playerVal="0">
+<Action ValueRequired="5" Flags="day1completed">
+  <RunFunction FunctionName="playCustomSong:Music/Delete_Soul_Idle.ogg"/>
+  <LaunchHackScript Filepath="Scripts/sleeptime.xml" DelayHost="events" Delay="2" SourceComp="events" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/> 
+  <RunFunction FunctionName="playCustomSong:Music/Akuma.ogg" Delay="14" DelayHost="events" />
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/Dread.ogg" Delay="248" DelayHost="events" />
+	<SwitchToTheme ThemePathOrName="Themes/Pauline.xml" FlickerInDuration="3.0" DelayHost="events" Delay="14" />
+</Action>
+<Action ValueRequired="5" Flags="day1completed">
+    <LoadMission MissionName="Missions/Day2/1.xml" />
+</Action>
+	
+
+  
+<Action ValueRequired="10" Flags="day2completed">  
+<LaunchHackScript Filepath="Scripts/sleeptime2.xml" DelayHost="events" Delay="3" SourceComp="events" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/> 
+<RunFunction FunctionName="playCustomSong:Music/Cursed.ogg" Delay="14" DelayHost="events" />
+<SwitchToTheme ThemePathOrName="Themes/Aegis.xml" FlickerInDuration="3.0" DelayHost="events" Delay="14" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Ritual.ogg" Delay="279.29" DelayHost="events" />
+<LoadMission MissionName="Missions/Day3/1.xml" />
+</Action>
+
+
+<Action ValueRequired="10" Flags="day3completed">  
+<RunFunction FunctionName="playCustomSong:Music/Delete_Soul_Idle.ogg"/>
+<LaunchHackScript Filepath="Scripts/sleeptime3.xml" DelayHost="events" Delay="3" SourceComp="events" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/> 
+<RunFunction FunctionName="playCustomSong:Music/Witchcraft.ogg" Delay="14" DelayHost="events"/>
+<HideNode DelayHost="events" Delay="0" TargetComp="trialsleonardstart" />
+
+<HideNode DelayHost="events" Delay="0" TargetComp="leonardtest1" />
+<HideNode DelayHost="events" Delay="0" TargetComp="leonardtest2" />
+<HideNode DelayHost="events" Delay="0" TargetComp="leonardtest3" />
+<HideNode DelayHost="events" Delay="0" TargetComp="leonardtest4" />
+</Action>
+<Action ValueRequired="20">
+   <RunFunction FunctionName="addFlags:day4completed"/>
+</Action>
+
+
+
+<Action ValueRequired="20" Flags="day4completed">  
+<LaunchHackScript Filepath="Scripts/twilightstart.xml" DelayHost="events" Delay="3" SourceComp="events" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/> 
+<SwitchToTheme ThemePathOrName="Themes/Twilight.xml" FlickerInDuration="3.0" DelayHost="events" Delay="18" />
+<RunFunction FunctionName="playCustomSong:Music/Imperivm_Intro.ogg" Delay="17" DelayHost="events"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Imperivm.ogg" Delay="21.07" DelayHost="events"/>
+<LoadMission MissionName="Missions/timer4.xml" />
+</Action>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</CustomFaction>

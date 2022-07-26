@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day2-3" activeCheck="false">
+  <goals>
+  <goal type="getadminpasswordstring" target="strangecomp"/>
+  
+  </goals>
+  
+
+  <nextMission>Missions/Day2/4.xml</nextMission>
+	
+  <email>
+    <sender>Leonard</sender>
+    <subject>What it's going on?</subject>
+    <body>Hey kid.
+	
+Did you get that message from Pauline? She's losing her shit now that Johnny is AFK, well not literally AFK 'cause, y'know, we're not using an actual computer. Anyways, I'm worried about Pauline, about this whole "AEGIS is up to something bad" thing, maybe she's stressed? Maybe she has claustrophobia, I don't know what her deal is,  but she may be right about AEGIS being up to something, and I'm not sure if it's bad or good.
+
+The thing is, I've noticed we all have 104 ports, and that is a port usually used to work with PaceMaker software, and us being connected to a PaceMaker is not something good, but I'm pretty sure it's for some weird reason?
+
+Anyway kid, I need you to gain access to a server I found messing around there, I don't have all the tools for hacking and apparently everyone's sleeping (again), I need you to get into the server and give me the password so I can do some magic.
+	</body>
+    <attachments>
+     <link comp="strangecomp" />
+  
+    </attachments>
+  </email>
+</mission>

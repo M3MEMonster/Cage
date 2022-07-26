@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pointclicker" name="Point Clicker" icon="chip" type="empty" allowsDefaultBootModule="true">
+<PointClicker />
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

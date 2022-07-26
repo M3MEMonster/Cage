@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="msg2" name="VM-0002-Node" icon="chip" type="empty" allowsDefaultBootModule="true">
+
+<CustomConnectDisplayDaemon />
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+	<firewall level="6" solution="trustme" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  <file path="home" name="Fragment_02.lc">#BINARY#</file>
+  <file path="home/backup" name="Fragment_02.lc">#BINARY#</file>
+  <file path="home" name="Disorder.txt">Personality disorders (PD) are a class of mental disorders characterized by enduring maladaptive patterns of behavior, cognition, and inner experience, exhibited across many contexts and deviating from those accepted by the individual's culture. These patterns develop early, are inflexible, and are associated with significant distress or disability. The definitions may vary somewhat, according to source.[2][3][4] Official criteria for diagnosing personality disorders are listed in the Diagnostic and Statistical Manual of Mental Disorders (DSM) and the fifth chapter of the International Classification of Diseases (ICD)..</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

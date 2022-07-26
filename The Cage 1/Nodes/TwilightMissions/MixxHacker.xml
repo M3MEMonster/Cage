@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mixxhacker" name="Strider's Battlestation" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 22, 1433</ports>
+  <proxy time="4" />
+  <firewall level="4"  additionalTime="0"/>
+  <trace time="50" />
+
+<file path="home/Strider" name="runtime.dll">#BINARY#</file>
+<file path="home/Strider" name="ipchekcer.dll">#BINARY#</file>
+<file path="home/Strider" name="porthack.dll">#BINARY#</file>
+<file path="home/Strider" name="hackintime.dll">#BINARY#</file>
+<file path="home/Strider" name="hackerman.dll">#BINARY#</file>
+<file path="home/Strider/Mixx" name="bootstartupsequence.dll">#BINARY#</file>
+<tracker/>
+  
+  </Computer>

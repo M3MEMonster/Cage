@@ -1,0 +1,23 @@
+config playerComp playerComp 0.2 $#%#$
+writel Hey player, are you there? Can you read me? $#%#$
+delay 5.79 $#%#$
+writel I was checking your status and you went offline out of the blue! $#%#$
+delay 5.80 $#%#$
+writel I wasn't fast enough to know the cause of your offline status. $#%#$
+delay 5.63 $#%#$
+writel But I did come in time to lend you a hand... $#%#$
+delay 4.62 $#%#$
+writel Don't worry about it, this will be quick. $#%#$
+delay 3.34 $#%#$
+writel Apparently your server got corrupted, luckily for you I know how to fix that.$#%#$
+delay 6.46 $#%#$
+writel I'm working on it... $#%#$
+delay 5.37 $#%#$
+writel And... Done. $#%#$
+delay 4.37 $#%#$
+writel I'll reboot your node to apply settings. $#%#$
+delay 3 $#%#$
+writel_silent boot initiated
+ 
+
+

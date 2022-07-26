@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-jenova" name="Jenova's Battlestation" icon="DLCPC2" type="0">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 554</ports>
+  <trace time="60" />
+  <proxy time="1" />
+  <firewall level="6" solution="recompilation" additionalTime="0"/>
+  <portRemap></portRemap>
+   
+   
+   
+   
+   
+   <Memory>
+    <Commands>
+      <Command>cd /home</Command>
+      <Command>cat email.info</Command>
+      <Command>rm email.info</Command>
+     
+    </Commands>
+    <Data>
+      <Block>mail.info</Block>
+	  <Block>user:jenova  password:ta102541</Block>
+      
+    </Data>
+    <Images>
+     
+    </Images>
+  </Memory>
+  <file path="home/notes" name="todo.txt">nothing</file>
+  <file path="home/notes" name="newbies.txt">I gotta link the two god damn servers I always forget about that</file>
+  <file path="home/notes" name="aegis.txt">Aegis, where do I start, need to borrow the source code to find a way into the VR Sets.</file>
+  <file path="home/notes" name="thehacker.txt">Still no clue about that hacker though, I'm afraid she may go against us and destroy my group of talented hackers... I'm scared</file>
+  <file path="home/notes" name="todo.txt">https://discord.gg/ZPf2Ysy Accord Official Server</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+  <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  
+  
+  
+  
+
+<tracker/>  
+</Computer>

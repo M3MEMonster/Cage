@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lunahub" name="LunaSec Hub Server" type="empty" ip="192.168.1.1" allowsDefaultBootModule="false">
+<positionNear target="playerComp" position="1" total="3" extraDistance="0.1" force="false"/>
+  <portsForCrack val="201" />
+  <ports></ports>
+  <account username="#PLAYERNAME#" password="moon" type="3" />
+  <IRCDaemon themeColor="154,112,182" name="LunaSec IRC Channel" needsLogin="false">
+    <user name="Spiderbenb" color="226,52,52"/>
+	<user name="Paulline" color="255,131,235"/>
+    <user name="Kaisa" color="255,0,0"/>
+    <user name="Kwiper" color="7,71,255"/>
+	<user name="LUNABOT" color="255,255,255"/>
+  
+	<post user="Paulline">Everything should be fine now.</post>
+	<post user="Paulline">The VR is finally installed on you guys, can you see the chat?</post>
+    <post user="Kaisa">Yep, works perfectly.</post>
+	<post user="Kwiper">Yes, I'm in.</post>
+	<post user="Paulline">Okay we shall wait for #PLAYERNAME# then.</post>
+ 
+
+ </IRCDaemon>
+  <missionHubServer groupName="LunaSec" serviceName="LunaSec Contract Hub" missionFolderPath="Missions/LunaSec" themeColor="154,112,182" lineColor="255,80,80" backgroundColor="20,20,20" allowAbandon="false"/>
+	<dlink target="lunadrop" />
+	<dlink target="playerComp" />
+</Computer>

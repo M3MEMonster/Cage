@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-4" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+  </goals>
+  
+	<missionStart>addFlags:chatenabled</missionStart>
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>Johnny</sender>
+    <subject>Great!</subject>
+    <body>Hey #PLAYERNAME#!
+
+Good job! Honestly I had no idea the support girl was connected to my computer, maybe she did it by accident when she tried to leave the message. Now that we have the tools necessary to hack, it's time to get to work, apparently this HUB server was for us to train our skills, but so far the mods haven't given any signal of it's release, what if... We find our own way to breach the server huh? That sounds like a really good idea! Although it's a little risky.
+
+Hmmm, I have a better idea, I'll connect your node to the chat so I don't have to send you messages everytime, also you'll get informed of what's going on among the hacking community of AEGIS. My parents would be proud now that I joined one of the most famous hacking groups of all time! (although I'd have preffered Flux), okay, everything should be set, the chat server should appear on your netmap soon enough, see you there #PLAYERNAME#!
+	</body>
+    <attachments>
+      
+  </attachments>
+  </email>
+</mission>

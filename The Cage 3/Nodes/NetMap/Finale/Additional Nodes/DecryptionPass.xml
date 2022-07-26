@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="spnpass" name="SPN Decryption Hub" icon="DLCServer"  type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 1433, 554, 6881</ports>
+  <trace time="-1" />
+	<firewall level="7" solution="n3tw0rk" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+
+<WhitelistAuthenticatorDaemon Remote="spnlist"/>
+
+<encryptedFile path="accounts/Kael" name="proxy_config_pass.dec" extension=".txt" ip="192.168.1.1" header="Kael Config Pass">
+HEADER: Proxy Configuration
+PASSWORD: prx_193462
+</encryptedFile>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="smartieraider4" name="Proxy R-F" icon="chip" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="3" />
+  <ports>25, 80, 554</ports>
+  <trace time="60" />
+	<firewall level="3" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="4" />
+  
+  <customthemefile path="sys" name="See_No_Evil_x-server.sys" themePath="Themes/Raider4.xml"/>
+  
+   <Memory>
+    <Commands>
+     
+    </Commands>
+    <Data>
+      <Block>Connection from @111.142.142.142
+Setting IP Adress... DONE.
+Blocking Communication... DONE.
+Linking Possible Nodes... DONE.
+Activating Secure Program... DONE.
+
+#BINARYSMALL#
+
+Trojan Detected... Activated
+IP  Address: 111.142.142.142
+Id: raider
+Encoding = UTF-8
+Admin Password: rootkit
+</Block>
+      
+    </Data>
+    <Images>
+      <Image>Images/flat,550x550,075,f.u1.jpg</Image>
+    </Images>
+  </Memory>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

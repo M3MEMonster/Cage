@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegishub" name="AEGIS HUB" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>22</ports>
+  <trace time="-1" />
+	<dlink target="aegisdrop" />
+	<account username="#PLAYERNAME#" password="support" type="3" />
+	<missionHubServer groupName="Aegis" serviceName="AEGIS Contract Hub" missionFolderPath="Missions/AEGIS" themeColor="122,117,117" lineColor="55,55,55" backgroundColor="39,42,43" allowAbandon="false"/>
+	</Computer>

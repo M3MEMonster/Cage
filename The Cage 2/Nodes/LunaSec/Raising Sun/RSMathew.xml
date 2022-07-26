@@ -1,0 +1,89 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-mathew" name="Mathew's Laptop" icon="laptop" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+  <trace time="40" />
+  
+<file path="home/notes" name="todo.txt">. Work hard
+. Get promoted
+. Find a new place to stay
+. Buy a new company
+. Take down the competence</file>
+<file path="home/notes" name="weird.txt">Now is the winter of our discontent
+Made glorious summer by this sun of York;
+And all the clouds that lour'd upon our house
+In the deep bosom of the ocean buried.
+Now are our brows bound with victorious wreaths;
+Our bruised arms hung up for monuments;
+Our stern alarums changed to merry meetings,
+Our dreadful marches to delightful measures.
+Grim-visaged war hath smooth'd his wrinkled front;
+And now, instead of mounting barded steeds
+To fright the souls of fearful adversaries,
+He capers nimbly in a lady's chamber
+To the lascivious pleasing of a lute.
+But I, that am not shaped for sportive tricks,
+Nor made to court an amorous looking-glass;
+I, that am rudely stamp'd, and want love's majesty
+To strut before a wanton ambling nymph;
+I, that am curtail'd of this fair proportion,
+</file>
+<file path="home/notes" name="todo.txt">#BINARY#</file>
+
+<file path="home/work" name="list.txt">
+Kieron Bancroft - Assistant
+Monroe Brassington - Security Administrador
+Meadow Milton - IT Department
+Kae Sweet - CEO</file>
+<file path="home/work/logs" name="LOG_XX_XX_2017_MATHEW-MEADOW.log">
+RSBOT: Mathew has joined the chat.
+RSBOT: Meadow has joined the chat.
+===================================
+Meadow: hey Mathew, where have you been? I've been looking for you.
+Mathew: I'm sorry dude, I was spending time with family y'know, christmas is near
+Meadow: Oh, well I need you in my office right now, it's about work
+Mathre: Hm... That important? Can I please stay with my family just some minutes?
+Meadow: Okay, but as soon you're free come now.
+===================================
+RSBOT: Meadow has left the chat.
+RSBOT: Mathre has left the chat.</file>
+<file path="home/work/logs" name="LOG_XX_XX_2017_MATHEW-KIERON.log">
+RSBOT: Mathew has joined the chat.
+RSBOT: Kieron has joined the chat.
+===================================
+Kieron: Mr. Mathew Montana. Your presence is required in the IT office now. This is just a friendly reminder that you are working for us and you must respect the rules and be a responsable worker.
+===================================
+RSBOT: Kieron has left the chat.
+RSBOT: Mathre has left the chat.</file>
+<file path="home/work/logs" name="LOG_XX_XX_2017_MATHEW-MONROE.log">
+RSBOT: Mathew has joined the chat.
+RSBOT: Monroe has joined the chat.
+===================================
+Mathew: Hey, are you there?
+Monroe: What is it pal
+Mathew: Can you cover me for today? I wanna spend time with my family
+Monroe: Tsk, I don't know, things are getting complicated around RS.
+Mathew: What do you mean?
+Monroe: Well, basically authorities suspect of RS of making a VR Model similar to the one that Corp made.
+Mathew: Which corp?
+Monroe: I don't remember the name but they used it the VR to control people, some people died there yo.
+Mathew: Wow... If that's the case RS needs to stop this right now
+Monroe: I've been peeking a little bit and it's not ready yet, but they may release the product in a few days, what do we do?
+Mathew: I have an idea, but not sure if it will work, talk to you later
+===================================
+RSBOT: Monroe has left the chat.
+RSBOT: Mathew has left the chat.</file>
+<file path="home/work/logs" name="LOG_XX_XX_2017_MATHEW-KAE.log">
+RSBOT: Mathew has joined the chat.
+RSBOT: Kae has joined the chat.
+===================================
+Kae: Hey Mathew, I'd like to welcome you to Raising Sun Co. It's a pleasure to have more interesting people working for us day by day. Your role in this company is really important as you may never feel left away or ignored, Sadly we couldn't get you the role you wanted, but we will give you a similar one. I've uploaded your info to the database already, you're good to go.
+Kae: Oh before I forget, the IP for the IRC is 182.168.1.1, we'll be waiting!
+===================================
+RSBOT: Kae has left the chat.
+RSBOT: Mathew has left the chat.</file>
+
+
+
+</Computer>

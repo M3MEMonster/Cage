@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  
+<goal type="delay" time="0.1"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+ 
+  <nextMission>Missions/Decypher.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Dr4k0</sender>
+    <subject>RE: Congrats</subject>
+    <body>You've made it.
+	
+You shall now have a copy of my Decypher, it's on your system now.
+
+Farewell #PLAYERNAME#, and send Spider my regards.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

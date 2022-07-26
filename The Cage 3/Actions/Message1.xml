@@ -1,0 +1,19 @@
+<ConditionalActions>
+  
+  <Instantly>
+<LaunchHackScript Filepath="Scripts/Message1.txt" DelayHost="events" Delay="0" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  <SetLock DelayHost="events" Delay="0" Module="terminal" IsLocked="true" IsHidden="false" />
+  <SetLock DelayHost="events" Delay="0" Module="ram" IsLocked="true" IsHidden="false" />
+  <SetLock DelayHost="events" Delay="0" Module="display" IsLocked="true" IsHidden="false" />
+  <SetLock DelayHost="events" Delay="0" Module="netmap" IsLocked="true" IsHidden="false" />
+  <RunFunction FunctionName="playCustomSong:Music/Message1.ogg"/>
+   
+   <RunFunction FunctionName="playCustomSong:Music/Cypher.ogg" DelayHost="events" Delay="77"/> 
+  <SetLock DelayHost="events" Delay="77" Module="terminal" IsLocked="false" IsHidden="false" />
+  <SetLock DelayHost="events" Delay="77" Module="ram" IsLocked="false" IsHidden="false" />
+  <SetLock DelayHost="events" Delay="77" Module="display" IsLocked="false" IsHidden="false" />
+  <SetLock DelayHost="events" Delay="77" Module="netmap" IsLocked="false" IsHidden="false" />
+
+ </Instantly>
+
+</ConditionalActions>

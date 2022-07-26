@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="terroristnewbie" name="Bryan's Laptop" icon="laptop" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="3" solution="oldlady" additionalTime="0"/>
+  <trace time="5000" />
+	<file path="home/notes" name="note.txt">Find a better way to protect my computer from possible attacks, man I suck at security stuff.</file>
+	<encryptedFile path="home/notes/secret" name="password.dec" extension=".txt" ip="ENCRYPTED" header="Code" >
+Three parts, three acts, three riddles for thee – 
+to revive the one wielding fantasy 
+Ancient gods so cruel, once ruled from on high 
+Can you name their peak where the land meets the sky? 
+  </encryptedFile>
+ <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  
+  </Computer>

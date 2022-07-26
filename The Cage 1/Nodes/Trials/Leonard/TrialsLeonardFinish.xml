@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trialsleonardcomplete" name="Trial Finish Line" allowsDefaultBootModule="true" type="empty">
+<adminPass pass="darkness11425echo" />
+  <portsForCrack val="201" />
+  <admin type="progress" />
+  <trace time="50" />
+  
+	
+  <ports>21, 22, 25</ports>
+  <dlink target="leonard" />
+  
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="proxyf" name="Proxy F-01" icon="chip" ip="183.220.7.215" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>22, 554, 192</ports>
+  <trace time="70" />
+	<firewall level="6" solution="alabatalla" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="4" />
+  <dlink target="frankie" />
+  <customthemefile path="sys" name="The_Verge_x-server.sys" themePath="Themes/ProxyF.xml"/>
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

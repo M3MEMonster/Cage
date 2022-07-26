@@ -1,0 +1,12 @@
+<ConditionalActions>
+<Instantly>
+<RunFunction FunctionName="addRankSilent" FunctionValue="1" />
+<RunFunction FunctionName="addFlags:sequencer"/>
+
+</Instantly>
+
+
+
+
+
+</ConditionalActions>

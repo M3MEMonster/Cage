@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="toshokan" name="Toshokan VR-Set" icon="chip" type="empty" allowsDefaultBootModule="true" ip="57.103.29.38">
+
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="-1" />
+	<firewall level="6"  additionalTime="-1"/>
+<tracker/>
+  <proxy time="-1" />
+  <file path="home" name="Accord.exe">#BINARY#</file>
+  <file path="home" name="Accord.ini">#BINARY#</file>
+  <file path="home" name="AccordVR.dll">#BINARY#</file>
+  <file path="home" name="VR.cfg">#BINARY#</file>
+  <file path="home" name="VR.ini">#BINARY#</file>
+  <file path="home" name="VR.dll">#BINARY#</file>
+  <file path="home/???" name="unlocker.bat">#BINARY#</file>
+  <file path="home/???/backup" name="unlocker.bat">#BINARY#</file>
+  <file path="log/???" name="???.entry">Locker, locker, the old program, they renamed it I guess, not much of a change, the good ol' Lockette, made it to stop the virus, what people do anyway today with programs like this, I should've a destroyed it, a small program can make all the difference.</file>
+  <file path="bin" name="VRINITIATE">#BINARY#</file>
+  <file path="home" name="weird_thing.jpg">http://prntscr.com/l3et3z</file>
+  <customthemefile path="sys" name="white_grid_x-server.sys" themePath="Themes/Toshokan.xml"/>
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

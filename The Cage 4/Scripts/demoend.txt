@@ -1,0 +1,98 @@
+config playerComp playerComp 0.5 $#%#$
+connect $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+
+
+
+
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+writel_silent WHO $#%#$
+
+writel_silent DO $#%#$
+
+writel_silent YOU $#%#$
+
+writel_silent THINK $#%#$
+
+writel_silent YOU $#%#$
+
+writel_silent ARE $#%#$
+
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 4 $#%#$
+
+writel_silent YOU$#%#$
+writel_silent ARE $#%#$
+writel_silent NOTHING$#%#$
+writel_silent BUT $#%#$
+writel_silent DATA $#%#$
+
+delay 4 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+
+writel_silent THE $#%#$
+writel_silent DEMO $#%#$
+writel_silent IS $#%#$
+writel_silent OVER $#%#$
+writel_silent KID $#%#$
+
+delay 4 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+writel_silent MELTDAWN $#%#$
+writel_silent IS $#%#$
+writel_silent IN $#%#$
+writel_silent CHARGE $#%#$
+writel_silent NOW $#%#$
+delay 4 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+
+writel_silent WE'LL $#%#$
+writel_silent MEET $#%#$
+writel_silent WHEN $#%#$
+writel_silent THE $#%#$
+writel_silent TIME $#%#$
+writel_silent COMES $#%#$
+
+delay 4 $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+
+
+writel_silent UNTIL $#%#$
+writel_silent THEN $#%#$
+writel_silent GOOD $#%#$
+writel_silent NIGHT $#%#$
+
+delay 4 $#%#$
+systakeover $#%#$

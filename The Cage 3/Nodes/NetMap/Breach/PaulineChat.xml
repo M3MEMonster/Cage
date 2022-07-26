@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="paulinechat" name="Pauline / Online" icon="chip" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+
+  <!--<tracker -->
+  <proxy time="-1" />
+  
+  <IRCDaemon themeColor="255, 234, 253" name="Pauline / Online" needsLogin="false">
+    <user name="Pauline" color="255, 114, 245"/>
+   
+  </IRCDaemon>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

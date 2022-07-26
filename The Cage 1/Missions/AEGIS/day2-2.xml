@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis2-2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="AtomicBomb.bat" path="bin" destTarget="emersonhaynes2" destPath="sys"/>
+  </goals>
+  
+<missionStart>addFlags:surpriseattackstart</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:surpriseattackend</missionEnd>  
+  <nextMission>NONE</nextMission>
+	<posting title="Surprise Attack" requiredRank="6">A Malware professional needs your help with a hostile hacker.</posting>
+  <email>
+    <sender>Emerson Haynes</sender>
+    <subject>Surprise Attack</subject>
+    <body>Hey.
+	
+As soon I found out about this awesome program, I wanted to give it a try.
+
+You see, I'm dealing with a person, specifically a hacker who is blackmailing me and my brother, we tried something but it didn't work very well, I'm not very good at hacking, but I am good at making really destructive malware. so I made a really nasty virus that will destroy that person's computer in no-time. The problem is that I don't know how to reach them, it would be awesome if you could to that for me.
+
+I've uploaded the malware to your File Drop Server, it's called "AtomicBomb.bat" and I need you to upload it to the hacker's ~sys~ folder.
+	</body>
+    <attachments>
+       <link comp="aegisdrop" />
+	   <link comp="emersonhaynes"/>
+	</attachments>
+  </email>
+</mission>

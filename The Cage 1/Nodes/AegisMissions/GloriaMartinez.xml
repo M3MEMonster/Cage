@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="gloriamartinez" name="Gloria's laptop" icon="laptop" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="3" solution="oldlady" additionalTime="0"/>
+  <trace time="-1" />
+	<file path="home/apps" name="SixNightsAtuckes.exe">#BINARY#</file>
+	<file path="home/apps" name="ClubPigeon2.exe">#BINARY#</file>
+	<file path="home/apps" name="UnsuspiciousToolBar.exe">#BINARY#</file>
+	<file path="home/apps" name="UnderWatch.exe">#BINARY#</file>
+	<file path="home/apps" name="CasinoWin.exe">#BINARY#</file>
+	<file path="home/apps" name="CatGame.exe">#BINARY#</file>
+	
+</Computer>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+ <goal type="fileupload" target="kael" file="LastFavor.exe" path="bin" destTarget="kimmydrop" destPath="Drop/Uploads"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  
+ <missionStart>loadConditionalActions:Actions/Standby1.xml</missionStart>
+
+  <nextMission>Missions/Forum4.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Aztec</sender>
+    <subject>Hey</subject>
+    <body>Hey so...
+	
+I don't know you? But I've noticed something on the forums, you've done a great job helping those people, and I'm interested on your skills. You see, I've been in the field for quite a time and I've been looking for people like you for my uh... Team.
+
+Now, if you don't want to be part of it I won't force you but you have potential, look, as a sign of peace I've left a gift on your computer, a executable that may help you, it's called SignalScramble, won't say what it does, you'll have to find out but trust me, it's useful ;).
+
+I'm Aztec, just a fellow hacker that has been through some things in the past and I just want to make the right thing now. Well, things have changed, we're in different times now, it's 2070 and no one remembers the people that helped this planet to become a safer place for internet users and hackers, I kinda want to bring them back to glory, even though they may be dead.
+
+Look, I'll do some stuff first, get the IRC prepared, in the mean time you can help some folks in the forums, they've noticed your presence and they're grateful. Hope to see you soon, friend.
+
+-Aztec
+LunaSec Moderator</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

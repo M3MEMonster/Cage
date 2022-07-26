@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="twilighthub" name="Twilight HUB" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>22</ports>
+  <trace time="-1" />
+	<dlink target="twilightdrop" />
+	<account username="#PLAYERNAME#" password="crepusculo" type="3" />
+	<missionHubServer groupName="Twilight" serviceName="Twilight Contracts" missionFolderPath="Missions/Twilight" themeColor="60,0,0" lineColor="55,55,55" backgroundColor="39,42,43" allowAbandon="false"/>
+	</Computer>

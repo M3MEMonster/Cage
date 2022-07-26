@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="msg1" name="VM-0001-Recording" icon="chip" type="empty" allowsDefaultBootModule="true">
+
+<CreditsDaemon Title="Recording 001#" ButtonText="Play" ConditionalActionSetToRunOnButtonPressPath="Actions/Message1.xml"/>
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+	<firewall level="6" solution="findme" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  <file path="home" name="Fragment_01.lc">#BINARY#</file>
+  <file path="home/backup" name="Fragment_01.lc">#BINARY#</file>
+  <file path="home" name="Learning_Emotions.txt">Part of a series on
+Emotions
+Plutchik-wheel.svg
+Affection Anger Angst Anguish Annoyance Anticipation Anxiety Apathy Arousal Awe Boredom Confidence Contempt Contentment Courage Curiosity Depression Desire Despair Disappointment Disgust Distrust Ecstasy Embarrassment Empathy Enthusiasm Envy Euphoria Fear Frustration Gratitude Grief Guilt Happiness Hatred Hope Horror Hostility Humiliation Interest Jealousy Joy Loneliness Love Lust Outrage Panic Passion Pity Pleasure Pride Rage Regret Rejection Remorse Resentment Sadness Saudade Schadenfreude Self-confidence Shame Shock Shyness Sorrow Suffering Surprise Trust Wonder Worry
+v t e
+Emotion is any conscious experience[1][2][3] characterized by intense mental activity and a certain degree of pleasure or displeasure.[4][5] Scientific discourse has drifted to other meanings and there is no consensus on a definition. Emotion is often intertwined with mood, temperament, personality, disposition, and motivation.[6] In some theories, cognition is an important aspect of emotion. Those acting primarily on the emotions they are feeling may seem as if they are not thinking, but mental processes are still essential, particularly in the interpretation of events. For example, the realization of our believing that we are in a dangerous situation and the subsequent arousal of our body's nervous system (rapid heartbeat and breathing, sweating, muscle tension) is integral to the experience of our feeling afraid. Other theories, however, claim that emotion is separate from and can precede cognition.</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

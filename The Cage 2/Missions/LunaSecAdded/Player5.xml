@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="clearfolder" target="ge-eye" path="sys"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionEnd>loadConditionalActions:Actions/Levelup.xml</missionEnd>
+   <nextMission IsSilent="true">NONE</nextMission>
+  
+  <posting title="God's Eye">You're told to find the password for your assigned encrypted file.</posting>
+  
+  <email>
+    <sender>Paulline</sender>
+    <subject>God's Eye</subject>
+    <body>#PLAYERNAME#.
+	
+So I've set for each of you a encrypted, you gotta track the IP of your assigned encrypted file, once you get the password to open the file inside there should be another password, I need that one, so when you're ready with it just reply to this email it, take your time #PLAYERNAME#.
+
+I've linked you the backup server, you should find some useful tools there, good luck my friend.
+</body>
+    <attachments>
+      <link comp="lunabackup" /> 
+    </attachments>
+  </email>
+</mission>

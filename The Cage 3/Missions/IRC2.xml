@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+ <goal type="delay" time="46"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  
+  <nextMission IsSilent="true">Missions/IRC3.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Aztec</sender>
+    <subject>Hey</subject>
+    <body>So...
+	
+As I was saying, I wanted your skills in my group... Well half-mine, I didn't make it, I'm just a moderator of the chat and well not gonna lie, I'm not the one that wanted you in, someone else did, our admin and leader Pauline, she was the one watching what were you doing (don't ask me how, that's some high skill hacking there) and so we are here.
+
+Look you don't have to but we really need help. I'm gonna attach your credentials and the servers, I hope to see you there.
+
+-Aztec
+LunaSec Moderator</body>
+    <attachments>
+      <link comp="lunadrop" />
+	   <link comp="lunairc" />
+	    <account comp="lunadrop" user="#PLAYERNAME#" pass="moonlight" />
+		 <account comp="lunairc" user="#PLAYERNAME#" pass="moonlight" />
+		 <note title="Credentials Issue">If the credentials doesn't show at all, try changing the theme using ThemeChanger.exe</note>
+    </attachments>
+  </email>
+</mission>

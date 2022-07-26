@@ -1,0 +1,153 @@
+<CustomFaction name="Luna Sec" id="lunasec" playerVal="0">
+<Action ValueRequired="1">
+<ChangeAlertIcon Target="lunahub" Type="irc" DelayHost="events" Delay="0"/>
+<RunFunction FunctionName="playCustomSong:Music/Black_Magic.ogg"/>
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper-1.xml" TargetComp="lunahub" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa-1.xml" TargetComp="lunahub" />
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="2">Are you guys finished?.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="4">I finished time ago.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="6">Yeah was pretty eassy.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="8">Well, was that a nice warmup @#PLAYERNAME#?.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="12">I've been exploring those computers and I can't believe John Peace is providing all the corps with his model.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="19">Wait, what?.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="21">So, these guys are not stealing Aegis equipment, but they're provided by it's creator himself?.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="28">That's what it seems :/.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="30">Darnit, this isn't good, 0 good..</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="35">I know, but that's what is our goal now, we need to keep doing what we do, until we find some clues about John Peace's plans cause this is iffy af.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="44">Gotcha, okay guys let's go back to work.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="47">If you guys feel trapped or lost, you can come to the IRC to clear your doubts.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="52">@Kaisa, @Kwiper and @#PLAYERNAME#, I've uploaded more tasks, let's get this thing done.</AddIRCMessage>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Player2.xml" TargetComp="lunahub" Delay="52" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper2.xml" TargetComp="lunahub" AssignmentTag="Kwiper" Delay="52" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa2.xml" TargetComp="lunahub" AssignmentTag="Kaisa" Delay="52" DelayHost="events"/>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="52"/>
+</Action>
+
+<Action ValueRequired="2">
+<ChangeAlertIcon Target="lunahub" Type="irc" DelayHost="events" Delay="0"/>
+<RunFunction FunctionName="playCustomSong:Music/dynamic_recompilation.ogg"/>
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper2.xml" TargetComp="lunahub" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa2.xml" TargetComp="lunahub" />
+<AddIRCMessage Author="LUNABOT" TargetComp="lunahub" Delay="3">User @Spiderbenb is joining...</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="5">Woah, I'm finally in, that was a long wait though.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="9.47">Yeah... About that I'm sorry, it was long task for @#PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="14.27">No probs :p.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="16.58">Anyway Paulline though you guys needed help and that's why I'm here.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="21.38">She told me about the deal with John and the VR Sets, and honestly once she told me that I had no choice but to join and help you guys stop that bastard.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="30.43">And how the hell we are supposed to do that? We don't know anything bout him, not even a single IP.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="36.64">I know, I know, it's going to be hard but apparently we're going in the right way, what do I mean? Raising Sun and maybe more corps are connected to him since they want only one thing, yes, the VR SET Source Code, John is not giving the S.C but his giving a sample set so corps can easily re-configure it.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="57.01">So he doesn't want to show the Source Code for some reason right?.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="62.68">I don't know about you guys but, if he's hiding something like that, it means something dangerous, and I'm pretty sure the hacker, is involved.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="71.84">The hacker? what do you mean?</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="74.84">Years ago, there was a hacker that broke into some politicians pacemakers and stopped them working, the reason is still unknown but that person now works for John.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="84.54">Yeah, she's weird, we still don't know why she did that, but we won't let that frighten us right? Guys, I've joined you to help, and that's what I wanna do, no matter what.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="95.64">Spider is right, I have an idea... Let's make a decoy server.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="100.38">What do you mean?.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="102.01">I'll make a node which disguises as a AEGIS one, this will contain a fake source code, and I'll publish it using a VPN, a real strong one.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="111.88">Sounds like a plan, then what?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="115.23">Well, corps will get into this server and will download the IP, so I'm going to track them and see if they're related to AEGIS, once I've digged enough I'll give you guys each one a corp for you to explore in okay? We're five people so this work may be easy and fast anyway.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="131.96">Nice, I'll be waiting.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="134.65">By the way @#PLAYERNAME#, I need you to help me with something before we find out about the corps related to AEGIS, I've uploaded a mission for you to the hub.</AddIRCMessage>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="134.65"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Player3.xml" TargetComp="lunahub" Delay="134.65" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa3.xml" TargetComp="lunahub" Delay="134.65" DelayHost="events" AssignmentTag="Kaisa"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper3.xml" TargetComp="lunahub" Delay="134.65" DelayHost="events" AssignmentTag="Kwiper"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Spider3.xml" TargetComp="lunahub" Delay="134.65" DelayHost="events" AssignmentTag="Spiderbenb"/>
+</Action>
+
+<Action ValueRequired="3">
+<ChangeAlertIcon Target="lunahub" Type="irc" DelayHost="events" Delay="0"/>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="5">Well, ladies and gentlemen... I've been making the server and so far we baited exactly 4 IPs</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="10.60">That's a lot o:</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="11.78">Well yeah, I only got the IP's, they're encrypted tho, I'm gonna need an application for that and I'm not sure where exactly I can get it.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="19.14">I know exactly the place, but it's a pain in the ass to get the file.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="22.57">It's from a friend, but he's not giving anything to me or us, we gotta earn it.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="26.54">How exactly?</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="27.49">Simple as reaching his computer and getting the file directly from him.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="30.48">It doesn't sound that complicated.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="32.48">I know, I know, but that's the point, it looks easy but he's riddly as fuck. Most probably thing is that the files are hidden somewhere.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="38.59">This brings me memories from Aegis @#PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="40.74">Riddles.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="42.74">Not sure though... I have the IP of one of his nodes, that may work?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="46.90">Pretty sure that will do.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="48.27">Okay give me a sec...</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="51.96">There we go, it's 96.36.56.14, you should get in and find a way to get a decypher tool.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="56.65">Okay guys, let's do it.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="58.49">Oh and by the way, if you get the Decypher remember to upload it to the Drop Server.</AddIRCMessage>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="58.49"/>
+</Action>
+
+
+<Action ValueRequired="4">
+<ChangeAlertIcon Target="lunahub" Type="irc" DelayHost="events" Delay="0"/>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="5">I'm gonna take a copy of that...</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="7.17">Done, guys the Decypher.exe is on the dropserver, thank #PLAYERNAME# for that.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="12.51">So I'm running the Decypher aaad...</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="17.22">Fuck! The file is encrypted with a password</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="20.19">Wasn't your program the one encrypting em? Why did you program add passwords anyway</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="25.92">It didn't, the IP's themselves are encrypted twice the first lock is opened but the second one requires a password</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="31.91">Anyway I've stored the encrypted files in my backup server just in case. Also there you'll find my new program called DECHEAD.exe which tracks the IP of where the file was encrypted.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="40.50">Use it to find the password for your assigned file.</AddIRCMessage>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Player4.xml" TargetComp="lunahub" Delay="40.50" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa4.xml" TargetComp="lunahub" Delay="40.50" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper4.xml" TargetComp="lunahub" Delay="40.50" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Spider4.xml" TargetComp="lunahub" Delay="40.50" DelayHost="events"/>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="40.50"/>
+</Action>
+
+<Action ValueRequired="5">
+
+<LoadMission MissionName="Missions/LunaSecAdded/Player5.xml" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa4.xml" TargetComp="lunahub" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper4.xml" TargetComp="lunahub" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/LunaSecAdded/Spider4.xml" TargetComp="lunahub" />
+<ChangeAlertIcon Target="lunahub" Type="irc" DelayHost="events" Delay="0"/>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="5">!ANNOUNCEMENT! - @channel </AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="7">This is really important... I dont think we need these IP's anymore...</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="10.78">What is it? What happened @Paulline.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="12.83">As @#PLAYERNAME# was tracking the file, we found what we wanted... One of the persons to enter the Decoy Server was a member of Aegis... and we got everything we want.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="21.05">How?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="22.57">I'll link you the info.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="26.12">Oh wow, this is a lot of info we can use agains't them.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="29.83">How "much".</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="31.38">Lots @Kaisa, lots, actually we have enough information to go to their core server again and finish it once and for all.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="37.91">Is not that simple @Spiderbenb, they may find out at some point.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="41.38">We gotta take advantage of this now.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="42.91">Before it is too late-1010100000100101</AddIRCMessage>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Sabotage.ogg" Delay="43" DelayHost="events" />
+
+
+<AddConditionalActions Filepath="Actions/Eye.xml" DelayHost="events" Delay="43"/>
+</Action>
+
+<Action ValueRequired="6" Flags="sequencer">
+<RunFunction FunctionName="playCustomSong:Music/Blood_Oath.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/LunaSec.xml" FlickerInDuration="3" DelayHost="events" Delay="0" />
+<CancelScreenBleedEffect DelayHost="events" Delay="0" />
+<CrashComputer TargetComp="playerComp" CrashSource="ge-eye" DelayHost="events" Delay="4" />
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="5">!ANNOUNCEMENT! - @channel </AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="7">What the hell? What the hell just happened @#PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="10.67">What happened?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="11.76">The virus... Attacked #PLAYERNAME#, thankfully #PLAYERNAME# could beat it...</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="16.76">Guys... This virus, these files, these plans for Aegis... Is not something small they're gonna do... It's something really big.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="25.70">How big?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="26.57">It envolves every human being on planet earth.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="29.14">Peace will use the A.I with the source code of the Vr-Set to make a killing bot for the users of a Vr-Set.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="34.26">What the hell does that guy wants... Why is he so twisted.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="38.64">I'm not sure... But whatever he wants, it has to be for power, that's the only logical reason he wants to rule having a killing machine loose doing stuff for him.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="48.32">Is there a way to stop it?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="50.27">If everything was different... If we... Nevermind, it's to late.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="54.78">Spit it.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="56.88">When #PLAYERNAME# corrupted the Core Server time ago, they released the virus, and with that this happened.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="64.74">Apparently the virus that attacked #PLAYERNAME# is one of the many John has, but he still manages the original source code of the virus, if we could just avoided releasing the virus that time... Everything could have been different.</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="77.05">What about the program you were working on? The 4WSequencer? What does it do?</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="82.64">Oh, that garbage? it doesn't work... It never worked... The language is too complex for me to understand and probably will never find a way to make it run.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="91.45">What do we do now? @channel</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="94.49">I'm afraid I don't know...</AddIRCMessage>
+<AddIRCMessage Author="Spiderbenb" TargetComp="lunahub" Delay="96.28">Without a way to get back, we're fucked...</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="99">Is alright... It has been a pleasure working with you guys... I think it's time for you all to disconnect. !ATTACHMENT:link#%#Disconnect_Node#%#123.123</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="106.02">See you here in real life.</AddIRCMessage>
+<AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="lunadrop" TargetFolderpath="bin" DelayHost="events" Delay="106"/>
+</Action>
+
+</CustomFaction>

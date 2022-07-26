@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="thehackerno1" activeCheck="true">
+  <goals>
+ <goal type="delay" time="1"/>
+  
+  </goals>
+  <missionEnd>addFlags:hackerending</missionEnd>
+  <nextMission>NONE</nextMission>
+  
+  <email>
+    <sender>???</sender>
+    <subject>RE: Help</subject>
+    <body>Okay.
+	
+I tried to be a good person and give you a chance.
+
+You'll regret this.
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

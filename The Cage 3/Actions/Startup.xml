@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+  <Instantly>
+    
+    
+	
+	<RunFunction FunctionName="setAssetServer:assets" />
+	
+	
+    
+  </Instantly>
+
+</ConditionalActions>

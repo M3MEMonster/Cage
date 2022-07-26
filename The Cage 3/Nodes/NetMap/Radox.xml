@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="radox" name="Rad0x's Laptop" icon="DLCLaptop" ip="43.242.190.233" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="80" />
+	<file path="home" name="that_node.txt">// Important Note
+	//Pauline's Backup Server
+	142.???.???.???
+	
+	We got the last three parts of the IP but they're encrypted and thanks to Kenyan we lost everything god damn it.</file>
+	<file path="home" name="dont_hurt_me_this_wat.ogg">#BINARY#</file>
+	<file path="home" name="dont_touch_me_this_way.ogg">#BINARY#</file>
+	<file path="home" name="mistake.txt">Don't speak to me this way 
+Don't ever let me say 
+Don't leave me again
+I never felt this loss before 
+And the world is closing doors 
+I never wanted anything more
+Don't hug me this way 
+Don't touch me this way 
+Don't hug me again [Repeat x2]
+Don't hug me this way 
+Don't touch me this way 
+Don't hug me this again
+I never felt this loss before 
+And the world is closing doors 
+I never wanted anything more 
+Don't let me make the same mistake again 
+Please, don't let me make the same mistake again 
+Don't let me make the same mistake again 
+I never felt this loss before 
+And the world is closing doors 
+I never wanted anything more 
+Please, don't let me make the same mistake again</file>
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="MingShortCut.*exe">#BINARY#</file>
+<file path="bin" name="Overtale.exe">#BINARY#</file>
+<file path="bin" name="LeagueOfRetards.exe">#BINARY#</file>
+<file path="sys" name="ming.sys">#BINARY#</file>
+<file path="home" name="cool.url">https://www.youtube.com/watch?v=FvnjYJKipoo</file>
+
+
+
+<tracker/>
+  <proxy time="1" />
+  <customthemefile path="sys" name="Nerd_x-server.sys" themePath="Themes/Nerd.xml"/>
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

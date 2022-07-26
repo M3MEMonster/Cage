@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jpeacenode" name="John Peace's Laptop" icon="laptop" type="empty" allowsDefaultBootModule="true" ip="36.95.103.250">
+
+  <portsForCrack val="3" />
+  <ports>22, 80, 1433</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="greed" additionalTime="0"/>
+<tracker/>
+  <proxy time="-1" />
+
+<eosDevice name="John Peace's ePhone 4S" id="jpeaceeos" icon="ePhone" empty="false" passOverride="tranquil">
+	<note>Moonshine Meeting
+Moonshing meeting to discuss future security of LunarOS - September 30th</note>
+	<note>Mainframe Pass
+Mainframe password: stored in memory of workstation (201.102.30.104)</note>
+  </eosDevice>
+
+<Memory>
+	<Data>
+		<Block>Phone password: tranquil</Block>
+	</Data>
+</Memory>
+
+<dlink target="lcorddrop"/>
+
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="BinaryBin.exe">#BINARY#</file>
+<file path="home" name="wallaper.ini">#BINARY#</file>
+<file path="home/games" name="MineSweeper.exe">#BINARY#</file>
+<file path="home/games" name="OverTale.exe">#BINARY#</file>
+<file path="home/games" name="ClubPigeon.exe">#BINARY#</file>
+<file path="home/games" name="Cracknet.exe">#BINARY#</file>
+<file path="home" name="mercenary.png">http://prntscr.com/l3exc9</file>
+<file path="home" name="mow.png">http://prntscr.com/l3exfq</file>
+<file path="home" name="what_the_fuck.png">http://prntscr.com/l3exme</file>
+<file path="home/games" name="??.txt">He was so proud of his little girl.
+It was her very first day of school.
+He walked with her to school that day,
+And she held his hand all the way.
+They walked together quiet and sad,
+A little girl and her loving dad.
+Into the school her father led,
+But he almost cried when she said,
+"Daddy, Daddy, please don't go.
+Don't leave me here all alone.
+I'll miss you if you go away,
+And I might need you; can't you stay?"
+"Little Daughter, please don't cry.
+You'll be okay, so dry your eyes.
+You have our memories in your heart.
+We're together though we're apart
+ </file>
+
+
+ <customthemefile path="sys" name="Peace_x-server.sys" themePath="Themes/Peace.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-irc" name="Raising Run IRC" icon="DLCServer" ip="182.168.1.1" type="empty"  allowsDefaultBootModule="true">
+
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+  <trace time="55" />
+  <portRemap>22=21, 21=22</portRemap>
+	<firewall level="6" solution="newjob" additionalTime="0"/>
+<dlink target="rs-monroe" />
+<dlink target="rs-meadow" />
+<dlink target="rs-mail" />
+	
+	
+	<IRCDaemon themeColor="255,180,50" name="Raising Run IRC Channel" needsLogin="false">
+    <user name="Mathew" color="128,0,0"/>
+    <user name="Kae" color="255,0,255"/>
+    <user name="Monroe" color="240,230,140"/>
+	 <user name="Meadow" color="0,255,127"/>
+	 
+	 
+	 
+    <post user="Kae">Welcome to all new people!</post>
+    <post user="Kae">Remember to read the rules of this IRC!</post>
+    <post user="Monroe">This looks neat, never been on a IRC before lol.</post>
+    <post user="Meadow">Seriously? Where have you been!</post>
+	<post user="Monroe">Somewhere :p.</post>
+	<post user="Mathew">Hey, I'm Mathew</post>
+	<post user="Monroe">Hey Mathew! Are you new?.</post>
+	<post user="Mathew">Yeah, I just made it to be here, didn't think I would be called honestly</post>
+	<post user="Meadow">So, what role did you apply for?.</post>
+	<post user="Mathew">Oh, Security Guard</post>
+	<post user="Meadow">Security Guard is boring, I mean, nothin happens honestly.</post>
+	<post user="Monroe">Yep, me and Meadow always watch the cameras, nothing happens.</post>
+	<post user="Mathew">Yeah but I got moved to another role, I'm from Security department now so probably I'll be working with you Monroe.</post>
+	<post user="Monroe">Nice, I need more friends! This will be fun	.</post>
+  </IRCDaemon>
+</Computer>

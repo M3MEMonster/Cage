@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-snode2" name="Security Node 2" icon="chip" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 80</ports>
+  <trace time="60" />
+  <proxy time="1" />
+  <firewall level="6" solution="rootkit" additionalTime="0"/>
+  <portRemap>80=8080</portRemap>
+  <WhitelistAuthenticatorDaemon Remote="ds-snode1"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <dlink target="ds-snode3" />
+<admin type="progress" />
+  
+</Computer>

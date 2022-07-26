@@ -1,0 +1,34 @@
+=============================================
+				         The Cage 2
+=============================================
+ 
+ 
+Time passed by as you escaped with Paulline from Aegis co. 
+The VR Facility was unable to operate anymore thanks to the sabotage of the Core Server.
+Now you and Paulline are running away from that place, along with the other hackers that
+survived John Peace's euthanasia.
+
+Paullina took the chance to steal one of their devices for further uses and so you
+and her stablished a mini-base near South America to operate and take down all those
+evil corps that are trying to make copies of what AEGIS did.
+
+Now you use the VR set Paulline stole for a good cause. 
+You, Paulline and other hackers that decided to join the squad are down to take down
+corporations that are trying to attack society.
+
+You have a team now, LunaSec.
+ 
+ 
+=============================================
+                   initializing LunaOS
+=============================================
+> x-server.sys . . . . . . . . 100%
+> os-config.sys. . . . . . . . 100%
+> bootcfg.dll  . . . . . . . . 100%
+> netcfgx.dll  . . . . . . . . 100%
+=============================================
+       Operative System loaded succesful
+=============================================
+
+> Boot completed
+> Initializing LunaOS

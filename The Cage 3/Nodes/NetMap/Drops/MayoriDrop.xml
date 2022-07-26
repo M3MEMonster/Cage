@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mayoridrop" name="Mayori's Drop Server" icon="DLCPC2" ip="90.54.124.1" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="2" />
+  <ports>22, 1433, 554</ports>
+  <trace time="100" />
+	
+  <!--<tracker -->
+  <proxy time="4" />
+  <uploadServerDaemon name="Mayori Dropbox" folder="Drop" 
+                      needsAuth="false" color="238, 66, 244"/>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>	
+<file path="home" name="pic_020203.png">http://prntscr.com/kimmoy</file>  
+<file path="home" name="pic_333214.png">http://prntscr.com/kimmul
+
+traps aren't gay... Right?</file>  
+<file path="home" name="pic_333233.png">http://prntscr.com/kimn1b</file> 
+<file path="home" name="pic_owo.png">http://prntscr.com/kimnly</file> 
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="bin/backup" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+ <Memory>
+    <Commands>
+      <Command>make ecryptedfile content:[REDACTED] password:m3m3st4t10n</Command>
+	  <Command>mv mayoridrop beast</Command>
+	  <Command>Transfer Completed</Command>
+	  <Command>rm mayori.dec</Command>
+     
+    </Commands>
+    <Data>
+     
+    </Data>
+    <Images>
+      <Image>Images/Screenshot_9.png</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="Chaos_Fissure_x-server.sys" themePath="Themes/MayoriDrop.xml"/>
+  <dlink target="mayori" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

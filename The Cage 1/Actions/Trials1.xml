@@ -1,0 +1,8 @@
+<ConditionalActions>
+ 
+ <Instantly>
+ <RunFunction FunctionName="playCustomSong:Music/Heavy_Artillery.ogg" Delay="3" DelayHost="events"/>
+ <LaunchHackScript Filepath="Scripts/Trials1.xml" DelayHost="events" Delay="3" SourceComp="pauline" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+ </Instantly>
+ 
+ </ConditionalActions>

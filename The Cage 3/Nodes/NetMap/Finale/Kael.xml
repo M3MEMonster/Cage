@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kaellaptop" name="Kael's Laptop" icon="DLCLaptop" type="empty" allowsDefaultBootModule="false" ip="203.44.102.20">
+
+  <portsForCrack val="4" />
+  <ports>21, 6881, 1433, 25</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="death" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+
+<eosDevice name="Kael's ePhone 7S" id="kaeleos" icon="ePhone" empty="false">
+	<!-- at this point, everyone gets an eos tbh -->
+	<note>Reminder
+Meet with John Peace to discuss matters with Moonshine
+IP for secure video chat connection: 36.95.103.250</note>
+  </eosDevice>
+  
+  
+  <file path="home" name="PGod.ini">#BINARY#</file>
+  <file path="home" name="ProjectGodInitiated.exe">#BINARY#</file>
+  <file path="home" name="Accord.exe">#BINARY#</file>
+  <file path="home" name="4wsequencer.wip">#BINARY#</file>
+  <file path="home/backup" name="4wsequencer.wip">#BINARY#</file>
+  <file path="log/???" name="???.entry">Time travel is something that everybody don't believe, but what if I tell you, there's an actual way to travel time. Not quiet the way we want but it works... This tools should've never existed.</file>
+  <file path="home" name="AegisVirus.vr">#BINARY#</file>
+  <file path="home" name="ode.txt">Do not weep for me, for I will soon be gone.
+My body may die, but my soul will live on. 
+Perhaps up to heaven, maybe eternity, 
+or be reborn as another, when I am set free.
+
+Do not weep for me, for I will soon be gone.
+I was a survivor since my first breath was drawn. 
+I loved and was loved by animals and man, 
+siblings, friends, and strangers since my life began.
+
+I was blessed with a father who taught me well, 
+to live this life on earth as a heaven, not hell. 
+A mother who taught me to stand on my feet, 
+a faith that anchored me, all strangers to greet.
+
+If you fear dying, you'll not live a full life, 
+as pain and dread will cut through like a knife. 
+Live each day with joy while you're here on this earth; 
+make each day count, with compassion and mirth.
+
+Do not weep for me, for I will soon be gone,
+my body may die, but my soul will live on. 
+I leave all of you with my love, and I pray
+that our souls will touch once again someday.</file>
+
+<customthemefile path="sys" name="Electric_grid_x-server.sys" themePath="Themes/KaelGrid.xml"/>
+  
+	<Memory>
+		<Commands>
+			<Command>connect 234.103.28.201</Command>
+			<Command>login</Command>
+			<Command>admin</Command>
+			<Command>**********</Command>
+			<Command>disconnect</Command>
+		</Commands>
+	</Memory>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

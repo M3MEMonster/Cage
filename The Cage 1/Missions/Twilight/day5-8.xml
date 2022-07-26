@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="twilight5-8" activeCheck="true">
+  <goals>
+<goal type="delay" time="1"/>
+  </goals>
+
+<missionStart>addFlags:sequencer</missionStart>
+  <nextMission>NONE</nextMission>
+	<posting title="It's time" requiredRank="14" reqs="twilightmember">Pauline requires your urgent help.</posting>
+  <email>
+    <sender>Pauline</sender>
+    <subject>It's Time</subject>
+    <body>You were distracted right?
+	
+Hope you have the file I asked you to download, we're gonna need it, now.
+
+I uploaded another file called "ESequencer.exe" into the Twilight dropbox, what it does is it reveals an IP for a little bit, but in this case it will reveal the IP of the core server of AEGIS.
+
+I've been working on it all this time and I think now it's the best time to use it, before they turn everyone into hacking machines. Look, you're gonna have only one chance to do it and expect the server to be full of security. I trust you #PLAYERNAME# I trust your skills and that you will make it. You need to go inside and delete everything related to AEGIS. I wish you the best of lucks my friend.
+
+And please... Be safe, I'll be watching over you if things go wrong.
+	</body>
+    <attachments>
+       
+	</attachments>
+  </email>
+</mission>

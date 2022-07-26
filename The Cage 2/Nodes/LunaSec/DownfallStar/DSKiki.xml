@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-kiki" name="Kiki's Computer" type="0">
+
+  <portsForCrack val="2" />
+  <ports>22, 80</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  <firewall level="6" solution="thealgorithm" additionalTime="0"/>
+  <portRemap>22=221, 80=801</portRemap>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin" name="MemDumpGenerator.txt">MemDumpGenerator is basically used to generate erased filed, tho I need to work on making the dump file reader.</file>
+  
+
+  
+</Computer>

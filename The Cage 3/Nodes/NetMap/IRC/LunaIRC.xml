@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lunairc" name="LunaSec IRC Server" icon="DLCPC2" type="empty" allowsDefaultBootModule="true">
+<account username="#PLAYERNAME#" password="moonlight" type="1" />
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	<firewall level="6" solution="" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  
+  <IRCDaemon themeColor="202, 121, 229" name="LunaSec IRC Channel" needsLogin="false">
+    <user name="LunaBOT" color="209, 209, 209"/>
+	<user name="Pauline" color="249, 147, 255"/>
+	<user name="Kaisa" color="255, 0, 80"/>
+	<user name="Aztec" color="48, 255, 210"/>
+    
+
+    <post user="Pauline">So are they coming?</post>
+    <post user="Aztec">No idea but I tried to convince them.</post>
+    <post user="Pauline">Hope they do actually come though...</post>
+    <post user="Kaisa">What did I miss?</post>
+	<post user="Pauline">I found a good candidate to help us.</post>
+	<post user="Kaisa">Oh, yeah we need them after Spider and Kwiper left we're nothing lol.</post>
+	<post user="Pauline">That's okay, they had to leave for their own reasons.</post>
+	<post user="LunaBOT">** @#PLAYERNAME# has joined the channel **</post>
+  </IRCDaemon>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

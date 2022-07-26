@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="ds-finalwhitelist" file="authenticator.dll" path="Whitelist"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <nextMission>NONE</nextMission>
+  
+  <posting title="Downfall Star">Paulline has been contacted by an old friend of her, but he cannot access the hub for some weird reason, it has to do with some sort of whitelist blocking out communication.</posting>
+  
+  <email>
+    <sender>Paulline</sender>
+    <subject>Downfall Star</subject>
+    <body>#PLAYERNAME#.
+	
+Your task on RS Co. Was admirable as always, but this time I need something more complex, I've been in touch with a friend that could help us, but he can't connect to our system due to a mal function of a whitelist somewhere near us. I need you to get to the white list and allow his acces here, you can rename the authorized IP'S but to make it sure it works, erase the authenticator in the Whitelist server and we should be good to go.
+
+The problem though, I don't know exactly which server may be, but I do know, is that Whitelist operates according to our location, We're near Chile so the Whitelist has to be related to Chile or something, find it and take it down.
+
+I've linked you a node where you can start investigating.
+</body>
+    <attachments>
+      <link comp="ds-cafeteria" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-1" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+  </goals>
+  
+<missionEnd>addFlags:initiation</missionEnd>
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>Dr. John Peace</sender>
+    <subject>Greetings</subject>
+    <body>Good day #PLAYERNAME#,
+
+You may know me, you may not. This is Dr. John Peace, but you may call me John, you've been selected to be in our first virtual reality hacking system, we started this project with one goal, to train people to be really good hackers in real time, this was supported by the goverment and you my friend, are one of the few souls that were selected to join.
+	
+Now as you may know, my coworker Maritza, told you about our chat server, sadly it's down for mainteance, but don't worry, once it is fully operational and online, we'll let all our patients know. Yes, you're not the only one out there, I'm pretty sure at some point you'll meet someone else from the project.
+	
+Now, I must take my leave, I need to do some stuff related to the project and I must be there. I'm an important man you know, leading this is very difficult but I do my best to do the right thing for my co-workers and for the patients. I really hope you enjoy your stay. Oh and by the way, every user is given a special program that can be used to join other servers, this will be useful when you need to join other places.
+	
+Having explained that, I'll go, but do not fear, we are watching, we are always watching to see if anybody needs help, talk to you soon, and enjoy, Project Aegis.
+	
+Dr. John Peace
+Leader of AEGIS Project	
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

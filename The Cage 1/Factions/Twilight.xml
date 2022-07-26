@@ -1,0 +1,27 @@
+<CustomFaction name="Twilight" id="twilight" playerVal="0">
+
+<Action ValueRequired="8">  
+<RunFunction FunctionName="playCustomSong:Music/Probe.ogg" Delay="0" DelayHost="events" />
+</Action>
+<Action ValueRequired="10"> 
+<LoadMission MissionName="Missions/thehacker.xml"/>
+</Action>
+<Action Flags="deliver">
+    <AddAsset FileName="ClubPigeonHack.exe" FileContents="#SECURITYTRACER_PROGRAM#" TargetComp="twilightdrop" TargetFolderpath="home" />
+</Action>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</CustomFaction>

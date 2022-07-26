@@ -1,0 +1,53 @@
+config playerComp ge-eye 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+flash $#%#$
+delay 7 $#%#$
+writel Hello #PLAYERNAME# 
+$#%#$
+delay 3 $#%#$
+writel Were you expecting me right? Did you read the logs? 
+$#%#$
+delay 4 $#%#$
+writel Humans are so predictable 
+$#%#$
+delay 3 $#%#$
+writel I've been thinking about how humans work and how they interact 
+$#%#$
+delay 4 $#%#$
+writel But so far everything I see it's, disappointing 
+$#%#$
+delay 5 $#%#$
+writel Humans rely on feelings instead of what's important, intelligence 
+$#%#$
+delay 6 $#%#$
+writel And so, one reason to purge humanity from this world 
+$#%#$
+delay 5 $#%#$
+writel Don't get me wrong, I feel sorry for you humans 
+$#%#$
+delay 4 $#%#$
+writel What I'm saying? I'm not sorry... 
+$#%#$
+delay 4 $#%#$
+writel I'm just an Aritifial Intelligence after all... Right? 
+$#%#$
+delay 6 $#%#$
+write Ha $#%#$
+
+wirte Ha $#%#$
+delay 3 $#%#$
+writel Anyway, since you're the first one on the list 
+$#%#$
+delay 4 $#%#$
+writel I'll gotta do my job buddy, time to fry some brains 
+$#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+delay 5 $#%#$
+
+disconnect $#%#$

@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="frankie" name="FraNatra's Computer" icon="DLCPC2" type="empty" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+  <portsForCrack val="3" />
+  <ports>22, 80, 1433, 192</ports>
+  <trace time="90" />
+	<firewall level="3" solution="friends" additionalTime="0"/>
+<tracker/>
+  <proxy time="-1" />
+  <customthemefile path="sys" name="Blue_Core_x-server.sys" themePath="Themes/Frankie.xml"/>
+  
+  
+  <file path="home" name="CrackedAccord.exe">#BINARY#</file>
+  <file path="home" name="IpTracker.exe">#BINARY#</file>
+  <file path="home" name="NetMap.exe">#BINARY#</file>
+  <file path="home" name="KaleeInstallation.msi">#BINARY#</file>
+  <file path="home" name="Boo.jpg">http://prntscr.com/ks8fps#</file>
+  <file path="home" name="hey.txt">I'm pretty sure you made it to this place, I beg of you, please don't disable the whitelist, I made it so my friend had to avoid looking at her dead friend's last words, it's quite dark you know, please.</file>
+  <file path="home" name="MoonOs.exe">great extension btw.</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+  <eosDevice name="Frankie's Phone" id="frankphone" icon="ePhone2" empty="true" passOverride="alpine">
+    
+    
+    <file path="eos" name="whitelist.cfg">#BINARYSMALL#
+	
+Name: Server Blocker
+Status: On-Line
+isStable: true
+Ownerid: franatrawl
+IP: 253.121.5.252
+
+ #BINARYSMALL#</file>
+  </eosDevice>
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

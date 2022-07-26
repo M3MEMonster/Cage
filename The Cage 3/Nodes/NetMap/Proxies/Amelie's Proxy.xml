@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="amelieproxy" name="Amelie's Proxy" ip="192.182.172.162" icon="DLCServer" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 80, 25</ports>
+  <trace time="130" />
+	<firewall level="2" solution="aegis" additionalTime="0"/>
+<tracker/>
+  <proxy time="1" />
+ <customthemefile path="sys" name="Appel_X-Server.sys" themePath="Themes/JohnPeace.xml"/> 
+  <customthemefile path="sys" name="Ascension_X-Server.sys" themePath="Themes/JohnPeace2.xml"/> 
+<file path="home" name="AI.docx">Artificial intelligence (AI, also machine intelligence, MI) is intelligence demonstrated by machines, in contrast to the natural intelligence (NI) displayed by humans and other animals. In computer science AI research is defined as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.[1] Colloquially, the term "artificial intelligence" is applied when a machine mimics "cognitive" functions that humans associate with other human minds, such as "learning" and "problem solving".[2]</file>
+
+<file path="home" name="AegisLogo.svg">#BINARY#</file>
+<file path="home" name="AegisLogo.psd">#BINARY#</file>  
+<file path="home" name="Mmap.exe">#BINARY#</file>
+<file path="home" name="PCrackers1v2.msi">#BINARY#</file>
+
+<file path="home" name="hacker.txt">A computer hacker is any skilled computer expert that uses their technical knowledge to overcome a problem. While "hacker" can refer to any skilled computer programmer, the term has become associated in popular culture with a "security hacker", someone who, with their technical knowledge, uses bugs or exploits to break into computer systems.</file>
+
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/backup" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/backup" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/backup" name="SMTPOverflow.exe">#SMTP_CRACK#</file>  
+  <dlink target="amelieproxy1" />
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

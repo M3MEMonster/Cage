@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-1" activeCheck="true">
+  <goals>
+  <goal type="delay" time="4"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day3/2.xml</nextMission>
+	
+  <email>
+    <sender>Maria Torres</sender>
+    <subject>Break</subject>
+    <body>Good morning #PLAYERNAME#.
+	
+I see you've been interacting a lot in the Support Heroes program, everyone deserves a break, even you, so this is your free day! Have fun out there with your friends or finding new challenges.
+
+Dr. Maria Torres
+AEGIS Support Team Leader
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

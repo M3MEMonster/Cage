@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lunadrop" name="LunaSec Dropbox" type="empty" ip="192.168.1.2" allowsDefaultBootModule="true">
+<positionNear target="playerComp" position="2" total="3" extraDistance="0.1" force="false"/>
+  <portsForCrack val="201" />
+  <ports></ports>
+<uploadServerDaemon name="LunaSec Dropbox" folder="Drop" 
+                      needsAuth="false" color="154,112,182"/>
+<file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+<file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+<file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+<dlink target="playerComp" />					  
+					  </Computer>

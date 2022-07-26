@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="trials-3" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="pauline" file="delete_me.txt" path="home"/>
+  </goals>
+  
+  
+  <nextMission IsSilent="true">Missions/Trials/4.xml</nextMission>
+  
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,10 @@
+config playerComp p-dracopc 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+hideTerminal $#%#$
+delete /sys x-server.sys $#%#$
+forkbomb $#%#$
+flash $#%#$
+disconnect $#%#$
+delay 7 $#%#$
+showTerminal $#%#$

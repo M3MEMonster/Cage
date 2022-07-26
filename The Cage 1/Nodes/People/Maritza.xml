@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="maritza" name="Maritza's Place" icon="chip" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>554, 104</ports>
+  <trace time="40" />
+	<file path="AEGIS" name="AegisTest.dll">#BINARY#</file>
+	<file path="AEGIS" name="AegisStartup.ini">#BINARY#</file>
+	<file path="AEGIS" name="AegisConfig.cfg">#BINARY#</file>
+	<file path="AEGIS" name="Aegis.dll">#BINARY#</file>
+	<file path="AEGIS" name="Aegis.exe">#BINARY#</file>
+	<encryptedFile path="AEGIS" name="Aegis.dec" extension=".txt" ip="ENCRYPTED" header="Aegis Info" pass="">
+Username: 	maritza4152
+Password: 	secretpassword
+Rank:		Support Leader
+
+#BINARY#
+</encryptedFile>
+ <dlink target="aegismail" />
+ <tracker />   
+</Computer>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="leonardtest3" name="Trial Waypoint 3" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="1" />
+  <firewall level="4" solution="order" additionalTime="0"/>
+  <trace time="40" />
+  
+<ports>554</ports>
+ 
+<encryptedFile path="home" name="order.dec" extension=".txt" ip="192.168.1.1" header="Order for the complete password" pass="trial">
+    the codes must be entered in this order, all together, 3,1,2.
+  </encryptedFile>
+  
+</Computer>

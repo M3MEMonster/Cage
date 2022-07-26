@@ -1,0 +1,251 @@
+<ConditionalActions>
+  
+  
+  <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/Sacrifice_Remix.ogg" Delay="100" DelayHost="events"/>
+    <RunFunction FunctionName="setFaction:aegis"/>
+	<RunFunction FunctionName="setHubServer:aegishub"/>
+	<RunFunction FunctionName="setAssetServer:aegisdrop"/>
+	<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+	<AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="twilightdrop" TargetFolderpath="bin" />
+  </Instantly>
+
+ <HasFlags requiredFlags="intro">
+	<LoadMission MissionName="Missions/Day1/1.xml" Delay="8" DelayHost="events" />
+ </HasFlags>
+ 
+ <HasFlags requiredFlags="initiation">
+<ShowNode DelayHost="events" Delay="6" Target="johnny" />
+</HasFlags>
+
+	<OnConnect target="johnny" requiredFlags="initiation">
+    <AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="3">Oh, Hey #PLAYERNAME#! That's your name right?</AddIRCMessage>
+	<AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="6">I don't exactly remember your name honestly, but I do remember you were there with me, about to be placed in the virtual reality machines!</AddIRCMessage>
+	<AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="14">Yeah, crazy huh? I'm right next to you but at the same time we're so far, despite that I found a way to reach you</AddIRCMessage>
+	<AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="21">I assume you got the message too, the one talking about the hub server</AddIRCMessage>
+	<AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="25">Yeah, it's a shame it's down, I wanted to try it out, anyway my name is Johnny, nice to meet you #PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="31">Shall we test our hacking skills? Let's do a race, oh nevermind, if you got the mail that means you don't have tools to hack into other systems</AddIRCMessage>
+	<AddIRCMessage Author="Johnny" TargetComp="johnny" Delay="39">Hm... I have an idea, I know a place where you can get the programs for hacking but it requires a specific password and username, or at least that's what I've been told, check your inbox</AddIRCMessage>
+	<RunFunction FunctionName="addFlags:johnny1" Delay="40" DelayHost="events"/>
+	
+	</OnConnect> 
+	<HasFlags requiredFlags="johnny1">
+	<LoadMission MissionName="Missions/Day1/2.xml" Delay="47" DelayHost="events"/>
+	</HasFlags>
+	
+	
+<HasFlags requiredFlags="decypher"> 
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+</HasFlags> 
+
+<HasFlags requiredFlags="chatenabled"> 
+<ShowNode DelayHost="events" Delay="5" Target="hackersirc" />
+</HasFlags>  
+ 
+<OnConnect target="hackersirc" requiredFlags="chatenabled">
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="3">Ladies and gentlemen, here's your hero, #PLAYERNAME#!</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="8">Heeey, nice one with the assets server, we were too impatient for the tools xD.</AddIRCMessage>
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="14">Yeah, thankfully #PLAYERNAME# here was smart enough to scan nodes from my place.</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="19">What do you mean Jonnhy?</AddIRCMessage>
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="21">A member of the staff connected to my computer and she had the info to the assets server and I had no idea.</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="27">What a dumbo :p, I coul've done that but you know, I'm a lazy ass.</AddIRCMessage>
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="31">Yeah also #PLAYERNAME# looked really badass doing it.</AddIRCMessage>
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="35">Hey B, where are the others? Hacking already?</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="39">Nah, They're just sleeping I pressume or goofing around.</AddIRCMessage>
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="43">Oh okay, anyway Bastion I'm very tired and I may go to sleep.</AddIRCMessage>
+<AddIRCMessage Author="Johnny" TargetComp="hackersirc" Delay="48">You two can chat and get to know each other :), cya!</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="52">Bye Johnny.</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="54">So! #PLAYERNAME#, are you new to hacking?</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="57">No?</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="61">Not a talking person I see, well I need to do something and I'd like a hand.</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="65">If you're okay with that of course.</AddIRCMessage>
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="67">I need to decrypt some files but I don't have the tool, can you upload it to my place? Johnny told me you have a copy so it should work, here's my place </AddIRCMessage>
+<RunFunction FunctionName="addFlags:bastion1" Delay="68" DelayHost="events"/>
+</OnConnect>  
+<HasFlags requiredFlags="day1completed">	
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">@everyone, Have u seen Johnny? I gotta talk to him, it's urgent.</AddIRCMessage>
+	<AddIRCMessage Author="Sam" TargetComp="hackersirc" Delay="0">No, why?</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">I cannot talk about that here.</AddIRCMessage>
+	<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="0">Oh, this is some intense sh*t.</AddIRCMessage>
+	<AddIRCMessage Author="Leonard" TargetComp="hackersirc" Delay="0">Last time I saw him, he was talking to the new one.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">Damn, guys I'm afraid something will happen, Stay alert, I'll go into details soon.</AddIRCMessage>
+	<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="0">SoonTM.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">Stop that.</AddIRCMessage>
+	<AddIRCMessage Author="Sam" TargetComp="hackersirc" Delay="0">LOL.</AddIRCMessage>
+	<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="0">Okay Sorry.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">I'll be back in a few, if you see the new one, tell them to contact me ASAP.</AddIRCMessage>
+	</HasFlags>
+	
+	<HasFlags requiredFlags="day2completed">		
+	<AddIRCMessage Author="AEGISBOT" TargetComp="hackersirc" Delay="0">(Johnny) has been banned.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">What?</AddIRCMessage>
+	<AddIRCMessage Author="Sam" TargetComp="hackersirc" Delay="0">How's that even...</AddIRCMessage>
+	<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="0">What? Johnny's been banned? but what did he do.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">I wish I knew the reason, but Johnny is a good guy, he hasn't done anything wrong.</AddIRCMessage>
+	<AddIRCMessage Author="Leonard" TargetComp="hackersirc" Delay="0">Maybe it has to do with #PLAYERNAME#? 'cause we got the tools thanks to them.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">Honestly I don't tihnk so.</AddIRCMessage>
+	<AddIRCMessage Author="Sam" TargetComp="hackersirc" Delay="0">I'm scared of what could happen to Johnny out there :(.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">He'll be fine, I know him, he's strong.</AddIRCMessage>
+	<AddIRCMessage Author="Pauline" TargetComp="hackersirc" Delay="0">Okay I'll contact #PLAYERNAME#, see you guys around hopefully.</AddIRCMessage>
+	</HasFlags>
+
+	<HasFlags requiredFlags="forums1">
+	<AddThreadToMissionBoard ThreadFilepath="Docs/Day3/1.txt" TargetComp="aegisforums" />
+	<AddThreadToMissionBoard ThreadFilepath="Docs/Day3/2.txt" TargetComp="aegisforums" />
+	</HasFlags>
+	<HasFlags requiredFlags="day3completed">
+	
+	<AddThreadToMissionBoard ThreadFilepath="Docs/Day4/1.txt" TargetComp="aegisforums" />
+	</HasFlags>
+	
+<HasFlags requiredFlags="twilightmember">
+	<RunFunction FunctionName="setFaction:twilight"/>
+	<RunFunction FunctionName="setHubServer:twilighthub"/>
+	<RunFunction FunctionName="setAssetServer:twilightdrop"/>
+	<AddMissionToHubServer MissionFilepath="Missions/missing.xml" TargetComp="aegishub" AssignmentTag="J. Peace"/>
+	</HasFlags>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<HasFlags requiredFlags="bastion1">
+	<LoadMission MissionName="Missions/Day1/5.xml" Delay="47" DelayHost="events"/>
+	</HasFlags>
+<OnConnect target="hackersirc" requiredFlags="bastion1completed"> 
+<AddIRCMessage Author="Bastion" TargetComp="hackersirc" Delay="0">Thanks #PLAYERNAME#, I'll go to sleep for now, I'll be seeing you around in a couple of hours, bye.</AddIRCMessage>
+</OnConnect>  
+<OnConnect target="strangecomp">  
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Eerie.ogg"/>
+</OnConnect> 
+<OnDisconnect target="strangecomp">
+<RunFunction FunctionName="playCustomSong:Music/Dread.ogg"/>
+</OnDisconnect>
+<OnAdminGained target="trialsofpauline1">
+<LoadMission MissionName="Missions/Trials/1.xml"/>
+</OnAdminGained>
+
+
+
+
+
+
+
+
+
+<HasFlags requiredFlags="trials">
+<RunFunction FunctionName="playCustomSong:Music/Heavy_Artillery.ogg" Delay="3" DelayHost="events"/>
+ <LaunchHackScript Filepath="Scripts/Trials1.xml" DelayHost="events" Delay="3" SourceComp="pauline" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+</HasFlags>
+<HasFlags requiredFlags="trial2started">
+<ShowNode DelayHost="events" Delay="3" Target="trialsleonardcomplete" />
+<ShowNode DelayHost="events" Delay="3" Target="trialsleonardstart" />
+</HasFlags>
+
+
+<HasFlags requiredFlags="trials2">
+<RunFunction FunctionName="playCustomSong:Music/Midnight_Murder.ogg" Delay="3" DelayHost="events"/>
+ <LaunchHackScript Filepath="Scripts/Trials2.xml" DelayHost="events" Delay="3" SourceComp="leonard" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+</HasFlags>
+<OnAdminGained target="trialsleonardcomplete">
+<RunFunction FunctionName="playCustomSong:Music/Ritual.ogg"/>   
+</OnAdminGained>
+
+
+<OnConnect target="day1comp" > 
+<RunFunction FunctionName="addRank" FunctionValue="5"/>
+<RunFunction FunctionName="addFlags:day1completed"/>
+
+</OnConnect>  
+<HasFlags requiredFlags="badloser"> 
+<LoadMission MissionName="Missions/filedrop.xml"/>
+</HasFlags>
+<HasFlags requiredFlags="surpriseattackstart"> 
+<AddAsset FileName="AtomicBomb.bat" FileContents="#SECURITYTRACER_PROGRAM#" TargetComp="aegisdrop" TargetFolderpath="home" />
+</HasFlags>
+
+
+<OnConnect target="day2comp"> 
+<RunFunction FunctionName="addRank" FunctionValue="5"/>
+<RunFunction FunctionName="addFlags:day2completed"/>
+</OnConnect> 
+
+<OnConnect target="day4comp"> 
+<RunFunction FunctionName="addRank" FunctionValue="20"/>
+<RunFunction FunctionName="addFlags:day4completed"/>
+</OnConnect> 
+
+<OnConnect target="day3comp"> 
+<RunFunction FunctionName="addFlags:day3completed"/>
+</OnConnect> 
+
+<OnConnect target="trial2start"> 
+<LoadMission MissionName="Missions/Day3/6.xml"/>
+</OnConnect> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <HasFlags requiredFlags="unwantedsoftware">
+ <HideNode DelayHost="events" Delay="2" TargetComp="gloriamartinez" />
+ </HasFlags>
+ <HasFlags requiredFlags="scared">
+<HideNode DelayHost="events" Delay="2" TargetComp="stephanbarrell" />
+ </HasFlags>  
+ 
+ <HasFlags requiredFlags="sequencer"> 
+  <AddAsset FileName="ESequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="twilightdrop" TargetFolderpath="bin" />
+  <RunFunction FunctionName="playCustomSong:Music/Roller_Mobster_Start" Delay="3" DelayHost="events" />
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/Roller_Mobster_Idle" Delay="19.20" DelayHost="events" />
+  
+  </HasFlags>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <HasFlags requiredFlags="glitched">
+<AddConditionalActions Filepath="Actions/glitched.xml" DelayHost="events" Delay="1"/>
+<KillExe DelayHost="events" Delay="0" ExeName="ESequencer" />
+</HasFlags>
+ 
+ 
+ 
+ </ConditionalActions>

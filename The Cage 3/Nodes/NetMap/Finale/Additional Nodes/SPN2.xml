@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="spn2" name="Kayla's Workstation" icon="DLCPC1" type="1" allowsDefaultBootModule="false">
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 25, 80, 1433, 6881, 554</ports>
+  <trace time="95" />
+	<firewall level="7" solution="st4ti0n" additionalTime="0"/>
+  <tracker/>
+  <proxy time="1.5" />
+
+<eosDevice name="Kayla's ePhone 6S" id="kaylaeos" icon="ePhone2" empty="false">
+    <mail username="kayla@spn.com" pass="f39fhaow8cs" />
+</eosDevice>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

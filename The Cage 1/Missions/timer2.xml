@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="timer2" activeCheck="true">
+  <goals>
+  
+  <goal type="delay" time="4"/>
+  </goals>
+  
+  <nextMission>Missions/Day2/2.xml</nextMission>
+  
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

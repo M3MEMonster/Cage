@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="usadeathrow" name="United States Death Row" ip="221.106.3.175" icon="DLCPC2" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 80, 25, 1433, 6881</ports>
+  <trace time="130" />
+	<firewall level="6" solution="revelation" additionalTime="0"/>
+<tracker/>
+  <proxy time="3" />
+  <deathRowDatabase />
+  <customthemefile path="sys" name="Eagle_X-Server.sys" themePath="Themes/USA.xml"/>
+  <WhitelistAuthenticatorDaemon Remote="usadeathrowwl"/>
+  
+  <file path="excluded" name="Cantrill_Erin[598119]">Cantrill#
+Erin#
+598119#
+52#
+#
+Washington#
+N/A#
+N/A#
+I leave all my possessions to my daughter Pauline Cantrill and my wife Lilly Harlow Cord</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

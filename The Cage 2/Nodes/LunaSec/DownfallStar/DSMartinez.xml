@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-martinez" name="Martinez's Personal Laptop" icon="DLCLaptop" type="0">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="30" />
+  <proxy time="-1" />
+  
+  <portRemap>22=225235</portRemap>
+  <eosDevice name="Martine's Uphone" id="martinezphone" icon="ePhone2" empty="true" passOverride="alpine">
+   
+    <mail username="martinez@rs-mail.com" pass="raex22512" />
+    <mail username="martinez@ta-mail.com" pass="ta199685" />
+    <file path="eos/notes" name="todo.txt">Basically form a cibercafe to just chill with my friends and possible new customers</file>
+	<file path="eos/notes" name="ex-work.txt">Raising Sun, I'll never work on that crappy place again, it's full of hypocrite people, they never aprecciated my work</file>
+	<file path="eos/notes" name="Hacker.txt">I've searching info about the famous hacker going by the name of   #BINARYSMALL#, I've found the true meaning behind her actions years ago, but I cannot asocciate it with such personality of her, I need to keep an eye on her, she being out of jail is dangerous.</file>
+  </eosDevice>
+  
+  
+
+  
+</Computer>

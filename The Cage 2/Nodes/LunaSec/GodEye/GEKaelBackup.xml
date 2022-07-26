@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-kaelbackup" name="Kael's Backup Server" icon="DLCServer" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>80, 22, 1433</ports>
+  <trace time="50" />
+  <proxy time="-1" />
+  <firewall level="6" solution="myfiles" additionalTime="1.0"/>
+  <portRemap></portRemap>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+   <Memory>
+    <Commands>
+    
+    </Commands>
+    <Data>
+      <Block>Project God:
+Made for the Aegis corp. I've been told to use such virus to attack other devices with an OS, such devices without one will be ignored since this file only works and its fed by the files of a living system.
+
+When the virus is compromised this will launch a deletion sequence towards the user attacking the virus
+
+The virus has been tested in a lot of environments and it has been proven to be a successful corruption file which also acts like a artificial intelligence, I've named this, the Aegis Virus.</Block>
+
+<Block>VGhpcyBpcyBqdXN0IGEgc2VjcmV0Lg==</Block>
+	<Block>The Log Server.
+	
+Something I've been working on, a secret place for me to keep important info about my projects regarding Aegis or freelance ones, I shall make the security very strong since is not just a regular one, it contains passwords for my other servers and files.
+
+Anyone who tries to hack into the server, the Virus will track them down and end their OS.</Block>
+      
+    </Data>
+    <Images>
+     
+    </Images>
+  </Memory>
+  
+  
+
+  
+</Computer>

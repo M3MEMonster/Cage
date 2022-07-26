@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="elizabethstalker" name="Raider's Computer" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="5" />
+  <ports>1433, 554, 22, 21, 25</ports>
+  <firewall level="3" additionalTime="0"/>
+  <trace time="60" />
+	<dlink target="elizabethstalker2" />
+	<encryptedFile path="home" name="waifus.dec" extension=".txt" ip="" header="List of Girls" pass="">
+http://prntscr.com/h684rk
+http://prntscr.com/h6850f
+http://prntscr.com/h6854s
+http://prntscr.com/h685gm
+http://prntscr.com/h685kv sexier one
+  </encryptedFile>
+
+ 
+<tracker/>	
+</Computer>

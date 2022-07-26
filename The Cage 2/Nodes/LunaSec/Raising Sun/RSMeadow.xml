@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-meadow" name="Meadow's SattleBstation" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>21, 554</ports>
+  <trace time="40" />
+<firewall level="6"  solution="itrocks" additionalTime="0"/>
+<proxy time="1" /> 
+<dlink target="rsdb" />
+ <file path="bin/tool/wip" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin/tool" name="RTSP.rar">#BINARY#</file>
+<file path="bin" name="Aegis_Test.exe">#BINARY#</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<customthemefile path="sys" name="rs_x-server.sys" themePath="Themes/RSCorp.xml"/>
+ 
+ 
+ </Computer>

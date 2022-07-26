@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="executelist" name="Private Peace's Proxy" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>80, 22, 25, 1433</ports>
+  <trace time="50" />
+	<proxy time="4" />
+	<firewall level="4"  additionalTime="0"/>
+	
+	<file path="home" name="list.txt">
+Johnny . dead
+Vinny
+Pauline
+Jillie
+London
+Davida
+Garnet
+Cedar
+Esme
+Kerry
+Cruz
+Kimmy
+Alexis
+Jackie
+Jaiden
+Maria
+Andy
+Jaiden
+Lacey
+Darcy
+Trinidad
+Stone
+Laverne
+Kendal
+Grey
+Riley
+Odell
+Harlow
+Arden
+Kayden
+Jordan
+Kerry
+Aubrey
+Storm
+Lesley
+Harper
+Nikcy
+Grey
+Meade
+Sandy
+Pip
+Shirley
+Frankie	
+</file>
+	<file path="sys" name="euthanasia.dll">#BINARY#</file>
+	<tracker/>
+	</Computer>

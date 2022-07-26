@@ -1,0 +1,62 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits1" ip="123.123" name="Disconnect_Node" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  <file path="home" name="CreditsData.txt">
+  
+~~~~~~~ The Cage 2 ~~~~~~~
+  
+^Creator of Hacknet:
+
+Matt Trobbiani
+
+
+^Lead Developer:
+
+Paulina - Mercy Main
+
+^Writing:
+
+Mercy Main - Paulina Zepeda
+
+
+^Graphic Design:
+
+Leonard Background - Firewatch Team
+Boat Theme - bandeirante
+
+^Music:
+
+Black Magic
+Blood Oath
+Insert Soul
+Sacrifice
+>ALEX and Tokyo Rose
+
+dynamic recompilation
+userspace
+>The Algorithm
+
+Roller Mobster
+>Carpenter Brut
+
+Sabotage
+>Remi Gallego
+
+^Special Thanks:
+
+Kaisa Serian
+Kwiper
+Hacknet Extension Community
+
+^Thanks for playing!
+
+
+</file>
+<file path="home/read" name="read.txt"> 
+Sadly I couldnt find the owners of all the backgrouns used in this ext, but I do give them credit for making such wonderful arts and plus a really big kudo to the musicians and their songs used here, 
+all credits to their respectives owners, thanks for playing!</file> 
+  <CreditsDaemon Title="AEGIS PROGRAM" ButtonText="Disconnect" ConditionalActionSetToRunOnButtonPressPath="Actions/Credits1.xml"/>	
+</Computer>

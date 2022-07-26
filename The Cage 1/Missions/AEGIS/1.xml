@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis-1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="clearfolder" target="gloriamartinez" path="home/apps"/>
+  </goals>
+  
+<missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:unwantedsoftware</missionEnd>  
+  <nextMission>NONE</nextMission>
+	<posting title="Unwanted Software">A customer needs to deal with unwanted software that they cannot delete themselves.</posting>
+  <email>
+    <sender>Gloria Martinez</sender>
+    <subject>HELP</subject>
+    <body>Excuse me good person.
+	
+My grandson used my computer for a while now while I was busy, when I came back to check it, it was filled with pure trash software, now it doesn't run pretty well and I'm trying to delete the files my grandson downloaded but they won't go away.
+
+I'm pretty sure the programs are in the app folder, can you do that hacker magic trick and help this old lady.
+	</body>
+    <attachments>
+       <link comp="gloriamartinez" />
+	</attachments>
+  </email>
+</mission>

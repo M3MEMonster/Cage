@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day2-2" activeCheck="true">
+  <goals>
+  <goal type="delay" time="5"/>
+  </goals>
+  
+<missionEnd>addFlags:suspicious</missionEnd>
+  <nextMission>Missions/Day2/3.xml</nextMission>
+	
+  <email>
+    <sender>Pauline</sender>
+    <subject>RE: Suspicious</subject>
+    <body>FUCK!
+	
+There's no way I can disconnect from this VR crap, I'm stuck, well, we're all stuck and there's no possible way that we can get disconnect by ourselves, it has to be from the outside, unless there's a way the admins could do it, since I'm pretty sure our permissions are very low.
+
+God damn it, I'm getting nervous, honestly. I'm going to hack some shit to get distracted, if you see Johnny let me know as soon as possible okay? I swear these guys from AEGIS are up to something, and something bad, talk to you soon, bye.
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

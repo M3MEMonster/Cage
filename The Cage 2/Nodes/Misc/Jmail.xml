@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="Jmail Server" type="empty">
+
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+  <proxy time="2" />
+  <firewall level="6" solution="Scypio" additionalTime="1.0"/>
+  <portRemap></portRemap>
+  <account username="#PLAYERNAME#" password="cage" type="mail" />
+
+<mailServer name="JMail Server" color="47,193,229">
+
+</mailServer>
+  
+  
+
+  
+</Computer>

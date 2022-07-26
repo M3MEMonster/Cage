@@ -1,0 +1,36 @@
+<ConditionalActions>
+  
+<OnConnect target="aegisirc">
+ 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="3">@#PLAYERNAME# and @Toshokan, you did received the email, right? </AddIRCMessage>
+<AddIRCMessage Author="Toshokan" TargetComp="aegisirc" Delay="6.99">Yeah.</AddIRCMessage> 
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="7.65">How about you @#PLAYERNAME#?</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="11.50">...?</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="15">I'm gonna take that as a yes.</AddIRCMessage>
+<AddIRCMessage Author="Toshokan" TargetComp="aegisirc" Delay="17.55">This reminds me of Full-Life games.</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="20.27">Yeah, we don't do that here.</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="22.30">Also my apologies for Peace, he's been busy with a problematic thing.</AddIRCMessage>
+<AddIRCMessage Author="Toshokan" TargetComp="aegisirc" Delay="28.72">Oh, can we know about it?</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="30.36">Not... Yet.</AddIRCMessage>
+<AddIRCMessage Author="Toshokan" TargetComp="aegisirc" Delay="32.43">Nice.</AddIRCMessage>  
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="33.38">Okay, both of you got the email, and you should know what to do.</AddIRCMessage>
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="36.54">I'm giving you guys 2 days to teach your assigned AI what you have to.</AddIRCMessage>   
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="40.80">I'll enable the node of your AI's now, you should see them in the netmap.</AddIRCMessage>   
+<AddIRCMessage Author="Kael" TargetComp="aegisirc" Delay="44.71">Goodluck.</AddIRCMessage> 
+<AddIRCMessage Author="AegisBOT" TargetComp="aegisirc" Delay="46">CHAT CLOSED.</AddIRCMessage>   
+<ShowNode DelayHost="events" Delay="46.5" Target="lillycord" />
+<HideNode DelayHost="events" Delay="46.10" TargetComp="lillycord" />
+<ShowNode DelayHost="events" Delay="46.15" Target="lillycord" />
+<HideNode DelayHost="events" Delay="46.20" TargetComp="lillycord" />
+<ShowNode DelayHost="events" Delay="46.25" Target="lillycord" />
+<HideNode DelayHost="events" Delay="46.30" TargetComp="lillycord" />
+<ShowNode DelayHost="events" Delay="46.35" Target="lillycord" />
+<HideNode DelayHost="events" Delay="46.40" TargetComp="lillycord" />
+<ShowNode DelayHost="events" Delay="46.45" Target="lillycord" />
+<AddConditionalActions Filepath="Actions/Lillycord.xml" DelayHost="events" Delay="45"/>	
+	
+	
+    
+</OnConnect>
+
+</ConditionalActions>

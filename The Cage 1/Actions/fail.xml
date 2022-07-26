@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+   
+	<CrashComputer TargetComp="playerComp" CrashSource="events" DelayHost="events" Delay="0" />
+    <HideNode DelayHost="events" Delay="0" TargetComp="aegiscore2" />
+  </Instantly>
+
+</ConditionalActions>

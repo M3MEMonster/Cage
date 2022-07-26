@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fp-hexagon" name="H3X4G0N's Dreadnaught" icon="DLCPC2" type="0">
+
+  <portsForCrack val="2" />
+  <ports>80, 554</ports>
+  <trace time="40" />
+  <proxy time="-1" />
+  <firewall level="6" solution="pentagram"/>
+  <portRemap>80=142</portRemap>
+  <file path="log/chat" name="LOG_H3X-TYC-XXXX-XX-XX.log">
+Hex-> Tyc what the hell is going on?
+Tyc-> Hex... We need to disband, this is not working
+Hex-> But, Aegis, we were about to bring it back to it's glory
+Tyc-> Not anymore... That Peace guy just ruined us Hex, ruined us forever
+Hex-> What do you mean???
+Tyc-> Check the news...
+Hex-> ...
+Hex-> WHAT THE FUCK
+Tyc-> We need to run, hide or they will find us, she will find us
+Hex-> I Ain't scared of that bitch
+Tyc-> You should friend... I've already talked to Kimmyyyyyyyyyyyyyyyyyyyyy
+Hex-> Tyc?
+Tyc-> yyyyyyyyyyyyy0y0y10101010100100100100010010010010
+Tyc-> TIME IS OVER, NO WHERE TU RUN
+Bot-> Tyc has been disconnected.</file>
+
+<file path="log/chat" name="LOG_H3X-TYC-XXXX-XX-X2.log">
+Hex-> Tyc are you there????
+Tyc-> 01110010 01110101 01101110
+Tyc-> 01110010 01110101 01101110
+Tyc-> 01110010 01110101 01101110
+Bot-> Tyc has been banned.</file>
+<eosDevice name="Hexagonal Phone" id="hexphone" icon="ePhone2" empty="true" passOverride="alpine">
+    
+    <file path="eos/notes" name="funny.txt">https://www.youtube.com/watch?v=pF-3S-HTJSg</file>
+	<file path="eos/notes" name="sc.txt">Source Code: VR-SET
+locations-> 182.12.1.9
+			182.13.1.18
+			182.13.1.27
+			182.13.1.45
+			182.13.1.72</file>
+			</eosDevice>
+  
+  
+
+  
+</Computer>

@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-8" activeCheck="true">
+  <goals>
+  
+  </goals>
+  
+
+  
+  <missionEnd>addFlags:day1completed</missionEnd>
+  
+  
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>Dr. Maritza Torres</sender>
+    <subject>Help needed</subject>
+    <body>
+	
+Okay, the project is called "Support Heroes" and it's basically you joining the support team to help others in the aegis system or even out in the wild!
+
+Sounds crazy huh?, I've created a specific hub server for it, filled with missions for you to complete. Don't worry, this project is in beta so you'll be one of the few testers, actually you're the only "hacker" on it, the rest of the team are just people from the Aegis staff, you'll be unique in our team, a hacker helping Aegis to get the people's trust.
+
+Woah this is amazing, The hub is already filled with requests and help tickets! I'm so excited I can't wait for you to test it. Okay #PLAYERNAME#, I'll be going now, I need some rest, managing the support team is tiring but with the Support Heroes project, my job will be easier, see you there!
+
+I've linked you to the Hub with your personal data.
+
+Dr. Maritza Torres
+Aegis Support Team Leader
+	</body>
+    <attachments>
+       <link comp="aegishub" />
+	   <account comp="aegishub" user="#PLAYERNAME#" pass="support" />
+  </attachments>
+  </email>
+</mission>

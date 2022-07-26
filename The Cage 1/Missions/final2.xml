@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="final2" activeCheck="true">
+  <goals>
+  
+  <goal type="delay" time="1"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  
+  <email>
+    <sender>Pauline</sender>
+    <subject>Good Work.</subject>
+    <body>Hey #PLAYERNAME#.
+	
+We've made it... That was... tense...
+
+Look, while you were dealing with the core server I was making a node, not just any node, an escape node so everyone can get in and disconnect (without consequences obviously) from the VR. So by the time you're reading this I'll be heading towards your location to get you out of this place with the rest of the hackers.
+
+Let's leave this god damn place once and for all.
+</body>
+    <attachments>
+      <link comp="credits"/> 
+    </attachments>
+  </email>
+</mission>

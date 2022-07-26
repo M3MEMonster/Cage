@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fp-kimmybackup" name="Kimmy's Backup Server" icon="DLCServer" type="0">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="20" />
+  <proxy time="-1" />
+  
+  <portRemap>22=1648</portRemap>
+  <dlink target="ds-kimmy" />
+
+<customthemefile path="home/backup" name="x-server.sys" themePath="Themes/Kimmy.xml"/>  
+<file path="home/backup" name="AccordInstallation.msi">#BINARY#</file>
+<file path="home/backup" name="Games.zip">#BINARY#</file>
+<file path="home/backup" name="note.nte">There's nothing inside this file, just an easter egg.</file>
+<file path="home/backup" name="BoiledWater.exe">#BINARY#</file>
+<file path="home/backup" name="AccordServer.bat">#BINARY#</file>
+
+
+
+
+
+
+
+<Memory>
+    <Commands>
+      <Command>scan</Command>
+      <Command>eosDeviceScan</Command>
+      <Command>connect</Command>
+      <Command>login admin tuxedo</Command>
+    </Commands>
+    <Data>
+      
+    </Data>
+    <Images>
+     
+    </Images>
+  </Memory>
+ <eosDevice name="Kimmy's Personal Tablet" id="fp-kimmytablet" icon="tablet" empty="true" passOverride="tuxedo">
+   
+    <mail username="kimmy@ta-mail.com" pass="ta111172" />
+    
+    <file path="eos/notes" name="4WB.txt">I don't know how the fuck I've managed to create such thing, I need to keep it low though I dont want people to find about this thing</file>
+  </eosDevice> 
+
+<tracker/>
+</Computer>

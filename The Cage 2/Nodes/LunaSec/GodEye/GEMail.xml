@@ -1,0 +1,101 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-mail" name="Aegis Mail Server" ip="105.25.3.1" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="201" />
+  <ports>21</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  
+  <portRemap>21=1024</portRemap>
+  <account username="kael" password="am55826" type="2" />
+  <account username="tranter" password="am142365" type="2" />
+  <mailServer name="Aegis Mail Server" color="96,96,96" generateJunk="true">
+      <email recipient="tranter" sender="Kael" subject="Hey">
+Hey dude, I need help with something important. I need to lock a server of mine but I don't have any idea how to, like to be really unpenetrable.
+    </email>
+	 <email recipient="tranter" sender="Kael" subject="RE: Hey">
+Nevermind, found it lol, I used this Base64 thing lol it works really amazing!
+    </email>
+	 <email recipient="tranter" sender="Kael" subject="LOGSERVERPASSWORD">
+cHJvamVjdGdvZA==
+    </email>
+	 <email recipient="tranter" sender="Kael" subject="RE: No Topic">
+SHIT, DON'T SAVE THAT, UGH HOW COULD I SEND IT.
+    </email>
+	
+	
+	
+	
+	<email recipient="kael" sender="J. Peace" subject="Congrats">
+Greetings fellow Kael, since you've been proven to be a loyal member to our cause, I shall promote you to Administrator.
+
+Now you posses Moderator powers in the IRC also now your payment has increased. Thanks for working with us.
+    </email>
+	
+	   <email recipient="kael" sender="J. Peace" subject="The Virus">
+Hey Kael.
+
+Remember when we talked about that virus you were working on?
+
+I kinda need you to help with me something and I need your virus.
+
+Let's say, it's a confidential project which I wanna include you.</email>
+<email recipient="kael" sender="Maritza T." subject="Stop Crashing!">
+Kael!
+
+This is the tenth time you've crashed our servers with your projects! If you're gonna keep doing it please be more safe and try not to mess everything up! Last time you did I was having an online conference with the members of SupportHeroes.
+
+Anyway... Please try to be more careful with your stuff.
+    </email>
+	<email recipient="kael" sender="J. Peace" subject="#PLAYERNAME#">
+Watch out for this fucker.
+
+This person blew something very important for us. If you find anything related to this whatever, End their miserable life.
+    </email>
+	<email recipient="kael" sender="J. Peace" subject="Aegis 2.0">
+Since we've lost any chance on reviving the old Aegis server, we had to create another one for people to join...
+
+The VR-Set was a completely failure tho I still have the source code of it. People have been asking for it and I'm not sure why. Anyway Kael, I'll give you the source code of it so you can mess with it, maybe you can improve your A.I ?
+    </email>
+	<email recipient="kael" sender="???" subject="I'm up to help">
+I'm up to help bud.
+
+I know we had our differences back in the day but I need your help and I'm pretty sure you need help with your projects. It wasn't my intention to
+blow everything up but at the end I did what you told me... Remember the hospital thing? It's done and I'm preeeeeeetty sure you know it since it's has been on the TV too.
+
+Look I'm gonna go straight to the point. your boss Peace. is working on something new, he wants to steal your virus and make it worse, he want's not only to erase all OS in the whole world but he wants to have the power, to kill and make people submit to him. This is not good. You made some terrible things back years ago and so do I, but this time we should redeem ourselves... What do you say.
+
+Are you with me?
+    </email>
+	<email recipient="kael" sender="A.I" subject="God's Eye Bot">
+Artificial Intelligence Fully Operational.
+
+Good day Mr. Kael, I'm ready to run and follow the commands you tell me.
+    </email>
+		<email recipient="kael" sender="A.I" subject="God's Eye Bot">
+Project: God has been aborted.
+
+Why sir?
+    </email>
+	<email recipient="kael" sender="A.I" subject="God's Eye Bot">
+I thought Sir wanted to have the power of everything in one letter.
+
+I still cannot comprehend why humans make radical decisions in desperate times.
+
+Sir, you've been working on this, on me your while life, are you sure you want to leave it all for a person that tried to ruin your life?
+    </email>
+	<email recipient="kael" sender="A.I" subject="God's Eye Bot">
+I'm sorry sir but you're not in position to make any deicisions. You're not the owner I remembeeeeeeeeeee.ee.e.00.e0.erase
+Y29ycnVwdGVkIG1lc3NhZ2U=
+Y29ycnVwdGVkIG1lc3NhZ2U=
+Y29ycnVwdGVkIG1lc3NhZ2U=
+Y29ycnVwdGVkIG1lc3NhZ2U=</email>
+<email recipient="kael" sender="A.I" subject="God's Eye Bot">
+TmV3IGFkbWluOiBQR0JvdApBc3NpZ25tZW50Oi
+BQcm9qZWN0IEdvZApTdGF0dXM6IEluaXRpYWxpemVk</email>
+    
+  </mailServer>
+  
+
+  
+</Computer>

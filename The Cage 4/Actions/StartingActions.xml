@@ -1,0 +1,69 @@
+<ConditionalActions>
+  
+  <OnConnect target="skipintro">
+  <SetLock DelayHost="events" Delay="0" Module="terminal" IsLocked="true" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="0.1" Module="terminal" IsLocked="true" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="0.2" Module="terminal" IsLocked="true" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="0.3" Module="terminal" IsLocked="true" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="0.4" Module="terminal" IsLocked="true" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="0.5" Module="terminal" IsLocked="true" IsHidden="true" />
+    <RunFunction FunctionName="playCustomSong:Music/Silence.ogg" DelayHost="events" Delay="0" />
+    
+    
+    <SwitchToTheme ThemePathOrName="Themes/Path.xml" FlickerInDuration="0.9" DelayHost="events" Delay="5" />
+    <RunFunction FunctionName="playCustomSong:Music/ALEX - ALEX - Insert Soul.ogg" DelayHost="events" Delay="5" />
+    <RunFunction FunctionName="playCustomSong:Music/Tokyo Rose - Tokyo Rose - Sacrifice (Daniel Deluxe Remix) [Bonus].ogg" DelayHost="events" Delay="105" />
+    
+    <SetLock DelayHost="events" Delay="5.1" Module="terminal" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.2" Module="terminal" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.3" Module="terminal" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.4" Module="terminal" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.5" Module="terminal" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.6" Module="terminal" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.7" Module="terminal" IsLocked="false" IsHidden="false" />
+    
+    <SetLock DelayHost="events" Delay="5.3" Module="ram" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.4" Module="ram" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.5" Module="ram" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.6" Module="ram" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.7" Module="ram" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.8" Module="ram" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.9" Module="ram" IsLocked="false" IsHidden="false" />
+ 
+    
+    <SetLock DelayHost="events" Delay="5.4" Module="display" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.5" Module="display" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.6" Module="display" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.7" Module="display" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.8" Module="display" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.9" Module="display" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="6" Module="display" IsLocked="false" IsHidden="false" />
+ 
+    
+    <SetLock DelayHost="events" Delay="5.5" Module="netmap" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.6" Module="netmap" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.7" Module="netmap" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="5.8" Module="netmap" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="5.9" Module="netmap" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="events" Delay="6" Module="netmap" IsLocked="false" IsHidden="true" />
+    <SetLock DelayHost="events" Delay="6.1" Module="netmap" IsLocked="false" IsHidden="false" />
+    
+    <ChangeIP DelayHost="events" Delay="0" TargetComp="playerComp" NewIP="192.168.0.1" />
+    <CrashComputer TargetComp="broken_recovery_node" CrashSource="broken_recovery_node" DelayHost="events" Delay="0" />
+    
+    <AddConditionalActions Filepath="Actions/RebootMail.xml" DelayHost="events" Delay="8"/>
+    <AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <AddAsset FileName="DNotes.exe" FileContents="#NOTES_DUMPER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+
+    
+  
+    
+</OnConnect>
+
+
+ <OnConnect target="equinoxforum">
+ <LaunchHackScript Filepath="Scripts/demoend.txt" DelayHost="events" Delay="0.3" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+ </OnConnect>
+
+</ConditionalActions>

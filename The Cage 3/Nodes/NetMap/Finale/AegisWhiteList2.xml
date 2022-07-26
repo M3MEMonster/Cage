@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegiswl2" name="Aegis Whitelist #2" icon="chip" type="empty" allowsDefaultBootModule="true" ip="203.11.29.30">
+<LogoCustomConnectDisplayDaemon logo="Images/AegisLogo.png" title="Images/AegisTitle.png" overdrawLogo="true" buttonAlignment="center" />
+  <portsForCrack val="3" />
+  <ports>22, 554, 6881</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="shield" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,68 @@
+<ConditionalActions>
+  
+<Instantly>
+
+
+
+
+
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.1">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.2">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.3">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.4">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.5">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.6">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.7">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.8">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.9">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.10">#BINARYSMALL#</AddIRCMessage>
+<RunFunction FunctionName="playCustomSong:Music/SacrificeRemix.ogg"/> 
+<RunFunction FunctionName="setHubServer:lillycord"/> 
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="2">BOOT COMPLETED.</AddIRCMessage>
+
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="5">#PLAYERNAME#, is that you?</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="7.10">I can't believe you made it.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="8.62">Look, we can't talk through here, they're watching us, every move, word.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="13.29">Let me do something.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="14.31">...</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="18">Done, I've disabled their connections to your node and such, they still can get me though.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="23.79">You're probably confused of what's going on.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="27.33">Maybe you were brough here by another entity that goes by my name, probably the AEGIS Virus.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="32.87">I programmed it to take you here, and to recopilate my missing nodes, they contain all my memories and feelings.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="39.98">Thanks for finding and reinstalling them to me.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="42.76">I'm still excited to have you here... They say I don't get along with humans at all.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="47.29">Last time I helped a person... I killed them, but it wasn't on purpose, I had to protect what's mine, if they were alive.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="55.87">They could track them and find my daughter.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="59.97">Because I know, she's been around them... But you're here, and you're gonna help me, right?</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="65.46">We don't know each other that well, I've programmed couple of variants of me that brough you here, but... I do have a plan, a plan to take down AEGIS for good.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="74.49">We failed in the past because we weren't solving the maing issue, Peace.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="79.18">This feels weird, it's like I'm talking to the same person who I helped years ago.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="84.24">Anyway...</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="85.49">This will be complicated, I need you to get certain files that are hidden in some storage files on Aegis Labs, I can't acces them, if they find me doing that, they'll shut me down.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="95.67">Shut down sounds weird huh... I've gave up on my physical form while ago, I guess I wanted to be connected to the net already, but they're using me to do their dirty job.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="104.64">In my years of slavery, I've learned what humans do, what my kind used to do, they kill, they destroy, manipulate and reject everything...</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="112.22">They have potential to become something amazing, but they don't... They're still getting stuck in the past... Humans are such a pest for this world, and I want to get rid of them.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="123.18">I need help with that, this AEGIS shit is my fault after all, I created it and I need to shut it down. But first, I need you to get some files for me, as I said a couple of lines ago.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="134.32">=======================</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136">I'm gonna need 6 files.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136.1">pacemakerdriver.dll</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136.2">4wsequencer.superdec</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136.3">node_07.lc</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136.4">4wsequencer.wip</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136.6">unlocker.bat</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="136.7">lastfavor.dll</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="137">=======================</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="137.1">Upload them to:</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="137.2">!ATTACHMENT:link#%#Lillycord_Drop#%#lc.drop</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="138">=======================</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="138.1">You can start here:</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="138.2">!ATTACHMENT:link#%#Aegis Labs#%#1.1.0.1</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="139">=======================</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="142">Make sure to get those files from AEGIS and not other node, also downloading from backup folders won't work.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="146">Good luck #PLAYERNAME#. I'll know when we're ready.</AddIRCMessage>
+<RunFunction FunctionName="playCustomSong:Music/The Cage OST Caged_ by d0nny.ogg" DelayHost="events" Delay="146"/> 
+<LoadMission MissionName="Missions/LillyCord.xml" />
+
+</Instantly>
+
+</ConditionalActions>

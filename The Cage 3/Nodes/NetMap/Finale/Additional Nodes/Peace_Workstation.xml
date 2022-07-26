@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jpeacework" name="John Peace's Workstation" icon="DLCLaptop" type="empty" allowsDefaultBootModule="true" ip="201.102.30.104">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 6881, 443, 1433, 80, 554</ports>
+  <trace time="85" />
+	<firewall level="5" solution="peace" additionalTime="0.5"/>
+  <!--<tracker -->
+  <proxy time="2" />
+
+<file path="home" name="management.txt">Remember to talk with management about getting access to the mainframe...
+Management IP: 48.109.39.204</file>
+<customthemefile path="sys" name="Red_Void_x-server.sys" themePath="Themes/Peace2.xml"/>
+
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="BetterAccord.exe">#BINARY#</file>
+<file path="home" name="VLCPlayer.exe">#BINARY#</file>
+<file path="home/contacts" name="Kael.cnt">#BINARY#</file>
+<file path="home/contacts" name="Kae.cnt">#BINARY#</file>
+<file path="home/contacts" name="Me.cnt">#BINARY#</file>
+<file path="home/contacts" name="Tyrone.cnt">#BINARY#</file>
+<file path="home/contacts" name="Z3r.cnt">#BINARY#</file>
+<file path="home/contacts" name="911.cnt">#BINARY#</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,139 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="Jmail Server" icon="DLCServer" type="0" allowsDefaultBootModule="true">
+
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+<account username="#PLAYERNAME#" password="123" type="2" />
+<account username="coel" password="sexualizer" type="2" />
+<account username="d0nny" password="soundcloud" type="2" />
+<account username="tyc00n" password="headset" type="2" />
+<account username="beameme" password="susuyamayuri" type="2" />
+
+<mailServer name="JMail Server" color="226, 160, 115" generateJunk="true">
+ <email recipient="coel" sender="Parlo" subject="The Gig">Hey Coel.
+ 
+Are you ready? We bought the tickets for the gig, we need your confirmation to go.</email>
+<email recipient="coel" sender="Parlo" subject="RE: The Gig">Okay then.
+
+We'll meet outside my house at 19:00 okay? bring some drinks and stuff to eat.</email>
+
+<email recipient="coel" sender="No Cent" subject="Thanks">Thank you COELAMELON!
+
+We've accepted the purchase of:
+
+-Ticket to Barpenter Brut (VIP) x2
+
+Thanks for chosing us and please, enjoy the gig!
+
+No Cent Productions.</email>
+
+<email recipient="coel" sender="Aqua" subject="Hey">Hey Coel...
+
+Uh... I gotta ask something... Uh... So I forgot to delete some files in my laptop, could you get in and wipe my logs? Please! I'm out of town so no chance I can access my computer, thanks.
+
+The password is aquarine
+
+Sent via uPhone.</email>
+
+<email recipient="d0nny" sender="h3x" subject="Assets">Hey dude.
+
+The assets server is all set so you can get in and download the info and data we need to do our work :p Don't forget to delete the logs it's very important, don't forget!</email>
+
+<email recipient="d0nny" sender="h3x" subject="About tyc00n">Dude.
+
+I know this has happened before and it will happen again, I mean, boys like girls and girls like boys but sometimes like... girls like girls you know? You have to let her go, she's doing fine with kimmy and also she's dealing with some bullshit atm, if you get involved she'll get hurt, and so you do, and I worry men, I really do I want the best for you.</email>
+
+<email recipient="d0nny" sender="kimmycat" subject="tyc00n">Donny.
+
+I know what's going on, h3x told me and hey I... I'm sorry you had, or well you have to deal with this but It's noy my fault, neither tyc00n's... Pleasr let her go... I like you and I worry about you, you're my friend, youre our friend and please don't feel bad about this, we're all a family and what we do is protect each other okay? thanks...</email>
+
+<email recipient="d0nny" sender="tyc00n" subject="About the stuff">Hey don...
+
+Uh, sorry about  what's been happening the last couple of days... I uh... I want to ask a favour, I need you to get some info from a server and I know you can do it cuz you have like.. Experience and stuff? You can check my computer for possible clues you know? Yeah that... Sorry about everything...
+
+the pass is: kimmycat</email>
+
+<email recipient="tyc00n" sender="d0nny" subject="Apology">I accept your apology Maria.
+
+I know things didn't work for me and you and I really wanna say I'm sorry for confusing you about your feelings with you and her. I'll just stay as a friend okay?</email>
+
+<email recipient="tyc00n" sender="h3x" subject="Time">It's about time huh?
+
+Your birthday is close and we gotta do something about it, I saay let's all meet up and eat like the pigs we are lol! well if you're into that shit we can discuss it on the irc at anytime! just bring the topic and we'll talk about it.</email>
+
+<email recipient="tyc00n" sender="kimmycat" subject="Hey">Don't worry about it?
+
+Things happen and we gotta move on with our will, I know you did your best and I aprecciate it, and so do I, you're the greatest gf I've ever had, you're amazing, and no onewill replace you okay?</email>
+
+<email recipient="tyc00n" sender="kimmycat" subject="AAAA">
+Hey hun :( some guy just stole my executable, could you help me pleaseeeeeeeeee, it's, it's, it's I don't know :( you can enter my computer, remember my password is the same "ilovecats", please do something :(((((</email>
+
+<email recipient="beameme" sender="PaV" subject="Sorry">Hey uh.
+
+Let's be friends again shall we?
+
+I'm sorry about all that shit that happened while ago, not my fault though.</email>
+
+<email recipient="beameme" sender="PaV" subject="RE: Sorry">Thanks</email>
+
+<email recipient="beameme" sender="University of VardHard" subject="Welcome">Congratulations Beatrice!
+
+You were one of the few people that got admited to our University, the most recognizable and prestigious of United States.
+
+Feel free to know about more of this e-mail on the nearest center or contacting the support email.
+
+hvardhard@university.com
+
+Welcome!</email>
+
+<email recipient="beameme" sender="Frankie" subject="Hey">Hey.
+
+I wanted to say that you're strong okay? And look at the bright side! You got admited to that university you always wanted, isn't that great? I'm jealous but welp, I'm more happy for you because you got to be in the most prestigious U of all time!
+
+You're big Bea, I'll see you tomorrow
+
+Future Student :^)</email>
+
+<email recipient="beameme" sender="U.S.A DeathRow Server" subject="Dear Beatrice">Dear Beatrice.
+
+We're sorry to inform you that Saya Aguid passed away this morning due to a unknown disease, we apologize for what you're feeling now.
+
+Our goal only to inform people about what's going on with their relatives since we're just a deathrow dataabase server.
+
+We're completely sorry.
+
+U.S.A DeathRow Server
+(221.106.3.175)</email>
+
+<email recipient="beameme" sender="Frankie" subject="RE: Hey">Hey.
+
+I'm sorry about Saya... I had no idea shit would get that dark... I've blocked the webpage okay? So you can't access it anymore, you're hurting yourself by entering so I had to do something, don't ask how, just avoid that place okay?
+
+Sent via Proxy
+(183.220.7.215)</email>
+
+
+
+</mailServer>
+
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

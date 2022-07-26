@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hillerpc" name="H1ll3r's Battlestation" icon="DLCLaptop" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 22, 25</ports>
+  <firewall level="4"  additionalTime="0"/>
+  <trace time="-1" />
+<encryptedFile path="home" name="password.dec" extension=".txt" header="Password" ip="125.22.142.3" pass="spooky">
+   the password for your server is...  3zakEvSK
+  </encryptedFile>
+  
+  
+  
+  <dlink target="hillersv" />
+</Computer>

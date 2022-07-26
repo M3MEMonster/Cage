@@ -1,0 +1,2 @@
+config playerComp playerComp 2 $#%#$
+systakeover

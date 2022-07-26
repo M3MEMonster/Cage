@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fp-backup5" name="Backup Node V" ip="182.13.1.72" type="0">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 554</ports>
+  <trace time="50" />
+  <proxy time="2" />
+  <firewall level="6" solution="maths"/>
+  <portRemap></portRemap>
+  <file path="sys/sc" name="vr-set_repack5.sc">#BINARY#</file>
+  
+  
+
+  
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day5-1" activeCheck="true">
+  <goals>
+  <goal type="delay" time="4"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day5/2.xml</nextMission>
+	
+  <email>
+    <sender>???</sender>
+    <subject>Welcome</subject>
+    <body>Greetings #PLAYERNAME#.
+	
+We know who you are, we know about this AEGIS Project you're in, so we've taken serious actions against this one, we've disabled the tracking system you had, so from now on, the AEGIS staff won't be able to know what you're doing right now, their monitors will show that you're just hanging out there, but we know the truth, you're now with us, Twilight.
+
+I'll link you our HUB and DROP server, you'll need them soon, we hope for your participation in Twilight, you will be watched.
+
+-???
+	</body>
+    <attachments>
+					<link comp="twilighthub" />
+					<link comp="twilightdrop" />
+					
+					<account comp="twilightdrop" user="#PLAYERNAME#" pass="eerie" />
+    </attachments>
+  </email>
+</mission>

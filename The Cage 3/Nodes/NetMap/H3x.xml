@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="h3x" name="H3x's Laptop" icon="DLCLaptop" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 80, 554</ports>
+  <trace time="100" />
+	<firewall level="3" solution="salvation" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="1" />
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/backup" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/backup" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  
+  
+  
+  
+  <eosDevice name="Henry's ePhone 4S" id="h3xphone" icon="ePhone" empty="true" passOverride="alpine">
+<file path="eos" name="d0nny.txt">Donny, why have you released those songs, now tyc00n is fucking ceazy for you, well your music, come on man, stop it! You're gonna steal her from kimmy lol.</file>
+	<file path="eos" name="Note2.4w">#BINARY#</file>
+	<file path="eos" name="tyc00n.txt">Maria, you should like, stop being so pushy with stuff you know, things won't work the way you want, you gotta focus in more important things, you're an adult now, also take care of kimmy.</file>
+  </eosDevice>
+  
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

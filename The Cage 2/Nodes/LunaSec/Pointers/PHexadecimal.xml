@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="p-hexadecimal" name="Hexadecimal" ip="hexadecimal" icon="chip" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>21, 22, 554</ports>
+  <trace time="40" />
+  <proxy time="1" />
+  <firewall level="6" solution="numbers"/>
+  <portRemap></portRemap>
+  
+ 
+ <eosDevice name="Hexadecimal" id="p-hexa-a" icon="ePhone2" empty="false" passOverride="alpine">
+    
+    <file path="sys" name="password.sys">The second part of the password is: yS </file>
+  </eosDevice> 
+  
+
+  
+</Computer>

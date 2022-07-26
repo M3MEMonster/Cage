@@ -1,0 +1,43 @@
+config playerComp tc-aegiscore2 0.2 $#%#$
+connect $#%#$
+
+write Breaching in. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+delay 2 $#%#$
+writel 4WSequencer Activated $#%#$
+writel --------------------- $#%#$
+writel Warning, unstable energy levels $#%#$
+delay 2 $#%#$
+writel Warning, unstable energy levels $#%#$
+delay 2 $#%#$
+writel WaRnnIGN, uNNNstAAbLe EnErgGYg LeVVLel $#%#$
+delay 2 $#%#$
+writel Waar44kfkkning Unsntabbblee eerneugu lllvvll $#%#$
+delay 2 $#%#$
+writel wrr01010100 uunn 01011010010 0101010 $#%#$
+delay 2 $#%#$
+writel #PLAYERNAME# ARE YOU THERE, DISCONNECT NOW, IT'S TOO DANGEROUS $#%#$
+delay 2 $#%#$
+writel 0100100001001001 100101001 0101001001 $#%#$
+delay 2 $#%#$
+writel #PLAYERNAME#!!!!! $#%#$
+delay 2 $#%#$
+writel 00100100100001001001001 0101001001010010010 $#%#$
+delay 0.5 $#%#$
+writel #BINARYSMALL# $#%#$
+delay 0.5 $#%#$
+writel #BINARYSMALL# $#%#$
+delay 0.5 $#%#$
+writel #BINARYSMALL# $#%#$
+delay 0.5 $#%#$
+writel #BINARYSMALL# $#%#$
+delay 0.5 $#%#$
+writel #BINARYSMALL# $#%#$
+delay 0.5 $#%#$
+
+writel ---------------------------------------- $#%#$
+writel Breach Complete $#%#$
+disconnect $#%#$

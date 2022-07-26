@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vanilla" name="Vanilla's Tablet" icon="tablet" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>25, 554, 6881</ports>
+  <trace time="60" />
+	<firewall level="2" solution="lewd" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+<file path="home" name="img_221_124.jpg">#BINARY#</file>
+<file path="home" name="img_441_1.jpg">#BINARY#</file>
+<file path="home" name="img_3_3.jpg">#BINARY#</file>
+<file path="home" name="img_874_2010.jpg">#BINARY#</file>
+<file path="home" name="ode_to_joy.jpg">Joy, beautiful spark of the gods,
+Daughter from Elysium,
+We enter, drunk with fire,
+Heavenly One, thy sanctuary!
+Your magic binds again
+What convention strictly divides;*
+All people become brothers,*
+Where your gentle wing abides.
+
+Who has succeeded in the great attempt,
+To be a friend's friend,
+Whoever has won a lovely woman,
+Add his to the jubilation!
+Indeed, who calls even one soul
+Theirs upon this world!
+And whoever never managed, shall steal himself
+Weeping away from this union!
+
+All creatures drink of joy
+At nature's breast.
+Just and unjust
+Alike taste of her gift;
+She gave us kisses and the fruit of the vine,
+A tried friend to the end.
+[Even] the worm has been granted sensuality,
+And the cherub stands before God!
+
+Gladly, as His heavenly bodies fly
+On their courses through the heavens,
+Thus, brothers, you should run your race,
+Joyful, like a hero going to conquest.
+
+You millions, be embraced.
+This kiss is for all the world!
+Brothers, above the starry canopy
+There must dwell a loving Father.
+Do you fall in worship, you millions?
+World, do you know your creator?
+Seek him in the heavens
+Above the stars must He dwell.</file>
+  
+  <eosDevice name="Kael's ePhone 9S" id="kaelphone" icon="ePhone" empty="true" passOverride="yamada">
+    <note>200.105.54.63</note>
+    
+    <file path="eos" name="crackedFile.exe">#BINARY#</file>
+	<file path="eos" name="this.txt">this</file>
+	<file path="eos" name="what.txt">Is this what we call a community full of bullshit? Because if we do it's because it is, we're living on a crappy society nowadays everyone judges for everything we're just going under, we need to stop this shit and get better.</file>
+  </eosDevice>
+  
+ <customthemefile path="sys" name="Bleeding_Out_Bubbles_X-Server.sys" themePath="Themes/Vanilla.xml"/> 
+  
+  
+  
+  
+  
+  
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

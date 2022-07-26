@@ -1,0 +1,31 @@
+<ConditionalActions>
+  
+<OnAdminGained target="lillycord">
+ <SwitchToTheme ThemePathOrName="Themes/Glitch/1.xml" FlickerInDuration="0.14" DelayHost="advExamplePC" Delay="0" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Glitch.ogg"/> 
+<LaunchHackScript Filepath="Scripts/realitycheck.txt" DelayHost="events" Delay="0.10" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.1">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.2">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.3">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.4">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.5">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.6">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.7">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.8">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.9">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="0.10">#BINARYSMALL#</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="2">Missing Node: Fragment_01.lc</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="2.1">Missing Node: Fragment_02.lc</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="2.5">Emotion and Memory corrupted</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="3">Please, reinstall (sys) missing nodes to continue.</AddIRCMessage>
+
+
+
+
+
+
+
+</OnAdminGained>
+
+</ConditionalActions>

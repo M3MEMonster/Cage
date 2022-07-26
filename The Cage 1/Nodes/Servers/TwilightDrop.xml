@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="twilightdrop" name="Twilight Dropbox" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>22</ports>
+  <trace time="-1" />
+	<account username="#PLAYERNAME#" password="eerie" type="0" />
+	<uploadServerDaemon name="Twilight Dropbox" folder="Drop" 
+                      needsAuth="false" color="60,0,0"/>
+	</Computer>

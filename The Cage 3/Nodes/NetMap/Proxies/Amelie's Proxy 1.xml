@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="amelieproxy1" name="Proxy A-01" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 1433</ports>
+  <trace time="50" />
+	<firewall level="2" solution="amelie" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+ <file path="home" name="delete_me.txt">delete this mission as a goal to complete the test.</file> 
+ 
+ <file path="home" name="Neuronal_Circuits.docx">Neurons never function in isolation; they are organized into ensembles or circuits that process specific kinds of information. Although the arrangement of neural circuits varies greatly according to the intended function, some features are characteristic of all such ensembles. The synaptic connections that define a circuit are typically made in a dense tangle of dendrites, axons terminals, and glial cell processes that together constitute neuropil (the suffix -pil comes from the Greek word pilos, meaning “felt”; see Figure 1.3). Thus, the neuropil between nerve cell bodies is the region where most synaptic connectivity occurs. The direction of information flow in any particular circuit is essential to understanding its function. Nerve cells that carry information toward the central nervous system (or farther centrally within the spinal cord and brain) are called afferent neurons; nerve cells that carry information away from the brain or spinal cord (or away from the circuit in question) are called efferent neurons. Nerve cells that only participate in the local aspects of a circuit are called interneurons or local circuit neurons. These three classes—afferent neurons, efferent neurons, and interneurons—are the basic constituents of all neural circuits.</file>
+ <file path="home" name="amelie.txt">I'm gonna use Amelie for now, changing names a lot it's tiring, hope my friends like this one.</file>
+ <file path="home" name="todo.txt">-Get Espirinocaltone 100g.
+ -Mesigyna 1
+ Inject Mesigyna once in a month
+ Take 4 pills of Espirinocaltone a day.</file>
+ <file path="home" name="Accord.txt">Why is this organization in comas, trying to make new things such this operative system and this AI thingy, it's messed up. Gotta find a way to break into their servers and sabotage everything :p no one will see that commin'</file>
+ <file path="home" name="Cracknet_Server.txt">Ugh, I don't even want to remember the time I spent in that server, it's so annoying and full of libtards making no-sense memes such as "E" and "despacito"; really what's so funny about that crap?!</file>
+ <file path="bin" name="Test_File.txt">This is a test file in the home directory</file>
+  <file path="bin" name="SSHCrack2.1.exe">#BINARY#</file>
+  <file path="bin" name="FTPSprint5.4.exe">#BINARY#</file>
+  <file path="bin" name="Accord.exe">#BINARY#</file>
+  <file path="bin" name="AccordHack.exe">#BINARY#</file>
+  <file path="bin" name="Club_Pigeon_Install.msi">#BINARY#</file>
+  <customthemefile path="sys" name="Flowers_x-server.sys" themePath="Themes/AmelieProxy.xml"/>
+<dlink target="amelieproxy2" />
+<dlink target="amelieproxy3" />
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

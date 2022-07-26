@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="terrorist2" name="Lynn's Battlestation" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="5" additionalTime="0"/>
+  <trace time="50" />
+	<file path="home/notes" name="importantnote.txt">Must remember, the last two encrypted codes has passwords, the second encrypted code password is the first code, and the last one is the first and second code together.</file>
+	<encryptedFile path="home/notes/secret" name="password2.dec" extension=".txt" ip="ENCRYPTED" header="Code" pass="olympus"> >
+To build the one you think witty, 
+seek the nymph who sang oh so pretty. 
+She lured him in with her song and grin, 
+his wife must've thought it a pity. 
+  </encryptedFile>
+ <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  </Computer>

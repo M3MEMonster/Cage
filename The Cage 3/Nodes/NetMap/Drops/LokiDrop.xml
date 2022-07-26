@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lokidrop" name="Loki's Personal Drop Server" icon="DLCServer" ip="142.2.2.1" type="0" allowsDefaultBootModule="true">
+<uploadServerDaemon name="Loki's Personal Dropbox" folder="Drop" 
+                      needsAuth="false" color="168, 6, 9"/>
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+  <customthemefile path="sys" name="Rose_Spiral_x-server.sys" themePath="Themes/LokiDrop.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="JMail" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+	<account username="#PLAYERNAME#" password="#PLAYERNAME#" type="2" />
+	<account username="dilanmmd" password="984516846" type="2" />
+	<mailServer name="Jmail" color="124,124,124">
+	
+	</mailServer>
+</Computer>

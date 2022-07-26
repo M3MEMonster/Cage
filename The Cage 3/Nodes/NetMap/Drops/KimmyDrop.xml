@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kimmydrop" name="Kimmy's Backup Server" icon="DLCServer" ip="150.1.1.42" type="0" allowsDefaultBootModule="true">
+<uploadServerDaemon name="Kimmy's Dropbox" folder="Drop" 
+                      needsAuth="false" color="206, 61, 182"/>
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+  <file path="home" name="the_note.txt">The note, wow, never thought I'd write such thing... Time has passed and I've forgiven myself, but they, they helped me go through it, my friend wingy and... them...</file>
+  <file path="home" name="LastFavor.txt">The god, damn, last favor, never gonna use it again even though is not working... It's just a reminder that I shouldn't do that kind of stuff... Euthanasia is not the solution to your problems... You gotta be strong y'know? things may be hard but with time and effort, anything can be possible.</file>
+  <file path="home" name="aegis.txt">They freak me out, they always freaked me out, it's like they're always there waiting for something to happen, and if it doesn't happen they make it... I can't blieve such groups are allowed to even exist...</file>
+  <customthemefile path="sys" name="Dancing_Dreams_x-server.sys" themePath="Themes/KimmyDrop.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

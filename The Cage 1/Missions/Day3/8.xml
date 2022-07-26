@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-8" activeCheck="true">
+  <goals>
+  
+  <goal type="delay" time="20"/>
+  </goals>
+  
+		<missionEnd>addFlags:day3completed</missionEnd>
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>Leonard</sender>
+    <subject>Trials</subject>
+    <body>Nice #PLAYERNAME#!
+	
+I knew you were capable of this! The last server is linked to my place in case you wanna reap your rewards, I'm pretty sure they'll be useful for you! I'll go to sleep now, see you soon!</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

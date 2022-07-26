@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trial1entry" name="Bastion's Laptop" ip="255.255.231.1" icon="DLCLaptop" type="0" allowsDefaultBootModule="true">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 80, 1433, 554</ports>
+  <trace time="120" />
+	<file path="home" name="congration.txt">you wasted your time here.</file>
+<tracker/>
+  <proxy time="-3" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

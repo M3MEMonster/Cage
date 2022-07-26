@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME#'s VR Set" ip="???.???.???.???" icon="chip" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="return" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  
+  <file path="home" name="notes.txt">put your manual notes here.</file>
+  
+  
+  
+  <dlink target="broken_stash" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-4" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+  <goal type="delay" time="7"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day3/5.xml</nextMission>
+	
+  <email>
+    <sender>Pauline</sender>
+    <subject>Emergency</subject>
+    <body>#PLAYERNAME#!
+	
+I need you to check the forums right now! I left a weird code that may be vital for us, It's on the Aegis forums, It looks some kind of morse code but I can't "translate" that in this OS, maybe you can? it would be funny if you've already discovered what it says.
+
+There's nothing more I can do now, is up to you to find more clues, I'm out.
+	</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

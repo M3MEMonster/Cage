@@ -1,0 +1,120 @@
+<ConditionalActions>
+<Instantly>
+<SwitchToTheme ThemePathOrName="Themes/LunaSec.xml" FlickerInDuration="1.09" DelayHost="events" Delay="1.50" />
+<RunFunction FunctionName="playCustomSong:Music/Sacrifice.ogg" Delay="202.09" DelayHost="events" />
+</Instantly>
+<Instantly>
+<RunFunction FunctionName="setFaction:lunasec"/>
+<RunFunction FunctionName="setHubServer:lunahub"/>
+<RunFunction FunctionName="setAssetServer:lunadrop"/>
+</Instantly>
+<OnConnect target="lunahub">
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="2">There you are #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="3">How are you feeling? Trapped again? Like in a cage?.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="7">Bad joke, we are already set and ready to go, apparently this modified operative system works exactly as Aegis one, but with some modifications by my part.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="15">#PLAYERNAME#, I present to you, your new friends, Kwiper and Kaisa, after what happened on Aegis they wanted to join us.</AddIRCMessage>
+<AddIRCMessage Author="Kaisa" TargetComp="lunahub" Delay="23">Hey #PLAYERNAME#! Nice to meet you! what you did back there was awesome.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="27">True that, but as we talk, more corporations are using a model based on the Aegis Virtual Reality, we need to act now before they finish their projects.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="35">Alright team, I've uploaded some tasks in the Hub, I'll be checking your vital signs and monitorize everything you do.</AddIRCMessage>
+<AddIRCMessage Author="Kwiper" TargetComp="lunahub" Delay="42">Alright guys, let's do this.</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="43">!ATTACHMENT:account#%#lunahub#%#192.168.1.1#%##PLAYERNAME##%#moon</AddIRCMessage>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Player-1.xml" TargetComp="lunahub" Delay="43" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kwiper-1.xml" TargetComp="lunahub" AssignmentTag="Kwiper" Delay="43" DelayHost="events"/>
+<AddMissionToHubServer MissionFilepath="Missions/LunaSecAdded/Kaisa-1.xml" TargetComp="lunahub" AssignmentTag="Kaisa" Delay="43" DelayHost="events"/>
+</OnConnect>
+<OnConnect target="rs-mathew">
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="2">Guys, forgot to upload the tools, SSHCrack and FTPSprint are avaliable on the Dropserver.</AddIRCMessage>
+<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="lunadrop" TargetFolderpath="bin" />
+<AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="lunadrop" TargetFolderpath="bin" />
+</OnConnect>
+<OnAdminGained target="rs-kae">
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="2">Hmmm, @#PLAYERNAME#, I see you have trouble with that, I've uploaded a tool I just finished compiling, it's called "MemForensics.exe", what basically does, it opens dumped files so you can see the content of such erased file.</AddIRCMessage>
+<AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="lunadrop" TargetFolderpath="bin" />
+</OnAdminGained>
+<OnConnect target="ds-algorithm">
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="0">@#PLAYERNAME#, Hmm.. hold on, I may know how to help you with that...</AddIRCMessage>
+<AddIRCMessage Author="Paulline" TargetComp="lunahub" Delay="0">And done, I've uploaded succesfully the WebServerWorm.exe to the drop server.</AddIRCMessage>
+<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="lunadrop" TargetFolderpath="bin" />
+</OnConnect>
+<OnAdminGained target="p-dracopc">
+<LoadMission MissionName="Missions/DracoMessage.xml" />
+</OnAdminGained>
+<HasFlags requiredFlags="restore">
+
+<LaunchHackScript Filepath="Scripts/DracoHack.txt" DelayHost="events" Delay="0" SourceComp="p-dracopc" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+</HasFlags>
+
+
+<HasFlags requiredFlags="BootFailureThemeSongChange">
+<RunFunction FunctionName="playCustomSong:Music/userspace.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/Draco.xml" FlickerInDuration="0" DelayHost="events" Delay="0" />
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<LoadMission MissionName="Missions/DracoMessage2.xml" Delay="17" DelayHost="events" />
+</HasFlags>
+
+
+<OnConnect target="val5">
+<RunFunction FunctionName="addRankSilent" FunctionValue="6" />
+<RunFunction FunctionName="addFlags:sequencer" />
+</OnConnect>
+
+
+
+<OnAdminGained target="tc-irc">
+<LoadMission MissionName="Missions/Finale.xml" />
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="3">Welcome Kae</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="4.32">@#PLAYERNAME#, what the hell are you doing in here...</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="7.49">How did you find this IRC? It was supposed to be encrypted and decoded for one person, and that person it wasn't supposed to be you!</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="14.64">Well... Now you know my real name @#PLAYERNAME#, My name is Lillycord and I've been the responsible of the hospital murderer years ago.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="23.49">Yes... I know, I'm a terrible person and I don't know why I did it... I was mad I was out of control and having power over people made me feel... Good.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="31.85">But I'm not that person anymore, I'm sick of running, I just want to do the right thing and that's why I asked Kael to help me with something that may take Aegis down forever.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="40.47">But... He didn't appear, you did.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="43.86">Look @#PLAYERNAME#, this ain't gonna be easy, I've prepared something really special for this ocassion and is not something you see everyday.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="51.05">I assume you know what's about the 4WSequencer, you know what's the real purpose of it? And why the code is so complex?</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="58.54">I know who made it, and she's a friend of mine, I helped her make the thing and so far I haven't tested it with human subjects.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="65.71">What 4WSequencer do is basically, breaks the fourth wall for a period of time, when the time it's over, then I don't know what could happen...</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="74.28">I wanted to ask Kael to do this for me, but he never came. And I cannot do it by myself, I know how to turn the god damn thing off, and if I keep it on it may create a black hole or some shit like that, so we gotta be careful.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="88.90">Look @#PLAYERNAME#, We've met for a short period of time, but I'm pretty sure I can trust you this one last task.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="95.19">This will take Aegis down forever, it will close the cage, avoid releasing the virus and with all the data that I will download once you're in, I'll have enough evidence to take John down to jail. Or probably to death.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="108.82">In this IRC there's  file, called Lockette, what it does it locks a server and keeps every file in it until Lockette self destruct the node itself with everything inside, this will prevent the virus to be released. That's enough for us, and I'll make sure to do the rest.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="122.84">Also the 4WSequencer is ready, I've uploaded it to your Vr-Set.</AddIRCMessage>
+<AddIRCMessage Author="Lillycord" TargetComp="tc-irc" Delay="126.21">Good luck #PLAYERNAME#.</AddIRCMessage>
+
+<AddAsset FileName="4WSequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
+</OnAdminGained>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<OnAdminGained target="ds-kimmy">
+<RunFunction FunctionName="addFlags:secretending"/>
+</OnAdminGained>
+</ConditionalActions>

@@ -1,0 +1,13 @@
+config playerComp pauline 0.2 $#%#$
+connect $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+write Here begins my trials! I'll give you an IP, and you must connect and scan for other servers around until you find my computer, inside my computer you'll find a file which you'll have to delete, you'll know what file it is. Good luck! $#%#$
+delay 2 $#%#$
+write The IP is. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write 142.220.149.63 $#%#$
+write GO! $#%#$

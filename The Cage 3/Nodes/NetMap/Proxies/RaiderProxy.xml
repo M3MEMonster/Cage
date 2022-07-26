@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="smartieraider1" name="Proxy R-01" icon="chip" ip="3.62.5.9" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+<dlink target="smartieraider2" />
+<customthemefile path="sys" name="Grid_Cyan_x-server.sys" themePath="Themes/Raider1.xml"/>
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pauline" name="Pauline's Place" icon="chip" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>104, 554</ports>
+  
+  <trace time="-1" />
+	<dlink target="hackersirc" />
+	<file path="home" name="delete_me.txt">Delete me to complete the trial and claim your rewards.</file>
+	 <file path="home/reward" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="home/reward" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="home/reward" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="home/reward" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="home/reward" name="Base-Theme.sys">#BASE_THEME#</file>
+  <file path="home/reward" name="LE-Theme.sys">#PURPLE_THEME#</file>
+  <file path="home/reward" name="Mint-Theme.sys">#MINT_THEME#</file>
+  
+		 <file path="home/reward" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+		<file path="home/reward" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+	</Computer>

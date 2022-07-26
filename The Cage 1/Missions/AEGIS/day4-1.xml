@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis4-1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="filedeletion" target="schoolsv" file="boobs_naked.rec" path="database"/>
+  <goal type="filedeletion" target="schoolsv" file="asians_in_doggy.rec" path="database"/>
+  <goal type="filedeletion" target="schoolsv" file="kitty_dog_porn.rec" path="database"/>
+  <goal type="filedeletion" target="schoolsv" file="waifus_having_the_fucc.rec" path="database"/>
+  <goal type="filedeletion" target="schoolsv" file="maid3d_fucc_game.rec" path="database"/>
+  <goal type="filedeletion" target="schoolsv" file="definetly_not_porn.rec" path="database"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+
+  <nextMission>NONE</nextMission>
+	<posting title="Iffy" requiredRank="10" reqs="day3completed">A School Director needs your help with some iffy files in their databases.</posting>
+  <email>
+    <sender>Gilberto Riley</sender>
+    <subject>Iffy</subject>
+    <body>Good Day.
+	
+Our IT Professor was doing security checks in our server and found some really shady files, we're afraid it could be pornography y'know, stuff like that, I'd appreciate it if you could get into the server and erase any suspicious file from it. Sadly our server security refreshes every day and the IT professor is not here with me to give you the details of the admin account, you'll have to breach by yourself and do the job.
+
+Gilberto Riley
+Director of California's School
+	</body>
+    <attachments>
+       <link comp="schoolsv" />
+	</attachments>
+  </email>
+</mission>

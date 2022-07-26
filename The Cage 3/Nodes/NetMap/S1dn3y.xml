@@ -1,0 +1,91 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="sidney" name="S1dn3y's Computer" icon="DLCPC2" ip="31.222.142.192" type="empty" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+  <portsForCrack val="2" />
+  <ports>6881, 1433, 554</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="tedious" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="10" />
+<dlink target="8bit" />
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="Hackent.exe">#BINARY#</file>
+<file path="home" name="Songs_Compilation.7z">#BINARY#</file>
+<file path="home" name="Compilation.cpl">fneiVqKjea
+0UmJC15Y2o
+XX6dXcpHAD
+L6QD33erpL
+cpCZbMw6OQ
+rt965BucGL
+MZ57bvxY48
+zNudePEteY
+EEp0zL8LNa
+Lu2plG8fh4
+fneiVqKjea
+0UmJC15Y2o
+XX6dXcpHAD
+L6QD33erpL
+cpCZbMw6OQ
+rt Tula GL
+MZ57bvxY48
+zNudePEteY
+EEp0zL8LNa
+Lu2plG8fh4
+fneiVqKjea
+0UmJC15Y2o
+XX6dXcpHAD
+L6QD33erpL
+cpCZbMw6OQ
+rt965BucGL
+MZ57bvxY48
+zNudePEteY
+EEp0zL8LNa
+Lu2plG8fh4</file>
+<file path="home" name="MazeGameSav.sav">#BINARY#</file>
+<file path="home" name="Mazes.exe">#BINARY#</file>
+<file path="home" name="rick.jpg">http://prntscr.com/krtm72</file>
+<file path="home" name="dream_place.jpg">http://prntscr.com/krtmf2</file>
+<file path="home" name="active_wallpaper.wpp">http://prntscr.com/krtn2c</file>
+
+<file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+<file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+ <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="bin/backup" name="RTSPCrack.exe">#RTSP_EXE#</file>
+
+<customthemefile path="sys" name="SunSet_x-server.sys" themePath="Themes/Sidney.xml"/> 
+
+
+ <Memory>
+    <Commands>
+      <Command>dscan beatricetablet</Command>
+      <Command>connect beatablet</Command>
+      <Command>login admin medorayamu</Command>
+      <Command>set mailpass hidden</Command>
+    </Commands>
+    <Data>
+     
+    </Data>
+    <Images>
+      <Image>Images/tumblr_ou490vEjJi1wx1shbo6_500.jpg</Image>
+    </Images>
+  </Memory> 
+
+
+
+
+  </Computer>
+
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

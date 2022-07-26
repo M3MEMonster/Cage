@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+ <goal type="hasflag" target="glitchend"/>
+ <goal type="delay" time="30"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionStart>loadConditionalActions:Actions/IRC3Glitch.xml</missionStart>
+  
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>Uh...</subject>
+    <body>#PLAYERNAME#
+	
+That was cool I guess?
+
+I wanted to talk about something with you, but I didn't feel like talking about it on the IRC would be a good idea...
+
+You know, things haven't been 'fine' in these days, something's up, something's wrong with this... Reality. Maybe I'm getting insane? That may be the most probably option. I need to check if this is real or not... I need you to go to my old backup server and see it by yourself, if you find anything about it it means this is reality and I shouldn't worry about the rest... If my backup never existed then we have a problem, I barely remember things... The ip was 162.144.x.x; I can't remember the last two digits but I'm pretty sure the first two may be enough for you to find a clue about the server. There are some nodes that still exist in my memory, I'll link them in this email, Once you find something I'll contact you.</body>
+    <attachments>
+      <link comp="mingfortune" />
+	   <note title="Mission Guideness">Find anything about Pauline's backup server, you know that the first two digits of it's ip are 162 and 144.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  
+<goal type="getstring" target="go" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd>addFlags:restore</missionEnd>
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Dr4k0</sender>
+    <subject>Congrats</subject>
+    <body>Great.
+	
+You made it.
+
+Honestly didin't believe at first you could do it y'know, people nowadays like action and not some dumb shit like puzzles and stuff, and that's boring, I wonder how many people got stuck in the Hidden Code.
+
+Anyway! I gotta say, I'm impressed, but this is not over yet. wonder if you remember how to restore your x-server.
+
+I'll give you a hand on this one, I made a node for the person who could finish my challenge thing, the IP is IPV10 so is not just a bunch of numbers... The IP for this server which contains an extra x-server is... "restore".
+
+Prove me you can do this and I'll reward you with the Decypher.
+Reply "go" when you're ready.
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

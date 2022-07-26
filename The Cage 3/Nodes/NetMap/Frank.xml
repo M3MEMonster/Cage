@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="frankhueso" name="Franc Bone's Laptop" icon="laptop" type="0" allowsDefaultBootModule="false">
+
+  <portsForCrack val="2" />
+  <ports>22, 80, 554</ports>
+  <trace time="100" />
+	
+  <!--<tracker -->
+  <proxy time="6" />
+<file path="home" name="plans.txt">-Release albums
+-Make collaborative gigs
+-Ask out Kames Jent
+-Make some good music, like always</file>
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="Sportify.exe">#BINARY#</file>
+<file path="home" name="InternetExploder.exe">#BINARY#</file>
+<file path="bin" name="FlappyGird.exe">#BINARY#</file>
+<file path="bin" name="PointClicker.exe">#BINARY#</file>
+<file path="bin" name="SakuraClicker.exe">#BINARY#</file>
+<file path="bin" name="SynthwaveMaker.exe">#BINARY#</file>
+
+
+
+<eosDevice name="Franc's Phone" id="francphone" icon="ePhone" empty="false" passOverride="alpine">
+    <note>Forgot to save</note>
+	    <note>save</note>
+		    <note>saveee</note>
+			    <note>savee</note>
+				    <note>how do I save this shit</note>
+					    <note>save - storage password: turbodriller</note>
+						    <note>there we go</note>
+   
+  </eosDevice>
+  <Memory>
+    <Commands>
+      <Command>connect 142.5.2.31</Command>
+      <Command>login</Command>
+      <Command>???</Command>
+      <Command>???</Command>
+	  <Command>cd log</Command>
+	  <Command>rm *</Command>
+	  <Command>dc</Command>
+    </Commands>
+    <Data>
+      
+    </Data>
+    <Images>
+      <Image>Images/Satanic.png</Image>
+    </Images>
+  </Memory>
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

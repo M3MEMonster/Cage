@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="twilight5-2" activeCheck="false" shouldIgnoreSenderVerification="true">
+  <goals>
+ 
+	<goal type="filedeletion" target="hydrapc" file="AnimationCore.sys" path="sys"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+	<posting title="Unwanted File">Frequent customer needs help with a file.</posting>
+  <email>
+    <sender>Hydra</sender>
+    <subject>DNET</subject>
+    <body>Heyo.
+	
+So, I wanted to do something really basic but I cannot do it now, so that's why I need this little favor, I need you to enter my computer and delete a file, specifically the one called "AnimationCore.sys" located in the ~sys~ folder, why? because I'm working on something and that file is just being a bother there.
+
+Thank you in advance, #PLAYERNAME#.
+	</body>
+    <attachments>
+       <link comp="hydrapc" /> 
+    </attachments>
+  </email>
+</mission>

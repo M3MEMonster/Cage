@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="broken_recovery_node_2" name="BROKEN - Recovery Node" icon="chip" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="2" />
+  <ports>21, 554</ports>
+  <trace time="80" />
+	<firewall level="6" solution="phoenix" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  
+  <file path="sys" name="[BROKEN]VR_System.dll">#BINARY#
+  
+Subject: #PLAYERNAME#
+#BINARY#</file>
+
+<file path="home/log" name="vr_log.dat">#BINARY#
+
+NOTE: The system file got corrupted after I created a copy, I must store it somewhere else or users could pirate the VR SET.
+
+The password for the Secret Stash Node is: pandora</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

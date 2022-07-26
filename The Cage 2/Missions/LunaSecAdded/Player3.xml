@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="ds-algorithm" file="4WSequencer.wip" path="bin/wip" destTarget="lunadrop" destPath="Drop/Uploads"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  
+  <nextMission>Missions/Player3-a.xml</nextMission>
+  
+  <posting title="Floating Point">Paulline needs help with the source code of a program.</posting>
+  
+  <email>
+    <sender>Paulline</sender>
+    <subject>Floating Point</subject>
+    <body>#PLAYERNAME#.
+	
+I... Have bad news.
+
+Remember back there in America when we escaped the Aegis facility? well... I didn't see this coming but when you oppened your way into the core, something activated, something, was release from it, and I'm not sure what, but this thing has been trying to connect to the hub, and honestly I don't like where this is going, it looks like node trying to force hack into it but it can't, at least not now, and according to the behaviour of this "thing"; apparently we have released a Virus, not any virus, a programmed one, and it will stay hidden until we find a way to break into it and erase or, we can just wait for it to fry our fucking brains out.
+
+Look, I've been looking where you were going with all this Algorithm thing, and they have something similar to what I did back there, but this one is quite different, I've never seen this structure before and I can say, it's similar to the one I used to reveal the Core Server but this one looks... Odd, Like I've never seen any kind of code like this before, and that's just the executable you know, is not completely compiled. I need you to find the source code of that program and upload it to the drop server, also I'll need you to download the 4WSequencer.wip on the Algorith Assets Server and upload it to the drop server too, I need that executable to work with source code, once I'm done I'll let you know.
+
+I didn't want to scare you, or the other guys, I've been completely silent about this and I think you're the only one I can trust to talk about this Virus, look. I'm scared, and whatever it happens I'll be here for you friend. 
+
+Now go get me the 4WSequencer.wip, I'll be working on the decoy server for now, you do your thing.
+</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

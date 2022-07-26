@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegiscore1" name="AEGIS Core Server" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>104, 192</ports>
+  <trace time="-1" />
+	<account username="admin" password="aegiscoreserver6" type="0" />
+	<LogoDaemon Name="AEGIS Core Server" ShowsTitle="false" TextColor="255, 220, 220, 200" LogoImagePath="">
+~ AEGIS ~
+  </LogoDaemon>
+	<file path="HUBWIP" name="hubaddmember.dll">#BINARY#</file>
+	<file path="HUBWIP" name="hubkickmember.dll">#BINARY#</file>
+	<file path="HUBWIP" name="hubbanmember.dll">#BINARY#</file>
+	<file path="HUBWIP" name="hubgivepermissions.dll">#BINARY#</file>
+	<file path="HUBWIP" name="note.txt">I've checked and the files are working perfectly for now, the files are going live in a few days due to internal problems in the AEGIS team and servers.</file>
+	
+	
+	</Computer>

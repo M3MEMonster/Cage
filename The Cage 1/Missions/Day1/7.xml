@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-7" activeCheck="true">
+  <goals>
+  <goal type="delay" time="30"/>
+  </goals>
+  
+	
+  <nextMission>Missions/Day1/8.xml</nextMission>
+	
+  <email>
+    <sender>Pauline</sender>
+    <subject>You're the new patient</subject>
+    <body>Good day.
+	
+I checked the IRC but I didn't have time to be there with you, my name is Pauline and you will probably see me in the IRC later. Right now I'm working on something very spectacular and I kinda wanted to share with someone since the others are offline and you seem to be the only one online.
+
+Anyway, I really hope you enjoy our group, it's tiny but full of trustful people, including me, I love hacking and I found it very fun and useful sometimes, I joined with the goal of making my brother proud since I live with him. Why did you join the Aegis program? Any idea? I bet you joined cause you're some sort of cool person that can hack 5 computers at the same time LOL.
+
+Nah but seriously, welcome to the team, or at least that's what I like to call it. Be careful with the staff computer, I checked and they have a tracker installed, which means leaving logs will result in them tracking you down and who knows what happens when you get caught, hopefully we'll never have to find out.
+
+Okay, I'm getting very sleepy, this first day is exciting and full of stuff, it's like going to school again but a cooler school, you should take a nap or something too. See you later in the IRC, bye!
+	</body>
+    <attachments>
+      
+  </attachments>
+  </email>
+</mission>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="day3comp" name="events" type="empty">
+
+  <portsForCrack val="100" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+	<FastActionHost />
+</Computer>

@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+<Instantly>
+
+<RunFunction FunctionName="playCustomSongImmediatley:Music/MaskedSequencer.ogg" />
+<StartScreenBleedEffect AlertTitle="Imminent Annihilation" CompleteAction="Actions/LillycordKillEnd.xml" TotalDurationSeconds="228.03" DelayHost="events" Delay="6.16">Gain acces
+Wipe 'lillycord' folder
+Disconnect</StartScreenBleedEffect>
+
+<SwitchToTheme ThemePathOrName="Sequencer/Grid.xml" FlickerInDuration="1" DelayHost="events" Delay="6.16" />
+
+</Instantly>
+
+</ConditionalActions>

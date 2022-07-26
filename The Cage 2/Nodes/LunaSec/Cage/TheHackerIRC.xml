@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tc-irc" name="Lillycord Chat" icon="DLCServer" ip="1.4.7.0" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="2" />
+  <ports>443, 22</ports>
+  <trace time="-1" />
+  <proxy time="-1" />
+  
+  <portRemap></portRemap>
+  
+  <IRCDaemon themeColor="128,0,0" name="Lillycord / Online" needsLogin="true">
+    <user name="Lillycord" color="255,0,0"/>
+    
+   
+  </IRCDaemon>
+  <file path="home" name="Lockette.bat">#BINARY#</file>
+
+  
+</Computer>

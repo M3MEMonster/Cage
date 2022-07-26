@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisforums" name="AEGIS Forums" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>80=8080</ports>
+  <trace time="-1" />
+	
+	<messageBoard name="Aegis Forums">
+    <thread>Docs/1.txt</thread>
+    <thread>Docs/2.txt</thread>
+	<thread>Docs/3.txt</thread>
+	</messageBoard>
+	</Computer>

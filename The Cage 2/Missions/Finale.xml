@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finale" activeCheck="true">
+  <goals>
+  <goal type="clearfolder" target="tc-aegiscore2" path="sys"/>
+  <goal type="fileupload" target="playerComp" file="Lockette.bat" path="home" destTarget="tc-aegiscore2" destPath="home"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionEnd>loadConditionalActions:Actions/Finale.xml</missionEnd>
+   <nextMission IsSilent="true">NONE</nextMission>
+  
+  <posting title="God's Eye">You're told to find the password for your assigned encrypted file.</posting>
+  
+  <email>
+    <sender>Paulline</sender>
+    <subject>God's Eye</subject>
+    <body>
+</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

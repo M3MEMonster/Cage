@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-cafeteria" name="Cibercafe Don Martinez" icon="DLCServer" type="empty">
+
+	
+	<LogoCustomConnectDisplayDaemon logo="Nodes/LunaSec/DownfallStar/CiberLogo.png" title="Nodes/LunaSec/DownfallStar/CiberLogo2.png" overdrawLogo="true" buttonAlignment="left" />
+	<portsForCrack val="3" />
+	<ports>22, 21, 554</ports>
+	<trace time="65" />
+	<proxy time="2" />
+	<firewall level="6" solution="internetgratis" additionalTime="0"/>
+	<portRemap>554=122, 22=46, 21=20</portRemap>
+	<dlink target="ds-martinez" />
+	<dlink target="ds-pc1" />
+	<dlink target="ds-pc2" />
+	<dlink target="ds-pc3" />
+	<dlink target="ds-pc4" />
+	<dlink target="ds-pc5" />
+	<dlink target="ds-pc6" />
+  
+
+  
+  
+  
+  
+  </Computer>

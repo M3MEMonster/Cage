@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="clearfolder" target="torrent" path="sys"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionStart>loadConditionalActions:Actions/Startup.xml</missionStart>
+  
+  <nextMission>Missions/Forum2.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Keith K.</sender>
+    <subject>Thanks</subject>
+    <body>Thank you.
+	
+Thank you for purchasing and Installing the last copy of AccordOS, we sincerely aprecciate your interest since our copies have been lost and broken, this is the last one remain, is up to you to do whatever you want with it, your receipt will be delivered soon at your e-mail including the total cost of the Operative System.
+
+We're not responsibles of what could happen to the user once them activate the interface.
+
+Enjoy the future, enjoy Accord.
+
+-Keith K.
+Accord CEO
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

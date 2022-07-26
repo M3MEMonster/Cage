@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis4-4" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="filedeletion" target="osbornebelcher" file="DefinetlyNotAMalware.bat" path="sys"/>
+  <goal type="getadminpasswordstring" target="osbornebelcher"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+
+  <nextMission>NONE</nextMission>
+	<posting title="Tracked" requiredRank="10" reqs="day3completed">A Client needs urgent help with some malware in their computer.</posting>
+  <email>
+    <sender>Osborne Belcher</sender>
+    <subject>Tracked</subject>
+    <body>Buenas.
+	
+I'd like some help with some malware in my system, apparently I beat a girl on a game and she got really mad at me, and apparently she's also a hacker, she just infected my computer with malware, which changed the admin password, forcing me to use a guest account, I'd like you to enter my computer, delete the malware and give me the password for the admin account.
+	</body>
+    <attachments>
+       <link comp="osbornebelcher" />
+		
+	</attachments>
+  </email>
+</mission>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="havox2" name="Tan14's Battlestation" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>80, 21, 554, 22</ports>
+  <proxy time="2" />
+  <trace time="30" />
+
+</Computer>

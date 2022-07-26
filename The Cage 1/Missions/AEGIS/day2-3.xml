@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis2-3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="getstring" target="olympus" />
+  <goal type="getstring" target="calypso" />
+  <goal type="getstring" target="charybdis" />
+  </goals>
+  
+<missionEnd val="3">addRank</missionEnd>
+ 
+  <nextMission>NONE</nextMission>
+	<posting title="#ALERT# - Hidden Code" requiredRank="7">[THIS IS CLASSIFIED AS SECRET, MORE INFO INSIDE THE NOTE]</posting>
+  <email>
+    <sender>S</sender>
+    <subject>Hidden Code</subject>
+    <body>Good day.
+	
+I've requested a ticket to reach a skilled hacker to help me in this really weird task, this is not an ordinary one as it requires you to be very quiet about it. There's a code, divided in three parts, that code can launch missiles from the U.S Army, and they were stolen by some terrorist.
+
+I need you to find the three codes and send them to me. I must add, this will be a very difficult task as we're not dealing with amateurs, this is a real hacking terrorist organization. Once you've done your job, let us know, we will reward you for your actions, someday.
+
+-S
+	</body>
+    <attachments>
+      <note title="Strange numbers">Strange numbers were found in our logs, they must be some kind of I.P, but they're not in the standard IPv4 format, they're in a weird format, this is the IP that was registered in the logs: 31 32 38 2e 31 36 33 2e 32 2e 31, looks like some hex code, anyway, that's all the info we can give to you, good luck.</note>
+    </attachments>
+  </email>
+</mission>

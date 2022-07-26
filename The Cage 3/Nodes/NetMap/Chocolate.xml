@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="chocolate" name="Late's Laptop" icon="DLCLaptop" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 554</ports>
+  <trace time="120" />
+	<firewall level="6" solution="ammunition" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="1" />
+  <file path="home" name="kael.txt">Why do I have to keep all Kael's paasswords? God damn it why his paassword has to be like japanese related, first was yoko, then japan, then takashi and now yamada? this is fucking insane, im out.</file>
+  
+  <file path="home" name="an_die_freude.exe">Freude, schöner Götterfunken,
+Tochter aus Elysium,
+Wir betreten feuertrunken,
+Himmlische, dein Heiligtum!
+Deine Zauber binden wieder
+Was die Mode streng geteilt*;
+Alle Menschen werden Brüder*
+Wo dein sanfter Flügel weilt.
+
+Wem der große Wurf gelungen
+Eines Freundes Freund zu sein;
+Wer ein holdes Weib errungen
+Mische seinen Jubel ein!
+Ja, wer auch nur eine Seele
+Sein nennt auf dem Erdenrund!
+Und wer's nie gekonnt, der stehle
+Weinend sich aus diesem Bund!
+
+Freude trinken alle Wesen
+An den Brüsten der Natur;
+Alle Guten, alle Bösen
+Folgen ihrer Rosenspur.
+Küsse gab sie uns und Reben,
+Einen Freund, geprüft im Tod;
+Wollust ward dem Wurm gegeben
+und der Cherub steht vor Gott.
+
+Froh, wie seine Sonnen fliegen
+Durch des Himmels prächt'gen Plan
+Laufet, Brüder, eure Bahn,
+Freudig, wie ein Held zum siegen.
+
+Seid umschlungen, Millionen!
+Diesen Kuß der ganzen Welt!
+Brüder, über'm Sternenzelt
+Muß ein lieber Vater wohnen.
+Ihr stürzt nieder, Millionen?
+Ahnest du den Schöpfer, Welt?
+Such' ihn über'm Sternenzelt!
+Über Sternen muß er wohnen.</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin/backup" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+    <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+	  <file path="bin/backup" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+    <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="sys" name="Base-Theme.sys">#BASE_THEME#</file>
+  <file path="sys" name="LE-Theme.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file>
+
+  <customthemefile path="sys" name="Awakened_Riddles_X-Server.sys" themePath="Themes/Chocolate.xml"/>
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

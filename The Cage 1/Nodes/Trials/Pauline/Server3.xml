@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trial3" name="Trial Server 3" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="1" />
+  <admin type="progress" />
+  <trace time="60" />
+  <dlink target="trial4" />
+<ports>25</ports>
+  <portRemap>25=59811944</portRemap>
+ <proxy time="3" />
+ <firewall level="10" additionalTime="1.0"/> 
+  <tracker />	
+</Computer>

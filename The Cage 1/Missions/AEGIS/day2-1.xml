@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis2-1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="filedeletion" target="pointclicker" file="Shely.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  
+<missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:badloser</missionEnd>  
+  <nextMission>NONE</nextMission>
+	<posting title="Bad Loser" requiredRank="5">This customer wants revenge.</posting>
+  <email>
+    <sender>Sheri Ely</sender>
+    <subject>Sweet Revenge</subject>
+    <body>G'day.
+	
+This is not a big deal honestly, it's just a little something I wanna do to a "friend" of mine, who stole a lot of stuff from me and I want him wrecked. He stole my account on Pointclicker and became famous with my account, I want you to delete his savefile with the name "Shely" so the bastard has to start from 0 again.
+	
+I've linked the Pointclicker website in the attachments, I await your response.	
+	</body>
+    <attachments>
+       <link comp="pointclicker" />
+	</attachments>
+  </email>
+</mission>

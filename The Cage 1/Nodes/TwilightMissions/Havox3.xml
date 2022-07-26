@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="havox3" name="R1ddl3's Battlestation" icon="DLCLaptop" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>80</ports>
+  
+  <trace time="25" />
+
+</Computer>

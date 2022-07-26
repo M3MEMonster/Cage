@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="aegisdb" file="pacemakerdriver.dll" path="sys" destTarget="lcorddrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="aegisintro" file="node_07.lc" path="log/???" destTarget="lcorddrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="kaellaptop" file="4wsequencer.wip" path="home" destTarget="lcorddrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="toshokan" file="unlocker.bat" path="home/???" destTarget="lcorddrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="aegislogs" file="lastfavor.dll" path="home/logdb/files" destTarget="lcorddrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="aegismf" file="4wsequencer.superdec" path="home/Project_Walls" destTarget="lcorddrop" destPath="Drop/Uploads"/>
+ </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <missionEnd>loadConditionalActions:Actions/Finale.xml</missionEnd> 
+ 
+  
+  <nextMission IsSilent="true">NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Keith K.</sender>
+    <subject>Thanks</subject>
+    <body>
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

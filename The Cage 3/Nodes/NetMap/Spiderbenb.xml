@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="spiderbenb" name="Spiderbenb's Laptop" icon="laptop" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>22, 80</ports>
+  <trace time="80" />
+	<firewall level="6" solution="ginger" additionalTime="-1"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+<file path="home" name="The_World.txt">The world need people to help it from itself, we're dying slowly, we're not going to live forever you know, we must end this quickly, we're not worth this planet.</file>
+<file path="home/apps" name="Cracknet.exe">#BINARY#</file>
+<file path="home/apps" name="BRAP.exe">#BINARY#</file>
+<file path="home/apps" name="HellSec.exe">#BINARY#</file>
+<file path="home/apps" name="HellSec2.exe">#BINARY#</file>
+<file path="home/apps" name="Accord.exe">#BINARY#</file>
+<file path="home" name="IRC.txt">This place is full of those, maybe we should check for it more often, How many people could be talking right now in this exact moment.</file>
+<file path="home" name="Forums.txt">Forums are really dynamic, we should pay more attention at what could bring us, secrets, hints, anything is possible.</file>
+<dlink target="pointclicker" />
+ <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin/backup" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <encryptedFile path="home" name="cracknetstory.dec" extension=".txt" ip="192.168.1.1" header="Termination" pass="termination">A crew came together and were seen on the news, I've joined them and together we'll break the Inviolable Nodes. The Termination Crew will come soon.</encryptedFile>
+  <customthemefile path="sys" name="Clockwork_Ruins_x-server.sys" themePath="Themes/Spiderbenb.xml"/>
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

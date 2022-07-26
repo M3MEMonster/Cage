@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="assetsserver" name="AEGIS Private Assets Server" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>22</ports>
+  <trace time="-1" />
+	<account username="maritza4152" password="y7fvwQLRq4" type="0" />
+	<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+	<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+	<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+	<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+	<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+	</Computer>

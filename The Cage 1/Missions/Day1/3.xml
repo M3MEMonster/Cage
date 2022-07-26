@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day1-3" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="SSHCrack.exe" path="bin" destTarget="johnny" destPath="bin"/>
+  <goal type="fileupload" target="playerComp" file="FTPBounce.exe" path="bin" destTarget="johnny" destPath="bin"/>
+  <goal type="fileupload" target="playerComp" file="WebServerWorm.exe" path="bin" destTarget="johnny" destPath="bin"/>
+  <goal type="fileupload" target="playerComp" file="SMTPOverflow.exe" path="bin" destTarget="johnny" destPath="bin"/>
+  <goal type="fileupload" target="playerComp" file="SQLBufferOverflow.exe" path="bin" destTarget="johnny" destPath="bin"/>
+  </goals>
+  
+	<missionStart>addFlags:decypher</missionStart>
+  <nextMission>Missions/Day1/4.xml</nextMission>
+	
+  <email>
+    <sender>Johnny</sender>
+    <subject>Decyphers</subject>
+    <body>Hey #PLAYERNAME#!
+
+That file over there, Aegis.dec, seems like it could contain some interesting info, but it needs the Decypher tool, luckily for you I have a copy, I've uploaded one to your bin folder.  Try to decrypt the file and see what's inside, it may be useful to us.
+	</body>
+    <attachments>
+      
+  </attachments>
+  </email>
+</mission>

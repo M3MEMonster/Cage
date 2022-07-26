@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aqua" name="Aqua's Battlestation" icon="DLCPC2" type="empty" allowsDefaultBootModule="false">
+ <adminPass pass="aquarine" />
+  <portsForCrack val="3" />
+  <ports>21, 80, 25, 1433</ports>
+  <trace time="100" />
+	<firewall level="4" solution="hotline" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="accord.txt">This app has been like the boom of this age, why? I don't know, it was so boring and meh at the time back in 2018 but like 50 years later this shit became really popular lol.</file>
+<file path="home" name="pardo.txt">Pardo is Love, Pardo is life, I'd suck his thicc skinned balls.
+
+
+No homo tho.</file>
+
+<file path="home" name="AccordHack.exe">#BINARY#</file>
+  
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="bin/backup" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin/backup" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file> 
+<file path="bin" name="MemDump.txt">MemDumpGenerator is used to generate deleted chunks from a computer and MemForensics it's used to read them.</file> 
+
+<customthemefile path="sys" name="Nightmare_x-server.sys" themePath="Themes/Aqua.xml"/>
+
+
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="barpenterwebsite" name="Barpenter Crut" ip="31.21.52.111" icon="DLCServer" type="0" allowsDefaultBootModule="true">
+<addWebServer name="Website Server" url="Web/Cache/Barpenter.html" />
+  <portsForCrack val="1" />
+  <ports>80, 1433</ports>
+  <trace time="75" />
+	<firewall level="3" solution="musical" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+  <dlink target="coel" />
+  <dlink target="aqua" />
+  <dlink target="frankhueso" />
+  <dlink target="barpenterstorage" />
+  
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

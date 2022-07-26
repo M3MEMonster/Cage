@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="p-patience" name="Patience" ip="patience" icon="chip" type="empty">
+
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+  <proxy time="10" />
+  
+  <portRemap></portRemap>
+  
+   <Memory>
+    <Commands>
+      
+    </Commands>
+    <Data>
+      <Block>The third part of the password is: HC</Block>
+     
+    </Data>
+    <Images>
+     
+    </Images>
+  </Memory>
+  
+
+  
+</Computer>

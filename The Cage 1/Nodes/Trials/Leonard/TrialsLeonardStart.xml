@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trialsleonardstart" name="Trial Start Point" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="4" />
+  <admin type="progress" />
+  <trace time="70" />
+  
+<ports>554, 1433, 22, 25</ports>
+ <proxy time="4" />
+<dlink target="trialsleonardcomplete" />
+  <dlink target="leonardtest1" />
+  <dlink target="leonardtest2" />
+  <dlink target="leonardtest3" />
+  <dlink target="leonardtest4" />
+ <file path="home" name="trial.txt">the password for the encrypted file is the name of this file :).</file>  
+</Computer>

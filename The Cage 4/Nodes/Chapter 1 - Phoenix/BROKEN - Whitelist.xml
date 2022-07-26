@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="broken_recovery_whitelist" name="BROKEN - Whitelist" icon="chip" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <proxy time="-1" />
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

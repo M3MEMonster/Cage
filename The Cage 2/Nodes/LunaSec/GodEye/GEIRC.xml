@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-aegisirc" icon="DLCServer" name="Aegis IRC" type="empty" allowsDefaultBootModule="true">
+
+ <IRCDaemon themeColor="96,96,96" name="Aegis IRC Channel" needsLogin="true">
+    <user name="Peace" color="0,209,232"/>
+    <user name="Kael" color="202,98,0"/>
+    <user name="Maritza" color="0,196,82"/>
+	<user name="Tranter" color="0,255,0"/>
+	<user name="Arnie" color="240,128,128"/>
+
+    <post user="Peace">Everything's set, finally the IRC is up.</post>
+    <post user="Tranter">Good work with it boss.</post>
+    <post user="Peace">It was nothing, actually I got some help of our newest member, @Kael.</post>
+    <post user="Kael">My pleasure :) </post>
+	<post user="Maritza">Welcome to the team @Kael, hope you enjoy your stay!</post>
+	<post user="Arnie">Welcome new boy!</post>
+	<post user="Kael">Haha, thanks guys.</post>
+	<post user="Peace">Okay playtime is over, go back to work everyone.</post>
+	<post user="Maritza">Okay boss.</post>
+	<post user="Peace">By the way @Kael, check your mail, Gotta talk to you about something important.</post>
+	<post user="Kael">Ofc.</post>
+  </IRCDaemon>
+ 
+
+
+ <portsForCrack val="3" />
+  <ports>21, 80, 554</ports>
+  <trace time="60" />
+  <proxy time="2" />
+  <firewall level="6" solution="aegisirc" additionalTime="0"/>
+  <portRemap></portRemap>
+  <dlink target="ge-kael" />
+  <dlink target="ge-peace" />
+  <dlink target="ge-maritza" />
+  <dlink target="ge-tranter" />
+  <dlink target="ge-arnie" />
+  <dlink target="ge-aegisdrop" />
+  
+
+  
+</Computer>

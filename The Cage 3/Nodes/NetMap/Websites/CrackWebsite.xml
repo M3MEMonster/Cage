@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="crackwebsite" name="Executable Cracker" ip="200.142.1.4" icon="DLCPC1" type="0" allowsDefaultBootModule="true">
+
+<addWebServer name="Website Server" url="Web/Cache/Crack.html" />
+  <portsForCrack val="1" />
+  <ports>80, 22</ports>
+  <trace time="-1" />
+	<firewall level="3" solution="salamander" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="1" />
+  <dlink target="crackproxy01" />
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

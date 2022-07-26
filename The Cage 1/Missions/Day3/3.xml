@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day3-3" activeCheck="true" >
+  <goals>
+  <goal type="getadmin" target="hintserver1"/>
+  </goals>
+  
+
+  <nextMission IsSilent="true">Missions/Day3/4.xml</nextMission>
+	
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body></body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

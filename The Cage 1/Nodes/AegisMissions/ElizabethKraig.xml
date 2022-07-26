@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="elizabethkraig" name="Elizabeth's Laptop" icon="laptop" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="1" additionalTime="0"/>
+  <trace time="-1" />
+	<dlink target="elizabethstalker" />
+	<file path="home/apps" name="CatGame.exe">#BINARY#</file>
+	<file path="home/apps" name="TeamFight2.exe">#BINARY#</file>
+	<file path="home/apps" name="CatlateralDamage.exe">#BINARY#</file>
+	<file path="home/apps" name="HorseIsland.exe">#BINARY#</file>
+	
+	<file path="home/backup" name="vacations.zip">#BINARY#</file>
+	<file path="home/backup" name="mycats.zip">#BINARY#</file>
+	<file path="home/backup" name="horsepics.zip">#BINARY#</file>
+	<encryptedFile path="home/backup" name="selfie.dec" extension=".txt" ip="" header="Selfie" pass="ilovecats">
+    http://prntscr.com/h6816f
+  </encryptedFile>
+
+	
+</Computer>

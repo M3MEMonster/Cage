@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Embryo.ogg" DelayHost="events" Delay="1"/>
+<AddThreadToMissionBoard ThreadFilepath="Docs/Equinox13.txt" TargetComp="equinoxboard" />
+<AddThreadToMissionBoard ThreadFilepath="Docs/Equinox14.txt" TargetComp="equinoxboard" />
+<AddThreadToMissionBoard ThreadFilepath="Docs/Equinox15.txt" TargetComp="equinoxboard" />
+</Instantly>
+<OnConnect target="equinoxboard">
+<RunFunction FunctionName="playCustomSong:Music/SacrificeRemix.ogg" DelayHost="events" Delay="0"/>
+</OnConnect>
+
+</ConditionalActions>

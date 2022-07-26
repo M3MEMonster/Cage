@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Ritual.ogg" DelayHost="events" Delay="1"/>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="0"/>
+<ChangeIP DelayHost="events" Delay="0" TargetComp="playerComp" NewIP="aegis_add_711" />
+</Instantly>
+
+<OnConnect target="aegisirc">
+<SwitchToTheme ThemePathOrName="Themes/Aegis.xml" FlickerInDuration="3.0" DelayHost="events" Delay="1" />
+</OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="broken_private_archives" name="BROKEN - Private Files" icon="chip" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="solutions" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+   <WhitelistAuthenticatorDaemon Remote="broken_recovery_whitelist"/>
+   <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+   
+   
+   <dlink target="broken_gateway" />
+   
+   
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

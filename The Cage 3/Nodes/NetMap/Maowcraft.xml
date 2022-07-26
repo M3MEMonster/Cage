@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="maowcraft" name="Maowcraft's Battlestation" icon="DLCServer" ip="162.296.122.1" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 80</ports>
+  <trace time="90" />
+	<firewall level="6" solution="solve" additionalTime="0"/>
+<tracker/>
+  <proxy time="-1" />
+<file path="bin/backup" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+   <file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+   <file path="home/apps" name="Accord.exe">#BINARY#</file>
+   <file path="home/apps" name="B.R.A.T.exe">#BINARY#</file>
+   <file path="home/apps" name="Tweetah.exe">#BINARY#</file>
+   <file path="home/apps" name="Fletnix.exe">#BINARY#</file>
+   <file path="home/private" name="Hacknet.os">#BINARY#</file>
+   <file path="home/private" name="NetMap.os">#BINARY#</file>
+   <file path="home/private" name="Terminal.os">#BINARY#</file>
+   <file path="home/private" name="RamManager.os">#BINARY#</file>
+   
+   <file path="bin" name="NetMapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+ 
+<customthemefile path="sys" name="Maow_x-server.sys" themePath="Themes/Maowcraft.xml"/>
+<dlink target="equinoxboard" />  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

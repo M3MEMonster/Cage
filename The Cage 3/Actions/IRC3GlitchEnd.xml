@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+<Instantly>
+<CrashComputer TargetComp="playerComp" CrashSource="playerComp" DelayHost="events" Delay="1" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Paranormal.ogg" DelayHost="events" Delay="1"/>
+<SwitchToTheme ThemePathOrName="Themes/Lillycord.xml" FlickerInDuration="2" DelayHost="events" Delay="3" />
+<SetLock DelayHost="events" Delay="0.97" Module="terminal" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="events" Delay="0.97" Module="ram" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="events" Delay="0.97" Module="display" IsLocked="false" IsHidden="false" />
+<SetLock DelayHost="events" Delay="0.97" Module="netmap" IsLocked="false" IsHidden="false" />
+<RunFunction FunctionName="addFlags:glitchend"/>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="events" Delay="4"/>
+<AddConditionalActions Filepath="Actions/IRC4.xml" DelayHost="events" Delay="5"/>
+</Instantly>
+
+</ConditionalActions>

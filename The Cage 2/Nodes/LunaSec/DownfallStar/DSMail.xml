@@ -1,0 +1,148 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ta-mail" name="The Algorithm Mail Server" type="empty" icon="DLCServer" ip="132.162.132.1" allowsDefaultBootModule="true">
+
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+  
+  <account username="martinez" password="ta199685" type="2" />
+  <account username="jenova" password="ta102541" type="2" />
+  <account username="kimmy" password="ta111172" type="2" />
+  <account username="draco" password="ta142585" type="2" />
+  
+  
+  
+  <mailServer name="Algorithm Mail Server" color="0,76,153" generateJunk="true">
+
+ <email recipient="draco" sender="Challenge Bot" subject="Boot">
+Challenge Bot Activated. v2.01
+
+Your desired protected node IP is: 25.24.26.31
+Required password: [REDACTED]
+Is divided?: yes
+How many parts: 4
+
+Creating Safe Puzzle...
+Finished...
+The password was divided in 4 parts.
+</email> 
+ <email recipient="draco" sender="Challenge Bot" subject="1">
+Ipv10 is required for this challenge...
+Loading...
+
+The IPv4 for the node that contains:
+Part 1 of PASSWORD is:
+
+" You can see me in water, but I never get wet. What am I? "
+</email> 
+
+<email recipient="draco" sender="Challenge Bot" subject="2">
+68 65 78 61 64 65 63 69 6d 61 6c</email>
+<email recipient="draco" sender="Challenge Bot" subject="3">
+patience</email>
+<email recipient="draco" sender="Challenge Bot" subject="4">
+This IP is encrypted in two ways.
+Hexadecimal and Octal.
+
+066 067 040 066 061 040 067 064 040 066 146 040 067 063
+</email>
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <email recipient="martinez" sender="J" subject="Welcome">Hey!
+	
+Thanks for accepting our request.
+
+We are so happy to have you here in Algorithm, we specialize in anti-malware software and we do whatever it costs to protect our country from digital threads.
+
+We were waiting for you to join so we can discuss our plan for the Whitelist server, we'll give you a address and you'll have to go there, physically of course.
+
+We'll be in touch.
+</email>
+
+<email recipient="martinez" sender="J" subject="RE: Welcome">So.
+
+We've been discussing this and I think you should get into the private IRC we have, I mean we planned on adding you but now it's the time to do so, we'll be waiting.
+
+131.2.3.1  Algorith Private IRC.</email>
+
+<email recipient="jenova" sender="Martinez" subject="Everything Set">Miss Jenova?
+
+Everything is done, I've been working with Kiki and we managed to set the 4 servers on-line.
+
+Security Node1: 142.1.2.1
+Security Nghggdsfgode2: 3gj98g349
+Security 23232345Node3: 2345hwerhtwhe
+Chile-F23423ewall: 343g422323
+
+Corrupted File</email>
+
+<email recipient="kimmy" sender="J" subject="The program">Hey Kimmy.
+
+Have you managed to make that thing work? We may need it if that hacker tries to fuck us...
+
+Anyway, if you're ready please reply A.S.A.P, please.</email>
+<email recipient="kimmy" sender="J" subject="RE: The program">Kimmy?
+Are you there?</email>
+<email recipient="kimmy" sender="J" subject="RE: RE: The program">Gosh
+
+You scared me, I hope you're doing fine girl, we were worried about you, last time you end up drunk or sleeping all day at least let us now.</email>
+<email recipient="kimmy" sender="J" subject="RE: RE: RE: The program">Don't forget to take your anti depressants</email>
+<email recipient="kimmy" sender="Tyc00n" subject="It's almost ready">So...
+
+I've been testing the thing you wanted me to, and so far it works really great, but there's a problem, it requires a really big quantity of energy to run properly since this thing you've created can go further beyond this.. place you know.
+
+Have to talked about this with the NASA? I mean, that'd be awesome, a really Big Discovery by a simple girl from Chile. Look you don't have to, I'm just worried about you being in trouble for this, and I think it needs to be controlled, this is very unstable but well not gonna lie, it's very efficient for it's porpuse. Anyway I'll be back testing it some more, I'll keep you updated.
+
+Love your gf.</email>
+<email recipient="kimmy" sender="???" subject="Don't do it">
+You recognize this IP right? 111.4.2.1?
+
+That's right, your girlfriend address.
+
+Look, I don't wanna do this but you just leave me no choice, I need to take down your project and if it's possible everyone that involves it, even you Kimmy... I'm sorry I had to go this far but it's the only way to keep you safe, and I know I've screwed up so many times in the past but trust me, I just wanna do the right thing for us, for you, and for the people you love. Look, don't continue this research, this thing you've created, and let's go back to be friends okay? Everything will be fine, you don't need to be in the in a field full of explosives again right? I don't wanna risk my ass for you again, it's dangerous for me and for you, so please stop it now.
+
+I really hope you forgive me someday for what I did Kimmy.</email>
+<email recipient="kimmy" sender="Tyc00n" subject="What the">Honey, are you okay?
+
+I've been tracked down by her, and I managed to save the source code somewhere safe, look, I can't talk to you right now I'm busy trying to avoid this bitch's connection and all I can say, it's safe okay? it's somewhere near your web of nodes, it's a special server.
+
+Please be safe, I'll try to distract her for now, you get the source code and run.</email>
+<email recipient="kimmy" sender="Tyc00n" subject="RE: What the">I'm being monitorized
+
+so the best thing I can do now is just give you the Ip of something closer to it, if I give you the Ip directly she may notice and go for it, you're smart and you're faster than she is.
+
+112.2.1.4</email>
+
+
+
+
+
+
+
+
+
+</mailServer>
+
+  
+  
+  
+  
+  
+  
+</Computer>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="spnlist" name="SPN Whitelist" type="3" icon="DLCServer" ip="30.103.29.204">
+
+<ports>21, 25, 443</ports>
+<portsForCrack val="3"/>
+<firewall level="6"/>
+<proxy time="1.5"/>
+<trace timer="60"/>
+<admin type="progress"/>
+
+<account username="SPN_Admin" password="9348yf8w"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis-5" activeCheck="false">
+  <goals>
+  <sendemail recipient="dilanmmd" subject="MedicalRecord - Garnett_Becky" />
+  </goals>
+  
+<missionEnd val="1">addRank</missionEnd>
+<missionEnd>addFlags:messenger</missionEnd>  
+ <nextMission>NONE</nextMission> 
+ 
+	<posting title="Messenger">Customer needs help with a medical record.</posting>
+  <email>
+    <sender>Sean Huddleston</sender>
+    <subject>Messenger</subject>
+    <body>Good day Person.
+	
+I've been looking for someone to help me with this, my sister has been hospitalized for a long while and they won't tell us what her condition is and I don't know why, maybe she has some weird disease and they're afraid that we could get infected? I don't think so honestly.
+
+Those guys are just being dicks and won't let us see my sister, what I want is for you to get into their Medical server and find her medical record and send it to me so I can at least know how she's doin', apparently they are about to move some passengers to another hospital. Maybe it says somethig in her medical file about being moved as well, if that's the case then I know where to go to visit her.
+
+Her name is Becky Garnett, I need you to send her record to my email, "dilanmmd@jmail.com". I'll be waiting for your email, thanks in advance.
+	</body>
+    <attachments>
+<link comp="medicalserver" />
+
+    </attachments>
+  </email>
+</mission>

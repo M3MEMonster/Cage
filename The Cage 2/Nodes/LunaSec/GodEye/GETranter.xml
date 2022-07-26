@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-tranter" name="Tranter Battlestation" ip="3.65.78.5" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 554</ports>
+  <trace time="50" />
+  <proxy time="-1" />
+  <firewall level="6" solution="kaelisbae"/>
+  <portRemap>22=96, 554=664</portRemap>
+  <eosDevice name="Tranter Phone" id="ge-tranterphone" icon="ePhone2" empty="false" passOverride="arnie">
+    
+    <mail username="tranter@a-mail.com" pass="am142365" />
+    
+   
+  </eosDevice>
+  
+  
+
+  
+</Computer>

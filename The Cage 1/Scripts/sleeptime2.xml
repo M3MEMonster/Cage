@@ -1,0 +1,30 @@
+
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+clearTerminal $#%#$
+
+write Initiating rest sequence, have a nice sleep #PLAYERNAME#. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+delay 3 $#%#$
+write 9 days has passed. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write Good morning #PLAYERNAME#. $#%#$
+
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$

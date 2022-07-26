@@ -1,0 +1,39 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <RunFunction FunctionName="playCustomSong:Music/MaskedDrone.ogg"/> 
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="4">@#PLAYERNAME#...</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="6">Why...?</AddIRCMessage> 
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="7.46">You don't understand the complexity of this situation, I needed your help, this could have brough Aegis to death.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="14.34">Killing Peace's Wife would have done the trick but you fucked this.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="19.17">I should've never trusted you.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="22.20">The other player was more obedient than you.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="26.27">But I can go with plan B, I don't need you anymore #PLAYERNAME#, no one does so go fucking die.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="33.12">I don't need you, I don't need you.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="35.52">I'll see you in hell.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="38.33">hehe.</AddIRCMessage>
+<LaunchHackScript Filepath="Scripts/Breach.txt" DelayHost="events" Delay="40" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<ChangeAlertIcon Target="paulinechat" Type="irc" DelayHost="events" Delay="43"/>
+
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="48">@#PLAYERNAME#!!!</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="50">@#PLAYERNAME#!!!! HEY!!!!</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="51.77">WHAT THE FUCK IS HAPPENING, I'M GETTING ALERTS OUT OF NOWHERE, WHAT THE FUCK DID YOU DO?!</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="56.62">It's her right? It has to be her, #PLAYERNAME# we have to stop her we... We can't fuck this up.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="63.23">I always knew she was nuts, but not this crazy oh god we're screwed, she's taken over the nuclear silo... We could be dead any time soon.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="70.78">Oh god what do we do...</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="74.22">Wait.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="75.08">I have an idea.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="76.98">I have a program that can reveal some IP address for a limited time, but this one works in a different way, I can re-pgoram it to work normal.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="84.19">It may take some time and...</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="89.34">Done, it's done, everything set, the problem is... I don't know where this program actually leads but it has connections with Lillycord, I hope we get to the neural node so we can shut her down forever.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="100.42">The other problem is, I don't know what do you need to crack that server so go prepared, this ain't some script kiddy hacking shit, we're getting into the real crap, so be ready.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="109.97">Hah come to think now, you remind me so much of that person who helped us back in LunaSec</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="114.97">I trust you, and I know you'll do the right thing, the rest of the world depends on you now.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="119.23">Good luck!</AddIRCMessage>
+<RunFunction FunctionName="addFlags:sequencer" DelayHost="events" Delay="119.23"/>
+<AddAsset FileName="4WSequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="playerComp" TargetFolderpath="bin" DelayHost="events" Delay="119.23"/>
+
+<LoadMission MissionName="Missions/Breach.xml" />
+  </Instantly>
+
+</ConditionalActions>

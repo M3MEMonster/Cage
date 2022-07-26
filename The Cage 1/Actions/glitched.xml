@@ -1,0 +1,28 @@
+<ConditionalActions>
+ <Instantly>
+	<CancelScreenBleedEffect DelayHost="events" Delay="0" />
+	<RunFunction FunctionName="playCustomSongImmediatley:Music/Crash.ogg" Delay="0" DelayHost="events"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch1.xml" FlickerInDuration="0" DelayHost="events" Delay="0" />
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch3.xml" FlickerInDuration="0" DelayHost="events" Delay="0.05" />
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch2.xml" FlickerInDuration="0" DelayHost="events" Delay="0.07" />
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch4.xml" FlickerInDuration="0" DelayHost="events" Delay="0.27"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch1.xml" FlickerInDuration="0" DelayHost="events" Delay="1.06"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch3.xml" FlickerInDuration="0" DelayHost="events" Delay="1.09"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch5.xml" FlickerInDuration="0" DelayHost="events" Delay="1.22"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch6.xml" FlickerInDuration="0" DelayHost="events" Delay="1.27"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch1.xml" FlickerInDuration="0" DelayHost="events" Delay="1.30" />
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch3.xml" FlickerInDuration="0" DelayHost="events" Delay="1.35" />
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch2.xml" FlickerInDuration="0" DelayHost="events" Delay="1.60" />
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch4.xml" FlickerInDuration="0" DelayHost="events" Delay="2"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch1.xml" FlickerInDuration="0" DelayHost="events" Delay="2.50"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch3.xml" FlickerInDuration="0" DelayHost="events" Delay="2.75"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch5.xml" FlickerInDuration="0" DelayHost="events" Delay="2.90"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch6.xml" FlickerInDuration="0" DelayHost="events" Delay="3.11"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch8.xml" FlickerInDuration="0" DelayHost="events" Delay="3.17"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch6.xml" FlickerInDuration="0" DelayHost="events" Delay="3.50"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch3.xml" FlickerInDuration="0" DelayHost="events" Delay="3.70"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch1.xml" FlickerInDuration="0" DelayHost="events" Delay="3.90"/>
+	<SwitchToTheme ThemePathOrName="Themes/Glitched/glitch9.xml" FlickerInDuration="0" DelayHost="events" Delay="4.05"/>
+	<RunFunction FunctionName="playCustomSong:Music/Probe.ogg" Delay="8.26" DelayHost="events"/>
+	</Instantly>
+ </ConditionalActions>

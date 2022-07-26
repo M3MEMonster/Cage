@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kaelproxy3" name="Proxy Node-0G4V" icon="DLCPC2" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 25, 80, 1433</ports>
+  <trace time="75" />
+	<firewall level="5" solution="pr0xy" additionalTime="0"/>
+  <tracker />
+  <proxy time="1.5" />
+
+<encryptedFile path="sys" name="proxy_config.dec" extension=".cfg" ip="134.206.40.109" header="Proxy Configuration" pass="prx_193462">
+USER: Kael
+IP: 203.44.102.20
+</encryptedFile>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day2-6" activeCheck="true">
+  <goals>
+  
+  
+  </goals>
+  
+
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>Sam</sender>
+    <subject>What's Up</subject>
+    <body>Hey #PLAYERNAME#.
+	
+It's me, Sam, the one that barely talks on the chat, yeah I got stuff to do too, but that's not the point of this message. I've been thinking and I wanted to invite you to the forums of AEGIS, it's a nice place to practice your skills, they talk about everything, IP's, hack stories, and more, maybe you will find something that you like there? I'm not sure but you're invited, and the others too, I'll link you the node right now.
+
+Hope to see you there.
+
+-Sam
+	</body>
+    <attachments>
+     
+   <link comp="aegisforums" />
+    </attachments>
+  </email>
+</mission>

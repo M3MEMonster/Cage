@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+ <goal type="fileupload" target="msg1" file="Fragment_01.lc" path="home" destTarget="lillycord" destPath="sys"/>
+ <goal type="fileupload" target="msg2" file="Fragment_02.lc" path="home" destTarget="lillycord" destPath="sys"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  <missionStart>loadConditionalActions:Actions/Aegis1.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/LillyCordFix.xml</missionEnd>
+  
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>AEGIS Labs</sender>
+    <subject>Info</subject>
+    <body>Dear #PLAYERNAME#.
+	
+Thanks for accepting our invitation, check the attachements below.
+
+Thanks for joining AEGIS Laboratories.
+</body>
+    <attachments>
+    <link comp="aegisirc" />
+	<account comp="aegisirc" user="#PLAYERNAME#" pass="ae_member_711" />
+    </attachments>
+  </email>
+</mission>

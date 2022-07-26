@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <RunFunction FunctionName="playCustomSongImmediatley:Music/Ricardo.ogg" />
+  <SwitchToTheme ThemePathOrName="Themes/Ricardo.xml" FlickerInDuration="0" DelayHost="events" Delay="0" />
+  </Instantly>
+
+</ConditionalActions>

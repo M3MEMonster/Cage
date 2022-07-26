@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trial1" name="Trial Server 1" ip="142.220.149.63" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="3" />
+  <admin type="progress" />
+  <trace time="50" />
+  <dlink target="trial2" />
+<ports>21, 22, 25</ports>
+  
+  <tracker />	
+</Computer>

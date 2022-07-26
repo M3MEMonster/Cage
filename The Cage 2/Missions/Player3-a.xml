@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="fp-backup1" file="vr-set_repack1.sc" path="sys/sc" destTarget="lunadrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="fp-backup2" file="vr-set_repack2.sc" path="sys/sc" destTarget="lunadrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="fp-backup3" file="vr-set_repack3.sc" path="sys/sc" destTarget="lunadrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="fp-backup4" file="vr-set_repack4.sc" path="sys/sc" destTarget="lunadrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="fp-backup5" file="vr-set_repack4.sc" path="sys/sc" destTarget="lunadrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">addRankSilent</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  
+  <nextMission>NONE</nextMission>
+  
+  
+  
+  <email>
+    <sender>Paulline</sender>
+    <subject>RE: Floating Point</subject>
+    <body>Nice.
+	
+I've been peeking around that server and I found something, well someone who may have the source code, but that's just my assumption. Remember, upload it to the drop server, the entire source code okay?
+</body>
+    <attachments>
+      <link comp="fp-kimmybackup" />
+    </attachments>
+  </email>
+</mission>

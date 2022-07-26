@@ -1,0 +1,88 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nuclearbase" name="Lilly Cord's Neuronal Network" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 25, 80, 1433, 554, 6881</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="the_end" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="6" />
+<LogoDaemon Name="Logo Display Test" ShowsTitle="true" TextColor="0, 220, 220, 200" LogoImagePath="Logo.png">
+// Forbidden Connection Detected //
+// Purging Possible Itrussions //
+// Emergency Protocol Activated //
+// Imminent Nuclear Blast //
+  </LogoDaemon>
+  <file path="lc_database" name="lc_db_1.db">#BINARY#</file>
+  <file path="lc_database" name="lc_db_2.db">#BINARY#</file>
+  <file path="lc_database" name="lc_db_3.db">#BINARY#</file>
+  <file path="lc_database" name="lc_db_4.db">#BINARY#</file>
+  <file path="lc_database" name="lc_db_5.db">#BINARY#</file>
+  <file path="lc_database" name="memories.db">#BINARY#</file>
+  <file path="lillycord" name="status.lc">#BINARY#</file>
+  <file path="lillycord" name="memories.lc">#BINARY#</file>
+  <file path="lillycord" name="personality.lc">#BINARY#</file>
+  <file path="lillycord" name="pauline_lc.mry">#BINARY#</file>
+  <file path="lillycord" name="aegis_core.lc">#BINARY#</file>
+  <customthemefile path="lillycord" name="LillianCord_x-server.sys" themePath="Themes/Lillyan.xml"/>
+  
+  <file path="sys/program" name="hatred.lc">#BINARY#</file>
+  <file path="sys/program" name="mission.lc">#BINARY#</file>
+  <file path="sys/program" name="blackmail.lc">#BINARY#</file>
+  <file path="sys/program" name="erin_lc.mry">#BINARY#</file>
+  
+  <file path="home" name="001_111.lc">http://prntscr.com/kkd5t0</file>
+  <file path="home" name="001_123.lc">http://prntscr.com/kkd5wy</file>
+  <file path="home" name="001_143.lc">http://prntscr.com/kkd60l</file>
+  <file path="home" name="001_323.lc">http://prntscr.com/kkd67q</file>
+  <file path="home" name="001_pauline.lc">http://prntscr.com/kkd6f3</file>
+  <file path="home" name="ode_to_____.lc">She's a soft cool rain on a hot summer's day.
+She makes me laugh with the funny things she has to say.
+
+She's the beat of my heart, and the air that I breathe.
+She's the sun and the wind, and autumn's golden leaves.
+
+She's the pride that I feel when I know she's done what's right.
+She's that warm feeling I get, when I remember tucking her in at night.
+
+She is homework and sports, and a busy social life.
+She has this beautiful smile that could light the darkest night.
+
+She is the scared feeling I have when she stays out late.
+Or the feeling that I am losing her, when she wants to date.
+
+She's the mixed emotions I have, as I watch her mature and grow.
+I tell myself she will never leave, but, I know in my heart that someday she will go.
+
+I hope the person that steals her heart, will treat her like a queen.
+Because she deserves so much more, than a person that treats her mean.
+
+I will always cherish the wonderful times we have had.
+The best part of my life was being her mom.
+
+So now you know who she is, she's my little girl.
+I love her with all my heart and I always will.
+
+To: Pauline
+From: Your mom, Lilly</file>
+
+<file path="cores" name="missing.cfg">Cores have been uninstalled manually by username: UNKNOWN 
+/// Initiating Failsafe
+/// Wiping memory files
+/// Status: Project God INITIATED
+/// Status won't change until the necessary cores are re-uploaded or re-installed.</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

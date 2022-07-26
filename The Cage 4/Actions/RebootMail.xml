@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+   <LoadMission MissionName="Missions/Part_1/FirstEmail.xml" />
+    
+  </Instantly>
+
+</ConditionalActions>

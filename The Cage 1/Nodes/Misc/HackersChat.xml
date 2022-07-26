@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackersirc" name="Chat Group #11" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>104, 554</ports>
+  
+  <trace time="-1" />
+	<dlink target="johnny" />
+	<IRCDaemon themeColor="255,255,255" name="Chat Group #11" needsLogin="false">
+    <user name="Johnny" color="55,85,155"/>
+    <user name="#PLAYERNAME#" color="255,255,255"/>
+    <user name="Sam" color="74,40,144"/>
+	<user name="Leonard" color="70,212,19"/>
+	<user name="Bastion" color="19,212,199"/>
+	<user name="Pauline" color="212,19,128"/>
+	<user name="AEGISBOT" color="85,87,91"/>
+	</IRCDaemon>
+</Computer>

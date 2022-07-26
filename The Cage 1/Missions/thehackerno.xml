@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="thehackerno" activeCheck="false">
+  <goals>
+  <goal type="getstring" target="no" />
+  
+  </goals>
+  
+  <nextMission IsSilent="true">Missions/thehackerno1.xml</nextMission>
+  
+  <email>
+    <sender></sender>
+    <subject></subject>
+    <body>
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

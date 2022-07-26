@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="p-dracopc" name="Dr4k0's Battlestation" ip="25.24.26.31" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="60" />
+  <proxy time="2" />
+  <firewall level="6" solution="doctordrako"/>
+  <portRemap></portRemap>
+  <adminPass pass="oiySHC2U" />
+ 
+  
+
+  
+</Computer>

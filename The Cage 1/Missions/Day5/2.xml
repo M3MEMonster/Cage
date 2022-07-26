@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day5-2" activeCheck="true">
+  <goals>
+  <goal type="delay" time="75"/>
+  </goals>
+  
+
+  <nextMission>Missions/Day5/3.xml</nextMission>
+	
+  <email>
+    <sender>Pauline</sender>
+    <subject>WTF?</subject>
+    <body>Hey.
+	
+Where the hell are you?
+
+I'm trying to scan for your node but it doesn't appear on my Netmap. I worry abut you, you were... Well not so close but you were important for Johnny and he's still missing, I don't know where he is, remember, we cannot get disconnected from these things, apparently our bodies enter a stasis like state where we cannot feel hungry or thirsty, it's weird y'know.
+
+Look, I believe you're alright okay? you're like the only other person I care about, and the last thing I wanna find out is that you were banned too. Honestly I don't know what being banned means in this program but I have the feeling that isn't a good thing.
+
+Anyway #PLAYERNAME#, please wherever you are, stay safe, I almost got tracked by the AEGIS security system and I found out something that may be interesting: Even though our bodies are exposed for the authorities of the AEGIS team, we can still go incognito so they won't see what are we seeing, but the problem is, I don't know how to set that. If you find a way to do it, please tell me, I wanna do my stuff without feeling, watched.
+	</body>
+    <attachments>
+					
+    </attachments>
+  </email>
+</mission>

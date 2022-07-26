@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="false">
+  <goals>
+
+  <goal type="getstring" target="no" />
+ </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+   
+ 
+  <missionEnd>loadConditionalActions:Actions/Breach.xml</missionEnd> 
+  <nextMission IsSilent="false">Missions/Breach.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Lillycord</sender>
+    <subject></subject>
+    <body>What do you say, help me?
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

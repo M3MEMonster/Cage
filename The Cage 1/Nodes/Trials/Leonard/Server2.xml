@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="leonardtest2" name="Trial Waypoint 2" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="2" />
+  <firewall level="4" solution="riddle" additionalTime="0"/>
+  <trace time="50" />
+  
+<ports>21, 22, 25</ports>
+ 
+<file path="sys/x-server" name="code3.txt">The answer for the third code is:
+the more there is, the less you see, what I am?
+the answer is the third code</file> 
+  
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis4-2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="filechange" target="mingpc" file="Carter_Mingo.txt" path="home/IP" keyword="chicken" caseSensitive="false"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+
+  <nextMission>NONE</nextMission>
+	<posting title="Sneaky" requiredRank="10" reqs="day3completed">Client needs help with a hacker.</posting>
+  <email>
+    <sender>Carter Mingo</sender>
+    <subject>Sneaky</subject>
+    <body>Hey...
+	
+So the deal is... I opened a weird looking website and apparently it was a hacker trap, now the hacker has my IP and my pc is full of.. personal things, he's known to save his victim's IPs in a note for later use, so I assume the hacker already wrote down my IP somewhere in their pc.
+
+I need you to enter the hacker's pc and find the note with my IP and replace it with "chicken", why chicken? 'cause why not? I've linked you the website.
+	</body>
+    <attachments>
+       <link comp="hackerwebsite" />
+	</attachments>
+  </email>
+</mission>

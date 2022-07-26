@@ -1,0 +1,23 @@
+<ConditionalActions>
+  
+<Instantly>
+
+
+
+
+<AddAsset FileName="Euthanasia.dll" FileContents="#PACEMAKER_FW_DANGER#" TargetComp="playerComp" TargetFolderpath="home" />
+<AddAsset FileName="KBTPortTest.exe" FileContents="#MEDICAL_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin" />
+<RunFunction FunctionName="playCustomSong:Music/SheIsYoungSheIsBeautifulSheIsNext.ogg"/> 
+
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="3">@#PLAYERNAME# I've uploaded a file to your home folder, it's called Euthanasia.dll and KBTPortTest.exe to your bin folder, that's used to crack port 104.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="11.37">Do this and you'll be remembered as a hero trust me.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="14.11">He killed people in the past and now he must pay for his crimes.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="19.35">KILL HER KILL HER KILL HER KILL HER.</AddIRCMessage>
+
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="23.26">!ATTACHMENT:link#%#K_Peace Pacemaker_01425#%#6.85.65.22</AddIRCMessage>
+<StartScreenBleedEffect AlertTitle="Kill Katherine Peace" CompleteAction="Actions/Breach.xml" TotalDurationSeconds="176.25" DelayHost="events" Delay="49.24">Kill Katherine Peace
+Login details: EAdmin - tens86</StartScreenBleedEffect>
+
+</Instantly>
+
+</ConditionalActions>

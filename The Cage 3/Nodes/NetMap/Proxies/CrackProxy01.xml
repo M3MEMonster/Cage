@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="crackproxy01" name="P4rl0's Website Manager" icon="DLCPC2" type="0" allowsDefaultBootModule="false">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 1433</ports>
+  <trace time="100" />
+	<firewall level="3" solution="sauce" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="1" />
+  <file path="bin" name="WebsiteManager.exe">#BINARY#</file>
+  <file path="bin" name="WebsiteDatabase.exe">#BINARY#</file>
+  <file path="bin" name="DatabaseManager.exe">#BINARY#</file>
+  <file path="bin" name="DB.sql">#BINARY#</file>
+  
+  <file path="sys" name="website.sys">#BINARY#</file>
+  <file path="sys" name="website.cfg">#BINARY#</file>
+  
+  <dlink target="lotus" />
+  <dlink target="serena" />
+  <dlink target="kwiper" />
+  
+  
+<customthemefile path="sys" name="Road_To_Emerald_City_x-server.sys" themePath="Themes/CrackProxy.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

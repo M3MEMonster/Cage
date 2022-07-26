@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="havox1" name="Griner's Battlestation" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 554, 22</ports>
+  <firewall level="2"  additionalTime="0"/>
+  <trace time="40" />
+
+</Computer>

@@ -1,0 +1,7 @@
+<ConditionalActions>
+<Instantly>
+<LaunchHackScript Filepath="Scripts/Fry.txt" DelayHost="events" Delay="0" SourceComp="ge-eye" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+
+</Instantly>
+
+</ConditionalActions>

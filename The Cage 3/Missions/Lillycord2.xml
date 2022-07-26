@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="false">
+  <goals>
+
+  <goal type="getstring" target="yes" />
+ </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+ 
+  
+  <nextMission IsSilent="false">Missions/LillycordKill.xml</nextMission>
+   <branchMissions>
+    <branch>Missions/LillycordNo.xml</branch>
+    <!-- You can have more than one branch mission here -->
+  </branchMissions>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Lillycord</sender>
+    <subject></subject>
+    <body>What do you say, help me?
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

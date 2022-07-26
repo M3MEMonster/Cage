@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="elizabethstalker2" name="Raider's Backup Station" icon="DLCPC1" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>1433, 554, 22, 21, 25</ports>
+  <firewall level="3" additionalTime="0"/>
+  <trace time="60" />
+	<proxy time="2" />
+	<file path="home/elizabeth" name="pic_0158961.jpg">#BINARY#</file>
+	<file path="home/elizabeth" name="pic_4811488.jpg">#BINARY#</file>
+	<file path="home/elizabeth" name="pic_0335941.jpg">#BINARY#</file>
+	<file path="home/elizabeth" name="pic_3455343.jpg">#BINARY#</file>
+	<file path="home/elizabeth" name="pic_0222221.jpg">#BINARY#</file>
+	
+	<file path="home/ana" name="pic_0158961.jpg">#BINARY#</file>
+	<file path="home/ana" name="pic_4811488.jpg">#BINARY#</file>
+	<file path="home/ana" name="pic_0335941.jpg">#BINARY#</file>
+	<file path="home/ana" name="pic_3455343.jpg">#BINARY#</file>
+	<file path="home/ana" name="pic_0222221.jpg">memes</file>
+	
+	<file path="home/olivia" name="pic_0158961.jpg">#BINARY#</file>
+	<file path="home/olivia" name="pic_4811488.jpg">#BINARY#</file>
+	<file path="home/olivia" name="pic_0335941.jpg">#BINARY#</file>
+	<file path="home/olivia" name="pic_3455343.jpg">#BINARY#</file>
+	<file path="home/olivia" name="pic_0222221.jpg">#BINARY#</file>
+<tracker/>	
+</Computer>

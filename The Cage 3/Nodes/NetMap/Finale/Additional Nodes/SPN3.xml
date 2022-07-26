@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="spn3" name="SPN Mail Server" icon="DLCServer" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="999999" />
+  <ports></ports>
+  <trace time="-1" />
+	<firewall level="6" solution="" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+
+<account username="kayla" password="f39fhaow8cs" type="MAIL"/>
+
+<mailServer name="SPN" color="100, 100, 0">
+
+<email recipient="kayla" sender="SPNAdmin" subject="Whitelist">=== WHITELIST IP ===
+30.103.29.204</email>
+</mailServer>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

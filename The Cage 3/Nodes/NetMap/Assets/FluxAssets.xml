@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fluxassets" name="Flux Assets Server" icon="DLCPC2" type="empty" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+  <portsForCrack val="1" />
+  <ports>554, 1433, 80</ports>
+
+	<firewall level="6" solution="corporation" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="3" />
+    <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+	  <file path="bin/backup" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+	  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+	  <file path="bin/backup" name="FTPBounce.exe">#FTP_CRACK#</file>
+		  <file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+		    <file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="eos.txt">The eosScanner works as a scanner (duh) but for specific kind of devices such as tablets and phones, since the eosPhones are a trend now it is known that the passwords for these devices is alpine.</file>
+  <file path="home" name="note.txt">I hate when this happens, no one dares to contribute to the campaign, no one do anything, they're fucking lazy god damn it it's stressing, please if you don't know what to do, keep trying! it's not the developer fault, it's yours.</file>
+  <file path="bin" name="Accord.exe">#BINARY#</file>
+  <file path="bin" name="LeagueOfRetards.exe">#BINARY#</file>
+  <file path="bin" name="Underwatch.exe">#BINARY#</file>
+  <file path="bin" name="HackingTools.msi">#BINARY#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <customthemefile path="sys" name="Blooming_Flowers_Forest_x-server.sys" themePath="Themes/FluxAssets.xml"/>
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegis_mg" name="AEGIS Management" security="2" type="empty" allowsDefaultBootModule="true" ip="48.109.39.204">
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 25, 80, 1433, 6881, 554</ports>
+  <trace time="80" />
+	<firewall level="7"/>
+  <tracker />
+  <proxy time="2" />
+  <admin type="fast" resetPassword="false"/>
+
+	<account username="aegis_38462" password="admin_18362" type="ADMIN"/>
+
+<file path="home" name="mainframe_login.txt">USERNAME: aegis_38462
+PASSWORD: admin_18362</file>
+<customthemefile path="sys" name="Electric_Waves_x-server.sys" themePath="Themes/AegisMG.xml"/>
+<file path="home" name="entry_3478537845">#BINARY#</file>
+<file path="home" name="entry_234523452345">#BINARY#</file>
+<file path="home" name="entry_12312311|17">#BINARY#</file>
+<file path="home" name="entry_7351325">#BINARY#</file>
+<file path="home" name="entry_1339245">#BINARY#</file>
+<file path="home" name="entry_1513876431">#BINARY#</file>
+<file path="home" name="entry_13454252">#BINARY#</file>
+<file path="home" name="entry_15445889653">#BINARY#</file>
+<file path="home" name="entry_134518542">#BINARY#</file>
+<file path="home" name="entry_13413456282">#BINARY#</file>
+<file path="home" name="entry_188865">#BINARY#</file>
+<file path="home" name="entry_8">I II
+II L
+
+is this..?</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

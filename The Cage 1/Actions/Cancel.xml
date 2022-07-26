@@ -1,0 +1,10 @@
+<ConditionalActions>
+  
+<OnDisconnect target="aegiscore2">
+   <CancelScreenBleedEffect DelayHost="events" Delay="0" />
+   <KillExe DelayHost="events" Delay="0" ExeName="ESequencer" />
+   <RunFunction FunctionName="playCustomSong:Music/Akuma.ogg"/>
+	<HideNode DelayHost="events" Delay="0" TargetComp="aegiscore2" />
+   </OnDisconnect>
+
+</ConditionalActions>

@@ -1,0 +1,136 @@
+config playerComp tc-irc 0.2 $#%#$
+
+clearTerminal $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+delay 2 $#%#$
+writel #PLAYERNAME#... $#%#$
+delay 2 $#%#$
+writel I shouldnt've made you do this... $#%#$
+delay 5 $#%#$
+writel #PLAYERNAME#, your sacrifice saved lots of people $#%#$
+delay 7 $#%#$
+writel #PLAYERNAME#, please, don't forget that, your friends will understand your actions $#%#$
+delay 8 $#%#$
+writel Now finally I can be free from my past actions and you can be known as the person that saved the world. $#%#$
+delay 10 $#%#$
+writel #PLAYERNAME#... You will never be forgotten... $#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+writel ^Creator of Hacknet:
+
+Matt Trobbiani $#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel ^Lead Developer:
+
+Paulina - Mercy Main$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel ^Writing:
+
+Mercy Main - Paulina Zepeda$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel ^Music:$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel Delete Soul
+Black Magic
+Blood Oath
+Insert Soul
+Sacrifice
+>ALEX and Tokyo Rose$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel dynamic recompilation
+userspace
+>The Algorithm$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel Roller Mobster
+>Carpenter Brut$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel Sabotage
+>Remi Gallego$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel ^Special Thanks:$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel Kaisa Serian
+Kwiper
+Hacknet Extension Community$#%#$
+writel_silent $#%#$
+delay 6 $#%#$
+
+writel ^Thanks for playing!$#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+writel_silent $#%#$
+delay 7 $#%#$
+
+
+
+
+
+
+
+
+
+writel Good night #PLAYERNAME#, the cage is closed. $#%#$
+
+systakeover $#%#$

@@ -1,0 +1,22 @@
+
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+clearTerminal $#%#$
+
+write Initiating rest sequence, have a nice sleep #PLAYERNAME#, You'll be online in a few hours. $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+write_silent . $#%#$
+delay 3 $#%#$
+reboot -i $#%#$
+
+delay 5 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-finalwhitelist" name="Chilean International Whitelist" icon="DLCServer" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 554, 25</ports>
+  <trace time="65" />
+  <proxy time="1" />
+  <firewall level="6" solution="secure" additionalTime="0"/>
+  <portRemap>21=101, 22=223, 80=70, 554=110, 25=27</portRemap>
+  <WhitelistAuthenticatorDaemon Remote="ds-snode3"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  <admin type="progress" />
+
+  
+</Computer>

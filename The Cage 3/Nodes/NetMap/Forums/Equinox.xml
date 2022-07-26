@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="equinoxboard" name="Equinox's Board" icon="DLCPC2" type="0" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+  
+  <messageBoard name="Equinox Discussion!">
+    <thread>Docs/Equinox1.txt</thread>
+	<thread>Docs/Equinox2.txt</thread>
+    <thread>Docs/Equinox3.txt</thread>
+</messageBoard>
+<file path="home" name="note_to_users.txt">I've enabled the entry to the server due to some complains about the Forums being broken and not showing the entire thread, if you're one of those who can't see all the shit, you'll have to do it manually checking the files, hope that help you.
+
+Also waht the fuck, who left that beautiful and handsome theme of a guy holding the infinity mettglet? wow you guys...
+
+mine.
+
+-Admin</file>
+ <customthemefile path="sys" name="Matthos_x-server.sys" themePath="Themes/Matthos.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

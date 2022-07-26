@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" shouldIgnoreSenderVerification="true"  activeCheck="true">
+  <goals>
+ <goal type="delay" time="1"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Lilly</sender>
+    <subject>The Cage</subject>
+    <body>Hi, I'm Lilly.
+	
+Thank you so much for playing this extension and thanks again for being patient and enjoying the ride til' here, also I want to thanks again a lot for the creators of the pictures, songs and more that helped made the cage a really nice extension.
+
+I don't know the true authors of the themes since i've found so many in google that I don't know which one is the real one.
+
+Dan Terminus:
+https://dan-terminus.bandcamp.com/
+
+Carpenter Brut:
+https://carpenterbrut.bandcamp.com/
+
+Alex, Tokyo Rose:
+https://newretrowave.bandcamp.com/album/akuma
+
+Vogel:
+https://vogelmusic.bandcamp.com/album/imperivm
+
+Roborg:
+https://roborg.bandcamp.com/
+
+Sequencer-exe:
+https://soundcloud.com/sequencer-exe
+
+Oh, and if you really enjoyed this extension I have great news for you, I'm working now on the second part of this extension, it may take a while since I've ran out of ideas, but I'll do my best as I did with this one.
+
+Thanks for playing!
+</body>
+    <attachments>
+     
+    </attachments>
+  </email>
+</mission>

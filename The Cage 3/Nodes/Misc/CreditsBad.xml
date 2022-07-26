@@ -1,0 +1,110 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCreditsbad" name="LC_TO_59811944" security="4" type="empty" ip="54.183.231.34" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <CreditsDaemon  Title="LC_TO-59811944" ButtonText="Agreed on Take Over" ConditionalActionSetToRunOnButtonPressPath="Actions/GameOver.xml"/>
+
+  
+
+  
+
+<file path="home" name="CreditsData.txt">
+%---  The Cage 3  ---
+
+^Development
+Coelamelon (Pauline)
+Smartie (Joshua)
+
+^Writing
+Coelamelon (Pauline)
+
+^Themes
+
+Spiderbenb
+Apofiss
+Coelamelon
+Rest of artists who google won't show names.
+
+^Music
+
+Artists:
+
+Perturbator - She Is Young, She Is Beautiful, She Is Next 
+Alex (Rachel McAlpine) - Game Over
+Alex - Mainframe
+We Are Magonia - August 29, 1997 (feat. Isidor)
+Alex - Ritual
+Alex - Sacrifice (Daniel Deluxe Remix)
+Alex - Embryo
+Alex - Paranormal
+Masked - Breach
+Lifelike - Pacific Palisades
+Lifelike - Night Patrol
+Daniel Deluxe - Cypher
+Johnny James - Relief
+D0nny - CAGED_
+
+^Special Thanks
+Smartie
+Aqua
+JohnnyJames
+D0nny
+Kwiper
+Matt (we love you matt)
+Spiderbenb
+Drako Dark
+Maowcraft
+Sigma-One
+Rune
+Serena
+Valen
+LolPix
+
+%Dedicated to Erin
+</file>
+  
+  <file path="home" name="Users.txt">
+Potential Candidates for A.I Program
+--------------------------
+
+
+Drako_Dark
+        - Country: Chile
+        - Drako Dark Company CEO, Computer Engineer, Hacker, Software Developer
+        
+Coelamelon
+        - Country: Chile
+        - Candidate for LunaSec
+        
+Kimmy
+        - Country: USA
+        - Expert Hacker
+        
+Kael
+        - Country: Sweden
+        - Scriptting, Application Developer, Malware Developer, Hacker
+        
+#PLAYERNAME#
+        - Country: UNKNOWN
+        - Candidate for VR Set Hacking Testing
+        
+Johnny
+        - Country: Florida, USA
+        - Begineer in Hacking, Analystic Programmer
+        
+LillyCord
+        - Country: Canada
+        - Unknown - Potential Candidate for A.I Testing Program
+
+</file>
+
+ 
+<file path="bin" name="ALLMIGHTYPOWER.exe">#CLOCK_V2_EXE#</file>  
+  
+</Computer>

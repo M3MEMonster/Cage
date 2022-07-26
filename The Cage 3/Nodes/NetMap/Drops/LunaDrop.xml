@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lunadrop" name="LunaSec Drop" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+<account username="#PLAYERNAME#" password="moonlight" type="1" />
+
+
+<uploadServerDaemon name="LunaSec Dropbox" folder="Drop" 
+                      needsAuth="false" color="224, 140, 255"/>
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+  <dlink target="lunairc" />
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/backup" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/backup" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/backup" name="SMTPOverflow.exe">#SMTP_CRACK#</file>  
+<customthemefile path="sys" name="Abyss_X-Server.sys" themePath="Themes/LunaDrop.xml"/>  
+  <file path="sys" name="lunaStabilizer.bat">#BINARY#</file>
+  <file path="sys" name="lunaLinked.sys">#BINARY#</file>
+  <file path="home" name="note.txt">Ocassionaly we will upload files here, so you should come back often to check if there's something new! We're not the "there's new stuff in the drop server check em" type, so you'll gotta know when to come back ;)
+  
+-Pauline</file>
+<file path="home" name="about_the_weird_files.txt">Me and Kaisa found some weird files hidden in some nodes, I wonder what they could do cuz I tried to open them with like a lot of executables and nothing works :s, We'll keep them anyway just in case.</file>
+
+<file path="home" name="about_the_weird_files.txt">Me and Kaisa found some weird files hidden in some nodes, I wonder what they could do cuz I tried to open them with like a lot of executables and nothing works :s, We'll keep them anyway just in case.</file>
+
+<customthemefile path="sys" name="Luna_x-server.sys" themePath="Themes/LunaSec.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kenyandrop" name="Kenyan Drop Server" ip="111.142.52.132" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="201" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+  <uploadServerDaemon name="Kenyan's Dropbox" folder="Drop" 
+                      needsAuth="false" color="120, 232, 152"/>
+ <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin/backup" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+    <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+	  <file path="bin/backup" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+	  <file path="home" name="god.txt">OH GOD OH GOD WHY WHY WHY GOD I NEED TO DELETE THESE FILES RADOX DOESNT HAVE TO FIND THIS SHIT. DAMN GOD WHAT HAVE YOU DONE KENYAN UGH.</file>
+	  <file path="home" name="Accord.exe">#BINARY#</file>
+	  <file path="home" name="DropMainteance.dll">#BINARY#</file>
+	  <file path="home" name="DropManager.dll">#BINARY#</file>
+	  
+<customthemefile path="sys" name="Cat_x-server.sys" themePath="Themes/Kenyan.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

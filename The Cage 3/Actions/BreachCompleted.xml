@@ -1,0 +1,30 @@
+<ConditionalActions>
+  
+<Instantly>
+
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Death.ogg" />
+<RunFunction FunctionName="playCustomSong:Music/AlexDrone.ogg" DelayHost="events" Delay="2.28" />
+<CancelScreenBleedEffect DelayHost="events" Delay="0" />
+<KillExe DelayHost="events" Delay="0" ExeName="Esequencer" />
+
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="4">@#PLAYERNAME#, God...</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="8.84">She's gone..? Forever? I can't believe you made it.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="12.89">Thanks, you had a connection with her in the netmap and that was enough for me to track the neural node.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="18.32">This is... Uh... I don't know what to say... This feels like a aching deja vu.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="24.29">I guess we dealt with a big issue... Lillycord...</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="28.69">I leaked information from the database to the authorities, and they'll make sure Aegis is closed forever, and all thanks to you.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="36.06">You did a great favor for us today #PLAYERNAME#, you saved us all from Artificial Intelligence Doomsday.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="43.34">I... I don't know what to say now, it's all done, Aegis is closed forever, Peace is in prison with a death sentence and the last family I had is dead.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="52.51">But she had to die some time, she was the one behind all this... And we did her a favor by killing her, she deserved to be resting in peace now, she deserved to get out of that cage.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="63.56">I still feel bad because she was my mother's ex partner and I knew she wanted to protect us but... She choose the wrong path to do so.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="71.19">I'm proud of you #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="73.60">We'll see each other sometime.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="75.60">Good bye and... Thanks.</AddIRCMessage>
+<AddIRCMessage Author="Pauline" TargetComp="paulinechat" Delay="78.35">!ATTACHMENT:link#%#Log_Off#%#10.125.6.21</AddIRCMessage>
+
+
+
+
+</Instantly>
+
+</ConditionalActions>

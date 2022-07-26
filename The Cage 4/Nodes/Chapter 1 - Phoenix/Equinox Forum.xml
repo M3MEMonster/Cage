@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="equinoxforum" name="Equinox Board" icon="DLCServer" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="1" />
+  
+  
+  <LogoDaemon Name="Equinox Board" ShowsTitle="true" TextColor="0, 220, 220, 200" >
+For the good of everyone
+  </LogoDaemon>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

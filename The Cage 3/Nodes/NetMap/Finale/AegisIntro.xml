@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aegisintro" name="Aegis Labs" icon="DLCServer" ip="1.1.0.1" type="empty" allowsDefaultBootModule="true">
+<LogoCustomConnectDisplayDaemon logo="Images/AegisLogo.png" title="Images/AegisTitle.png" overdrawLogo="true" buttonAlignment="center" />
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="projectgod" additionalTime="0"/>
+<tracker/>
+  <proxy time="-1" />
+  <dlink target="aegisdb" />
+  <dlink target="aegismf" />
+  <customthemefile path="sys" name="Aegis_Grid_x-server.sys" themePath="Themes/AegisGrid.xml"/>
+  
+  <file path="home" name="Whitelist_IP.txt">82.136.28.147</file>
+  <file path="home" name="">#BINARY#</file>
+  <file path="home" name="AccordSettings.cfg">#BINARY#</file>
+  <file path="home" name="AccordUploadServer.exe">#BINARY#</file>
+  <file path="home" name="AccordDatabase.db">#BINARY#</file>
+  <file path="home" name="UserList.enc">#BINARY#</file>
+  <file path="home" name="AccordLogo.png">#BINARY#</file>
+  <file path="home" name="AegisLogo.png">#BINARY#</file>
+  <file path="home" name="AegisTitle.png">#BINARY#</file>
+  <file path="home" name="favicon.ico">#BINARY#</file>
+  <file path="home" name="TitleManager.tm">#BINARY#</file>
+  <file path="log/???" name="????.entry">They've used me for bad, I'm tired of this crap, but I can't do anything about it, I'm connceted to the system, a bad move and I'm screwed, goodbye forever Lilly, I need someone to help me get out of this forsaken place.</file>
+  <file path="log/???" name="node_07.lc">#BINARY#</file>
+  <file path="log/???/backup" name="node_07.lc">#BINARY#</file>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

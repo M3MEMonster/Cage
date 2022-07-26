@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="aegis4-3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="fileupload" target="playerComp" file="roller_chicken(8bit_mix).flac" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="playerComp" file="chew_bubble_ass.flac" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="playerComp" file="french_song.flac" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+  <goal type="fileupload" target="playerComp" file="meow_i_love_cats.flac" path="home" destTarget="aegisdrop" destPath="Drop/Uploads"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+
+  <nextMission>NONE</nextMission>
+	<posting title="Extreme Fan" requiredRank="10" reqs="day3completed">Client requires help with music files.</posting>
+  <email>
+    <sender>Elena Westley</sender>
+    <subject>Extreme Fan</subject>
+    <body>Hiya!
+	
+So, I need help retrieving some really sicks song from my favorite music artist, the problem is that these songs were only played once on a stream of his, and I really want them. I desire them so bad, 'cause I consider myself a huge fan of his and I love his music. Anyway, after digging and digging I got his IP, but I don't know what else to do from there, and I'm pretty sure he keep his songs on that computer, I want all the Unreleased files, I've linked you to his IP and your Dropbox, I want you to download the files and upload them to the Dropbox so I can download them from there.
+	</body>
+    <attachments>
+       <link comp="musicserver" />
+		<link comp="aegisdrop" />
+	</attachments>
+  </email>
+</mission>

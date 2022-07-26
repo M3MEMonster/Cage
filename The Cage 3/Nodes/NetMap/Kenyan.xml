@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kenyan" name="Kenyan's Computer" icon="DLCPC1" type="empty" allowsDefaultBootModule="false">
+<PointClicker />
+
+  <portsForCrack val="1" />
+  <ports>22, 443, 1433</ports>
+  <trace time="50" />
+	<firewall level="6" solution="master" additionalTime="-1"/>
+<tracker/>
+  <proxy time="1" />
+  <customthemefile path="sys" name="XP_x-server.sys" themePath="Themes/XP.xml"/>
+  <file path="home" name="the_drop.txt">Why is this node so important? I don't get it... Anyway Radox should be more careful with his files, last time he ended up fucking us .-. ....</file>
+  <file path="home" name="to_kenyan.txt">Hey dude it's Radox.
+  
+  Dude what the fuck happened with you? You fucked us back like 10 years ago with your encryption shit, we've lost the tools to get rid of this fucking cypher and get the god damn IP... Where did you leave it? Cuz if you're hidin' something I swear to god I'm going to fucking kill you, me and the others are really pissed about this, so you better move your ass and find that god damn program okay?!</file>
+  
+  <file path="home" name="thosenodes.txt">Yo is the IPv10 still running? You won't believe what you could find if you connect to an actual word (ex. connect meow) it actually works, the problem is, you may think there would be tons of ipv10 nodes but that's not the case, it's really hard to install that system, i've found a couple but they don't do shit so yeah...
+  
+  I should tell my friends about this shit, I wonder how many people have found about the ipv10 nodes.</file>
+  
+  <file path="bin" name="Accord.exe">#BINARY#</file>
+  <file path="bin" name="MYCQL.db">#BINARY#</file>
+  <file path="bin" name="Tools.7z">#BINARY#</file>
+  <file path="bin" name="song.ogg">#BINARY#</file>
+  <file path="bin" name="PayDerp2.exe">#BINARY# #BINARY# #BINARY# Definetly not a easter egg.</file>
+  <Memory>
+    <Commands>
+      <Command>connect justice</Command>
+      
+    </Commands>
+    <Data>
+      <Block>this shit actually works, wonder if there are more of these</Block>
+     
+    </Data>
+    <Images>
+      <Image>Images/justice.jpg</Image>
+    </Images>
+  </Memory>
+  <eosDevice name="Kenyan's Laptop" id="kenyanlaptop" icon="laptop" empty="true" passOverride="alpine">
+  <file path="home" name="storage.txt">111.142.52.132</file>
+  <file path="home" name="storage.txt">Dude this is getting awfully boring, does Radox know I'm working on a personal Dropbox? Oh boy please Radox be patient with me...</file>
+  <file path="home" name="songs.zip">#BINARY#</file>
+  <file path="home" name="owowhatsthis.txt">http://prntscr.com/kimbpb</file>
+  </eosDevice>
+ <dlink target="kenyangf" /> 
+ <Memory>
+    <Commands>
+      <Command>dscan kit</Command>
+	  <Command>upload home/fourthpart.dec</Command>
+	  <Command>dc</Command>
+	  <Command>connect localhost</Command>
+	  <Command>cd home</Command>
+	  <Command>rm fourthpart.dec</Command>
+	  <Command>cd log</Command>
+	  <Command>rm *</Command>
+     
+    </Commands>
+    <Data>
+      <Block>I'll have to hide the third part somewhere close ;_; I'm sorry Kit I love you</Block>
+     
+    </Data>
+    <Images>
+      <Image>Images/Screenshot_1.png</Image>
+    </Images>
+  </Memory>
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

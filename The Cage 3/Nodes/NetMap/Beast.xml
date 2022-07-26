@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="beast" name="Be4st's Laptop" icon="DLCLaptop" type="empty" allowsDefaultBootModule="false">
+<CustomConnectDisplayDaemon />
+  <portsForCrack val="1" />
+  <ports>1433, 25, 80</ports>
+  <trace time="-1" />
+	<firewall level="6" solution="polution" additionalTime="0"/>
+<tracker/>
+  <proxy time="4" />
+<customthemefile path="sys" name="Asteroid_March_x-server.sys" themePath="Themes/Beast.xml"/>
+<file path="home" name="weird.txt">0231911936
+1843376106
+7734262133
+2775695122
+0042014412
+7802103203
+5821343309
+6338460524
+4643431230
+5379849793</file>
+<file path="home" name="wot.txt">Barton did feebly change man she afford square add. Want eyes by neat so just must. Past draw tall up face show rent oh mr. Required is debating extended wondered as do. New get described applauded incommode shameless out extremity but. Resembled at perpetual no believing is otherwise sportsman. Is do he dispatched cultivated travelling astonished. Melancholy am considered possession on collecting everything. </file>
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="weeb_wallpaper.jpg">#BINARY#</file>
+<file path="home" name="we_are_number_one_but_its_the_actual_song.mp3">#BINARY#</file>
+<file path="bin" name="HatMaker.exe">#BINARY#</file>
+<file path="bin" name="SoloFortress2.exe">#BINARY#</file>
+<file path="bin" name="SQL.sq">#BINARY# #BINARY# #BINARY# #BINARY#</file>
+
+<encryptedFile path="home" name="pauline2.dec" extension=".txt" ip="192.168.1.1" header="Second Part of Password">
+//Pauline's Backup Server
+142.214.???.???
+  </encryptedFile>
+  <encryptedFile path="home" name="mayori.dec" extension=".txt" ip="90.54.124.1" header="Mayori's Stuff" pass="m3m3st4t10n">
+//Mayori Tablet Password
+midoriyakun
+  </encryptedFile>
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp2" name="#PLAYERNAME#'s Computer" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 554, 80</ports>
+  <trace time="-1" />
+
+
+</Computer>

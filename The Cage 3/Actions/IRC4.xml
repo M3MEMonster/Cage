@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+<Instantly>
+<LoadMission MissionName="Missions/IRC4.xml" />
+
+</Instantly>
+
+</ConditionalActions>

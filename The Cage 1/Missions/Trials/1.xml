@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="trials-1" activeCheck="true">
+  <goals>
+  <goal type="filedeletion" target="trialsofpauline1" file="welcome.txt" path="home/test"/>
+  </goals>
+  
+  <nextMission>Missions/Trials/2.xml</nextMission>
+  
+  <email>
+    <sender>Pauline</sender>
+    <subject>Initiation</subject>
+    <body>Well done.
+	
+You've broken into one of my servers, inside you'll find a file which you must delete to continue to the trial.
+
+Good luck!
+</body>
+    <attachments>
+       
+    </attachments>
+  </email>
+</mission>

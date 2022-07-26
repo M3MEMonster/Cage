@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="day5-3" activeCheck="true">
+  <goals>
+  <goal type="delay" time="4"/>
+  </goals>
+  
+
+  <nextMission>NONE</nextMission>
+	
+  <email>
+    <sender>D3r</sender>
+    <subject>RE: Welcome</subject>
+    <body>Hey.
+	
+I know you, you were the one that tried to breach into our register server, did you get the IP by accident? because we weren't expecting you, well we weren't expecting someone from a live project anyway, specifically this AEGIS thing...
+
+In the past my dad founded a hacking group called Flux, but over time members disappeared or just decided to stop being hackers, and I can understand that. Flux started to get a bad reputation due to the actions of a former hacker who was involved with a mass murder in a hospital. I never believed what my dad told me about that day, I thought it was a joke, but when I saw the news I beleived it. Flux was the home of a terrible murderer so Flux vanished, Flux stopped its existence, and the ones that really wanted to keep the group alive decided to make another one. With another name and another image.
+
+We're Twilight now, sounds cool huh? We aim for the same objectives as Flux, we seek justice and peace between hackers and the rest of the world. So far we've done a great job with it and my dad gave me the role of Leader of Twilight. As I felt honored with his decision, I started using his nickname, well... Just a part of it anyway.
+
+Call me D3r, I'll be your guide, you seem nice, and full of potential! Oh and I forgot, apparently my partner didn't give you the login details for the hub server, don't worry I'll give them to you.
+
+Hope you enjoy your stay at Twilight!
+
+D3r
+Leader of Twilight.
+	</body>
+    <attachments>
+					
+					<account comp="twilighthub" user="#PLAYERNAME#" pass="crepusculo" />
+    </attachments>
+  </email>
+</mission>

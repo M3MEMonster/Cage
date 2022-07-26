@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosserver" name="eosBeta Server" icon="DLCServer" ip="128.1.2.2" type="0">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 554</ports>
+  <trace time="50" />
+  <proxy time="1" />
+  <firewall level="6" solution="eoscanning" additionalTime="0.1"/>
+  <portRemap>22=112, 21=512, 554=1433</portRemap>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="eosDeviceScan.txt">The eos Scanner works as a extra scanner of nodes, if a eosDevice was or is connected to a node you can use this tool to reveal such device, need to mention, since all the devices uses same software and encryption methods.
+  All eos devices password should be "alpine".</file>
+  
+
+  
+</Computer>

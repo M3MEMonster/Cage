@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ge-eye" name="God's Eye" icon="chip" type="empty">
+
+  <portsForCrack val="8" />
+  <ports>22, 21, 25, 554, 6881, 1433, 80, 104</ports>
+  <trace time="-1" />
+  <proxy time="5" />
+  <firewall level="6" solution="domination" additionalTime="0"/>
+  <portRemap>22=33, 21=65, 25=13, 554=114, 6881=3156, 1433=3341, 80=8080, 104=401</portRemap>
+  <customthemefile path="sys" name="Eye_x-server.sys" themePath="Themes/Eye7.xml"/>
+  
+  
+
+  
+</Computer>
+
+<!-- You know, I don't know what are you doing here, like it makes the whole mystery a crappy thing when you data mine stuff like these, that's why I hate humanity, and I hate you, now go away human, you're not worth this extension -->

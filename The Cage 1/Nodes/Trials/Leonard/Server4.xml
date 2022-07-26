@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="leonardtest4" name="Trial Waypoint 4" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="1" />
+  <firewall level="6" solution="trial" additionalTime="0"/>
+  <trace time="50" />
+  
+<ports>22</ports>
+ 
+<file path="sys" name="x-server.trial">Hello! the second code is:
+Many have heard me, but no one has seen me, and I will not speak back until spoken to.
+what's this code?</file> 
+  
+</Computer>

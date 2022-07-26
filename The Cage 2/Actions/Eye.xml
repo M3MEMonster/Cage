@@ -1,0 +1,33 @@
+<ConditionalActions>
+<Instantly>
+<LaunchHackScript Filepath="Scripts/Eye.txt" DelayHost="events" Delay="0" SourceComp="ge-eye" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<StartScreenBleedEffect AlertTitle="Track the Virus" CompleteAction="Actions/BrainFried.xml" TotalDurationSeconds="170" DelayHost="events" Delay="65">Track the Virus
+Gain admin access
+Empty ~sys~ folder</StartScreenBleedEffect>
+<SwitchToTheme ThemePathOrName="Themes/Eye.xml" FlickerInDuration="5" DelayHost="events" Delay="0" />
+<SwitchToTheme ThemePathOrName="Themes/Eye2.xml" FlickerInDuration="0" DelayHost="events" Delay="5.1" />
+<SwitchToTheme ThemePathOrName="Themes/Eye3.xml" FlickerInDuration="0" DelayHost="events" Delay="5.2" />
+<SwitchToTheme ThemePathOrName="Themes/Eye4.xml" FlickerInDuration="0" DelayHost="events" Delay="5.3" />
+<SwitchToTheme ThemePathOrName="Themes/Eye5.xml" FlickerInDuration="0" DelayHost="events" Delay="5.4" />
+<SwitchToTheme ThemePathOrName="Themes/Eye6.xml" FlickerInDuration="0" DelayHost="events" Delay="5.5" />
+<SwitchToTheme ThemePathOrName="Themes/Eye7.xml" FlickerInDuration="0" DelayHost="events" Delay="5.6" />
+
+</Instantly>
+
+<OnConnect target="playerComp" >
+<SwitchToTheme ThemePathOrName="Themes/Eye1a.xml" FlickerInDuration="0" DelayHost="events" Delay="2" />
+<SwitchToTheme ThemePathOrName="Themes/Eye2a.xml" FlickerInDuration="0" DelayHost="events" Delay="2.1" />
+<SwitchToTheme ThemePathOrName="Themes/Eye3a.xml" FlickerInDuration="0" DelayHost="events" Delay="2.2" />
+<SwitchToTheme ThemePathOrName="Themes/Eye4a.xml" FlickerInDuration="0" DelayHost="events" Delay="2.3" />
+<SwitchToTheme ThemePathOrName="Themes/Eye5a.xml" FlickerInDuration="0" DelayHost="events" Delay="2.4" />
+
+<SwitchToTheme ThemePathOrName="Themes/Eye5a.xml" FlickerInDuration="0" DelayHost="events" Delay="8.4" />
+<SwitchToTheme ThemePathOrName="Themes/Eye4a.xml" FlickerInDuration="0" DelayHost="events" Delay="8.5" />
+<SwitchToTheme ThemePathOrName="Themes/Eye3a.xml" FlickerInDuration="0" DelayHost="events" Delay="8.6" />
+<SwitchToTheme ThemePathOrName="Themes/Eye2a.xml" FlickerInDuration="0" DelayHost="events" Delay="8.7" />
+<SwitchToTheme ThemePathOrName="Themes/Eye1a.xml" FlickerInDuration="0" DelayHost="events" Delay="8.8" />
+</OnConnect>
+
+
+
+</ConditionalActions>

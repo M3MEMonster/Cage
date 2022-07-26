@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+ <goal type="fileupload" target="usadeathrow" file="Cantrill_Erin[598119]" path="excluded" destTarget="pauline" destPath="home"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  
+  
+  
+  <missionEnd>loadConditionalActions:Actions/Embryo.xml</missionEnd> 
+  <nextMission IsSilent="false">Missions/Embryo.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pauline</sender>
+    <subject>RE: Uh...</subject>
+    <body>#PLAYERNAME#
+	
+WHAT. THE. FUCK.
+
+Did you see that? This is bad. THIS IS BAD LIKE REALLY REALLY BAD.
+
+At this point I'm not sure if my co-workers are even real or not... #PLAYERNAME# I have a bad feeling about this, like the worst of feelings. I don't get it... It should have been untouched, only one person connected to that node... One person...
+
+I don't know whatto do right now, everything is confusing and it scares me... Okay I'm overreacting to something that may be dumb but. How can you notoverreact when you check something that was real and full of important data gone?, And not the "deleted files" gone, I'm talking about it was like it never existed... It's like I never existed in this world...
+
+#PLAYERNAME# do you remember how you got here? Why are you on LunaSec? Why you ended up being part of us? I still can't explain how, I feel manipulated, like a toy on a simulatio-
+
+THIS GOT TO BE A FUCKING JOKE.
+
+Okay. I have an idea but it will be a risky one. I know how we can settle this, there's a deathrow server nearby but I don't remember the address. I can give you somewhere to start though, the thing is. This server has the info of my mother, and her last words were about giving all her stuff to her daughter... Me in this case, I want you to go there, download the record and upload it to my computer, that should settle this shit.</body>
+    <attachments>
+     <note title="Mission Guideness">Investigate Pauline's mother in the U.S.A deathrow database, download the record and upload it to her computer (home folder).
+"Erin Cantrill"
+      </note>
+	   <link comp="pauline" />
+	   <account comp="pauline" user="pauline" pass="erin4life" />
+    </attachments>
+  </email>
+</mission>

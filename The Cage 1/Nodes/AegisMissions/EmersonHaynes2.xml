@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="emersonhaynes2" name="Lotus's Battlestation" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  
+  <trace time="16" />
+	
+	<tracker/>
+</Computer>

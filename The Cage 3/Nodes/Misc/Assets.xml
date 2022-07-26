@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="assets" name="Assets Node" icon="DLCServer" type="0" allowsDefaultBootModule="true">
+<CustomConnectDisplayDaemon />
+  <portsForCrack val="0" />
+  <ports></ports>
+  <trace time="-1" />
+	
+  <!--<tracker -->
+  <proxy time="-1" />
+<file path="home" name="note.txt">Okay so why have people mentioned me to peek into this server? there's nothing of value, nothing omg, god damn it, you know I'm just gonna steal everything and keep an eye in this node just in case something news pops in.
+
+Connection from 162.296.122.1 lost.</file>
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="sys" name="Base-Theme.sys">#BASE_THEME#</file>
+  <file path="sys" name="LE-Theme.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file>
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/backup" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+   <file path="bin/backup" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin/backup" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+  <file path="bin/backup" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+  <file path="home" name="coel_note.txt">Remember to use Opshell and Comshell more often, they may save your hacking progress or even your life!</file>
+  
+<customthemefile path="sys" name="Frozen_Embrace_x-server.sys" themePath="Themes/Assets.xml"/>
+  
+  
+  </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

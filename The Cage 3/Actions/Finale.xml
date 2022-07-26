@@ -1,0 +1,20 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <RunFunction FunctionName="playCustomSong:Music/AlexDrone.ogg"/> 
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="3">Okay, you got here, you the files and we're ready to go @#PLAYERNAME#.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="8.18">We've known for so little... But I needed your help and I'm afraid I need you to do something final for me.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="13.84">You've come so far and I wanna make your stay worth.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="17.44">The files you retrieved for me are essential for the task I'm preparing for you.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="21.80">I... I can't do this, if they find out I'll get disconnected forever and we don't want that right? Aegis wants to fuck the world, trust me.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="28.54">Look, about this idea, it's somewhat weird but it can work, remember when I said we haven't dealt with the main issue? Peace is the issue here.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="36.19">He kept Aegis alive and he did that shit back on USA, the VR Set thing, he surely deserves the worst of fates and I know how to make him pay.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="43.42">You're gonna do something weird uh... I need you to get into his Wife's pacemaker and kill her.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="48.51">Sounds nuts but what do you say?</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="51.18">Don't judge me okay? It's not like I have done it in the past.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="54.83">He will suffer, his family will tear appart and he will leave Aegis, leaving me in charge, I got a trap for him.</AddIRCMessage>
+  <AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="60.26">This gotta work, I know for sure.</AddIRCMessage>
+  <AddConditionalActions Filepath="Actions/YesNo.xml" DelayHost="events" Delay="62"/>
+  </Instantly>
+
+</ConditionalActions>

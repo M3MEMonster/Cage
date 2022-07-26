@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="wireserver" name="Los Angeles Public School Database" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="4" />
+  <ports>1433, 21, 22, 80</ports>
+  <trace time="60" />
+	<firewall level="5"  additionalTime="0"/>
+	<file path="home/grades" name="Grades.docx">
+Hilary Dunn - C
+Jayden Foster - D 
+Joss Poindexter - C 
+Merlyn Savidge - B+ 
+Bernie Harford - A 
+Jocelyn Bustillo - D 
+Leith Alvin - F 
+Harper Travers - C 
+Quinn Coy - A 
+Issy Danniell - C+
+Raven Henson - C-
+William Reck - A++
+Andie Lacey - C+
+Dee Ross - A- 
+Lindsay Chase - F 
+Bertie Roderick - E 
+Ora Gabriels - F+ 
+Stone Haley - F 
+Gerry Barrett - C 
+Kelly Brewster - B 
+Avery Cokes - F</file>
+	
+	
+	<tracker />
+	</Computer>

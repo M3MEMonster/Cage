@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs-kae" name="Kae's Personal Laptop" icon="DLCLaptop" ip="182.168.7" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 554</ports>
+  <trace time="65" />
+<firewall level="6" solution="raising" additionalTime="0"/>
+<proxy time="2" />
+<memoryDumpFile name="pinfo.md" path="home/dumps">
+    <Memory>
+      <Data>
+        <Block>cat pinfo.txt</Block>
+        <Block>Welcome to Raising Sun Email System
+Your assigned username is: kae
+your assigned paassword is: raisingsun2221</Block>
+      </Data>
+      <Commands>
+        <Command>rm *</Command>
+		<Command>cd home</Command>
+     </Commands>
+     
+    </Memory>
+  </memoryDumpFile>
+<file path="home" name="rs-mail.dll">#BINARY#</file>
+<file path="home" name="rs-accounts.dll">#BINARY#</file>
+<file path="home" name="rs-conections.dll">#BINARY#</file>
+<file path="home" name="rs-server.dll">#BINARY#</file>
+<file path="home" name="rs-startkit.dll">#BINARY#</file>
+
+  
+<tracker/>  
+</Computer>

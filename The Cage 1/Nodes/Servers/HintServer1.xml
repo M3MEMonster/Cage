@@ -1,0 +1,88 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hintserver1" name="Logs Server" ip="255.255.160.2" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>104</ports>
+  <trace time="-1" />
+<proxy time="10" />	
+<LogoDaemon Name="WIP" ShowsTitle="false" TextColor="236,5,5, 200" LogoImagePath="">
+~ AEGIS Log Server ~
+  </LogoDaemon>
+	
+	<file path="home/logs" name="log_20-11-2020_06:05:10.log">
+(m.torres):	Have you found the password for the assets?
+(s.araya):	Not yet, have u tried messaging John?
+(m.torres):	I did but he seems to not want to respond to my messages
+(s.araya):	You'll have to wait then :/
+(m.torres):	I guess... I'm so stupid how could I forgot the password
+(m.torres):	Oh nevermind he replied
+(s.araya):	Good luck!</file>
+
+<file path="home/logs" name="log_20-11-2020_18:20:30.log">	
+(j.peace):	Did you make sure everyone read the rules?
+(k.sutton):	Yes sir, everything should go fine
+(j.peace):	Are you sure about that? one of the users just broke the rules
+(k.sutton):	What happened?
+(j.peace):	They just, tried to do something against us, sadly it's confidential
+(k.sutton):	It's understandable sir, I'll make sure everyone follows the rules
+(j.peace):	Okay, if you see any rebels, report it to me, I'll see what I will do with them.
+(k.sutton):	Roger.</file>
+
+<file path="home/logs" name="log_23-11-2020_09:19:45.log">
+(???):		Sir? Target has been neutralized
+(j.peace):	Good.
+(???):		Anything else to do?
+(j.peace):	No, nothing for now, I'll keep in touch with u.
+(???):		Sir about the file..
+(j.peace):	Oh, the sequencer? Don't worry I have it really hidden.
+(???):		Phew, I'm glad.
+(j.peace):	Tell me, how did you do it with the politicians back there?
+(???):		What do you mean ?
+(j.peace):	You know, 20 years ago, you were part of the hospital massacre right?
+(???):		Well, yeah, why are talking about this?
+(j.peace):	Be prepared, you may do the same task, but this time with thousands.
+(???):		Sir...
+(j.peace)	Do it, or she'll pay the consecuences.
+(???):		...I'll be prepared sir, but first, don't hurt her...
+(j.peace):	I won't, as long you do what I say.
+(???):		Deal.</file>
+
+<file path="home/logs" name="log_24-11-2020_19:05:12.log">
+(k.sutton):	Sir? we got more rebels.
+(j.peace):	Ips?
+(k.button):	xx.xx.xx.xx and xx.xx.xx.xx
+(j.peace):	Thanks for reporting them to me.
+(k.button):	What about the girl?
+(j.peace):	Hmmm.. She's doing a great job distracting the users, don't mind her, I know exactly what I'm gonna do.</file>
+
+<file path="home/logs" name="log_1-12-2020_20:01:13.log">
+(m.torres):	Sir? 
+(j.peace):	Yes?
+(m.torres):	Support Heroes is a success but our staff is getting really tired of doing tasks non-stop, can we get a break? for today?
+(j.peace):	Yeah, you deserve it, tell your people to take the day free
+(m.torres):	Thanks Sir.</file>
+
+<file path="home/logs" name="log_1-12-2020_09:19:45.log">
+(j.peace):	I'll need the file.
+(???):		Which one?
+(j.peace):	Euthanasia.dll
+(???):		Are you gonna use it already?
+(j.peace):	No, I need a backup for special reasons.
+(???):		Sir? with due respect, don't abuse your powers
+(j.peace):	I won't, it will be a test.
+(???):		Woah, who?
+(AEGISBOT):	Subject: Johnny Forney Age: 30
+(j.peace):	He's one of the intruders that tried to ruin our plans
+(???):		Oh, are you gonna try the dll with him?
+(j.peace):	Yeah, I will try it, it's just a file, I don't think it will do anything, but if it does, no one will remember him anyways, just another hacker.
+(???):		...</file>
+
+<file path="home/logs" name="log_1-12-2020_09:30:01.log">
+(j.peace):	It's done
+(???):		It worked?
+(j.peace):	Yes... One hacker less in this world.
+(???):		I thought u wanted me to do the job.
+(j.peace)	I did, but I just wanted to test it by myself as well, remember, stay prepared, I'll contact you.</file>		
+	
+
+	</Computer>

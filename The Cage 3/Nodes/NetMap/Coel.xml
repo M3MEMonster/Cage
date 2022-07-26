@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="coel" name="Coel's Laptop" icon="DLCLaptop" type="0" allowsDefaultBootModule="false">
+
+  <portsForCrack val="3" />
+  <ports>22, 80, 21, 1433</ports>
+  <trace time="-1" />
+	<firewall level="2" solution="synths" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="4" />
+  
+  <file path="home" name="todo.txt">-Find a good job
+-Get paid
+-Move out
+-Travel around the world
+-Go to a Barpenter Brut gig at least once
+-Be Cool</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="Malware.exe">#SECURITYTRACER_PROGRAM#</file>
+<file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+<file path="home" name="barpenter_logo_15151.png">#BINARY#</file>
+<file path="home" name="barpenter_leak.png">#BINARY#</file>
+<file path="home" name="barpentersongs.sz">#BINARY#</file>
+<file path="home/music" name="triforce.sz">#BINARY#</file>
+<file path="home/music" name="live.sz">#BINARY#</file>
+<file path="home/music" name="ep2.sz">#BINARY#</file>
+<file path="home/music" name="ep1.sz">#BINARY#</file>
+
+<eosDevice name="Coel's Tablet" id="coeltablet" icon="tablet" empty="false" passOverride="alpine">
+    
+    <mail username="coel@jmail.com" pass="sexualizer" />
+	
+
+   
+  </eosDevice>
+  <customthemefile path="sys" name="Butterfly_x-server.sys" themePath="Themes/Coel.xml"/>
+  <customthemefile path="sys" name="Coel_x-server.sys" themePath="Themes/Coel2.xml"/>
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

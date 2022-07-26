@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="osbornebelcher" name="Osborne's Computer" icon="DLCPC2" type="empty">
+	 <adminPass pass="loser" />
+  <portsForCrack val="4" />
+  <ports>80, 554, 22, 21, 1433</ports>
+  <firewall level="3" additionalTime="0"/>
+  <trace time="60" />
+	
+	<file path="sys" name="DefinetlyNotAMalware.bat">#BINARY#</file>
+	
+</Computer>

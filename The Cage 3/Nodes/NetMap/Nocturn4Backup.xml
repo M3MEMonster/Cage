@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nocturnabackup" name="Noctunr4's Backup Station" icon="DLCServer" type="empty" allowsDefaultBootModule="false">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 25, 80, 1433, 6881, 192</ports>
+  <trace time="120" />
+	<firewall level="4" solution="security" additionalTime="0"/>
+<tracker/>
+  <proxy time="3" />
+  
+  <file path="home" name="passwords_stole.txt">So I've been testing this port cracker shit and woah damn, it works, i've already gathered some probably important files also passwords from people :p</file>
+  <file path="home" name="the_list.txt">
+188.186.216.113 #BINARYSMALL#
+83.82.202.73 #BINARYSMALL#
+212.244.183.82 #BINARYSMALL#
+214.196.205.2 #BINARYSMALL#
+47.204.152.28 #BINARYSMALL#
+45.150.180.152 #BINARYSMALL#
+56.80.131.46 #BINARYSMALL#
+185.234.88.98 #BINARYSMALL#
+44.168.9.102 #BINARYSMALL#
+242.27.94.61 #BINARYSMALL#
+212.135.231.48 #BINARYSMALL#
+213.64.84.108 #BINARYSMALL#
+176.79.67.20 #BINARYSMALL#
+
+----------------
+
+185.65.241.1
+MailPassword: susuyamayuri</file>
+  
+  
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="HexClock.exe">#HEXCLOCK_EXE#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="Hacknet.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  
+  <file path="sys/themes" name="themes.txt">it is said that spiders are atracted to themes.</file>
+  <customthemefile path="sys" name="Red_Sun_x-server.sys" themePath="Themes/Nocturne.xml"/>
+  <customthemefile path="sys/themes" name="Lonely_Mountain_x-server.sys" themePath="Themes/Nocturne2.xml"/>
+  <customthemefile path="sys/themes" name="Pink_Triangle_x-server.sys" themePath="Themes/Nocturne3.xml"/>
+  <customthemefile path="sys/themes" name="Lonely_Star_x-server.sys" themePath="Themes/Nocturne4.xml"/>
+  
+  
+</Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

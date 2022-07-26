@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="serena" name="Serena's Laptop" icon="DLCLaptop" type="0" allowsDefaultBootModule="false">
+
+  <portsForCrack val="1" />
+  <ports>21, 6881</ports>
+  <trace time="85" />
+	<firewall level="6" solution="powerglove" additionalTime="0"/>
+  <!--<tracker -->
+  <proxy time="-1" />
+ <customthemefile path="sys" name="Flowers_Of_Broken_Promises_X-Server.sys" themePath="Themes/Serena.xml"/> 
+<file path="home" name="note.txt">Keep blackhats away with new software, gotta take care of those idiots :p heh, Thank god 50 Blessings doesn't exist anymore.</file>
+<file path="home" name="Accord.exe">#BINARY#</file>
+<file path="home" name="AssaultIP.exe">#BINARY#</file>
+<file path="home" name="BetterAccord.exe">#BINARY#</file>
+<file path="home" name="Accord.cfg">#BINARY#</file>
+
+<file path="bin" name="Underwatch.exe">#BINARY#</file>
+<file path="bin" name="HeavenSecII.exe">#BINARY#</file>
+<file path="bin" name="Cracknet.exe">#BINARY#</file>
+<eosDevice name="Serena's uPhone" id="serenaphone" icon="ePhone2" empty="true" passOverride="alpine">
+  
+    <file path="home" name="kwiper_password.txt">Since Kwiper has this problemwith memory things I gotta save his password in my phone -_-
+
+his computer: coel
+his storage server... Damn I forgot xd</file>
+  </eosDevice> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </Computer>
+
+<!--laptop
+chip
+kellis
+tablet
+ePhone
+ePhone2
+Psylance
+PacificAir
+Alchemist
+DLCLaptop
+DLCPC1
+DLCPC2
+DLCServer-->

@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="twilight5-5" activeCheck="false" shouldIgnoreSenderVerification="true">
+  <goals>
+  
+<goal type="filedownload" target="jpeace" file="KBTPortTest.exe" path="bin"/>
+  </goals>
+  
+<missionEnd val="2">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+	<posting title="Hints" requiredRank="8" reqs="twilightmember">New member needs help.</posting>
+  <email>
+    <sender>Pauline</sender>
+    <subject>Hints</subject>
+    <body>#PLAYERNAME#?
+	
+OMG is that you? the hell are you doin' here! I thought you were, you know... Disconnected... I was worried that you were gone just like Johnny. Leonard gave me the IP of the twilight server once you tried it, I wanted to join, I always wanted to join Twilight... I bet Johnny wanted to as well...
+
+Yeah sorry I'm blabbing a lot, I need you to help me, cause this involves you somehow...
+
+Not sure if you remember the server that I posted on the forums... The log one, I checked it out and I found the truth about what happened to Johnny... I can't believe he's dead, and soon, most likely, a lot of our comrades will be as well, this needs to stop once and for all, I've linked you the IP of the Leader of AEGIS.
+
+Yes I got it and I must say I got really lucky with it. I need you to access that bastard's computer and download the file "KBTPortTest.exe", that's the one used to hack into people's pacemakers, but only staff have directly access to 'em, we users can only open ports with it, I need you to download it and keep it, I'm planning something.
+
+#PLAYERNAME#, please stay safe, be careful with what you do and the people you socialize with, the only people I trust are the ones from Twilight, because now I know that bastard Peace killed a person, an innocent person and who knows how many lives he will take.
+
+Talk to you later, friend.
+	</body>
+    <attachments>
+         <link comp="jpeace" />
+	</attachments>
+  </email>
+</mission>

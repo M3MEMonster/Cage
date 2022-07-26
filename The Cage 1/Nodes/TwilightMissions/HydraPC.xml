@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hydrapc" name="Hydra's Personal Computer" icon="DLCPC2" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 22, 1433</ports>
+  <proxy time="5" />
+  <firewall level="4"  additionalTime="0"/>
+  <trace time="70" />
+<file path="home" name="DNET.rar">#BINARY#</file>
+<file path="sys" name="AnimationCore.sys">#BINARY#</file>
+<tracker/>
+  
+  </Computer>

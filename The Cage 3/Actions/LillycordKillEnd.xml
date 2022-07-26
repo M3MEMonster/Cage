@@ -1,0 +1,34 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="removeFlags:sequencer" DelayHost="events" Delay="0"/>
+<CancelScreenBleedEffect DelayHost="events" Delay="0.5" />
+<RunFunction FunctionName="playCustomSong:Music/AlexDrone.ogg"/> 
+
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="3">@#PLAYERNAME# Thanks.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="5">@#PLAYERNAME# ha...</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="10">@#PLAYERNAME# hahahaha.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="15">@#PLAYERNAME# hahaahaahaahahahah.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="17">@#PLAYERNAME# ahahahhahhaahahahahahha.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="18">@#PLAYERNAME# AHAHAHHAHAAHAHHAAHAHAHAHAHAHAHAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="19">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="20">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="21">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="22">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="23">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="24">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="25">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="26">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="27">@#PLAYERNAME# AHAHHAAHAHAHHAAHAHAHAHHAHAHAHAAHHAAHAHHAAHAHAHAHHAAH.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="30">@#PLAYERNAME# thanks for helping me, I aprecciate your help but... I gotta do something now.</AddIRCMessage>
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="35">I gotta take control.</AddIRCMessage>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/GG.ogg" DelayHost="events" Delay="36"/> 
+<LaunchHackScript Filepath="Scripts/TakeOver.txt" DelayHost="events" Delay="36" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/AlexDrone.ogg" DelayHost="events" Delay="43.23"/> 
+<AddIRCMessage Author="LillyCord" TargetComp="lillycord" Delay="45">!ATTACHMENT:link#%#LC_TO_59811944#%#54.183.231.34</AddIRCMessage>
+
+
+
+</Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds-tairc" name="Algorithm IRC" ip="131.2.3.1" icon="DLCServer" type="0">
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="50" />
+  <proxy time="2" />
+  <firewall level="6" solution="communication" additionalTime="0"/>
+  <portRemap></portRemap>
+  <IRCDaemon themeColor="0,76,153" name="Algorithm IRC Channel" needsLogin="true">
+    <user name="J" color="153,0,0"/>
+    <user name="K" color="0,153,153"/>
+    <user name="M" color="0,102,204"/>
+	<user name="P" color="255,255,0"/>
+	
+    <post user="J">Welcome to the team @M!</post>
+    <post user="J">Yes, we use initials as code-names, nice huh?</post>
+    <post user="K">This will be nice, finally a skillful programmer who we can work with.</post>
+    <post user="M">Thanks for the warm welcome, I'll do my best for you guys.</post>
+	<post user="J">Indeed @K, skillful people for a prestigious team like us</post>
+	<post user="M">THANKS I WON'T DISAPPOINT YOU</post>
+	<post user="M">Sorry, caps.</post>
+	<post user="K">No worries my dude, okay I think it's time for me to leave, I need to do some stuff before we continue this Whitelist thing</post>
+	<post user="P">Hi guys, what's up.</post>
+	<post user="P">I've been working on the 4WS, if you know what I mean.</post>
+	<post user="J">Any luck with that?</post>
+	<post user="P">Yes, I'm almost finishing it, I'll be testing it for something though I'll keep you updated.</post>
+	<post user="J">Good luck, well @M, we gotta go now, We'll meet you in the addres I gave you, see ya there!</post>
+	
+  
+  
+  
+  
+  </IRCDaemon>
+	<dlink target="ds-martinez" />
+	<dlink target="ds-kiki" />
+	<dlink target="ds-jenova" />
+	<dlink target="ds-kimmy" />
+  
+
+  
+</Computer>

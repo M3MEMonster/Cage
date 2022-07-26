@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trialsofpauline1" name="Test Server #1" ip="160.225.124.1" allowsDefaultBootModule="true" type="empty">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 80, 1433, 554</ports>
+  <proxy time="4" />
+  <firewall level="6"  additionalTime="0"/>
+  <trace time="100" />
+  <admin type="progress" resetPassword="true" />
+	<file path="home/test" name="welcome.txt">
+You've chosen to be into my hacker test, erase this file to proceed.</file>
+	<tracker/>
+	</Computer>

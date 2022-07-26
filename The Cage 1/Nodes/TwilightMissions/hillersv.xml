@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hillersv" name="Adopt a Cat" icon="DLCServer" type="empty">
+
+  <portsForCrack val="201" />
+  <ports>80, 21, 22, 25</ports>
+  <firewall level="4"  additionalTime="0"/>
+  <trace time="-1" />
+ <adminPass pass="3zakEvSK" />
+  <LogoDaemon Name="Adopt a Cat" ShowsTitle="false" TextColor="0, 220, 220, 200" LogoImagePath="Nodes/TwilightMissions/catto.png">
+~ M e o w ~
+  </LogoDaemon>
+</Computer>

@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="strangecomp" name="???" icon="DLCServer" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>1433, 554, 22, 21</ports>
+  <firewall level="2"  additionalTime="0"/>
+  <trace time="-1" />
+   <proxy time="10" />
+   <adminPass pass="9Lt6hj" />
+	<LogoDaemon Name="???" ShowsTitle="false" TextColor="255,255,255, 200" LogoImagePath="Nodes/AegisMissions/eerielogo.png">
+We are Watching
+  </LogoDaemon>
+<file path="home" name="wearewatching.txt">
+What we do is for our people
+What we say is for the listeners
+What we write is for our children
+What we hear is for the knowledge
+What we feel is for our experience
+What we touch is for a brighter tomorrow
+What we sense is for capable abilities
+What we are is a secret</file>  
+  
+  <file path="home" name="peopletoreclute.txt">
+D3r
+Kimmycat
+Ch40s
+??? - Contact via. Kimmycat
+Ch0zzen
+porthack_
+qu4k3
+wr417h
+Panther 
+Obsidian 
+Scepter 
+ALPhA 0verride
+gh0st phreak
+biTe buRn
+V1rus
+Cr4ck3r
+TLC</file>
+<encryptedFile path="home" name="note.dec" extension=".txt" ip="Encrypted" header="???" pass="theendisnear">
+    http://worldbirthsanddeaths.com/
+  </encryptedFile>
+<encryptedFile path="home" name="note2.dec" extension=".txt" ip="Encrypted" header="???" pass="suicide">
+    http://www.skywaybridge.com/home.htm
+  </encryptedFile>  
+
+<file path="TWILIGHT" name="logo.png">there are not easter eggs here, go away</file>
+
+
+
+
+
+<tracker/>
+</Computer>
